@@ -8,7 +8,7 @@ title: Contatti e informazioni legali
 uuid: be6810fd-8a50-4e88-af09-ab00187e4082
 internal: n
 translate: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
 
 ---
@@ -23,7 +23,7 @@ Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti
 
 Il team di assistenza clienti di Adobe Marketing Cloud è a tua disposizione e può essere contattato in vari modi:
 
-Consulta [Contattare il supporto di Adobe Enterprise](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+Consulta [Contattare il supporto di Adobe Enterprise](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
 
 ## Servizio, capacità e fatturazione {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -41,8 +41,8 @@ Adobe Systems welcome any suggestions or feedback regarding this solution. You c
  <li> Published by Adobe Systems Incorporated. </li> 
 </ul>
 
-[Condizioni d&#39;uso](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Centro per la privacy](https://www.adobe.com/privacy/policy.html)
+[Condizioni d&#39;uso](https://www.adobe.com/go/marketingcloud_terms_of_use_it) | [Privacy](https://www.adobe.com/it/privacy/policy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_it](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Informazioni aggiornate/Informazioni su codici di terze parti sono disponibili su [https://www.adobe.com/go/thirdparty_it](https://www.adobe.com/products/eula/third_party/).
