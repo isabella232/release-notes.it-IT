@@ -6,8 +6,8 @@ solution: Note sulla versione, Marketing Cloud, Analytics, Social, Target, Media
 seo-title: Note sulla versione per il 2014 e versioni precedenti per Adobe Experience Cloud
 topic: Note sulla versione
 uuid: c56a1064-0f2c-4241-93c6-ca4b1f267763
-translation-type: tm+mt
-source-git-commit: 6baff5ec5bf97f9287c8be93f73d303dba54b6d6
+translation-type: ht
+source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
 
 ---
 
