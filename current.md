@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Maggio 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3be54c2a7d063c6ebc9c0535efd6712abada071d
+source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
 
 ---
 
@@ -20,7 +20,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 
 **Data di rilascio: Maggio 2019**
 
-* [Piattaforma Experience Platform](#platform)
+* [Adobe Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -30,21 +30,25 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 * [Magento](#magento)
 * [Primetime](#primetime)
 
-## Piattaforma Experience Platform {#platform}
+## Adobe Experience Platform {#platform}
 
-Note sulla versione per la piattaforma Experience Cloud, inclusi Amministrazione, Attivazione (Launch Platform Launch), Servizio ID, Risorse, Offerte e Persone.
+### Note sulla versione di Adobe Experience Platform
 
-### Lancio della piattaforma Experience Platform
+Versione 1.0, 15 maggio 2019
+
+* Consulta [Note sulla versione della piattaforma Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) su Adobe. io per gli ultimi aggiornamenti della piattaforma Experience Platform.
+
+### Experience Platform Launch
 
 * Per [informazioni aggiornate, consulta la](https://docs.adobelaunch.com/) piattaforma Experience Platform.
 
 ### Servizio Experience Cloud ID
 
-Rilascio **13 maggio 2019**
+In uscita il **13 maggio 2019**
 
-* Supporto per API visitatore 4.3.0
-* Supporto per ITP 2.1.
-* Risolto un problema relativo alla configurazione securecuperokie.
+* Supporto API 4.3.0 per i visitatori
+* Supporto ITP 2.1.
+* È stato risolto un problema relativo alla configurazione di secureCookie.
 
 ## Analytics {#analytics}
 
@@ -74,8 +78,8 @@ Per la documentazione sul prodotto, consulta [Home dell&#39;Aiuto di Analytics](
 **Altre correzioni apportate ad Analytics**
 
 * Audience Analytics: è stato risolto un problema che si verificava dopo che il nome di un pubblico era stato modificato in Audience Manager (AAM) - il nome aggiornato non appariva in Audience Analytics. (AN-176237)
-* È stato risolto un problema che impediva agli utenti di salvare i segmenti di Analytics in AAM. L&#39;errore è stato causato dalle cartelle AAM esistenti con nomi misti in maiuscolo e minuscolo. Le cartelle verranno ora trattate senza alcuna distinzione tra maiuscole e minuscole così potranno sincronizzarsi. (AN-177934)
-* È stato risolto un problema che si verificava al collegamento degli utenti ad Analytics tramite l’Experience Cloud e comportava l&#39;interruzione della sessione. Nel riprendere la sessione, l’utente veniva reindirizzato a un URL difettoso. (AN-176812)
+* È stato risolto un problema che impediva agli utenti di salvare i segmenti di Analytics in AAM. L’errore è stato causato dalle cartelle AAM esistenti con nomi misti in maiuscolo e minuscolo. Le cartelle verranno ora trattate senza alcuna distinzione tra maiuscole e minuscole così potranno sincronizzarsi. (AN-177934)
+* È stato risolto un problema che si verificava al collegamento degli utenti ad Analytics tramite l’Experience Cloud e comportava l’interruzione della sessione. Nel riprendere la sessione, l’utente veniva reindirizzato a un URL difettoso. (AN-176812)
 * È stato risolto un problema di compensazione dei fusi orari nelle richieste di Data Warehouse. (AN-177585)
 
 ### Avvisi importanti per gli amministratori di Analytics {#aa-notices}
@@ -155,7 +159,7 @@ AEM 6.4 Service Pack 4 (6.4.4.0, rilasciato giovedì 4 aprile 2019), è un aggio
 
 **Connettore AEM S3**
 
-Le istanze AEM con vecchie versioni del connettore S3 Datastore potrebbero non essere disponibili a causa di problemi di accesso all’S3 dopo la fine del supporto per la versione 2 della firma del 24 giugno 2019. Adobe consiglia ai clienti AEM di verificare la versione del connettore S3 Datastore che si sta utilizzando. Se necessario, esegui l&#39;aggiornamento a una versione più recente.
+Le istanze AEM con vecchie versioni del connettore S3 Datastore potrebbero non essere disponibili a causa di problemi di accesso all’S3 dopo la fine del supporto per la versione 2 della firma del 24 giugno 2019. Adobe consiglia ai clienti AEM di verificare la versione del connettore S3 Datastore che si sta utilizzando. Se necessario, esegui l’aggiornamento a una versione più recente.
 
 Fai riferimento all’[impatto della firma AWS Versione 2 Deprecation per Amazon S3](https://helpx.adobe.com/experience-manager/kb/the-impact-of-aws-signature-version-2-deprecation-for-amazon-s3.html)
 
@@ -194,7 +198,7 @@ Fai riferimento alle [note sulla versione Adobe Campaign Classic](http://docs.ca
 Per la documentazione sul prodotto consulta:
 
 * Adobe Campaign Standard: [Documentazione](https://helpx.adobe.com/support/campaign/standard.html) - [ Note sulla versione](https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html) - [ Video in evidenza](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)
-* Adobe Campaign Classic: [Documentazione](https://helpx.adobe.com/support/campaign/classic.html) - [Note sulla versione](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [Video in  evidenza](https://helpx.adobe.com/campaign/kt/acc/index/acc-videos.html)
+* Adobe Campaign Classic: [Documentazione](https://helpx.adobe.com/support/campaign/classic.html) - [Note sulla versione](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [Video in evidenza](https://helpx.adobe.com/campaign/kt/acc/index/acc-videos.html)
 
 ## Advertising Cloud {#adcloud}
 
