@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Maggio 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
+source-git-commit: eb567f2f7b740c2fab9b95540cfdf240cf1f6955
 
 ---
 
@@ -63,6 +63,7 @@ Per la documentazione sul prodotto, consulta [Home dell&#39;Aiuto di Analytics](
 
 | Funzione | Descrizione |
 | -----------| ---------- |  
+| **Appmeasurement versione 2.14.0** <ul><li>Risolti problemi relativi alla gestione dello stato dei parametri del tracciatore quando sono in sospeso più hit. (AN -176931, AN -176629, DTM -12758)</li><li>Aggiornato appmeasurement per includere Visitor. js 4.3.0 (AN -180049)</li></ul> |
 | **Analysis Workspace:** Nuova _impostazione Includi visualizzazione_ Flusso istanze ripetute | L’impostazione del flusso _Includi istanze di ripetizione_ consente di includere o escludere istanze ripetute come per esempio Ricarica pagine. Inoltre, tutte le visualizzazioni di flusso sono ora basate solo su istanze. |
 | **Analisi ad hoc:** Compatibilità con Java 11 | Ad Hoc Analysis è ora compatibile con Java 11. Scoprite come eseguire [Analisi ad hoc su Java 11](https://marketing.adobe.com/resources/help/en_US/dsc/adhoc-java.html). |
 | **Raccolta dati:** Nuovo cookie s_ ecid | È stato aggiunto un nuovo cookie per server di prima parte, s_ecid, in cui la raccolta dati memorizza l’ECID del visitatore. |
