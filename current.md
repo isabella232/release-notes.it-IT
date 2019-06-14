@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Giugno 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0c4355bbb17d5b67a8f136a07b7fc2a682441a01
+source-git-commit: dbcd180c5fd07abd8a6b8ed9ec47b3b1d996f275
 
 ---
 
@@ -23,7 +23,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac)
+* [[! DNL Campaign]](#ac)
 * [Mobile Services](#mobile)
 * [Advertising Cloud](#adcloud)
 * [Target Standard/Premium 19.6.1](#target)
@@ -34,11 +34,11 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 
 ### Note sulla versione di Adobe Experience Platform
 
-* Consulta [Note sulla versione della piattaforma Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) su Adobe. io per gli ultimi aggiornamenti della piattaforma Experience Platform.
+* See [[!DNL Experience Platform] release notes](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) on Adobe.io for the latest updates to [!DNL Experience Platform].
 
-### Experience Platform Launch
+### [!DNL Experience Platform Launch]
 
-* Per [informazioni aggiornate, consulta la](https://docs.adobelaunch.com/) piattaforma Experience Platform.
+* Consultate [[! DNL Experience Platform Launch]](https://docs.adobelaunch.com/) per informazioni aggiornate.
 
 ## Analytics {#analytics}
 
@@ -101,7 +101,7 @@ Per la documentazione sul prodotto, consulta [Home dell&#39;Aiuto di Analytics](
 * È stato risolto un problema che causava la mancata visualizzazione del contenuto delle cartelle delle caratteristiche, quindi i nomi delle cartelle contenevano parentesi e/o parentesi.
 * È stato risolto un problema che causava errori di caratteristiche quando si selezionava un solo tipo di caratteristica.
 * È stato risolto un problema che causava la riduzione della struttura delle cartelle di caratteristiche alla vista [!UICONTROL Tutte le caratteristiche] a ogni creazione o aggiornamento di una nuova sottocartella.
-* È stato risolto un problema che causava l&#39;obbligatorietà dell&#39;autorizzazione VIEW_ DATASOURCES quando si tentava di eliminare un partner.
+* È stato risolto un problema che causava l [!DNL VIEW_DATASOURCES] &#39;autorizzazione necessaria per eliminare un partner.
 * È stato risolto un problema che causava la ricerca della [!UICONTROL casella di ricerca] [!UICONTROL nella] pagina Segmenti in tutte le cartelle al posto della casella selezionata.
 * È stato risolto un problema che impediva l&#39;ordinamento della [!UICONTROL tabella Escludi caratteristiche] tramite i controlli dell&#39;intestazione durante la creazione di un nuovo modello algoritmico.
 * È stato risolto un problema che causava l&#39;arresto anomalo di Audience Manager durante l&#39;esecuzione di report con date di intervallo vuote.
@@ -213,23 +213,23 @@ Sono disponibili le seguenti informazioni:
 * [Note sulla versione di Scene7 Publishing System](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Note sulla versione di Livefyre](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
-## Campaign {#ac}
+## [!DNL Campaign] {#ac}
 
 Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singoli utenti tra canali di marketing online e offline. Ora è possibile prevedere cosa vogliono i clienti usando esperienze determinate dalle loro abitudini e preferenze.
 
-### Rilascio primavera 19.1 di Campaign Classic
+### [!DNL Campaign Classic] 19.1 Rilascio primaverile
 
 | Funzionalità | Descrizione |
 | ------------- | ----------- |
 | Pannello di controllo | Per aumentare l&#39;efficienza del lavoro come utente amministratore, gestisci le impostazioni dei tuoi server SFTP monitorando l&#39;archiviazione, gli indirizzi IP della whitelist e installando chiavi SSH per ogni istanza. Please Note Control Panel is available for customers hosted on AWS as of oggi. [Accedi a Experience Cloud](https://experiencecloud.adobe.com/campaign/controlpanel/). <br> Per ulteriori informazioni, consulta la documentazione [dettagliata](https://helpx.adobe.com/campaign/kb/control-panel.html) e il video [di istruzioni](https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html). |
 | Traccia di controllo | Come amministratore, aumenta la produttività monitorando e gestendo le modifiche effettuate nell&#39;istanza Adobe Campaign Classic. La traccia audit effettua le azioni effettuate su Schema sorgente, Flusso di lavoro e Opzione. Potete verificare rapidamente se un elemento è stato creato, modificato o eliminato.<br>Per ulteriori informazioni, consulta la documentazione [dettagliata](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html) e il video [di istruzioni](https://helpx.adobe.com/campaign/kt/acc/using/acc-audit-trail-feature-video-use.html). |
-| Guardrail, Rotondità e Scalabilità | Una serie di miglioramenti è stata aggiunta a Campaign Classic. I miglioramenti a cura, rotondità e scalabilità sono elencati nelle [Note sulla versione di Campaign Classic](https://docs.campaign.adobe.com/doc/AC/en/RN.html). |
+| Guardrail, Rotondità e Scalabilità | È stata aggiunta una serie di miglioramenti [!DNL Campaign Classic]. I miglioramenti di Scrudrail, rotondità e scalabilità sono elencati nelle [Note sulla versione di Adobe Campaign Classic](https://docs.campaign.adobe.com/doc/AC/en/RN.html). |
 | Messaggi SMS protetti (TLS) | SMS protetto è ora supportato tramite il connettore SMPP generico esteso. Consente una connessione crittografata al fornitore. <br>Per ulteriori informazioni, consulta la [relativa documentazione](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html). |
 | Aggiornamento matrice di compatibilità | Con questa nuova versione, Adobe Campaign ora supporta i seguenti sistemi di database. Fare riferimento alla [matrice di compatibilità](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) <ul><li>Oracle 18 c</li><li>Mysql 5.7 (FDA)</li><li>SQL Server 2017</li><li>Teradata 16 (FDA)</li><li>Postgresql 11</li></ul> |
 
-Fai riferimento alle [note sulla versione Adobe Campaign Classic](http://docs.campaign.adobe.com/doc/AC/en/RN.html) per correzioni e miglioramenti.
+Consultate [Note sulla versione di] Adobe Campaign Classic (http://docs.campaign.adobe.com/doc/AC/en/RN.html) per correzioni e miglioramenti.
 
-### Rilascio primaverile di Campaign Standard 19.2
+### [!DNL Campaign Standard] 19.2 Rilascio primaverile
 
 | Funzionalità | Descrizione |
 | ------------- | ----------- |
