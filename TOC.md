@@ -3,7 +3,7 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Note sulla versione di Adobe Experience Cloud
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f156e4fcbd0d39b27f2c254e2117ad2e4e0b793
 
 ---
@@ -52,12 +52,12 @@ source-git-commit: 1f156e4fcbd0d39b27f2c254e2117ad2e4e0b793
       + [Giugno 2016](c-legacy-releases/2016/06162016.md)
       + [Maggio 2016](c-legacy-releases/2016/05192016.md)
       + [Aprile 2016](c-legacy-releases/2016/04212016.md)
-      + [Marzo 2017](c-legacy-releases/2016/03172016.md)
+      + [Marzo 2016](c-legacy-releases/2016/03172016.md)
       + [Febbraio 2016](c-legacy-releases/2016/02182016.md)
       + [Gennaio 2016](c-legacy-releases/2016/01212016.md)
    + 2015 {#2015}
       + [Novembre 2015](c-legacy-releases/2015/11052015.md)
-      + [ottobre 2015](c-legacy-releases/2015/10152015.md)
+      + [Ottobre 2015](c-legacy-releases/2015/10152015.md)
       + [Settembre 2015](c-legacy-releases/2015/09172015.md)
       + [Agosto 2015](c-legacy-releases/2015/08202015.md)
       + [Luglio 2015](c-legacy-releases/2015/07162015.md)
