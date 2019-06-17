@@ -10,7 +10,7 @@ tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 mini-toc-levels: '1'
 git-repo: https://github.com/AdobeDocs/release-notes.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e54bd3d73d2729e22d09765069d311bc0bc5248
 
 ---
@@ -22,7 +22,7 @@ Il file metadata.md include metadati a livello di repository che passano attrave
 
 | metadati | funzione |
 |--- |--- |
-| solution-title | Utilizzato nell’intestazione dell’articolo come collegamento. Tenetelo breve. |
+| solution-title | Utilizzato nell’intestazione dell’articolo come collegamento. Sii breve. |
 | solution-hub-url | Apre la pagina dell’hub helpx |
 | solution-icon | Visualizza l’icona della soluzione accanto al titolo della soluzione. Non ancora implementato |
 | getting-started-title | Utilizzato di rado quando le Esercitazioni non sono appropriate |
