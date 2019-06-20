@@ -12,7 +12,7 @@ source-git-commit: 1f156e4fcbd0d39b27f2c254e2117ad2e4e0b793
 # Experience Cloud Note sulla versione {#experience-cloud}
 
 + [Note sulla versione](current.md)
-+ Note sulla versione precedenti {#previous}
++ Note sulle versioni precedenti {#previous}
    + 2019 {#2019}
       + [Maggio 2019](c-legacy-releases/2019/05092019.md)
       + [Aprile 2019](c-legacy-releases/2019/04112019.md)
