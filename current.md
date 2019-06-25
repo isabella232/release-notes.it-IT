@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Giugno 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 382a2936c5294fe04bb65fb0cfa6415175ce1da6
+source-git-commit: 6af4853d00495a347671d31700c969c4d431b9b8
 
 ---
 
@@ -20,7 +20,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 **Data di rilascio: 13 giugno 2019**
 
 * [Adobe Experience Platform](#platform)
-* [Analytics](#analytics) **(aggiornato il 24 giugno 2019)**
+* [Analytics](#analytics) **(aggiornato il 25 giugno 2019)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -45,7 +45,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 Nuove funzioni e problemi risolti in Adobe Analytics:
 
 * [Nuove funzioni e problemi risolti in Adobe Analytics](#aa-features)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) **(aggiornato il 24 giugno 2019)**
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) **(aggiornato il 25 giugno 2019)**
 
 Per la documentazione sul prodotto, consulta [Home dell&#39;Aiuto di Analytics](https://marketing.adobe.com/resources/help/en_US/reference/).
 
@@ -78,7 +78,7 @@ Per la documentazione sul prodotto, consulta [Home dell&#39;Aiuto di Analytics](
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- | 
-| Modifiche all&#39;interfaccia utente di audit | Aggiunto il 24 giugno 2019 | In the API `Logs.GetUsageLog`, the following changes were made to the UI: <ul><li>The response headers in the API were changed: a) from `timestamp` to `dateCreated`, b) from `login` to `companyLogin`, c) from `event_num` to `eventType`, d) from `event_type` to `event_type`, e) from `ip_address` to `ipAddress`, f) from `report_suite` to `rsid`, g) from `event_details` to `logText`. </li><li>Il formato temporale è cambiato dalla marca temporale Unix alla data ISO 8601</li><li>I risultati dei registri di controllo ora contengono ID suite di rapporti invece del nome della suite di rapporti. </li></ul> |
+| Modifiche all&#39;interfaccia utente Registro di controllo | Aggiornamento 25 giugno 2019 | In the API `Logs.GetUsageLog`, the following changes were made to the UI: <ul><li>The response headers in the API were changed: a) from `timestamp` to `dateCreated`, b) from `login` to `companyLogin`, c) from `event_num` to `eventType`, d) from `event_type` to `event_type`, e) from `ip_address` to `ipAddress`, f) from `report_suite` to `rsid`, g) from `event_details` to `logText`. </li><li>Il formato temporale è cambiato dalla marca temporale Unix alla data ISO 8601</li></ul><br>Nell&#39;API così come nell&#39;interfaccia utente del registro di amministrazione, i risultati del registro di controllo ora contengono ID suite di rapporti invece del nome della suite di rapporti. |
 | Limiti del generatore di regole di classificazione | Aggiunto il 5 giugno 2019 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | Nuovi limiti per gli operatori di segmenti | Aggiunto il 31 maggio 2019 | A partire dal 18 luglio 2019, gli operatori di segmenti “contiene uno di”, “non contiene uno di”, “contiene tutti” e “non contiene tutti” avranno un limite di 100 parole per campo di input. Il limite verrà applicato a tutti i segmenti nuovi e modificati dopo tale data. I segmenti esistenti che superano il limite continueranno a essere supportati, ma non possono essere modificati o salvati finché il campo di input non viene ridotto. Questi limiti vengono applicati nell’ambito dell’impegno continuo per migliorare le prestazioni delle query. |
 | Prossime modifiche relative al supporto delle **[!UICONTROL classificazioni Abilitate per data]** e **[!UICONTROL Numeriche 2]** | Aggiornato il 28 maggio 2019 | La possibilità di importare le classificazioni Numeriche 2 e Abilitate per data è stata rimossa dal codebase. Questa modifica entrerà in vigore con la versione di manutenzione di luglio 2019. Se nel file di importazione sono presenti colonne numeriche o abilitate per data, tali celle verranno automaticamente ignorate e gli altri dati del file verranno importati come di consueto. <br/>Le classificazioni esistenti possono ancora essere esportate attraverso il flusso di lavoro di classificazione standard e continueranno a essere disponibili nei rapporti. |
