@@ -2,15 +2,15 @@
 title: Note sulla versione di Adobe Experience Cloud
 description: Modello per le note sulla versione di Experience Cloud
 doc-type: note sulla versione
-last-update: 2019 marzo
+last-update: Marzo 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
+source-git-commit: 9bb54a57fa2b905fcc01951c81fd32e6444c8cd6
 
 ---
 
 
-# Note di rilascio di Adobe Experience Cloud
+# Note sulla versione di Adobe Experience Cloud
 
 Nuove funzioni e correzioni in Adobe Experience Cloud.
 
@@ -25,29 +25,29 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 **Data di rilascio: 2019**
 
 * [Servizi di base e amministrazione di Experience Cloud](#experiencecloud)
-* [Analytics](#analytics)
+* [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac)
+* [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (collegamenti alla guida della soluzione)
-* [Primetime](https://helpx.adobe.com/primetime/user-guide.html) (collegamenti alla guida della soluzione)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (collegamenti alla guida della soluzione)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (collegamenti alla guida della soluzione)
 
 ## Servizi di base e amministrazione di Experience Cloud {#experiencecloud}
 
-Note sulla versione dell&#39;interfaccia Experience Cloud, inclusi i servizi di base [!UICONTROL e] l&#39;amministrazione dei prodotti della piattaforma.
+Note sulla versione dell’interfaccia Experience Cloud, inclusi i servizi di base e l’amministrazione della [!UICONTROL piattaforma].
 
 * [Servizi fondamentali](#core-services)
 * [Servizio Experience Cloud ID](#ecid)
-* [Mobile Services e SDK di Mobile](#mobile)
+* [Mobile Services e Mobile SDK](#mobile)
 * [Amministrazione e sviluppatori](#admin)
-* [Launch, di Adobe](https://docs.adobelaunch.com/) (collegamenti all&#39;Aiuto del prodotto)
+* [Experience Cloud Launch](https://docs.adobelaunch.com/) (collegamenti all&#39;Aiuto del prodotto)
 
-### Servizi di base {#core-services}
+### Core services {#core-services}
 
 Funzioni e problemi risolti.
 
-Per la documentazione di prodotto, consulta [Experience Cloud e servizi core](https://marketing.adobe.com/resources/help/en_US/mcloud/)
+For product documentation, see [Experience Cloud and Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/)
 
 ### Servizio Experience Cloud ID {#ecid}
 
@@ -55,7 +55,7 @@ Funzioni e problemi risolti.
 
 Per la documentazione sul prodotto, consulta il servizio [Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
-### Mobile Services e SDK di Mobile {#mobile}
+### Mobile Services e Mobile SDK {#mobile}
 
 **Funzioni**
 
@@ -72,13 +72,13 @@ Per la documentazione sul prodotto, consulta [Mobile Services](https://marketing
 
 Per maggiori informazioni sugli SDK di Mobile, consulta [SDK 4.x per Android per le soluzioni Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/android/) e [SDK 4.x per iOS per le soluzioni Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/ios/).
 
-### Amministrazione e sviluppatori {#admin}
+### Administration and developer {#admin}
 
 Funzioni e problemi risolti.
 
 Per la documentazione sul prodotto, consulta il servizio [Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
-## Analytics {#analytics}
+## [!DNL Analytics] {#analytics}
 
 Nuove funzioni e problemi risolti in Adobe Analytics:
 
@@ -86,7 +86,7 @@ Nuove funzioni e problemi risolti in Adobe Analytics:
 * [Media Analytics SDK per iOS e Android (precedentemente VHL SDK)](#aa-va)
 * [Avvisi importanti per gli amministratori di Analytics](analytics-important-notices.md)
 
-Per la documentazione sul prodotto, consulta [Home dell&#39;Aiuto di Analytics](https://marketing.adobe.com/resources/help/en_US/reference/).
+For product documentation, see [Adobe Analytics Help Home](https://marketing.adobe.com/resources/help/en_US/reference/).
 
 ### Nuove funzioni di Adobe Analytics {#aa-features}
 
@@ -96,7 +96,7 @@ Per la documentazione sul prodotto, consulta [Home dell&#39;Aiuto di Analytics](
 | Funzione B | Testo |
 | Funzione C | Testo |
 
-### Media Analytics SDK per iOS e Android (precedentemente VHL SDK) {#aa-va}
+### [!DNL Media Analytics] SDK per iOS e Android (già VHL SDK) {#aa-va}
 
 | Funzione | Descrizione |
 | -----------| ---------- |  
@@ -104,7 +104,7 @@ Per la documentazione sul prodotto, consulta [Home dell&#39;Aiuto di Analytics](
 | Funzione B | Testo |
 | Funzione C | Testo |
 
-### Data Workbench {#aa-dwb}
+### [!DNL Data Workbench] {#aa-dwb}
 
 Per informazioni aggiornate, consulta le [note sulla versione di Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/).
 
@@ -131,7 +131,7 @@ Consulta la [cronologia delle versioni di AppMeasurement](https://marketing.adob
 * Flash-Flex
 * OSX
 * Windows Phone, XBOX, Silverlight e .NET
-* BlackBerry
+* [!DNL BlackBerry]
 * Java
 * PHP
 * Symbian
@@ -173,7 +173,7 @@ Descrizione.
 
 Descrizione
 
-### Self help
+### Aiuto e documentazione
 
 **Documentazione collaborativa**
 
@@ -182,7 +182,7 @@ I seguenti set di documentazione AEM sono stati migrati a una nuova piattaforma 
 * Nome doc
 * Nome doc
 
-### Risorse aggiuntive
+### Risorse aggiuntive 
 
 * [Informazioni e assistenza per AEM 6.4](https://helpx.adobe.com/support/experience-manager/6-4.html)
 * [Informazioni e assistenza per AEM 6.3](https://helpx.adobe.com/support/experience-manager/6-3.html)
@@ -207,7 +207,7 @@ I seguenti set di documentazione AEM sono stati migrati a una nuova piattaforma 
 * Correzione
 * Correzione
 
-## Social {#soc}
+## [!DNL Social] {#soc}
 
 | Funzione | Descrizione |
 | -----------| ---------- |  
@@ -222,9 +222,9 @@ I seguenti set di documentazione AEM sono stati migrati a una nuova piattaforma 
 * Correzione
 * Correzione
 
-## Campaign {#ac}
+## [!DNL Campaign] {#ac}
 
-Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singoli utenti tra canali di marketing online e offline. Ora è possibile prevedere cosa vogliono i clienti usando esperienze determinate dalle loro abitudini e preferenze.
+Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singoli utenti tra canali di marketing online e offline. Ora è possibile prevedere cosa vogliono i clienti, mediante esperienze determinate dalle loro abitudini e preferenze.
 
 | Funzione | Descrizione |
 | -----------| ---------- |  
