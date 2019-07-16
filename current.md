@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Luglio 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 19b6c0547d06a3ec5887f6fd17bcd662528844ca
+source-git-commit: b4a91b853cfb5d228fc2195d65b4370e607475f2
 
 ---
 
@@ -62,13 +62,13 @@ iOS e Android sono stati aggiornati come segue:
 
 * Adobe Target: All requests now include the client and the `sessionId` in the URL query parameters.
 * Adobe Target: È stata risolta una perdita di memoria.
-* The double encoding of the visitor ID URL, which contains characters such as _%25_, was being flagged in security reviews. Questo problema è stato risolto.
+* Visitor ID Service: The `visitorAppendToURL` and `visitorGetUrlVariablesAsync` APIs no longer double-encode their return values. La doppia codifica causava la segnalazione dei valori restituiti da tali API da parte di alcune recensioni sulla protezione.
 
 **Android**
 
 * Target: Tutte le richieste ora includono il client e sessionid nei parametri di query URL.
-* È stato corretto un problema a causa del quale, quando un messaggio veniva attivato con un URL a clic vuoto, si verificava un arresto anomalo delle app Android.
-* The double encoding of the visitor ID URL, which contains characters such as _%25_, was being flagged in security reviews. Questo problema è stato risolto.
+* Messaggistica in-app: È stato corretto un problema a causa del quale, quando un messaggio veniva attivato con un URL a clic vuoto, si verificava un arresto anomalo delle app Android.
+* Visitor ID Service: The `Visitor.appendToURL` and `Visitor.getUrlVariablesAsync` APIs no longer double-encode their return values. La doppia codifica causava la segnalazione dei valori restituiti da tali API da parte di alcune recensioni sulla protezione.
 
 Per la documentazione sul prodotto, consulta [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).
 
