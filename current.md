@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Luglio 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b4a91b853cfb5d228fc2195d65b4370e607475f2
+source-git-commit: 9d10de6924f3c40435d172602746f312195a675e
 
 ---
 
@@ -89,12 +89,12 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ### Nuove funzioni in [!DNL Analytics] {#aa-features}
 
-Per la documentazione sul prodotto, consulta [Home dell&#39;Aiuto di Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
+Per la documentazione sul prodotto, consulta [Home dell'Aiuto di Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
 | Componente | Descrizione |
 | -----------| ---------- |   
 | Analysis Workspace - Miglioramenti per Analisi per coorte | Sono state aggiunte nuove impostazioni Analisi per coorte: <ul><li>Mostra solo %</li><li>Round % to nearest entire</li><li>Mostra una riga % nella parte superiore</li></ul> |
-| Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. In precedenza, il periodo di lookback era un massimo di 6 mesi. Questo semplifica il confronto con pagine o campagne dell&#39;anno scorso, fino a 18 mesi fa. |
+| Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. In precedenza, il periodo di lookback era un massimo di 6 mesi. Questo semplifica il confronto con pagine o campagne dell'anno scorso, fino a 18 mesi fa. |
 | Nuovo modello Analysis Workspace | Abbiamo aggiunto un nuovo modello denominato «Magento: Marketing e commerce» ad Analysis Workspace. È progettato appositamente per i clienti di e-commerce Magento, ma qualsiasi rivenditore può utilizzarlo per ottenere informazioni univoche sulle attività di commerce. |
 
 #### [!DNL Analysis Workspace] correzioni
@@ -106,16 +106,16 @@ Per la documentazione sul prodotto, consulta [Home dell&#39;Aiuto di Analytics](
 #### [!DNL Analytics] correzioni
 
 * È stato corretto un problema a causa del quale il grafico a linee in un report di drill-down in tempo reale risultava vuoto. (AN-181690)
-* È stato risolto un problema a causa del quale, in alcuni casi, parti della cronologia dei feed di dati non venivano visualizzate nell&#39;interfaccia utente di Admin Console. (AN-176219)
+* È stato risolto un problema a causa del quale, in alcuni casi, parti della cronologia dei feed di dati non venivano visualizzate nell'interfaccia utente di Admin Console. (AN-176219)
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
-| Avviso | Data di aggiunta o aggiornamento | Descrizione |
+| Avviso | Data di aggiunta  o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
 | Limiti del generatore di regole di classificazione | Aggiunto il 5 giugno 2019 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | Nuovi limiti per gli operatori di segmenti | Aggiunto il 31 maggio 2019 | A partire dal 18 luglio 2019, gli operatori di segmenti “contiene uno di”, “non contiene uno di”, “contiene tutti” e “non contiene tutti” avranno un limite di 100 parole per campo di input. Il limite verrà applicato a tutti i segmenti nuovi e modificati dopo tale data. I segmenti esistenti che superano il limite continueranno a essere supportati, ma non possono essere modificati o salvati finché il campo di input non viene ridotto. Questi limiti vengono applicati nell’ambito dell’impegno continuo per migliorare le prestazioni delle query. |
 | Prossime modifiche relative al supporto delle **[!UICONTROL classificazioni Abilitate per data]** e **[!UICONTROL Numeriche 2]** | Aggiornato il 28 maggio 2019 | La possibilità di importare le classificazioni Numeriche 2 e Abilitate per data è stata rimossa dal codebase. Questa modifica entrerà in vigore con la versione di manutenzione di luglio 2019. Se nel file di importazione sono presenti colonne numeriche o abilitate per data, tali celle verranno automaticamente ignorate e gli altri dati del file verranno importati come di consueto. <br/>Le classificazioni esistenti possono ancora essere esportate attraverso il flusso di lavoro di classificazione standard e continueranno a essere disponibili nei rapporti. |
-| Modifica imminente dei calcoli per i _totali nei rapporti_ | aggiornato il 9 luglio 2019 | Il **18 giugno 2019**, in Adobe Analytics i calcoli per i _totali nei rapporti_ diventeranno uniformi per tutte le dimensioni e le metriche. Questo comporterà una modifica nei totali per alcuni rapporti (in particolare per i rapporti sulle proprietà o gli attributi dei clienti). Prima di tale modifica, alcuni totali nei rapporti includevano o escludevano la voce di riga _Non specificato_ nel totale, a prescindere dalla presenza o meno di _Non specificato_ nel rapporto. <br/>A partire dal 18 giugno 2019, _Non specificato_ sarà sempre incluso nei totali dei rapporti, anche se non compare come voce di riga nel rapporto stesso. Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the &quot;Typed/Bookmarked&quot; line item for Referrer Type dimension or the &quot;Other&quot; line item for the Device Type dimension. Questa modifica interessa Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder e le API di reporting. |
+| Modifica imminente dei calcoli per i _totali nei rapporti_ | aggiornato il 9 luglio 2019 | Il **18 giugno 2019**, in Adobe Analytics i calcoli per i _totali nei rapporti_ diventeranno uniformi per tutte le dimensioni e le metriche. Questo comporterà una modifica nei totali per alcuni rapporti (in particolare per i rapporti sulle proprietà o gli attributi dei clienti). Prima di tale modifica, alcuni totali nei rapporti includevano o escludevano la voce di riga _Non specificato_ nel totale, a prescindere dalla presenza o meno di _Non specificato_ nel rapporto. <br/>A partire dal 18 giugno 2019, _Non specificato_ sarà sempre incluso nei totali dei rapporti, anche se non compare come voce di riga nel rapporto stesso. Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the "Typed/Bookmarked" line item for Referrer Type dimension or the "Other" line item for the Device Type dimension. Questa modifica interessa Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder e le API di reporting. |
 | Aggiornamento a Download CSV da [!DNL Analysis Workspace] | 10 aprile 2019 | A partire dall’11 aprile 2019 sono state apportate diverse modifiche ai **[!UICONTROL download in formato CSV]** (e **[!UICONTORL Copia negli Appunti]**) da [!DNL Analysis Workspace] per rimuovere la formattazione dai dati esportati.  <ul><li>Il separatore di migliaia non è più incluso. Il separatore decimale continua a essere incluso e si attiene al formato definito in **[!UICONTROL Componenti &gt; Impostazioni report &gt; Separatore delle migliaia]**. Nota: i valori numerici che utilizzano una virgola come separatore decimale continuano a essere inclusi nel file CSV esportato.</li><li>Non viene visualizzato alcun simbolo di valuta.</li><li>Non viene visualizzato alcun simbolo di percentuale. Le percentuali sono in formato decimale. Ad esempio, il 75% viene rappresentato come 0,75.</li><li>Il tempo è visualizzato in secondi.</li><li>Le tabelle coorte mostrano solo i valori originali, mentre le percentuali vengono rimosse.</li><li>Se un numero non è valido, viene visualizzata una cella vuota.</li></ul> |
 | Prossima modifica del comando Debugger di [!DNL Analysis Workspace] | 4 aprile 2019 | Il comando Console per attivare il debugger di [!DNL Analysis Workspace] verrà modificato in adobeTools.debug.includeOberonXml il **13 giugno 2019**. Dopo tale data, adobe.tools.debug.includeOberonXml cesserà di funzionare. |
 | Numeri di versione del browser mobile | 7 febbraio 2019 | A partire dall’8 gennaio 2019, i numeri di versione del browser mobile sono riportati fino a 1 livello secondario e non più 2. A partire da tale data, le versioni presentano solo i primi due livelli (esempio: _Firefox 64.0.2_ viene ora riportato come _Firefox 64.0_). |
@@ -128,12 +128,12 @@ Per la documentazione sul prodotto, consulta [Home dell&#39;Aiuto di Analytics](
 
 ### AppMeasurement {#appm}
 
-Rilascio 15 luglio 2019
+Rilasciato il 15 luglio 2019:
 
-**JavaScript 2.15.0**
+**Appmeasurement per javascript 2.15.0**
 
-* Aggiunto DIL 7.2 ad appmeasurement rememt. (AN-175142)
-* È stato risolto un problema che si verificava quando il servizio Experience Cloud ID Service optin veniva impostato su true e l&#39;identificatore MID non veniva generato nella chiamata s. t () senza ricaricare la pagina. (CORE-30890)
+* È stato aggiunto il tracciamento della portata di scorrimento Mappa dell'attività all'estensione Activity Map (AN -172949)
+* Aggiunto DIL 9.2 ad appmeasurement. (AN-182472)
 
 Consulta la [cronologia delle versioni di AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) per una cronologia del rilascio di AppMeasurement per le seguenti piattaforme:
 
@@ -159,9 +159,9 @@ Per informazioni aggiornate, consulta le [note sulla versione di Data Workbench]
 **Correzioni di problemi e miglioramenti**
 
 * On the [!UICONTROL Segments Overview] page, the width of the segment storage folder is now flexible. Questo consente di distinguere tra segmenti con nomi più lunghi. (AAM-48400)
-* Fixed an issue in [!UICONTROL Algorithmic Models], where moving the **Adjust Reach &amp; Accuracy** slider did not affect the model&#39;s reach or accuracy. (AAM-47996)
-* È stato risolto un problema nelle destinazioni di Analytics a causa del quale il pulsante per scaricare un file. csv di segmenti in conflitto con i controlli sull&#39;esportazione dei dati e/o i criteri di condivisione dei dati di terze parti risultava danneggiato. (AAM-48100)
-* È stato risolto un problema che causava la visualizzazione casuale degli errori &quot;Accesso negato&quot; durante l&#39;accesso nell&#39;interfaccia utente di Audience Manager. (AAM-47632)
+* Fixed an issue in [!UICONTROL Algorithmic Models], where moving the **Adjust Reach &amp; Accuracy** slider did not affect the model's reach or accuracy. (AAM-47996)
+* È stato risolto un problema nelle destinazioni di Analytics a causa del quale il pulsante per scaricare un file. csv di segmenti in conflitto con i controlli sull'esportazione dei dati e/o i criteri di condivisione dei dati di terze parti risultava danneggiato. (AAM-48100)
+* È stato risolto un problema che causava la visualizzazione casuale degli errori "Accesso negato" durante l'accesso nell'interfaccia utente di Audience Manager. (AAM-47632)
 
 ## Experience Manager {#aem}
 
@@ -184,17 +184,17 @@ The latest Cloud Manager release (2019.6.0) contains a new [Product Update Wizar
 ***Note sulla versione***
 
 * Supporto aggiunto per AEM 6.5.
-* Modifiche apportate all&#39;editor:
+* Modifiche apportate all'editor:
    * Anteprima livello mappa.
    * Tables - provided an option to copy an `entry` or a `complete` row within a table using copy and paste.
-   * Tabelle: fornisce un&#39;opzione per selezionare più celle in una colonna e scorrere o unire le celle.
-   * Tabelle: fornisce un modo per impostare le proprietà delle colonne della tabella nella modalità Autore dell&#39;editor Web.
+   * Tabelle: fornisce un'opzione per selezionare più celle in una colonna e scorrere o unire le celle.
+   * Tabelle: fornisce un modo per impostare le proprietà delle colonne della tabella nella modalità Autore dell'editor Web.
    * Tabelle: fornisce un modo per regolare le proporzioni delle colonne e le dimensioni in una tabella standard.
    * Tabelle - Selezione di righe e colonne nella vista Autore.
-   * Tabelle - Stili e proprietà attivati (align, valign) nell&#39;editor Web per l&#39;allineamento delle celle della tabella.
+   * Tabelle - Stili e proprietà attivati (align, valign) nell'editor Web per l'allineamento delle celle della tabella.
    * Correzioni di bug nella visualizzazione tag completi, che includono scenari per copiare e incollare e trascinare contenuti.
    * Mostra titoli argomento nelle schede Editor.
-   * Risolti problemi di prestazioni nell&#39;editor Web.
+   * Risolti problemi di prestazioni nell'editor Web.
 * Trasferimento della linea di base al contenuto convertito durante la conversione.
 * Predefinito di condizione di trasferimento durante il flusso di lavoro di traduzione.
 * Possibilità di applicare etichette a tutti gli utenti dipendenti di una mappa dalla linea di base.
@@ -202,19 +202,19 @@ The latest Cloud Manager release (2019.6.0) contains a new [Product Update Wizar
 * Miglioramenti della conversione da XHTML a DITA:
    * Il nome del ditamap generato è ora identico al nome del file ZIP caricato.
    * È stato aggiunto il supporto per elementi e attributi HTML aggiuntivi.
-   * Supporto per l&#39;assimilazione di file html-zip simultanei.
+   * Supporto per l'assimilazione di file html-zip simultanei.
    * The sub-folder hierarchy where the zip is uploaded (*under input path as configured in h2d_io.xml*), is retained for the generated output (*under the configured output path*).
 * Sono stati forniti registri di controllo per vedere chi è stato ripristinato a quale versione e perché.
 * Rigenerazione del sito AEM:
    * Disattiva la rigenerazione per le mappe secondarie.
-   * Flussi di lavoro di post generazione abilitati per i casi d&#39;uso rigenerati.
-   * Disattivate l&#39;opzione Rigenerata per un argomento senza blocchi e rendete disponibile l&#39;opzione per l&#39;argomento principale in cui viene applicato l&#39;attributo chunked.
+   * Flussi di lavoro di post generazione abilitati per i casi d'uso rigenerati.
+   * Disattivate l'opzione Rigenerata per un argomento senza blocchi e rendete disponibile l'opzione per l'argomento principale in cui viene applicato l'attributo chunked.
 * La ricerca DITA ora funziona sulla logica AND nella ricerca di Risorse AEM.
 * Risultati per non visualizzare i file temporanei memorizzati nella cartella di output della conversione.
 * Scheda Linea di base:
    * Miglioramenti delle prestazioni quando si apre una linea di base.
    * Scelta degli argomenti per data per lavorare sulla marca temporale del client.
-* API per l&#39;eliminazione delle etichette.
+* API per l'eliminazione delle etichette.
 
 #### Manutenzione del prodotto
 
