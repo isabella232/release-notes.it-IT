@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Luglio 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2010152649fccb8997913f52b6d43e11c3a5d18e
+source-git-commit: e8470127c1cd343637d61bc0ac6bdd26339a8e2c
 
 ---
 
@@ -93,7 +93,7 @@ Per la documentazione sul prodotto, consulta [Home dell'Aiuto di Analytics](http
 
 | Componente | Descrizione |
 | -----------| ---------- |   
-| Analysis Workspace - Miglioramenti per Analisi per coorte | Sono state aggiunte nuove impostazioni Analisi per coorte: <ul><li>Mostra solo %</li><li>Round % to nearest entire</li><li>Mostra una riga % nella parte superiore</li></ul> |
+| Analysis Workspace - Miglioramenti per Analisi per coorte | New [Cohort Analysis settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) have been added: <ul><li>Mostra solo percentuale</li><li>Percentuale arrotondata al valore intero più vicino</li><li>Mostra una riga media percentuale</li></ul> |
 | Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. In precedenza, il periodo di lookback era un massimo di 6 mesi. Questo semplifica il confronto con pagine o campagne dell'anno scorso, fino a 18 mesi fa. |
 | Nuovo modello Analysis Workspace | We added a new template called ["Magento: Marketing &amp; Commerce"](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) to Analysis Workspace. È progettato appositamente per i clienti di e-commerce Magento, ma qualsiasi rivenditore può utilizzarlo per ottenere informazioni univoche sulle attività di commerce. |
 
