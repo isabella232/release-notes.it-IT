@@ -5,18 +5,14 @@ doc-type: note sulla versione
 last-update: Luglio 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e8470127c1cd343637d61bc0ac6bdd26339a8e2c
+source-git-commit: 50a8aaf58413337e4aa0478e5505f8ea9d8edd36
 
 ---
 
 
-# Anteprima - Note sulla versione di Adobe Experience Cloud
+# Note sulla versione di Adobe Experience Cloud
 
 Nuove funzioni e correzioni in Adobe Experience Cloud.
-
->[!IMPORTANT]
->
->Questa pagina contiene informazioni precedenti al rilascio ed è soggetta a modifiche prima dell’effettivo rilascio pianificato.
 
 >[!NOTE]
 >
