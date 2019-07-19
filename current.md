@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Luglio 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c45b9f49e0732e52b01677c0acb8e6b12d155e77
+source-git-commit: 700dc5c07df31cf744588cd79f6d51c05234c0a0
 
 ---
 
@@ -277,7 +277,7 @@ Per la documentazione del prodotto consulta:
 
 ## [!DNL Target] {#target}
 
-See [Target release notes (pre-release)](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) for the latest release infomration about Target.
+See [Target release notes (pre-release)](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) for the latest release information about Target.
 
 ## Magento {#magento}
 
