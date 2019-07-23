@@ -1,11 +1,11 @@
 ---
-title: Note sulla versione di Adobe Experience Cloud
-description: Note sulla versione di Experience Cloud, luglio 2019
+title: Note sulla versione tecniche di Adobe Experience Cloud
+description: Note sulla versione del documento tecnico di luglio 2019 di Experience Cloud
 doc-type: note sulla versione
 last-update: Luglio 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 700dc5c07df31cf744588cd79f6d51c05234c0a0
+source-git-commit: 41b4cbb1b93fe857c80cebd631a785e234e2ce07
 
 ---
 
@@ -41,7 +41,7 @@ Note sulla versione dell’interfaccia Experience Cloud, inclusi i servizi di ba
 
 **Correzioni e aggiornamenti**
 
-* `cookieDomain` Aggiornamento sulla configurazione di : la libreria assegna automaticamente un dominio cookie di livello principale quando `cookieDomain` in `initConfig` non è impostato. (CORE-29223)
+* `cookieDomain` Aggiornamento sulla configurazione di: la libreria assegna automaticamente un dominio cookie di livello principale quando `cookieDomain` in `initConfig` non è impostato. (CORE-29223)
 * È stato risolto un problema relativo a `getVisitorValue` in `localVisitor`. (CORE-31287)
 * È stata risolta un’incoerenza del `MCOPTOUT` valore in visitatore principale rispetto a visitatore iframe figlio dal `getVisitorValue` metodo. (CORE-29719)
 * È stato risolto un problema di vulnerabilità in jQuery 3.2.1. (CORE-31183)
@@ -89,7 +89,7 @@ Per la documentazione sul prodotto, consulta [Home dell'Aiuto di Analytics](http
 
 | Componente | Descrizione |
 | -----------| ---------- |   
-| Analysis Workspace - Miglioramenti di Analisi per coorte | New [Cohort Analysis settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) have been added: <ul><li>Mostra solo percentuale</li><li>Percentuale arrotondata al valore intero più vicino</li><li>Mostra una riga media percentuale</li></ul> |
+| Analysis Workspace - Miglioramenti di Analisi per coorte | New [Cohort Analysis settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) have been added: <ul><li>Only show percent (Mostra solo percentuale)</li><li>Round percent to nearest whole (Arrotonda percentuale a intero più prossimo)</li><li>Show average percent row (Mostra riga di media percentuale)</li></ul> |
 | Analysis Workspace | Nella barra a sinistra, gli utenti ora possono _visualizzare gli elementi degli ultimi 18 mesi_. In precedenza, il periodo di lookback era limitato a 6 mesi. Questo semplifica il confronto con pagine o campagne dell’anno prima, fino a 18 mesi fa. |
 | Nuovo modello Analysis Workspace | We added a new template called ["Magento: Marketing &amp; Commerce"](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) to Analysis Workspace. È progettato appositamente per i clienti e-commerce di Magento, ma può essere usato da chiunque desideri ottenere informazioni specifiche sulle proprie attività di e-commerce. |
 
@@ -126,10 +126,10 @@ Per la documentazione sul prodotto, consulta [Home dell'Aiuto di Analytics](http
 
 Rilasciato il 15 luglio 2019:
 
-**Appmeasurement per javascript 2.15.0**
+**AppMeasurement per JavaScript 2.15.0**
 
-* È stato aggiunto il tracciamento della portata di scorrimento Mappa dell'attività all'estensione Activity Map (AN -172949)
-* Aggiunto DIL 9.2 ad appmeasurement. (AN-182472)
+* All’estensione Activity Map è stato aggiunto il tracciamento della portata di scorrimento Activity Map (AN-172949)
+* È stato aggiunto DIL 9.2 ad AppMeasurement. (AN-182472)
 
 Consulta la [cronologia delle versioni di AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) per una cronologia del rilascio di AppMeasurement per le seguenti piattaforme:
 
