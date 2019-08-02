@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Agosto 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 626b6b170539ebe54c86f17eec0593bd2decd4e5
+source-git-commit: b3fa98427b027218e9600cb4c5e10dd2ba880f89
 
 ---
 
@@ -33,7 +33,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 
 ## [!UICONTROL Piattaforma Experience Platform] e amministrazione {#platform}
 
-Release notes for the [!UICONTROL Experience Platform], Experience Cloud interface, product administration, Experience Platform Launch, Identity Service, and security bulletins.
+Note sulla versione per [!UICONTROL Experience Platform], Experience Cloud interface, Administration Administration, Experience Platform Launch, Identity Service e bollettini sulla sicurezza.
 
 * [Interfaccia di Experience Cloud](#core-services)
 * [Experience Platform Launch](#launch)
@@ -44,7 +44,7 @@ Release notes for the [!UICONTROL Experience Platform], Experience Cloud interfa
 * È stato risolto un problema critico in Experience Cloud login che causava il logout della sessione per alcuni utenti. (MCUI-6908)
 * Accesso aggiornato a Experience Cloud per migliorare le prestazioni e ridurre la latenza. (MACT -6854, MLA -6869, MLA -6883)
 * Interfaccia aggiornata in modo cosmetico. (MACT -6861, MLA -6911, MLA -6862)
-* Fixed an issue with Experience Cloud [!UICONTROL Triggers] that led to incorrect interpretation of _Like_ clause in the [!UICONTROL Trigger] definition. (MCUI-6611)
+* È stato risolto un problema con Experience Cloud [!UICONTROL Triggers] che generava un'interpretazione errata della clausola _Like_ (Mi) nella definizione [!UICONTROL Trigger] (Attivatore). (MCUI-6611)
 
 For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
@@ -78,7 +78,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
 | Limiti del generatore di regole di classificazione | Aggiunto il 5 giugno 2019 | These limits are not new, but have been added to the documentation [here](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
-| Nuovi limiti per gli operatori di segmenti | Aggiunto il 31 maggio 2019 | Starting on July 18, 2019, the segment operators _contains any of_, _does not contain any of_, _contains all of_ and _does not contain all_ of will be limited to 100 words per input field. Il limite verrà applicato a tutti i segmenti nuovi e modificati dopo tale data. I segmenti esistenti che superano il limite continueranno a essere supportati, ma non possono essere modificati o salvati finché il campo di input non viene ridotto. Questi limiti vengono applicati nell’ambito dell’impegno continuo per migliorare le prestazioni delle query. |
+| Nuovi limiti per gli operatori di segmenti | Aggiunto il 31 maggio 2019 | Starting July 18, 2019, the segment operators _contains any of_, _does not contain any of_, _contains all of_ and _does not contain all_ of will be limited to 100 words per input field. Il limite verrà applicato a tutti i segmenti nuovi e modificati dopo tale data. I segmenti esistenti che superano il limite continueranno a essere supportati, ma non possono essere modificati o salvati finché il campo di input non viene ridotto. Questi limiti vengono applicati nell’ambito dell’impegno continuo per migliorare le prestazioni delle query. |
 | Prossime modifiche relative al supporto delle **[!UICONTROL classificazioni Abilitate per data]** e **[!UICONTROL Numeriche 2]** | Aggiornato il 28 maggio 2019 | La possibilità di importare le classificazioni Numeriche 2 e Abilitate per data è stata rimossa dal codebase. Questa modifica entrerà in vigore con la versione di manutenzione di luglio 2019. Se nel file di importazione sono presenti colonne numeriche o abilitate per data, tali celle verranno automaticamente ignorate e gli altri dati del file verranno importati come di consueto. <br/>Le classificazioni esistenti possono ancora essere esportate attraverso il flusso di lavoro di classificazione standard e continueranno a essere disponibili nei rapporti. |
 | Modifica imminente dei calcoli per i _totali nei rapporti_ | Aggiornato il 9 luglio 2019 | Il **18 giugno 2019**, in Adobe Analytics i calcoli per i _totali nei rapporti_ diventeranno uniformi per tutte le dimensioni e le metriche. Questo comporterà una modifica nei totali per alcuni rapporti (in particolare per i rapporti sulle proprietà o gli attributi dei clienti). Prima di tale modifica, alcuni totali nei rapporti includevano o escludevano la voce di riga _Non specificato_ nel totale, a prescindere dalla presenza o meno di _Non specificato_ nel rapporto. <br/>A partire dal 18 giugno 2019, _Unspecified_ (Non specificato) sarà sempre incluso nei totali dei rapporti, anche se non compare come voce di riga nel rapporto stesso. Inoltre, i segmenti che usano gli operatori logici _exists_ (esiste) o _does not exist_ (non esiste) possono produrre risultati diversi per alcune dimensioni dopo questa modifica, in particolare le dimensioni in cui _Unspecified_ (Non specificato) ha un nome speciale, ad esempio la riga “Typed/Bookmarked” (Digitato/contrassegnato) per la dimensione “Tipi di riferimento” o “Other” (Other) per la dimensione “Tipo dispositivo”. Questa modifica interessa Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder e le API di reporting. |
 | Aggiornamento a Download CSV da [!DNL Analysis Workspace] | 10 aprile 2019 | A partire dall’11 aprile 2019 sono state apportate diverse modifiche ai **[!UICONTROL download in formato CSV]** (e **[!UICONTORL Copia negli Appunti]**) da [!DNL Analysis Workspace] per rimuovere la formattazione dai dati esportati.  <ul><li>Il separatore di migliaia non è più incluso. Il separatore decimale continua a essere incluso e si attiene al formato definito in **[!UICONTROL Componenti &gt; Impostazioni report &gt; Separatore delle migliaia]**. Nota: i valori numerici che utilizzano una virgola come separatore decimale continuano a essere inclusi nel file CSV esportato.</li><li>Non viene visualizzato alcun simbolo di valuta.</li><li>Non viene visualizzato alcun simbolo di percentuale. Le percentuali sono in formato decimale. Ad esempio, il 75% viene rappresentato come 0,75.</li><li>Il tempo è visualizzato in secondi.</li><li>Le tabelle coorte mostrano solo i valori originali, mentre le percentuali vengono rimosse.</li><li>Se un numero non è valido, viene visualizzata una cella vuota.</li></ul> |
@@ -97,7 +97,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| `sendBeacon` supporto per i collegamenti exit | Implemented `sendBeacon` support in [!UICONTROL AppMeasurement] for exit links. Questo migliorerà il tracciamento dei collegamenti e determinerà probabilmente un aumento del traffico. |
+| `sendBeacon` supporto per i collegamenti exit | È stato implementato `sendBeacon` il supporto in [!UICONTROL appmeasurement] per i collegamenti di uscita. Questo migliorerà il tracciamento dei collegamenti e determinerà probabilmente un aumento del traffico. |
 | Valori ECID/fid | I valori ECID/fid ora sono memorizzati nella cache al primo hit anche se le impostazioni optin cambiano. |
 | DIL 9.3 | Modulo aggiornato Gestione dell'audience su DIL 9.3 |
 | Tracciamento della portata di scorrimento | Switch esposto in s. activitymap. trackscrollreach per attivare o disattivare il tracciamento della portata di scorrimento. |
@@ -140,8 +140,8 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 | Funzione | Descrizione |
 | -----------| ---------- |  
-| Attività API esterna (versione beta pubblica) | Per una personalizzazione più approfondita, l'attività API esterna consente di portare dati da sistemi esterni in un flusso di lavoro tramite una chiamata REST API. Gli endpoint REST possono essere un sistema di gestione clienti, Adobe I/O Runtime o un endpoint REST di Adobe Experience Cloud (ad es. Piattaforma dati, Target, Analytics, Campaign). Questa funzionalità è attualmente in versione beta pubblica. For more information, refer to the [detailed documentation](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) and the [how-to video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html). |
-| Rapporto sul segmento del flusso di lavoro | Questa funzione consente agli esperti di marketing di suddividere le prestazioni di distribuzione in base al codice del segmento. Quando crei un flusso di lavoro e utilizzi un'attività di segmentazione per assegnare segmenti alla popolazione di consegna, questi segmenti possono ora entrare nella stessa consegna. Questo consente di visualizzare le statistiche di apertura/clic basate su più segmenti all'interno di una singola consegna. For more information, refer to the [detailed documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/customizing-reports/creating-a-report-workflow-segment.html) and the [how-to video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html). |
+| Attività API esterna (versione beta pubblica) | Per una personalizzazione più approfondita, l'attività API esterna consente di portare dati da sistemi esterni in un flusso di lavoro tramite una chiamata REST API. Gli endpoint REST possono essere un sistema di gestione clienti, Adobe I/O Runtime o un endpoint REST di Adobe Experience Cloud (ad es. Piattaforma dati, Target, Analytics, Campaign). Questa funzionalità è attualmente in versione beta pubblica. Per ulteriori informazioni, consulta la documentazione [dettagliata](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) e il video [di istruzioni](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html). |
+| Rapporto sul segmento del flusso di lavoro | Questa funzione consente agli esperti di marketing di suddividere le prestazioni di distribuzione in base al codice del segmento. Quando crei un flusso di lavoro e utilizzi un'attività di segmentazione per assegnare segmenti alla popolazione di consegna, questi segmenti possono ora entrare nella stessa consegna. Questo consente di visualizzare le statistiche di apertura/clic basate su più segmenti all'interno di una singola consegna. Per ulteriori informazioni, consulta la documentazione [dettagliata](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/customizing-reports/creating-a-report-workflow-segment.html) e il video [di istruzioni](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html). |
 
 ### Adobe Campaign Classic
 
@@ -151,7 +151,7 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 [Le nuove funzionalità del Pannello di controllo](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html) includono la capacità di aggiungere URL a cui Campaign Classic si connette per i trasferimenti di dati/file.
 
-Please note that [!UICONTROL Control Panel] is available for both Adobe Campaign Classic and Adobe Campaign Standard customers hosted on AWS. Per accedere al Pannello di controllo non sono necessari aggiornamenti.
+Tieni presente che [!UICONTROL il Pannello] di controllo è disponibile per i clienti Adobe Campaign Classic e Adobe Campaign Standard ospitati su AWS. Per accedere al Pannello di controllo non sono necessari aggiornamenti.
 
 ### Risorse aggiuntive
 
