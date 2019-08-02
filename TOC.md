@@ -3,8 +3,8 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Note sulla versione di Adobe Experience Cloud
 user-guide-url: https://www.adobe.com
-translation-type: ht
-source-git-commit: 03b2d2f1b07d723ac6dbbe5464ed22f1d0d7a02c
+translation-type: tm+mt
+source-git-commit: afd02edefe88a8d970899adcd414217b65a91d7e
 
 ---
 
@@ -14,6 +14,7 @@ source-git-commit: 03b2d2f1b07d723ac6dbbe5464ed22f1d0d7a02c
 + [Note sulla versione](current.md)
 + Note sulle versioni precedenti {#previous}
    + 2019 {#2019}
+      + [Luglio 2019](c-legacy-releases/2019/07182019.md)
       + [Giugno 2019](c-legacy-releases/2019/06132019.md)
       + [Maggio 2019](c-legacy-releases/2019/05092019.md)
       + [Aprile 2019](c-legacy-releases/2019/04112019.md)
