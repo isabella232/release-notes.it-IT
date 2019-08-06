@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Agosto 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 09b88aee612dfb84e3810d1f75da703d3d4c233d
+source-git-commit: 7a65c16ecebddc5baacefd675d0015af65ef1060
 
 ---
 
@@ -78,6 +78,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
+| Supporto per gli offsets della zona temporale storica | 2019 agosto 8 | Analytics gestirà automaticamente gli offset di fuso orario per gli hit con marca temporale. Dopo questa modifica del 8 agosto, i sistemi che caricano nei dati per l'elaborazione storica non dovranno più regolare per gli offset di fuso orario prima di inviarli nei dati. |
 | Limiti del generatore di regole di classificazione | Aggiunto il 5 giugno 2019 | These limits are not new, but have been added to the documentation [here](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
 | Nuovi limiti per gli operatori di segmenti | Aggiunto il 31 maggio 2019 | Starting July 18, 2019, the segment operators _contains any of_, _does not contain any of_, _contains all of_ and _does not contain all_ of will be limited to 100 words per input field. Il limite verrà applicato a tutti i segmenti nuovi e modificati dopo tale data. I segmenti esistenti che superano il limite continueranno a essere supportati, ma non possono essere modificati o salvati finché il campo di input non viene ridotto. Questi limiti vengono applicati nell’ambito dell’impegno continuo per migliorare le prestazioni delle query. |
 | Prossime modifiche relative al supporto delle **[!UICONTROL classificazioni Abilitate per data]** e **[!UICONTROL Numeriche 2]** | Aggiornato il 28 maggio 2019 | La possibilità di importare le classificazioni Numeriche 2 e Abilitate per data è stata rimossa dal codebase. Questa modifica entrerà in vigore con la versione di manutenzione di luglio 2019. Se nel file di importazione sono presenti colonne numeriche o abilitate per data, tali celle verranno automaticamente ignorate e gli altri dati del file verranno importati come di consueto. <br/>Le classificazioni esistenti possono ancora essere esportate attraverso il flusso di lavoro di classificazione standard e continueranno a essere disponibili nei rapporti. |
