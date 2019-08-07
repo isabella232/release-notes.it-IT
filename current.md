@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Agosto 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7a65c16ecebddc5baacefd675d0015af65ef1060
+source-git-commit: 6e1d9c4b083968fe1632d1309900058c90206fe1
 
 ---
 
@@ -68,7 +68,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 | -----------| ---------- |  
 | Supporto per le impostazioni cookie samesite | L' [impostazione](https://web.dev/samesite-cookies-explained) cookie samesite verrà aggiunta a tutti i cookie dei cookie da Analytics. Questa modifica consente di essere conforme alle modifiche a Chrome che richiedono il campo cookie samesite. I cookie di Analytics verranno predefiniti `none`. Se hai utilizzato esclusivamente un dominio 1 st party (ad es. stats.domain.com) puoi impostare Adobe clientcare su `lax` per i domini di raccolta 1 st-party. |
 | Area di lavoro: Aumenta limite di elementi per filtro a discesa da 50 a 200 | È stato aumentato il limite di elementi che possono essere inseriti in un filtro a discesa da 50 a 200. Questo miglioramento fornisce una serie di casi d'uso, ad esempio l'aggiunta di tutti i paesi (195) a un filtro, oppure tutti gli stati e le province degli Stati Uniti (52). |
-| IQ attribuzione abilitato per le metriche A 4 T | Abbiamo abilitato due metriche Analytics for Target (A 4 T) per IQ attribuzione: Impression attività e Conversione attività. In Analysis Workspace, queste metriche sono state ingrandite rispetto a Reporting e analisi. Con questa modifica, gli utenti possono ora applicare un modello di attribuzione "lo stesso tocco", che porterà Analysis Workspace in linea con Reporting e analisi. |
+| A 4 T Activity Impression and Activity Conversions enabled for Attribution IQ | Abbiamo abilitato due metriche Analytics for Target (A 4 T) per IQ attribuzione: Impression attività e Conversione attività. In Analysis Workspace, queste metriche sono state ingrandite rispetto a Reporting e analisi. Con questa modifica, gli utenti possono ora applicare un modello di attribuzione "lo stesso tocco", che porterà Analysis Workspace in linea con Reporting e analisi. |
 
 #### Correzioni
 
