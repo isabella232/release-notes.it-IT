@@ -87,7 +87,7 @@ Per le note sulla versione e la documentazione del prodotto, consulta [Experienc
 
 Nuove funzioni e problemi risolti in Adobe Analytics:
 
-* [Nuove funzioni di Adobe Analytics ](#aa-features)
+* [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Media Analytics SDK per iOS e Android (precedentemente VHL SDK)](#aa-va)
 * [Avvisi importanti per gli amministratori di Analytics](analytics-important-notices.md)
 
