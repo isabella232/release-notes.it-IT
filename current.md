@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Agosto 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ec590d7cbf63b67cfaf869f54c3707dbb5c2e83
+source-git-commit: 3bd946a9ef7d6d6d2e17cec4385a2dd53a41df97
 
 ---
 
@@ -21,7 +21,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 **Data di rilascio: 8 agosto 2019**
 
 * [Experience Cloud e piattaforma Experience Cloud](#platform)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) (**Aggiornato il 20 agosto 2019**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -54,7 +54,7 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 
 Nuove funzioni e problemi risolti in Adobe Analytics:
 
-* [Nuove funzionalità, miglioramenti e problemi risolti in Adobe Analytics](#aa-features)
+* [Nuove funzionalità, miglioramenti e problemi risolti in Adobe Analytics](#aa-features)  (**Aggiornato il 20 agosto 2019**)
 * [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
 * [AppMeasurement](#appm)
 
@@ -64,13 +64,16 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Funzione | Descrizione |
 | -----------| ---------- |  
-| Supporto per le impostazioni per cookie SameSite | L’[impostazione per cookie SameSite](https://web.dev/samesite-cookies-explained) verrà aggiunta a tutti i cookie impostati da Analytics. Questa modifica consente di rispettare i nuovi requisiti di Chrome, in cui il campo cookie SameSite è ora richiesto. L’impostazione predefinita dei cookie di Analytics sarà `none`. Se hai utilizzato esclusivamente un dominio di prima parte (ad es. stats.domain.com) puoi impostare Adobe ClientCare su `lax` per i domini di raccolta di prima parte. |
+| Supporto per le impostazioni per cookie SameSite | The [SameSite cookie setting](https://web.dev/samesite-cookies-explained) will be added to all cookies set by Analytics. Questa modifica consente di rispettare i nuovi requisiti di Chrome, in cui il campo cookie SameSite è ora richiesto. L’impostazione predefinita dei cookie di Analytics sarà `none`. Se hai utilizzato esclusivamente un dominio di prima parte (ad es. stats.domain.com) puoi impostare Adobe ClientCare su `lax` per i domini di raccolta di prima parte. |
 | Workspace: limite di elementi per filtro a discesa aumentato da 50 a 200 | Il limite di elementi che possono essere inseriti in un filtro a discesa è stato aumentato da 50 a 200. Questo miglioramento è utile per una serie di casi d’uso, ad esempio per poter aggiungere a un filtro tutti i paesi (195), oppure tutti gli stati e le province degli Stati Uniti (52). |
-| Impression attività e Conversione attività di A4T abilitati per Attribution IQ | Abbiamo abilitato due metriche di Analytics for Target (A4T) per Attribution IQ: Impression attività e Conversione attività. In Analysis Workspace, fino ad ora, queste metriche risultavano superiori rispetto a quelle di Reports &amp; Analytics. Con questa modifica, gli utenti possono ora applicare un modello di attribuzione di tipo “stesso punto di contatto”, per allineare Analysis Workspace a Reports &amp; Analytics. |
+| Impression attività e Conversione attività di A4T abilitati per Attribution IQ | Abbiamo abilitato due metriche di Analytics for Target (A4T) per Attribution IQ: Impression attività e Conversione attività. In precedenza, in Analysis Workspace, queste metriche venivano inflesse a Reporting e analisi. Con questa modifica, gli utenti possono ora applicare un modello di attribuzione di tipo “stesso punto di contatto”, per allineare Analysis Workspace a Reports &amp; Analytics. |
 
 #### Correzioni
 
 * È stato risolto un problema relativo alla visualizzazione del testo nei rapporti in tempo reale, in modalità a schermo intero. (AN-183168)
+* **(Data di aggiornamento 20 agosto 2019**) La raccolta dati ora rifiuta gli URL di reindirizzamento contenenti " @" firma per impedire agli aggressori di reindirizzare a siti dannosi tramite domini autorizzati.
+* (**Aggiornato il 20 agosto 2019**) La migrazione dei visitatori è ora disabilitata per tutte le hit derivanti dai browser che non supportano l'attributo Samesite Cookie e se l'hit contiene un cookie 3 rd-party.
+* (**Data di aggiornamento: 20 agosto 2019**) È stato risolto un problema a causa del quale i primi hit non venivano inviati al cookie s_ vi per un nuovo visitatore.
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
