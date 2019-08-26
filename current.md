@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Agosto 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a547f72e673f0e0dc0b5f803f187a6f24162015c
+source-git-commit: c4e89f21b3cd1231592f962bf5abfca49571f943
 
 ---
 
@@ -21,7 +21,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 **Data di rilascio: 8 agosto 2019**
 
 * [Experience Cloud ed Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**aggiornato il 23 agosto 2019**)
+* [!DNL Analytics](#analytics) (**aggiornato il 20 agosto 2019**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -56,7 +56,7 @@ Nuove funzioni e problemi risolti in Adobe Analytics:
 
 * [Nuove funzionalità, miglioramenti e problemi risolti in Adobe Analytics](#aa-features)  (**aggiornato il 20 agosto 2019**)
 * [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
-* [AppMeasurement](#appm) (**aggiornato il 23 agosto 2019**)
+* [AppMeasurement](#appm)
 
 For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
@@ -96,14 +96,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 ### AppMeasurement {#appm}
 
-[!UICONTROL Appmeasurement] 2.17.0 rilasciato il 23 agosto 2019.
-
-| Funzionalità/Correzione | Descrizione |
-| -----------| ---------- |
-| Supporto Baidu aggiunto | È stato aggiunto il supporto per il riordino delle stringhe query Baidu. |
-| Correzione | È stato risolto un problema che causava la messa in coda dei valori dei visitatori stanti in coda in attesa di consenso. |
-
-[!UICONTROL Appmeasurement] 2.16.0 rilasciato il 8 agosto 2019.
+[!UICONTROL AppMeasurement] 2.16.0: versioni dell’8 agosto 2019.
 
 | Funzione | Descrizione |
 | -----------| ---------- |
