@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Agosto 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 71a796a132a752b69a10b9ac9cce3530b7d02b27
+source-git-commit: bf128d5ab0d16a15935f73fd8b80c7eab12b4e1f
 
 ---
 
@@ -64,7 +64,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Funzione | Descrizione |
 | -----------| ---------- |  
-| Supporto per le impostazioni per cookie SameSite | L’[impostazione per cookie SameSite](https://web.dev/samesite-cookies-explained) verrà aggiunta a tutti i cookie impostati da Analytics. Questa modifica consente di rispettare i nuovi requisiti di Chrome, in cui il campo cookie SameSite è ora richiesto. L’impostazione predefinita dei cookie di Analytics sarà `none`. Se hai utilizzato esclusivamente un dominio di prima parte (ad es. stats.domain.com) puoi impostare Adobe ClientCare su `lax` per i domini di raccolta di prima parte. |
+| Supporto per le impostazioni per cookie SameSite | L’[impostazione per cookie SameSite](https://web.dev/samesite-cookies-explained) verrà aggiunta a tutti i cookie impostati da Analytics. Questa modifica consente di rispettare i nuovi requisiti di Chrome, in cui il campo cookie SameSite è ora richiesto. L’impostazione predefinita dei cookie di Analytics sarà `none`. If you have exclusively used a 1st-party domain (e.g. stats.domain.com) you can have Adobe Customer Care set it to `lax` for 1st-party collection domains. |
 | Workspace: limite di elementi per filtro a discesa aumentato da 50 a 200 | Il limite di elementi che possono essere inseriti in un filtro a discesa è stato aumentato da 50 a 200. Questo miglioramento è utile per una serie di casi d’uso, ad esempio per poter aggiungere a un filtro tutti i paesi (195), oppure tutti gli stati e le province degli Stati Uniti (52). |
 | Impression attività e Conversione attività di A4T abilitati per Attribution IQ | Abbiamo abilitato due metriche di Analytics for Target (A4T) per Attribution IQ: Impression attività e Conversione attività. In precedenza, in Analysis Workspace queste metriche risultavano superiori rispetto a quelle di Reports &amp; Analytics. Con questa modifica, gli utenti possono ora applicare un modello di attribuzione di tipo “stesso punto di contatto”, per allineare Analysis Workspace a Reports &amp; Analytics. |
 
