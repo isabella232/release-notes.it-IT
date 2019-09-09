@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Settembre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2cf514449e70523a47b16dceb35d93ec7eff0824
+source-git-commit: 3b26af48364509946706cd183c1261ea8c15eab2
 
 ---
 
@@ -87,7 +87,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Funzione | Descrizione |
 | -----------| ---------- |  
-| **IQ viaggio: Analisi cross-device** | A settembre 2019, Adobe Analytics introduce l'accesso rapido per i clienti Analytics Ultimate a una nuova potente funzionalità denominata IQ Path: Analisi cross-device. Analisi cross-device (CDA) trasforma Adobe Analytics da un dispositivo centralizzato in uno strumento di analisi incentrato sulla persona. Utilizzando la CDA potete rispondere a domande quali: <ul><li>Quante persone interagiscono con il mio marchio? Quanti tipi di dispositivi usano? Come si sovrappongono?</li><li>Con quale frequenza le persone iniziano un'attività su un dispositivo mobile e successivamente passano a un PC desktop per completare l'attività? Fai clic su click-through delle campagne che arrivano su un dispositivo per passare da un'altra posizione?</li><li>In che modo la conoscenza dell'efficacia della campagna cambia se si considerano i percorsi cross-device? Come cambia l'analisi funnel?</li><li>Quali sono i percorsi più comuni seguiti dagli utenti per passare da un dispositivo all'altro? Da dove vengono rilasciati? Dove hanno successo?</li><li>In che modo gli utenti con più dispositivi differiscono da quelli con un solo dispositivo?</li></ul><br/>Per ulteriori informazioni, visita `adobe.ly/aacda`. |
+| **IQ viaggio: Analisi cross-device** | A settembre 2019, Adobe Analytics introduce l'accesso rapido per i clienti Analytics Ultimate a una nuova potente funzionalità denominata IQ Path: Analisi cross-device. Analisi cross-device (CDA) trasforma Adobe Analytics da un dispositivo centralizzato in uno strumento di analisi incentrato sulla persona. Utilizzando la CDA potete rispondere a domande quali: <ul><li>Quante persone interagiscono con il mio marchio? Quanti tipi di dispositivi usano? Come si sovrappongono?</li><li>Con quale frequenza le persone iniziano un'attività su un dispositivo mobile e successivamente passano a un PC desktop per completare l'attività? Fai clic su click-through delle campagne che arrivano su un dispositivo per passare da un'altra posizione?</li><li>In che modo la conoscenza dell'efficacia della campagna cambia se si considerano i percorsi cross-device? Come cambia l'analisi funnel?</li><li>Quali sono i percorsi più comuni seguiti dagli utenti per passare da un dispositivo all'altro? Da dove vengono rilasciati? Dove hanno successo?</li><li>In che modo gli utenti con più dispositivi differiscono da quelli con un solo dispositivo?</li></ul><br/>Per ulteriori informazioni, visitate [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/). |
 | **Architettura classificazioni aggiornata** | A partire da settembre, un aggiornamento all'architettura delle classificazioni sarà trasferito ai clienti per un periodo di più mesi. Il rilascio di settembre include la migrazione per un numero limitato di primi sviluppatori.<br/>L'aggiornamento riduce in modo significativo il tempo necessario per caricare (inclusa la logica di regola) l'importazione, l'assimilazione e la disponibilità per i rapporti. |
 
 #### Correzioni
