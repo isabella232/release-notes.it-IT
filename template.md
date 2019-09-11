@@ -69,9 +69,9 @@ Descrizione delle nuove funzioni. Utilizza titoli o tabelle.
 * Correzione
 * Correzione
 
-Per la documentazione del prodotto, consulta [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).
+Per la documentazione del prodotto, consulta [Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html).
 
-Per ulteriori informazioni su Mobile SDK, consulta: [Android SDK 4.x per Experience Solutions](https://marketing.adobe.com/resources/help/it_IT/mobile/android/) e [iOS SDK 4.x per Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
+Per ulteriori informazioni su Mobile SDK, consulta: [Android SDK 4.x per Experience Solutions](https://marketing.adobe.com/resources/help/it_IT/mobile/android/) e [iOS SDK 4.x per Experience Cloud Solutions](https://docs.adobe.com/content/help/it-IT/mobile-services/ios/overview.html).
 
 ### Amministrazione e sviluppatori {#admin}
 
@@ -244,7 +244,7 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 * Correzione
 * Correzione
 
-Per la documentazione del prodotto consulta:
+Per la documentazione sul prodotto consulta:
 
 ## Advertising Cloud {#adcloud}
 
