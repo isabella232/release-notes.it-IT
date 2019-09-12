@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Settembre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b680e3b7c761ca2b6ba28150fb3102d0778d0d3a
+source-git-commit: 12ab1a02439228bb50a294fe8d5aeba415122d43
 
 ---
 
@@ -156,6 +156,13 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 La release 2019.8.0 di Experience Manager corregge diversi bug minori, migliora le prestazioni e aggiunge il supporto per pacchetti di contenuto selettivi.
 
 * [Note sulla versione per Cloud Manager 2019.8.0](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
+
+**Distribuzione software**
+
+[La distribuzione software](https://downloads.experiencecloud.adobe.com/) è la nuova interfaccia utente progettata per semplificare la ricerca e il download di pacchetti AEM. Attualmente è nello stato beta e è accessibile solo ai clienti dei servizi gestiti Adobe.
+
+* [La condivisione](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare) pacchetti resterà accessibile finché tutti i clienti avranno accesso a Distribution Distribution (Distribuzione software).
+* Tutti i pacchetti sono disponibili in Condivisione pacchetti e Distribuzione software.
 
 ### Manutenzione del prodotto
 
