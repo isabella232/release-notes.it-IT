@@ -2,10 +2,10 @@
 title: Note sulla versione di Adobe Experience Cloud
 description: Modello per le note sulla versione di Experience Cloud
 doc-type: note sulla versione
-last-update: Marzo 2019
+last-update: ottobre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 04228df4d9a7279fe2c8627aeb0bb7492d34327e
+source-git-commit: 94ac88d981c552deb801877398489b1819d1fc54
 
 ---
 
@@ -30,7 +30,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links to solution help)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (collegamenti alla guida della soluzione)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links to solution help)
 
 ## Experience Cloud ed Experience Platform{#platform}
@@ -42,7 +42,7 @@ Note sulla versione per Experience Platform, l’interfaccia di Experience Cloud
 * [Mobile Services e Mobile SDK](#mobile)
 * [Amministrazione e sviluppatori](#admin)
 * [Experience Platform Launch](#launch)
-* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/security.html) (All Adobe products)
+* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/security.html) (Tutti i prodotti Adobe)
 
 ### Servizi di base {#core-services}
 
@@ -77,7 +77,7 @@ Per maggiori informazioni sugli SDK di Mobile, consulta [SDK 4.x per Android per
 
 Funzioni e problemi risolti.
 
-For product documentation, see [Manage user and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Per la documentazione del prodotto, consulta [Gestione di utenti e prodotti](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Experience Platform Launch {#launch}
 
