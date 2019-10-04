@@ -14,7 +14,7 @@ source-git-commit: 7759ee9ded40d019321df67478cf08565f6830cc
 + [Note sulla versione](current.md)
 + Note sulle versioni precedenti {#previous}
    + 2019 {#2019}
-      + [Settembre 2019](c-legacy-releases/2019/09122019.md)
+      + [September 2019](c-legacy-releases/2019/09122019.md)
       + [Agosto 2019](c-legacy-releases/2019/08082019.md)
       + [Luglio 2019](c-legacy-releases/2019/07182019.md)
       + [Giugno 2019](c-legacy-releases/2019/06132019.md)
