@@ -10,7 +10,7 @@ tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 mini-toc-levels: '1'
 git-repo: https://github.com/AdobeDocs/release-notes.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7e667b83c7b82376ad9cf51b4495eb30b5707ed
 
 ---
