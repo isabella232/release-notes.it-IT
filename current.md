@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: ottobre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ef4569f130fe606dc9119a11e288f57205b7c0e
+source-git-commit: 6660591c30a677b429967c0b7dbee6a306ed7f54
 
 ---
 
@@ -81,6 +81,8 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 * È stato risolto un problema di timeout che impediva di caricare segmenti in Ad Hoc Analysis. (AN-184654)
 * È stato risolto un problema che si verificava quando la suite di rapporti utilizzata per l’ultima volta era nascosta oppure non si disponeva più delle autorizzazioni necessarie per accedere alla suite di rapporti. In questo caso, non era più possibile accedere a Experience Cloud. (AN-181777)
 * È stato risolto un problema di timeout nei segmenti che rendeva difficile creare una VRS basata su un segmento. (AN-179684)
+* È stato risolto un problema che causava il troncamento dei dati in caso di codifica non corretta in alcuni rari casi. (AN-186707)
+* I motori di ricerca Yandex ora sono correttamente suddivisi per paese. (AN-181728)
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
