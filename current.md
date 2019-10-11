@@ -5,18 +5,14 @@ doc-type: note sulla versione
 last-update: ottobre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3d35a004385f3e94feeb205d25e6c420e54ca835
+source-git-commit: 11f19eef3e0d5fec9b7008c51a3afbb94ec1c2c6
 
 ---
 
 
-# Accesso in anteprima. Note sulla versione di Experience Cloud (ottobre 2019)
+# Note sulla versione di Adobe Experience Cloud - Ottobre 2019
 
 Nuove funzioni e correzioni in Adobe Experience Cloud.
-
->[!IMPORTANT]
->
->Questa pagina contiene informazioni precedenti al rilascio ed è soggetta a modifiche prima dell’effettivo rilascio pianificato.
 
 >[!NOTE]
 >
