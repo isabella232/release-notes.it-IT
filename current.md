@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Novembre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0fba1b7a9cef1262a4fa03188ba81b1d1a15a2e4
+source-git-commit: 386664d1decd801eb894bead1afe848dfef22795
 
 ---
 
@@ -108,7 +108,7 @@ Consulta [AppMeasurement per le note sulla versione di JavaScript](https://docs.
 
 ## Audience Manager {#aam}
 
-Nuove funzioni, miglioramenti e correzioni in Audience Manager.
+### Nuove funzioni, miglioramenti e correzioni in Audience Manager {#aam-new-features}
 
 | Funzione | Descrizione |
 |--- |----|
@@ -117,7 +117,20 @@ Nuove funzioni, miglioramenti e correzioni in Audience Manager.
 | [Strumenti per la gestione di massa](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | È stata rilasciata una nuova versione del foglio di lavoro Bulk Management che funziona sui sistemi operativi macOS e Microsoft Windows e supporta l’accesso a Experience Cloud. |
 | [HTTP Strict-Transport-Security](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts) | Abbiamo aggiunto il supporto per [!DNL HTTP Strict-Transport-Security], un criterio di sicurezza web per la protezione contro attacchi di tipo cookie hijacking e protocol downgrade. |
 
-**Correzioni e miglioramenti**
+### Miglioramenti {#aam-enhancements}
+
+A partire da novembre 2019, Audience Manager supporta anche l’invio di Roku ID, Amazon Fire TV ID e Xbox/Microsoft ID a Google Ad Manager e DV360 destinazioni, oltre a cookie supportati in precedenza, ID dispositivo IDFA e GAID. Non è necessario modificare nulla nelle integrazioni Google esistenti.
+
+In Audience Manager, gli ID Roku, gli ID Amazon Fire TV e gli ID Xbox/Microsoft sono denominati ID dispositivo globali. Per ulteriori informazioni su questi ID e sulle origini dati a cui sono associati nella documentazione di Audience Manager:
+
+* [ID dispositivo globale](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids)
+* [Fonti di dati globali](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html)
+
+L'assimilazione dei dati per le origini dati Roku, Amazon Fire TV e Xbox/Microsoft funziona allo stesso modo di IDFA e GAID: un ID Audience Manager viene generato automaticamente e collegato al DAID quando si acquisiscono dati codificati. I nuovi ID vengono inviati automaticamente alle nuove destinazioni Google configurate nel vostro account.
+
+Per ulteriori informazioni, contatta il tuo consulente Audience Manager o l'Assistenza clienti.
+
+### Correzioni e miglioramenti {#aam-fixes-and-improvements}
 
 * È stato corretto un bug in Audience Marketplace, a causa del quale l’interfaccia utente restituiva l’errore 409 in seguito all’invio dell’utilizzo di segmenti mensile. (AAM-50825)
 * È stato corretto un bug nella funzione per segnali derivati, a causa del quale per un breve periodo i clienti non potevano creare nuovi segnali derivati. (AAM-50968)
