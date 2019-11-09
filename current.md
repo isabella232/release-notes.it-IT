@@ -5,7 +5,7 @@ doc-type: note sulla versione
 last-update: Novembre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 386664d1decd801eb894bead1afe848dfef22795
+source-git-commit: 9a17edded46ddd9f95ea3c849e23bc1962075174
 
 ---
 
@@ -26,7 +26,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (collegamenti alla risoluzione problemi)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (collegamenti alla risoluzione problemi)
-* [!DNL Advertising Cloud](#adcloud) (Aggiornato l’11/1)
+* [!DNL Advertising Cloud](#adcloud) (Aggiornato: 11/01)
 
 Cerchi la pagina iniziale della guida? Vai a [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html).
 
@@ -113,7 +113,7 @@ Consulta [AppMeasurement per le note sulla versione di JavaScript](https://docs.
 | Funzione | Descrizione |
 |--- |----|
 | [Miglioramenti per le regole di unione dei profili](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html) | Abbiamo rilasciato una serie di miglioramenti per le [!UICONTROL regole di unione dei profili]: <ul><li>La valutazione dei segmenti è ora supportata in batch, fino a 100 dispositivi.</li><li>Abbiamo migliorato la precisione di reporting per le caratteristiche e le popolazioni dei segmenti.</li><li>Abbiamo migliorato la precisione dei file di batch generati utilizzando ID validi per più dispositivi.</li><li>Abbiamo aggiornato la documentazione con casi di utilizzo più dettagliati per ogni regola. Consulta [Casi d’uso generali per le regole di unione dei profili](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rule-targeting-options.html), [Casi d’uso sui grafici dei dispositivi esterni](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/external-graph-use-cases.html) e [Casi d’uso sui grafici dei dispositivi collegati a profili](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/profile-link-use-case.html).</li></ul> |
-| [Raccomandazioni intelligenti per i dati Audience Marketplace, basate su Adobe Sensei](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/trait-recommendations.html) | Con Trait Recommendations (Raccomandazioni sulle caratteristiche), quando create o modificate un segmento in [Segment Builder](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder.html)(Generatore [!UICONTROL di segmenti), ora ricevete raccomandazioni su caratteristiche aggiuntive che potete includere, dai feed di dati di] Audience Marketplaceai quali non siete iscritti. Aggiungi le caratteristiche consigliate al segmento per aumentare il pubblico di destinazione. <br>  Inoltre, abbiamo riprogettato la pagina [!UICONTROL Marketplace] per facilitare la ricerca di caratteristiche e feed di dati simili. |
+| [Consigli intelligenti per i dati di Audience Marketplace, con tecnologia Adobe Sensei](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/trait-recommendations.html) | Con i consigli sulle caratteristiche, quando si crea o modifica un segmento in [Segment Builder](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder.html), è ora possibile ricevere consigli sulle caratteristiche aggiuntive da includere dai feed di dati di [!UICONTROL Audience Marketplace] ai quali non si è iscritti. Aggiungi le caratteristiche consigliate al segmento per aumentare il pubblico di destinazione. <br> Inoltre, abbiamo riprogettato la pagina [!UICONTROL Marketplace] per semplificare la ricerca di caratteristiche simili e filtrare i feed di dati. |
 | [Strumenti per la gestione di massa](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | È stata rilasciata una nuova versione del foglio di lavoro Bulk Management che funziona sui sistemi operativi macOS e Microsoft Windows e supporta l’accesso a Experience Cloud. |
 | [HTTP Strict-Transport-Security](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts) | Abbiamo aggiunto il supporto per [!DNL HTTP Strict-Transport-Security], un criterio di sicurezza web per la protezione contro attacchi di tipo cookie hijacking e protocol downgrade. |
 
@@ -152,7 +152,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
    Consulta le [note sulla versione](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html).
 
-* **AEM Forms Automated Conversion Service**
+* **Servizio Automated Forms Conversion di AEM**
 
    Il servizio Automated Forms Conversion consente di accelerare la digitalizzazione e la modernizzazione delle esperienze di acquisizione dati grazie alla conversione automatizzata di moduli PDF in moduli adattivi. Il servizio, con tecnologia Adobe Sensei, converte automaticamente i moduli PDF in moduli adattivi basati su HTML5, reattivi e facili da utilizzare sui dispositivi mobili. Questo servizio sfrutta le attuali soluzioni PDF Forms e XFA e, durante la conversione, ai campi modulo adattivi vengono anche applicate convalide, stili, layout appropriati.
 
@@ -184,7 +184,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
 * **Rendering lato server e applicazioni a pagina singola**
 
-   Puoi estendere e personalizzare per le tue esigenze il servizio di rendering remoto dei contenuti, utilizzato dalle applicazioni a pagina singola basate su API per il rendering lato server.
+   Puoi estendere e personalizzare per le tue esigenze il servizio di rendering remoto dei contenuti, utilizzato dalle applicazioni a pagina singola basate su AEM per il rendering lato server.
 
    Consulta [Rendering lato server e applicazioni a pagina singola](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/spa-ssr.html#RemoteContentRenderer).
 
@@ -223,10 +223,11 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 ## Advertising Cloud {#adcloud}
 
-Aggiornato per il rilascio del 2 novembre 2019
+Aggiornato l’8 novembre 2019, rilascio
 
 | Visualizzazione | Funzione |
 |------|---------|
-| Tracciamento conversione | Il tag di mappatura della conversione basato su JavaScript per Advertising Cloud ora supporta i click-through di tracciamento da Mozilla Firefox versione 69 e successive, che per impostazione predefinita bloccano i cookie di terze parti. Lo stesso tag include già il supporto per Apple Safari.<br><br/>Se utilizzi il tracciamento della conversione di Advertising Cloud e non hai ancora distribuito il tag di mappatura della conversione di Advertising Cloud, distribuisci il seguente codice su tutte le pagine di destinazione:<br></br>`<script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>`<br></br>Nota: Questo tag supporta i tag di tracciamento conversione v2 e v3 di Advertising Cloud JavaScript, non il tag di tracciamento delle immagini. |
-| Portfolio | Quando l'opzione di portafoglio "Abilita destinazione percentuale massima spesa campagna" è abilitata, la destinazione di spesa massima non viene mai superata. Precedentemente, Advertising Cloud superava l'obiettivo di spesa massimo quando lo facesse era ottimale. |
-| Cerca pubblico | La libreria del pubblico in Cerca &gt; Audience &gt; Libreria ora include automaticamente una colonna "Dimensione pubblico", popolata ogni giorno da Bing Ads e Google Ads. Facoltativamente è possibile utilizzare la colonna come filtro dati. |
+| Monitoraggio delle conversioni | Il tag di mappatura della conversione basato su JavaScript per Advertising Cloud ora supporta il monitoraggio di click-through da Mozilla Firefox versione 69 e successive, che blocca i cookie di terze parti per impostazione predefinita. Lo stesso tag include già il supporto per Apple Safari.<br><br/>Nel caso in cui si utilizzi il monitoraggio delle conversioni di Advertising Cloud e il tag di mappatura della conversione di Advertising Cloud non sia stato ancora implementato, è necessario applicare il seguente codice su tutte le pagine di destinazione:<br></br>`<script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>`<br></br>Nota: Questo tag supporta i tag di monitoraggio delle conversioni v2 e v3 di JavaScript per Advertising Cloud, ma non il tag di monitoraggio delle immagini. |
+| Portfolio | Quando è attivata l’opzione di portfolio “Abilita % massima dell’obiettivo di spesa di campagna”, l’obiettivo di spesa massima non viene mai superato. In precedenza, Advertising Cloud superava l’obiettivo di spesa massima nel caso in cui lo ritenesse ideale. |
+| Cerca tipi di pubblico | La libreria dei tipi di pubblico in Cerca &gt; Pubblico &gt; Libreria ora include automaticamente una colonna “Dimensione pubblico”, popolata ogni giorno da Bing Ads e Google Ads. Facoltativamente è possibile utilizzare la colonna come filtro dati. |
+| Integrazione con Adobe Analytics | Analytics ora include la dimensione "Landing Type (AMO ID)" per le campagne DSP di Advertising Cloud.  Utilizzate questa dimensione per segmentare le metriche di Analytics in base al modo in cui i visitatori sono atterrati sul sito. I valori includono "Click Through" e "View Through".<br><br/>**** Nota: I dati per le visualizzazioni precedenti al 31 ottobre 2019 sono visualizzati come dati per le operazioni di click-through. Pertanto, non si consiglia di utilizzare questa dimensione con dati precedenti a metà novembre 2019. |
