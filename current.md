@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e023f8bb366a21e41013e6f94682d48e0a194ee6
+source-git-commit: 836117dd47be9051044e0c07b960361a65c7b15f
 
 ---
 
@@ -20,7 +20,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 
 * [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**Aggiornato il 21 novembre 2019**)
+* [!DNL Analytics](#analytics) (**aggiornato il 26 novembre 2019**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -59,7 +59,7 @@ Per le note sulla versione e la documentazione del prodotto, consulta [Experienc
 Nuove funzioni e problemi risolti in Adobe Analytics:
 
 * [Nuove funzionalità, miglioramenti e problemi risolti in Adobe Analytics](#aa-features)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (**Aggiornato il 21 novembre 2019**)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (**aggiornato il 26 novembre 2019**)
 * [AppMeasurement](#appm)
 
 Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
@@ -81,7 +81,8 @@ Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](http
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
-| Fine del ciclo di vita dell’opzione **[!UICONTROL Enforce IP Login Restrictions]** | 21 novembre 2019 | Announcing the *October, 2020*, end-of-life date for the IP login whitelisting (**[!UICONTROL Enforce IP Login Restrictions]**) functionality under the **[!UICONTROL Admin &gt; Company Settings &gt; Security]** menu. (Questo è stato originariamente annunciato come in corso nel gennaio 2020). |
+| Aggiornamento delle etichette delle dimensioni "Mese" e "Trimestre" | 26 novembre 2019 | Il 16 gennaio 2020, le etichette delle dimensioni Mese e Trimestre saranno aggiornate in modo da riflettere l'anno civile standard. Le impostazioni di calendario personalizzate (definite in **[!UICONTROL Admin (Amministratore controllo) &gt; Suite di rapporti &gt; Modifica impostazioni &gt; Generale)** continueranno a determinare quali mesi vengono restituiti in un rapporto.<br>Ad esempio, se il calendario personalizzato per il 2020 è definito come ottobre 2019-settembre 2020, mesi e trimestri saranno visualizzati come segue nei rapporti:<ul><li>Trimestri - Ott 2019-dic 2019, gen 2020-mar 2020, Apr 2020-giu 2020, lug 2020-set 2020</li><li>Mesi - Ott 2019, nov 2019, dic 2019, gen 2020, feb 2020, ecc.</li><li>Precedentemente, tutti gli elementi di cui sopra avrebbero riflesso l'anno 2019, che ha causato confusione per gli utenti finali.</li></ul>Se hai filtri o segmenti di report che cercano questi valori, non è necessario intervenire. Vengono aggiornati per riflettere la nuova convenzione di denominazione. |
+| Fine del ciclo di vita dell’opzione **[!UICONTROL Enforce IP Login Restrictions]** | 21 novembre 2019 | Announcing the *October, 2020*, end-of-life date for the IP login whitelisting (**[!UICONTROL Enforce IP Login Restrictions]**) functionality under the **[!UICONTROL Admin &gt; Company Settings &gt; Security]** menu. (Originariamente previsto per il gennaio 2020.) |
 | Fine del ciclo di vita dell’opzione **[!UICONTROL Visualizza archivio]** | 30 ottobre 2019 | Annuncio della data di fine del ciclo di vita, in gennaio 2020, per l’opzione **[!UICONTROL Visualizza archivio]** in Dashboard Manager (**[!UICONTROL Componenti &gt; Dashboard]**). |
 | Aggiornamento della gestione all’attributo SameSite sui cookie | 15 ottobre 2019 | In agosto 2019 Adobe ha annunciato di aver aggiunto l’impostazione per cookie SameSite a tutti i cookie impostati da Analytics. Viene applicato un aggiornamento della logica, come segue:<ul><li>Per tutti i cookie di terze parti non basati su Webkit, l’attributo SameSite è impostato su `none`.</li><li>Per tutti gli altri cookie, l’attributo SameSite non è impostato.</li></ul> |
 | Fine del supporto per TLS 1.1 | 3 ottobre 2019 | Entro il 31 marzo 2020, Adobe Analytics rimuoverà il supporto per TLS 1.1. Questo cambiamento fa parte del nostro impegno continuo per mantenere gli standard di sicurezza più elevati e promuovere la sicurezza dei dati dei clienti. |
