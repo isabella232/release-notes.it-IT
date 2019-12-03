@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8d06f199f14455854bb8f54a5699f7538a674c3c
+source-git-commit: ba99a07c966a56306daa151606f4503586cb898a
 
 ---
 
@@ -28,7 +28,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (collegamenti alla risoluzione problemi)
 * [!DNL Advertising Cloud](#adcloud) (Aggiornato 11/8)
 
-Cerchi la pagina iniziale della guida? Vai a [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html).
+Cerchi la pagina iniziale della guida? Consulta Documentazione [di](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)Adobe Experience Cloud.
 
 ## Interfaccia di Experience Cloud {#ecloud}
 
