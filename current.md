@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b12f367551ffabf44c8f1f983acbd10afee78c3f
+source-git-commit: c8dca487e2a2f4992b7850632a8219ccca269713
 
 ---
 
@@ -29,6 +29,17 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 * [!DNL Advertising Cloud](#adcloud) (Aggiornato 11/8)
 
 Cerchi la pagina iniziale della guida? Consulta la [documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html).
+<!-- ## Status.adobe.com
+
+Using your Adobe ID, you can subscribe to status event notifcations, based on your produts, region, and event preferences.
+
+| Feature    | Description  |
+| -----------| ---------- |
+|Self-subscription to pro-active notifications | <ul><li>Select products from Experience Cloud, Creative Cloud, Document Cloud</li><li>Item</li><li>Item</li></ul> |
+|Notifications preferences management | <ul><li>item</li><li>Item</li><li>Item</li></ul> |
+|Personalized and faster email delivery | <ul><li>item</li><li>Item</li><li>Item</li></ul> |
+|Personalized in-product notifications | <ul><li>item</li><li>Item</li><li>Item</li></ul> |
+ -->
 
 ## Interfaccia di Experience Cloud {#ecloud}
 
@@ -49,7 +60,7 @@ Note sulla versione di Experience Platform, Experience Platform Launch, Servizio
 
 * [Note sulla versione della piattaforma Experience](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/security.html)  (Tutti i prodotti Adobe)
+* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/security.html)   (Tutti i prodotti Adobe)
 
 ### Experience Platform Launch {#launch}
 
@@ -80,7 +91,7 @@ Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](http
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
-| Avviso | Data di aggiunta  o aggiornamento | Descrizione |
+| Avviso | Data di aggiunta   o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
 | Fine del ciclo di vita dell’opzione **[!UICONTROL Visualizza archivio]** | 30 ottobre 2019 | Annuncio della data di fine del ciclo di vita, in gennaio 2020, per l’opzione **[!UICONTROL Visualizza archivio]** in Dashboard Manager (**[!UICONTROL Componenti &gt; Dashboard]**). |
 | Fine del ciclo di vita dell’opzione **[!UICONTROL Enforce IP Login Restrictions]** | 30 ottobre 2019 | Annuncio della data di fine del ciclo di vita, in gennaio 2020, per la funzionalità di whitelisting degli accessi IP (**[!UICONTROL Enforce IP Login Restrictions]**), nel menu **[!UICONTROL Amministrazione &gt; Impostazioni società &gt; Sicurezza]**. |
