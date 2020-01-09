@@ -3,13 +3,13 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Adobe Experience Cloud Release Notes
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8673b8dc95023d169ebde1c96eb05cdb12b47c3a
 
 ---
 
 
-# Note sulla versione di Experience Cloud {#experience-cloud}
+# Note sulla versione di Experience Cloud  {#experience-cloud}
 
 + [Note sulla versione](current.md)
 + Note sulle versioni precedenti {#previous}
