@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d48cab564bb6a45022d5c8a388dd71d52a1b63f1
+source-git-commit: 51e45852d84bd30b5d0fb21640b2e9f31080840c
 
 ---
 
@@ -63,9 +63,9 @@ Adobe sta aggiornando l&#39;intestazione del dominio e dell&#39;interfaccia per 
 
 Gli aggiornamenti includono:
 
-* Nuovi URL della soluzione: `experience.adobe.com/<application name>.` Tutti i prodotti adotteranno questo pattern URL. Cercate nuovi URL che diventino effettivi per tutto il mese. Adobe consiglia di aggiornare i segnalibri dopo che sono stati visualizzati i reindirizzamenti ai nuovi domini.
+* Nuovi URL della soluzione: `experience.adobe.com/<application name>.` Tutti i prodotti adotteranno questo pattern URL. Cercate nuovi URL che diventino effettivi per tutto il mese.
 * Passaggio più semplice tra le organizzazioni o a un&#39;altra applicazione.
-* Aiuto sui prodotti migliorato: [!UICONTROL Experience League] è integrato nel prodotto per consentire la ricerca di aiuto anche con i risultati dei forum e dei contenuti video della community. Questa modifica semplifica l&#39;accesso a più contenuti e consente di trarre il massimo da Experience Cloud. Inoltre, fate clic su **[!UICONTROL Aiuto]**>**[!UICONTROL  Feedback]** per segnalare i problemi o condividere le idee con il team di documentazione del prodotto.
+* Aiuto sui prodotti migliorato: [!UICONTROL Experience League] è integrato nel prodotto per consentire la ricerca di aiuto anche con i risultati dei forum e dei contenuti video della community. Questa modifica semplifica l&#39;accesso a più contenuti e consente di trarre il massimo da Experience Cloud. Inoltre, fate clic su **[!UICONTROL Aiuto]**>**[!UICONTROL  Feedback]** per segnalare i problemi o condividere le idee con il prodotto Adobe.
 * Notifiche migliorate: Il menu a discesa [!UICONTROL Notifiche] ora include due schede, una per le notifiche dei prodotti e una per gli annunci globali dei prodotti.
 
 **** Nota: La pagina [!UICONTROL Feed] è stata rimossa a gennaio 2020. Nel prodotto verrà visualizzato un avviso di funzione rimossa.
