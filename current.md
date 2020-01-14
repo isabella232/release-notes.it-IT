@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b0f2fe07102a20e343f69b1c156f48ca4f284966
+source-git-commit: 7ec12529edf495c36cc153028458257939782e41
 
 ---
 
@@ -63,7 +63,8 @@ Adobe sta aggiornando l&#39;intestazione del dominio e dell&#39;interfaccia per 
 
 Gli aggiornamenti includono:
 
-* Nuovi URL della soluzione: `experience.adobe.com/<application name>.` Tutti i prodotti adotteranno questo pattern URL. Cercate nuovi URL che diventino effettivi per tutto il mese.
+* Nuovi URL della soluzione: `experience.adobe.com/<application name>.` Tutti i prodotti adotteranno questo pattern URL. Cercate nuovi URL che diventino effettivi per tutto il mese. Note:
+   * La modifica del dominio potrebbe causare problemi di cookie in Safari. Unchecking _Prevent cross-site tracking_ in the Safari Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain. È possibile utilizzare altri browser senza problemi, perché questo interessa solo gli utenti di Safari.
 * Passaggio più semplice tra le organizzazioni o a un&#39;altra applicazione.
 * Aiuto sui prodotti migliorato: [!UICONTROL Experience League] è integrato nel prodotto per consentire la ricerca di aiuto anche con i risultati dei forum e dei contenuti video della community. Questa modifica semplifica l&#39;accesso a più contenuti e consente di trarre il massimo da Experience Cloud. Inoltre, fate clic su **[!UICONTROL Aiuto]**>**[!UICONTROL  Feedback]** per segnalare i problemi o condividere le idee con Adobe.
 * Notifiche migliorate: Il menu a discesa [!UICONTROL Notifiche] ora include due schede, una per le notifiche dei prodotti e una per gli annunci globali dei prodotti.
@@ -88,7 +89,7 @@ Note sulla versione di Experience Platform, Experience Platform Launch, Servizio
 
 * [Note sulla versione di Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/security.html)   (Tutti i prodotti Adobe)
+* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/security.html) (Tutti i prodotti Adobe)
 
 ### Experience Platform Launch {#launch}
 
@@ -131,7 +132,7 @@ Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](http
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
-| Avviso | Data di aggiunta   o aggiornamento | Descrizione |
+| Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
 | Nuovo dominio Adobe Analytics | 18 dicembre 2019 | Il 16 gennaio 2020, Adobe Analytics inizierà a spostarsi su un nuovo dominio - `https://experience.adobe.com/analytics.`<br>**Nota **: Questa modifica si applica a tutti gli utenti che accedono ad Analytics con il proprio Adobe ID o Enterprise ID.<ul><li>La modifica del dominio potrebbe causare problemi di cookie durante il caricamento di Analytics in Safari. Unchecking _Prevent cross-site tracking_ in the Safari Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Analytics to function on this new Adobe Experience Cloud domain. È possibile utilizzare altri browser senza problemi, perché questo interessa solo gli utenti di Safari.</li><li>La modifica del dominio potrebbe impedire il funzionamento della Mappa  attività per alcuni clienti [in casi](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html)specifici.</li></ul> |
 | Fine del ciclo di vita - API Analytics legacy | 9 gennaio 2020 | Nel novembre 2020, i seguenti servizi API Analytics Legacy termineranno e saranno chiusi. Le integrazioni esistenti create utilizzando questi servizi cesseranno di funzionare. <ul><li>1.3 API di Analytics</li><li>1.4 API SOAP Analytics</li><li>Autenticazione OAuth legacy (OAuth e JWT)</li></ul>Abbiamo fornito una [Legacy API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per aiutare a rispondere alle tue domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle API [REST di Analytics](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 1.4 o alle API [di Analytics](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)2.0. Gli account OAuth legacy possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, che può essere utilizzato per accedere sia alle API Analytics 1.4 che alle API Analytics 2.0. |
@@ -158,7 +159,7 @@ Correzioni e funzionalità aggiunte ad Audience Manager.
 ### Correzioni e miglioramenti {#aam-fixes-and-improvements}
 
 * È stato risolto un problema nel flusso di lavoro [!UICONTROL Crea destinazione] per il quale, selezionando Piattaforme ****integrate come[!UICONTROL categoria], la sezione Informazionidi base scompariva e il flusso di lavoro non poteva essere completato. (AAM-52397, AAM-52414)
-* È stato corretto un bug a causa del quale la pagina [!UICONTROL Crea/Modifica] destinazioni non veniva caricata nei browser Apple Safari e Mozilla Firefox. (AAM-51784)
+* We fixed a bug where the [!UICONTROL Create/edit] destinations page would not load in the Apple Safari and Mozilla Firefox browsers. (AAM-51784)
 
 ## Experience Manager {#aem}
 
@@ -194,6 +195,14 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
 ### Rilasci di prodotti
 
+* **NOVITÀ:AEM come servizio cloud**
+
+   [Adobe Experience Manager](https://www.adobe.com/marketing/experience-manager.html) (AEM) ora è disponibile come servizio cloud.
+
+   * [Introduzione](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/introduction.html)
+   * [Informazioni sulla versione](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/home.html)
+   * [Documentazione](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
+
 * **Servizio automatizzato di conversione moduli**
 
    Automated Forms Conversion Service, il servizio che consente di convertire automaticamente i moduli PDF in bellissimi moduli HTML pronti per dispositivi mobili, è stato reso disponibile per l&#39;uso generale il 12 dicembre 2019.
@@ -219,6 +228,7 @@ Consultate [Anteprima delle risorse](https://docs.adobe.com/content/help/en/expe
 
 ### Risorse aggiuntive
 
+* [AEM come servizio cloud](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
 * [Informazioni e assistenza per AEM 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)
 * [Informazioni e assistenza per AEM 6.4](https://helpx.adobe.com/support/experience-manager/6-4.html)
 * [Informazioni e assistenza per AEM 6.3](https://helpx.adobe.com/support/experience-manager/6-3.html)
