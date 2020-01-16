@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d92cffebc2db7e6a6d7d7b531390b6e307b2943e
+source-git-commit: e49bdb89cd3cf434a4932d1669d6f3a2df973769
 
 ---
 
@@ -65,7 +65,7 @@ Gli aggiornamenti includono:
 
 * Nuovi URL della soluzione: `experience.adobe.com/<application name>`:
    * Tutti i prodotti adotteranno questo pattern URL. Cercate nuovi URL che diventino effettivi per tutto il mese.
-   * I browser supportati includono [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari]e [!DNL Opera] (versioni più recenti).
+   * Supporto browser:I browser supportati includono [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari]e [!DNL Opera] (versioni più recenti). **** Nota: Sebbene l&#39;interfaccia Experience Cloud supporti questi browser, le singole soluzioni potrebbero non supportare tutti i browser. Ad esempio, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) non supporta [!DNL Opera]e [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) non supporta [!DNL Safari].
    * ([!DNL Safari] Solo) La modifica del dominio potrebbe causare problemi di cookie in [!DNL Safari]. Unchecking _Prevent cross-site tracking_ in the [!DNL Safari] Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain.
 * Passaggio più semplice tra le organizzazioni o a un&#39;altra applicazione.
 * Aiuto sui prodotti migliorato: [!UICONTROL Experience League] è integrato nel prodotto per consentire la ricerca di aiuto anche con i risultati dei forum e dei contenuti video della community. Questa modifica semplifica l&#39;accesso a più contenuti e consente di trarre il massimo da Experience Cloud. Inoltre, fate clic su **[!UICONTROL Aiuto]**>**[!UICONTROL  Feedback]** per segnalare i problemi o condividere le idee con Adobe.
