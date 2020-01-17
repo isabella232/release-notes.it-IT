@@ -5,17 +5,14 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e49bdb89cd3cf434a4932d1669d6f3a2df973769
+source-git-commit: dec998d8e23bf8ac302d750fd36b13eb330abafe
 
 ---
 
 
-# Accesso anticipato - Note sulla versione di Adobe Experience Cloud - Gennaio 2020
+# Note sulla versione di Adobe Experience Cloud - Gennaio 2020
 
 Nuove funzioni e correzioni in Adobe Experience Cloud.
-
->[!IMPORTANT]
->Questa pagina contiene contenuti precedenti al rilascio ed è soggetta a modifiche prima della release pianificata di ciascun prodotto.
 
 >[!NOTE]
 >Iscriviti ad [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche e-mail sulle prossime versioni. Le nuove informazioni pubblicate dopo il rilascio saranno contrassegnate dalla data di pubblicazione.
