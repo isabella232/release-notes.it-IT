@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d61884a3de7bd7c8d32fb9dc88727e82083ca5c1
+source-git-commit: 0a9f95d1d9a2bba69cecada0d0c39f70e507c995
 
 ---
 
@@ -30,7 +30,7 @@ Ultimo aggiornamento: 10 febbraio 2020
 * [Interfaccia e servizi principali di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Mobile Services e Mobile SDK](#mobile)
-* [!DNL Analytics](#analytics) **(aggiornato il 21 gennaio 2020)**
+* [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
