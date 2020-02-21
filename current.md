@@ -5,17 +5,14 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 71ba31c62c66771c16273131db3b72bbaa614d52
+source-git-commit: c62d85f09ce596482a019aa5d0f1d517bf2df9fe
 
 ---
 
 
-# Accesso anticipato - Note sulla versione di Adobe Experience Cloud - Febbraio 2020
+# Note sulla versione di Adobe Experience Cloud - Febbraio 2020
 
 Nuove funzioni e correzioni in Adobe Experience Cloud.
-
->[!IMPORTANT]
->Questa pagina contiene informazioni precedenti al rilascio ed è soggetta a modifiche prima dell’effettivo rilascio pianificato.
 
 >[!NOTE]
 >Iscriviti ad [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche e-mail sulle prossime versioni. Le nuove informazioni pubblicate dopo il rilascio saranno contrassegnate dalla data di pubblicazione.
@@ -162,7 +159,7 @@ Correzioni e funzioni aggiunte ad Audience Manager.
 * È stato corretto un bug a causa del quale l&#39;interfaccia utente si interrompe durante la navigazione attraverso il flusso di creazione dei modelli algoritmici (AAM-37942).
 * È stato corretto un bug a causa del quale la selezione dell&#39;esportazione dei dati non veniva salvata quando si salvavano i controlli di esportazione dei dati per destinazioni nuove o esistenti, per clienti che utilizzavano l&#39;integrazione con Adobe Experience Platform (AAM-52814).
 * È stato corretto un bug a causa del quale le raccomandazioni sulle caratteristiche di terze parti non funzionavano correttamente per le caratteristiche che contengono caratteri di pipe (`|`) nel nome (AAM-51635).
-* Miglioramenti a livello di accessibilità in tutta l’interfaccia utente.
+* Numerosi miglioramenti a livello di accessibilità nell’interfaccia utente.
 
 ## Experience Manager {#aem}
 
@@ -209,16 +206,13 @@ Consultate Piattaforme [supportate per AEM Forms su JEE](https://docs.adobe.com/
 
 Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singoli utenti tra canali di marketing online e offline. Ora è possibile prevedere cosa vogliono i clienti, mediante esperienze determinate dalle loro abitudini e preferenze.
 
-### Campaign Classic
+### Campaign Classic 19.2.3
 
-* [Campaign Classic 20.1](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
-* [Aggiornamento Campaign Classic 19.2.3](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-2.html)
+Fai riferimento alle [note sulla versione Adobe Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) per correzioni e miglioramenti.
 
-### Campaign Standard
+### Campaign Standard 20.1
 
-* [Aggiornamento Campaign Standard 20.1.3](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1-3---february-2020)
-* [Aggiornamento Campaign Standard 20.1.2](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.htmll#release-20-1-2---february-2020)
-* [Campaign Standard 20.1](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1---february-2020)
+Fai riferimento alle [note sulla versione Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) per correzioni e miglioramenti.
 
 ### Risorse aggiuntive
 
