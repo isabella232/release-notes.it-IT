@@ -102,7 +102,7 @@ Per le note sulla versione e la documentazione del prodotto, consulta [Experienc
 
 ## Mobile Services e Mobile SDK {#mobile}
 
-**4 febbraio 2020: versione 4.19.0**
+4 febbraio 2020: Versione 4.19.0
 
 In questa versione è stato effettuato il seguente aggiornamento:
 
@@ -266,14 +266,14 @@ See [!DNL Marketo] release notes for [February 2020](https://docs.marketo.com/di
 
 Le seguenti funzionalità vengono rilasciate per tutto il trimestre:
 
-| Visualizzazione | Funzione |
+| Funzione | Descrizione |
 |------|---------|
 | [!DNL Bizible] | <ul><li>Nuova segmentazione basata sugli account</li><li>Salvataggio di filtri specifici per il dashboard</li><li>Esportare le dashboard Bizible come PDF</li></ul> |
 | Connect vendite | Aggiornamenti/miglioramenti relativi a finestre e centri comandi |
 
 ### Annunci
 
-**・** Marketo Engage Success Center: Lancio nel febbraio 2020. Il Centro di Successo è un centro di assistenza all&#39;interno del prodotto che consente di effettuare ricerche nei documenti sui prodotti e nella community, avviare guide informative, accedere ai contenuti per l&#39;adozione e altro ancora. Nota: Questa funzionalità verrà lanciata come versione beta in ANZ e verrà implementata in America del Nord più tardi nel trimestre.
+**** Centro di successo Marketo: Lancio nel febbraio 2020. Il Centro di Successo è un centro di assistenza all&#39;interno del prodotto che consente di effettuare ricerche nei documenti sui prodotti e nella community, avviare guide informative, accedere ai contenuti per l&#39;adozione e altro ancora. Nota: Questa funzionalità verrà lanciata come versione beta in ANZ e verrà implementata in America del Nord più tardi nel trimestre.
 
 ### Deprecazioni
 
