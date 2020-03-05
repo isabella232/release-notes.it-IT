@@ -7,7 +7,7 @@ getting-started-title: Introduzione
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
-mini-toc-levels: '1'
+mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/release-notes.en
 index: true
 translation-type: ht
