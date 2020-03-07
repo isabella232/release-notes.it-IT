@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e9fdb1166b47f17256afeaa7bced60f884de8d16
+source-git-commit: 101b94ed00ae148e946f17c134037ae880badc5d
 
 ---
 
@@ -133,7 +133,6 @@ Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](http
 * È stato corretto un problema a causa del quale i primi e gli ultimi modelli di tocco in Attribution IQ non calcolavano correttamente il credito per alcuni elementi di riga in alcune dimensioni predefinite.
 * È stato risolto un problema che causava la restituzione di risultati errati durante la suddivisione di una dimensione data per un&#39;altra dimensione data.
 * È stato risolto un problema a causa del quale talvolta le metriche di entrata o uscita venivano conteggiate in modo non corretto se applicate a &quot;Non specificato&quot; in un report di dimensioni classificate.
-
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
