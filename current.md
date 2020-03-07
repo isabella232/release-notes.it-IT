@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ecee1c664485d710a62c9455e64eea3a16966780
+source-git-commit: e9fdb1166b47f17256afeaa7bced60f884de8d16
 
 ---
 
@@ -128,6 +128,12 @@ Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](http
 
 * È stato risolto un problema in [!UICONTROL Reporting e analisi] che impediva il download `.xls` dei report.(AN-206541, AN-204008)
 * L&#39;implementazione di una nuova shell ha risolto diversi problemi dei clienti relativi al passaggio a un&#39;organizzazione Experience Cloud.(AN-200844, AN-186920)
+* È stato risolto un problema che causava la mancata inclusione di un&#39;analisi approfondita sull&#39;elemento di riga _Non specificato_ (o su altri elementi della riga di reporting) nei filtri di ricerca _Non specificato (Nessuno)_ , senza risultati nella suddivisione.
+* È stato risolto un problema che si verificava quando si utilizzava una dimensione classificata, i totali delle metriche di entrata o uscita non corrispondevano al totale degli elementi di riga in una suddivisione.
+* È stato corretto un problema a causa del quale i primi e gli ultimi modelli di tocco in Attribution IQ non calcolavano correttamente il credito per alcuni elementi di riga in alcune dimensioni predefinite.
+* È stato risolto un problema che causava la restituzione di risultati errati durante la suddivisione di una dimensione data per un&#39;altra dimensione data.
+* È stato risolto un problema a causa del quale talvolta le metriche di entrata o uscita venivano conteggiate in modo non corretto se applicate a &quot;Non specificato&quot; in un report di dimensioni classificate.
+
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
