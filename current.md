@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dcbcc2fff5026c07898e7887b837767e9a71dbf3
+source-git-commit: 897f8d8138403d42ee0387d3582464b41fd1a54c
 
 ---
 
@@ -27,6 +27,7 @@ Le date di rilascio specifiche del prodotto possono variare.
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia e servizi principali di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
+* [Orchestrazione viaggio](#journey)
 * [Mobile Services e Mobile SDK](#mobile)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
@@ -103,11 +104,7 @@ La versione Q1 è stata pubblicata. [Leggi tutto](https://docs.adobe.com/content
 
 ### Risorse aggiuntive
 
-[Documentazione](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html)
-
-[Note sulla versione](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html)
-
-[Video introduttivi](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[Documentazione](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [Note](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) sulla versione - Video [introduttivi](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## Mobile Services e Mobile SDK {#mobile}
 
