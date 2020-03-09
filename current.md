@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 897f8d8138403d42ee0387d3582464b41fd1a54c
+source-git-commit: 8cfd93b9e4e5800eb9222a78571ec89e546e6a6f
 
 ---
 
@@ -137,7 +137,7 @@ Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](http
 
 #### Correzioni
 
-* È stato risolto un problema in [!UICONTROL Reporting e analisi] che impediva il download `.xls` dei report.(AN-206541, AN-204008)
+* È stato risolto un problema in [!UICONTROL Reporting e analisi] che impediva il download `.xls` dei report. Questo problema ha interessato i clienti che utilizzano valute diverse da dollaro statunitense ed euro. (AN-206541, AN-204008)
 * L&#39;implementazione di una nuova shell ha risolto diversi problemi dei clienti relativi al passaggio a un&#39;organizzazione Experience Cloud.(AN-200844, AN-186920)
 * È stato risolto un problema che causava la mancata inclusione di un&#39;analisi approfondita sull&#39;elemento di riga _Non specificato_ (o su altri elementi della riga di reporting) nei filtri di ricerca _Non specificato (Nessuno)_ , senza risultati nella suddivisione.
 * È stato risolto un problema che si verificava quando si utilizzava una dimensione classificata, i totali delle metriche di entrata o uscita non corrispondevano al totale degli elementi di riga in una suddivisione.
