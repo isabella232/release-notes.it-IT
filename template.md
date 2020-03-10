@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8486e0014a6ea57fca43ce2e95e0ac9762c170f7
+source-git-commit: 2fca65aeb62ff60e4776492857af064ec3ef707f
 
 ---
 
@@ -26,6 +26,7 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 
 * [Stato del sistema di Adobe](#status)
 * [Experience Cloud ed Experience Platform](#platform)
+* [Orchestrazione viaggio](#journey)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -103,6 +104,14 @@ Note sulla versione di Experience Platform, Experience Platform Launch, Servizio
 ### Experience Platform Launch {#launch}
 
 Per le note sulla versione e la documentazione del prodotto, consulta [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html).
+
+## Orchestrazione viaggio {#journey}
+
+Con Adobe Experience Platform è possibile coordinare i percorsi dei singoli clienti su larga scala tra i canali di esperienze anticipando in modo intelligente le esigenze di ogni individuo in tempo reale, ovunque il percorso lo conduca.
+
+### Risorse aggiuntive
+
+[Documentazione](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [Note](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) sulla versione - Video [introduttivi](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## [!DNL Analytics] {#analytics}
 
@@ -248,27 +257,15 @@ I seguenti set di documentazione AEM sono stati migrati a una nuova piattaforma 
 * Correzione
 * Correzione
 
-## [!DNL Campaign {#ac}
+## [!DNL Campaign] {#ac}
 
 Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singoli utenti tra canali di marketing online e offline. Ora è possibile prevedere cosa vogliono i clienti, mediante esperienze determinate dalle loro abitudini e preferenze.
 
-| Funzione | Descrizione |
-| -----------| ---------- |  
-| Funzione A | Testo |
-| Funzione B | Testo |
-| Funzione C | Testo |
+### Risorse aggiuntive
 
-**Correzioni**
-
-* Correzione
-* Correzione
-* Correzione
-* Correzione
-
-**Risorse aggiuntive**
-
-* Adobe Campaign Standard: [Documentazione](https://helpx.adobe.com/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)  - [Pianificazione rilascio](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Standard: [Documentazione](https://helpx.adobe.com/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)      - [Pianificazione rilascio](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentazione](https://helpx.adobe.com/support/campaign/classic.html) - [Note sulla versione](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
 ## Advertising Cloud {#adcloud}
 
