@@ -5,14 +5,14 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2282dd7a9b0575021f2262e43f644af4b1dc3f0b
+source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
 
 ---
 
 
 # Accesso anticipato - Note sulla versione di Adobe Experience Cloud - Marzo 2020
 
-Nuove funzioni e correzioni in Adobe Experience Cloud.
+Nuove funzioni e correzioni in [!DNL Adobe Experience Cloud].
 
 >[!IMPORTANT]
 >Questa pagina contiene informazioni precedenti al rilascio ed è soggetta a modifiche prima dell’effettivo rilascio pianificato.
