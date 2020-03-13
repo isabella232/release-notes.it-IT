@@ -34,10 +34,10 @@ Ultimo aggiornamento: 11 marzo 2020
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (collegamenti alla risoluzione problemi)
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (collegamenti alla risoluzione problemi)
 * [!DNL Advertising Cloud](#adcloud)
 * [!DNL Magento](#magento)
 * [!DNL Marketo](#marketo)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (collegamenti alla risoluzione problemi)
 * [Nuovi documentazione e tutorial](#selfhelp)
 
 Cerchi la pagina iniziale della guida? Consulta la [documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html).
@@ -88,7 +88,7 @@ Per la documentazione sul prodotto, consulta la guida di [Experience Cloud](http
 
 ## ![Icon](/assets/platform.png) Experience Platform {#platform}
 
-Note sulla versione di [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Servizio identità] e bollettini sulla sicurezza.
+Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Identity Service,] Journey Orchestration, Mobile Services, and security bulletins.
 
 * [Note sulla versione di Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
@@ -106,7 +106,7 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 
 È stata pubblicata la versione Q1. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
 
-**Risorse aggiuntive**
+#### Risorse aggiuntive per l&#39;orchestrazione del viaggio
 
 [Documentazione](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
