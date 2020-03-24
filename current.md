@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5246ec08b9a04fcbdfff401dc214256185faaf2d
+source-git-commit: 745a054c15f05d7957e8c98b8adfa41b665b6fa6
 
 ---
 
@@ -268,7 +268,7 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 ## ![Icona](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-Aggiornato il 10 febbraio 2020 per la versione dell’8 febbraio:
+Aggiornato il 20 marzo 2020 per la release del 21 marzo:
 
 | Visualizzazione | Funzione |
 |------|---------|
