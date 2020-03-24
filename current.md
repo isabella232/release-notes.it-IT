@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 745a054c15f05d7957e8c98b8adfa41b665b6fa6
+source-git-commit: 11dd1c361df84ef52b54734e2cbd231fce0cfda3
 
 ---
 
@@ -272,9 +272,11 @@ Aggiornato il 20 marzo 2020 per la release del 21 marzo:
 
 | Visualizzazione | Funzione |
 |------|---------|
-| [!UICONTROL Portfolio] | Ora puoi aggiungere campagne [!DNL Yahoo!] Yahoo Japan Display Network (YDN) ai portfolio per ottimizzare il budget delle campagne e le offerte dei gruppi di annunci. La stessa offerta viene applicata a tutti gli annunci di un gruppo di annunci. I dati per le campagne Yahoo Japan Display Network sono inclusi nelle simulazioni per il portfolio. |
-| [!UICONTROL Ricerca] > [!UICONTROL Bulksheet] | Ora puoi creare, modificare ed eliminare gli annunci adattabili alla rete di ricerca di Google (RSA, Responsive Search Ads) utilizzando i bulksheet. In precedenza, il supporto era disponibile solo tramite l’interfaccia standard di gestione campagne in **[!UICONTROL Ricerca]** > **[!UICONTROL Campagne]** |
-| [!UICONTROL Ricerca] > [!UICONTROL Campagne, Report] | Le metriche di prominenza di Google Ads `Impr. (Abs. Top) %` e `Impr. (Top) %` sono ora disponibili in tutti i report semplici e in tutte le visualizzazioni di gestione campagne a livello di entità, eccetto per le campagne Shopping con i gruppi di prodotti, nei report [!UICONTROL Campaign Daily Impression Share (Quota impressioni campagna giornaliera)] e [!UICONTROL Keyword Daily Impression Share (Quota impressioni parola chiave giornaliera)], nelle visualizzazioni delle etichette e dei vincoli. |
+| [!UICONTROL Portfolio] | Per linee guida su come gestire i portafogli per tenere conto dei cambiamenti di traffico derivanti dalla COVID-19, contatta il tuo account manager. |
+|  | (campagne Google Ads e Microsoft Ads) In portfolio ottimizzati con l&#39;opzione &quot;Auto-optimize Bid Adjustment Values&quot; (Ottimizza automaticamente valori di regolazione bid), Advertising Cloud non ottimizza più automaticamente le impostazioni di regolazione delle offerte per le campagne utilizzando la strategia di offerta avanzata cost per click (eCPC). Il motore di ricerca ottimizza tutte le regolazioni delle offerte al momento dell&#39;asta. Advertising Cloud ottimizza ancora le offerte di base e — quando l&#39;opzione &quot;Regola automaticamente i limiti di budget delle campagne&quot; è abilitata — il bilancio della campagna. |
+| [!UICONTROL Avvisi Beta] | (Funzione Beta) È ora possibile creare modelli di avvisi per identificare quando un portfolio soddisfa condizioni specifiche — ad esempio, metriche delle prestazioni durante un periodo specificato, quindi generare un avviso. Puoi creare avvisi a livello di portfolio da **[!UICONTROL Insights &amp; Reports]** > **[!UICONTROL Alert (Beta)]** ma non da **[!UICONTROL Optimization]** > **[!UICONTROL Portfolio)]**. **Nota:** Gli avvisi creati dalla versione precedente di Alert Beta, che è stata sostituita in gennaio, non sono più disponibili. |
+|  |
+| [!UICONTROL Amministratore] > Proprietà [!UICONTROL transazione] | Una nuova colonna &quot;ID proprietà&quot; mostra l’ID univoco della proprietà per ogni proprietà transazione. È possibile eseguire una ricerca su qualsiasi stringa contenuta nei valori delle colonne. |
 
 ## ![Icona](/assets/magento.png) [!DNL Magento] {#magento}
 
