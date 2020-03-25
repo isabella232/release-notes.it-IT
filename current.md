@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 84d38312b8486b99fe12ada6d358682e3ae43847
+source-git-commit: 01a3dab2c109edf6664ed79814022d61d2b82675
 
 ---
 
@@ -275,7 +275,6 @@ Aggiornato il 20 marzo 2020 per la release del 21 marzo:
 | [!UICONTROL Portfolio] | Per linee guida su come gestire i portafogli per tenere conto dei cambiamenti di traffico derivanti dalla COVID-19, contatta il tuo account manager. |
 | Campagne Google Ads e Microsoft Ads | Nei portafogli ottimizzati con l&#39;opzione &quot;Auto-optimize Bid Adjustment Values&quot; (Ottimizza automaticamente i valori di regolazione bid), Advertising Cloud non ottimizza più automaticamente le impostazioni di regolazione delle offerte per le campagne utilizzando la strategia di offerta avanzata &quot;cost per click&quot; (eCPC). Il motore di ricerca ottimizza tutte le regolazioni delle offerte al momento dell&#39;asta. Advertising Cloud ottimizza ancora le offerte di base e — quando l&#39;opzione &quot;Regola automaticamente i limiti di budget delle campagne&quot; è abilitata — il bilancio della campagna. |
 | [!UICONTROL Avvisi Beta] | (Funzione Beta) È ora possibile creare modelli di avvisi per identificare quando un portfolio soddisfa condizioni specifiche — ad esempio, metriche delle prestazioni durante un periodo specificato, quindi generare un avviso. Puoi creare avvisi a livello di portfolio da **[!UICONTROL Insights &amp; Reports]** > **[!UICONTROL Alert (Beta)]** ma non da **[!UICONTROL Optimization]** > **[!UICONTROL Portfolio)]**. **Nota:** Gli avvisi creati dalla versione precedente di Alert Beta, che è stata sostituita in gennaio, non sono più disponibili. |
-|  |
 | [!UICONTROL Amministratore] > Proprietà [!UICONTROL transazione] | Una nuova colonna &quot;ID proprietà&quot; mostra l’ID univoco della proprietà per ogni proprietà transazione. È possibile eseguire una ricerca su qualsiasi stringa contenuta nei valori delle colonne. |
 
 ## ![Icona](/assets/magento.png) [!DNL Magento] {#magento}
