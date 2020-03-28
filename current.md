@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 01a3dab2c109edf6664ed79814022d61d2b82675
+source-git-commit: abf763ddf0ed4ae9d8df5b7dcef4e664db4cf682
 
 ---
 
@@ -29,7 +29,7 @@ Ultimo aggiornamento: 11 marzo 2020
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia e servizi principali di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - Data di rilascio: **12 marzo 2020**
+* [!DNL Analytics](#analytics) - Data di rilascio: **12 marzo 2020** (Aggiornato il 27 marzo 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -94,7 +94,7 @@ Note sulla versione di [!UICONTROL Experience Platform], [!UICONTROL Experience 
 * [Experience Platform Launch](#launch)
 * [Journey Orchestration](#journey)
 * [Mobile Services e Mobile SDK](#mobile)
-* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/security.html)  (Tutti i prodotti Adobe)
+* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/security.html)   (Tutti i prodotti Adobe)
 
 ### Experience Platform Launch {#launch}
 
@@ -128,7 +128,7 @@ Data di rilascio: **12 marzo 2020**
 Nuove funzioni e problemi risolti in Adobe Analytics:
 
 * [Nuove funzionalità, miglioramenti e problemi risolti in Adobe Analytics](#aa-features)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (Aggiornato il 27 marzo 2020)
 * [AppMeasurement](#appm)
 
 Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
@@ -151,15 +151,15 @@ Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](http
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
-| Avviso | Data di aggiunta  o aggiornamento | Descrizione |
+| Avviso | Data di aggiunta   o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
 | Impostazione di fine del ciclo vita del **[!UICONTROL Livello di conversione]** | 3 marzo 2020 | L’impostazione non funzionante del [Livello di conversione](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) in **[!UICONTROL Admin Tools (Strumenti di amministrazione)] > [!UICONTROL Report Suite (Suite di rapporti)] > [!UICONTROL General Account Settings (Impostazioni generali dell’account)]** sarà rimossa dall’interfaccia utente il 12 marzo 2020. |
-| Fine del ciclo vita dell’**[!UICONTROL Archivio del dashboard]** | 3 marzo 2020 | L’impostazione **[!UICONTROL View Archive (Visualizza archivio)]** alla voce **[!UICONTROL Manage Dashboards (Gestione dashboard)]** in [!UICONTROL Reports &amp; Analytics] non sarà più disponibile dal 12 marzo 2020. |
+| Fine del ciclo vita dell’**[!UICONTROL Archivio del dashboard]** | 27 marzo 2020 | The **[!UICONTROL View Archive]** setting under **[!UICONTROL Manage Dashboards]** in [!UICONTROL Reports &amp; Analytics] will no longer be available as of October, 2020. |
 | Fine del supporto per TLS 1.1 | 3 ottobre 2019 | Entro il 31 marzo 2020, Adobe Analytics rimuoverà il supporto per TLS 1.1. Questo cambiamento fa parte del nostro impegno continuo per mantenere gli standard di sicurezza più elevati e promuovere la sicurezza dei dati dei clienti. |
 | Nuovo dominio Adobe Analytics | 18 dicembre 2019 | A partire dal 16 gennaio 2020, Adobe Analytics ha iniziato a spostarsi su un nuovo dominio - `https://experience.adobe.com/analytics.`<br>**Nota:** questa modifica si applica a tutti gli utenti che accedono ad Analytics con il proprio Adobe ID o Enterprise ID.<ul><li>La modifica del dominio potrebbe causare problemi con i cookie durante il caricamento di Analytics in Safari. Deselezionando l’opzione _Impedisci il rilevamento intersito_ nelle preferenze relative alla privacy di [!DNL Safari], i cookie verranno abilitati per tutti i domini (e tutte le esperienze intersito), permettendo ad Analytics di funzionare su questo nuovo dominio di Adobe Experience Cloud. Potrai utilizzare altri browser senza alcun problema, poiché questa modifica interessa solo gli utenti [!DNL Safari].</li><li>La modifica del dominio potrebbe impedire il funzionamento di [!UICONTROL Activity Map] per alcuni clienti [in casi specifici](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html).</li></ul> |
 | Fine del ciclo di vita - Versioni precedenti delle API di Analytics | 9 gennaio 2020 | A partire da novembre 2020, i seguenti servizi appartenenti alle versioni precedenti delle API di Analytics termineranno il loro ciclo di vita e saranno chiusi. Le integrazioni esistenti create utilizzando questi servizi cesseranno di funzionare. <ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione una [FAQ per le versioni precedenti dell’API EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle tue domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
 | San Jose FTP Broker in scadenza per Londra e Singapore | Luglio 2020 | Per i clienti di Londra e Singapore, non supporteremo più il brokering dei dati tra Londra o Singapore e il data center di San Jose [ftp.omniture.com](ftp://ftp.omniture.com/).<br/><ul><li>Per Londra, utilizzare [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>Per Singapore, utilizzare [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
-| EOL di Analisi ad hoc | 6 agosto 2018 | Adobe ha annunciato l&#39;intenzione di terminare il ciclo di vita dell&#39;Analisi ad hoc. Non appena disponibile, verrà comunicata la data di fine del ciclo di vita. Per ulteriori informazioni, vedi [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Fine del ciclo di vita di Ad Hoc Analysis | 6 agosto 2018 | Adobe ha annunciato l’intenzione di terminare Ad Hoc Analysis. Non appena disponibile, verrà comunicata la data di fine del ciclo di vita. Per ulteriori informazioni, visita [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 
 ### [!DNL AppMeasurement] {#appm}
 
@@ -262,7 +262,7 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 ### Risorse aggiuntive
 
-* Adobe Campaign Standard: [Documentazione](https://helpx.adobe.com/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)  - [Pianificazione rilascio](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Standard: [Documentazione](https://helpx.adobe.com/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)   - [Pianificazione rilascio](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentazione](https://helpx.adobe.com/support/campaign/classic.html) - [Note sulla versione](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
@@ -345,7 +345,7 @@ Articoli e video di auto-aiuto nuovi e recenti. <!--`https://jira.corp.adobe.com
 | [!DNL Adobe Campaign] - Audience Destinations | Articolo: [panoramica di Audience Destinations (BETA)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) | Scopri come sfruttare dati di profilo centralizzati e consolidati da Adobe Experience Platform per campagne di marketing in Adobe Campaign Standard. |
 | [!DNL Adobe Target] - Mobile SDK | Tutorial: [personalizzare le esperienze dell’app con Adobe Target](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | Implementa Adobe Target nella tua app Android. Convalida la configurazione dell’SDK Mobile Services e implementa richieste [!DNL Target] come preacquisizione di contenuto, richieste di blocco e altro ancora. |
 | Adobe Analytics | Video: [super sessione di Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | Guarda clip selezionate della “super sessione” high tech al Summit 2019. |
-| Adobe Analytics | Video: [introduzione alle metriche calcolate nell’analisi del customer journey](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | Apprendi le nozioni di base sulla creazione di [!UICONTROL metriche calcolate] nell’[!UICONTROL analisi del customer journey]. |
+| Adobe Analytics | Video: [introduzione alle metriche calcolate in Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | Apprendi le nozioni di base sulla creazione di [!UICONTROL metriche calcolate] nell’[!UICONTROL analisi del customer journey]. |
 | Adobe Analytics | Video: [super sessione di Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Guarda clip selezionate della sessione su viaggi e ospitalità al Summit 2019. |
 | Adobe Analytics | Video: [super sessione di Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | Guarda clip selezionate della sessione sulla vendita al dettaglio al Summit 2019. |
 | Adobe Analytics | Video - [Caso di utilizzo di un cliente: Accent Group investe nella customer experience per stimolare le vendite](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | Scopri in che modo Accent Group utilizza Adobe Experience Cloud per creare esperienze digitali impeccabili. |
@@ -354,8 +354,8 @@ Articoli e video di auto-aiuto nuovi e recenti. <!--`https://jira.corp.adobe.com
 | Adobe Analytics | Video: [Adobe Sensei e Adobe Analytics (versione estesa)](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-sensei-and-adobe-analytics.html) | Visualizza le funzioni chiave di Adobe Analytics fornite da Adobe [!DNL Sensei,], tra cui [!UICONTROL rilevamento anomalie,] [!UICONTROL analisi dei contributi,] [!UICONTROL avvisi intelligenti,] [!UICONTROL clustering,] [!UICONTROL Segment IQ] e [!UICONTROL modellazione delle tendenze.] |
 | Adobe Analytics | Video: [come Adobe Analysis Workspace può cambiare la tua azienda](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business.html) | Scopri come eseguire analisi ad hoc, analisi flessibili, analisi di coorte e analisi di fallout utilizzando [!UICONTROL Analysis Workspace]. Puoi anche condividere l’ambiente di lavoro di analisi con tutti gli utenti dell’azienda e la sua funzione di trascinamento consente a tutti di analizzare i dati in modo semplice e ottenere informazioni rapidamente. |
 | Adobe Analytics | Video - [Caso di utilizzo di un cliente: Home Depot innova con la gestione della customer experience](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/the-home-depot-innovates-with-customer-experience-management.html) | Scopri come [!DNL Home Depot] utilizza le soluzioni Adobe per creare brand loyalty e soddisfazione dei clienti con un’esperienza di acquisto personalizzata. |
-| Adobe Analytics | Presentazione: [comprendere l’analisi del customer journey](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/understanding-customer-journey-analytics.html) | Scopri in che modo l’[!UICONTROL analisi del customer journey] di Adobe, un servizio di applicazione basato su [!DNL Adobe Experience Platform], porta [!UICONTROL Analysis Workspace] nella Experience Platform. Questa funzione consente l’analisi multicanale di qualsiasi set di dati di [!DNL Adobe Experience Platform]. |
-| Adobe Analytics | Video: [attribuzione cross-channel nell’analisi del customer journey](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | Scopri come utilizzare le visualizzazioni per mostrare l’attribuzione (riconoscere il merito) in tutti i canali nell’[!UICONTROL analisi del customer journey]. |
+| Adobe Analytics | Presentazione: [comprendere Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/understanding-customer-journey-analytics.html) | Scopri in che modo [!UICONTROL Customer Journey Analytics] di Adobe, un servizio di applicazione basato su [!DNL Adobe Experience Platform], porta [!UICONTROL Analysis Workspace] nella Experience Platform. Questa funzione consente l’analisi multicanale di qualsiasi set di dati di [!DNL Adobe Experience Platform]. |
+| Adobe Analytics | Video: [attribuzione cross-channel nell’analisi del customer journey](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | Scopri come utilizzare le visualizzazioni per mostrare l’attribuzione (riconoscere il merito) in tutti i canali in [!UICONTROL Customer Journey Analytics]. |
 | Adobe Analytics | Articolo: [suggerimenti dei clienti per continuare il tuo percorso di apprendimento di Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | Scopri tre clienti Adobe che possono offrirti suggerimenti e consigli su come ottenere il massimo da Adobe Analytics. |
-| Adobe Analytics | Video: [creare visualizzazioni cross-channel nell’analisi del customer journey](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | Scopri come l’[!UICONTROL analisi del customer journey] ti consente di creare visualizzazioni che includono dati da più set di dati in più canali, inclusa l’unione dei dati per visitatore. |
-| Adobe Analytics | Video: [spostare le metriche calcolate da Adobe Analytics all’analisi del customer journey](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Trova suggerimenti per ricreare le [!UICONTROLCmetriche calcolate] da Analytics nell’[!UICONTROL analisi del customer journey]. |
+| Adobe Analytics | Video: [creare visualizzazioni cross-channel nell’analisi del customer journey](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | Scopri come [!UICONTROL Customer Journey Analytics] ti consente di creare visualizzazioni che includono dati da più set di dati in più canali, inclusa l’unione dei dati per visitatore. |
+| Adobe Analytics | Video: [spostare le metriche calcolate da Adobe Analytics a Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Trova suggerimenti per ricreare le [!UICONTROLCmetriche calcolate] da Analytics in [!UICONTROL Customer Journey Analytics]. |
