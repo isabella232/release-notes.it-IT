@@ -4,7 +4,7 @@ description: Modello per le note sulla versione di Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: abf763ddf0ed4ae9d8df5b7dcef4e664db4cf682
 
 ---
@@ -29,18 +29,18 @@ Ultimo aggiornamento: 11 marzo 2020
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia e servizi principali di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - Data di rilascio: **12 marzo 2020** (Aggiornato il 27 marzo 2020)
+* [!DNL Analytics](#analytics) - Data di rilascio: **12 marzo 2020** (aggiornato il 27 marzo 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (collegamenti alla risoluzione problemi)
+* [!DNL Target](https://docs.adobe.com/content/help/it-IT/target/using/release-notes/target-release-notes.html) (collegamenti alla risoluzione problemi)
 * [!DNL Advertising Cloud](#adcloud)
 * [!DNL Magento](#magento)
 * [!DNL Marketo](#marketo)
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (collegamenti alla risoluzione problemi)
+* [!DNL Primetime](https://helpx.adobe.com/it/primetime/user-guide.html) (collegamenti alla risoluzione problemi)
 * [Nuovi documentazione e tutorial](#selfhelp)
 
-Cerchi la pagina iniziale della guida? Consulta la [documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html).
+Cerchi la pagina iniziale della guida? Consulta la [documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.html).
 
 (Le date di rilascio del prodotto potrebbero variare).
 
@@ -76,15 +76,15 @@ Gli aggiornamenti includono:
 
 * Nuovi URL della soluzione: `experience.adobe.com/<application name>`:
    * Tutti i prodotti adotteranno questo pattern per i propri URL. Cerca i nuovi URL che diventeranno validi nel corso del mese.
-   * Supporto browser: i browser supportati includono [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] e [!DNL Opera] (versioni più recenti). **Nota:** sebbene l’interfaccia di Experience Cloud supporti questi browser, le singole soluzioni potrebbero non supportare tutti i browser. Ad esempio, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) non supporta [!DNL Opera] e [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) non supporta [!DNL Safari].
+   * Supporto browser: i browser supportati includono [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] e [!DNL Opera] (versioni più recenti). **Nota:** sebbene l’interfaccia di Experience Cloud supporti questi browser, le singole soluzioni potrebbero non supportare tutti i browser. Ad esempio, [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) non supporta [!DNL Opera] e [Target](https://docs.adobe.com/help/it-IT/target/using/implement-target/before-implement/supported-browsers.html) non supporta [!DNL Safari].
    * (Solo per [!DNL Safari]) La modifica del dominio potrebbe causare problemi di cookie in [!DNL Safari]. Deselezionando l’opzione _Impedisci il tracciamento intersito_ nelle preferenze relative alla privacy di [!DNL Safari], i cookie verranno abilitati per tutti i domini (e tutte le esperienze intersito), permettendo ad Experience Cloud di funzionare su questo nuovo dominio.
 * Un passaggio più semplice tra le organizzazioni o verso un’altra applicazione.
-* Guida di prodotto migliorata: [!UICONTROL Experience League] è stato integrato nel prodotto, in modo tale che la ricerca nella guida includa anche i risultati dei forum e dei contenuti video della community. Questa modifica semplifica l’accesso a più contenuti e ti consente di ottenere il massimo da Experience Cloud. Fai clic inoltre su **[!UICONTROL Guida]** > **[!UICONTROL Feedback]** per segnalare i problemi o condividere le tue idee con Adobe.
+* Guida di prodotto migliorata: [!UICONTROL Experience League] è stato integrato nel prodotto, in modo tale che la ricerca nella guida includa anche i risultati dei forum e dei contenuti video della community. Questa modifica semplifica l’accesso a più contenuti e ti consente di ottenere il massimo da Experience Cloud. Fai clic inoltre su **[!UICONTROL Guida]** > **[!UICONTROL Feedback]** per segnalare i problemi o condividere le tue idee con Adobe.
 * Notifiche migliorate: Il menu a discesa [!UICONTROL Notifiche] ora include due schede, una per le notifiche sui prodotti e una per gli annunci globali dei prodotti.
 
 **Nota:** La pagina [!UICONTROL Feed] è stata rimossa a gennaio 2020. Nel prodotto verrà visualizzato un avviso di funzione rimossa.
 
-Per la documentazione sul prodotto, consulta la guida di [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
+Per la documentazione sul prodotto, consulta la guida di [Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/experience-cloud.html).
 
 ## ![Icona](/assets/platform.png) Experience Platform {#platform}
 
@@ -94,21 +94,21 @@ Note sulla versione di [!UICONTROL Experience Platform], [!UICONTROL Experience 
 * [Experience Platform Launch](#launch)
 * [Journey Orchestration](#journey)
 * [Mobile Services e Mobile SDK](#mobile)
-* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/security.html)   (Tutti i prodotti Adobe)
+* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/it/security.html)    (Tutti i prodotti Adobe)
 
 ### Experience Platform Launch {#launch}
 
-Per le note sulla versione e la documentazione del prodotto, consulta [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html).
+Per le note sulla versione e la documentazione del prodotto, consulta [Experience Platform Launch](https://docs.adobe.com/content/help/it-IT/launch/using/intro/release-notes/current.html).
 
 ### Journey Orchestration {#journey}
 
 Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vasta scala attraverso i vari canali dell’esperienza, anticipando in modo intelligente e in tempo reale le esigenze di ciascuno di essi, ovunque li porti il loro percorso.
 
-È stata pubblicata la versione Q1. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
+È stata pubblicata la versione Q1. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
 
 #### Risorse aggiuntive per Journey Orchestration
 
-[Documentazione](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[Documentazione](https://docs.adobe.com/content/help/it-IT/journeys/using/journey-orchestration-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/journeys/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### Mobile Services e Mobile SDK {#mobile}
 
@@ -128,15 +128,15 @@ Data di rilascio: **12 marzo 2020**
 Nuove funzioni e problemi risolti in Adobe Analytics:
 
 * [Nuove funzionalità, miglioramenti e problemi risolti in Adobe Analytics](#aa-features)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (Aggiornato il 27 marzo 2020)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 27 marzo 2020)
 * [AppMeasurement](#appm)
 
-Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
+Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](https://docs.adobe.com/content/help/it-IT/analytics/landing/home.html).
 
 ### Nuove funzionalità, miglioramenti e problemi risolti in Adobe Analytics {#aa-features}
 
-* **Più suite di rapporti in [!UICONTROL Analysis Workspace ]**: ora puoi inserire dati provenienti da più suite di rapporti in un unico progetto [!UICONTROL Analysis Workspace] per visualizzarli in pannelli vicini. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
-* **Experience Cloud Audience Optimization**: questa funzione consente di pubblicare segmenti in Experience Cloud entro 8 ore (anziché 48 ore come in precedenza). [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* **Più suite di rapporti in [!UICONTROL Analysis Workspace ]**: ora puoi inserire dati provenienti da più suite di rapporti in un unico progetto [!UICONTROL Analysis Workspace] per visualizzarli in pannelli vicini. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
+* **Experience Cloud Audience Optimization**: questa funzione consente di pubblicare segmenti in Experience Cloud entro 8 ore (anziché 48 ore come in precedenza). [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * **Analysis Workspace - Modello di tutorial di formazione**: questo nuovo modello standard illustra la terminologia e i passaggi comuni per la creazione della tua prima analisi in Workspace. È disponibile come modello standard nel modale [!UICONTROL Nuovo progetto] e sostituisce il progetto di esempio attuale per i nuovi utenti che non hanno altri progetti nel loro elenco.
 
 #### Correzioni
@@ -151,19 +151,19 @@ Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](http
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
-| Avviso | Data di aggiunta   o aggiornamento | Descrizione |
+| Avviso | Data di aggiunta    o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
-| Impostazione di fine del ciclo vita del **[!UICONTROL Livello di conversione]** | 3 marzo 2020 | L’impostazione non funzionante del [Livello di conversione](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) in **[!UICONTROL Admin Tools (Strumenti di amministrazione)] > [!UICONTROL Report Suite (Suite di rapporti)] > [!UICONTROL General Account Settings (Impostazioni generali dell’account)]** sarà rimossa dall’interfaccia utente il 12 marzo 2020. |
-| Fine del ciclo vita dell’**[!UICONTROL Archivio del dashboard]** | 27 marzo 2020 | The **[!UICONTROL View Archive]** setting under **[!UICONTROL Manage Dashboards]** in [!UICONTROL Reports &amp; Analytics] will no longer be available as of October, 2020. |
+| Impostazione di fine del ciclo vita del **[!UICONTROL Livello di conversione]** | 3 marzo 2020 | L’impostazione non funzionante del [Livello di conversione](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/general-acct-settings-admin.html) in **[!UICONTROL Admin Tools (Strumenti di amministrazione)] > [!UICONTROL Report Suite (Suite di rapporti)] > [!UICONTROL General Account Settings (Impostazioni generali dell’account)]** sarà rimossa dall’interfaccia utente il 12 marzo 2020. |
+| Fine del ciclo vita dell’**[!UICONTROL Archivio del dashboard]** | 27 marzo 2020 | L’impostazione **[!UICONTROL View Archive]** (Visualizza archivio) nella sezione **[!UICONTROL Manage Dashboards]** (Gestione dashboard) in [!UICONTROL Reports &amp; Analytics] non sarà più disponibile da ottobre 2020. |
 | Fine del supporto per TLS 1.1 | 3 ottobre 2019 | Entro il 31 marzo 2020, Adobe Analytics rimuoverà il supporto per TLS 1.1. Questo cambiamento fa parte del nostro impegno continuo per mantenere gli standard di sicurezza più elevati e promuovere la sicurezza dei dati dei clienti. |
-| Nuovo dominio Adobe Analytics | 18 dicembre 2019 | A partire dal 16 gennaio 2020, Adobe Analytics ha iniziato a spostarsi su un nuovo dominio - `https://experience.adobe.com/analytics.`<br>**Nota:** questa modifica si applica a tutti gli utenti che accedono ad Analytics con il proprio Adobe ID o Enterprise ID.<ul><li>La modifica del dominio potrebbe causare problemi con i cookie durante il caricamento di Analytics in Safari. Deselezionando l’opzione _Impedisci il rilevamento intersito_ nelle preferenze relative alla privacy di [!DNL Safari], i cookie verranno abilitati per tutti i domini (e tutte le esperienze intersito), permettendo ad Analytics di funzionare su questo nuovo dominio di Adobe Experience Cloud. Potrai utilizzare altri browser senza alcun problema, poiché questa modifica interessa solo gli utenti [!DNL Safari].</li><li>La modifica del dominio potrebbe impedire il funzionamento di [!UICONTROL Activity Map] per alcuni clienti [in casi specifici](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html).</li></ul> |
+| Nuovo dominio Adobe Analytics | 18 dicembre 2019 | A partire dal 16 gennaio 2020, Adobe Analytics ha iniziato a spostarsi su un nuovo dominio - `https://experience.adobe.com/analytics.`<br>**Nota:** questa modifica si applica a tutti gli utenti che accedono ad Analytics con il proprio Adobe ID o Enterprise ID.<ul><li>La modifica del dominio potrebbe causare problemi con i cookie durante il caricamento di Analytics in Safari. Deselezionando l’opzione _Impedisci il rilevamento intersito_ nelle preferenze relative alla privacy di [!DNL Safari], i cookie verranno abilitati per tutti i domini (e tutte le esperienze intersito), permettendo ad Analytics di funzionare su questo nuovo dominio di Adobe Experience Cloud. Potrai utilizzare altri browser senza alcun problema, poiché questa modifica interessa solo gli utenti [!DNL Safari].</li><li>La modifica del dominio potrebbe impedire il funzionamento di [!UICONTROL Activity Map] per alcuni clienti [in casi specifici](https://docs.adobe.com/content/help/it-IT/analytics/analyze/activity-map/activity-map.html).</li></ul> |
 | Fine del ciclo di vita - Versioni precedenti delle API di Analytics | 9 gennaio 2020 | A partire da novembre 2020, i seguenti servizi appartenenti alle versioni precedenti delle API di Analytics termineranno il loro ciclo di vita e saranno chiusi. Le integrazioni esistenti create utilizzando questi servizi cesseranno di funzionare. <ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione una [FAQ per le versioni precedenti dell’API EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle tue domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
 | San Jose FTP Broker in scadenza per Londra e Singapore | Luglio 2020 | Per i clienti di Londra e Singapore, non supporteremo più il brokering dei dati tra Londra o Singapore e il data center di San Jose [ftp.omniture.com](ftp://ftp.omniture.com/).<br/><ul><li>Per Londra, utilizzare [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>Per Singapore, utilizzare [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
 | Fine del ciclo di vita di Ad Hoc Analysis | 6 agosto 2018 | Adobe ha annunciato l’intenzione di terminare Ad Hoc Analysis. Non appena disponibile, verrà comunicata la data di fine del ciclo di vita. Per ulteriori informazioni, visita [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 
 ### [!DNL AppMeasurement] {#appm}
 
-Consulta [AppMeasurement per le note sulla versione di JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html). La versione 2.20.0 è stata rilasciata il 5 marzo 2020.
+Consulta [AppMeasurement per le note sulla versione di JavaScript](https://docs.adobe.com/content/help/it-IT/analytics/implementation/appmeasurement-updates.html). La versione 2.20.0 è stata rilasciata il 5 marzo 2020.
 
 ## ![Icona](/assets/audience-manager.png) Audience Manager {#aam}
 
@@ -171,12 +171,12 @@ Nuove funzioni e aggiornamenti di Audience Manager:
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| [Foglio di lavoro Strumenti per la gestione di massa](https://docs.adobe.com/help/en/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | È disponibile una nuova versione del foglio di lavoro che risolve un problema che alcuni clienti riscontravano durante la creazione di modelli algoritmici con il sistema operativo Windows a 64 bit. Scarica la versione più recente [qui](https://docs.adobe.com/help/en/audience-manager/user-guide/reference/bulk-management-tools/assets/BAAAM_V2_20200311.xlsm). |
+| [Foglio di lavoro Strumenti per la gestione di massa](https://docs.adobe.com/help/it-IT/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | È disponibile una nuova versione del foglio di lavoro che risolve un problema che alcuni clienti riscontravano durante la creazione di modelli algoritmici con il sistema operativo Windows a 64 bit. Scarica la versione più recente [qui](https://docs.adobe.com/help/it-IT/audience-manager/user-guide/reference/bulk-management-tools/assets/BAAAM_V2_20200311.xlsm). |
 
 ### Correzioni e miglioramenti {#aam-fixes-and-improvements}
 
-* Corretto un bug per cui i clienti non potevano aggiornare il nome del segmento a causa di un’autorizzazione RBAC [!UICONTROL VIEW_ALL_DESTINATIONS] mancante. L’autorizzazione [!UICONTROL VIEW_ALL_DESTINATIONS] non dovrebbe essere necessaria per aggiornare un segmento. Per ulteriori informazioni sulle autorizzazioni RBAC, consulta [Amministrazione (controlli RBAC)](https://docs.adobe.com/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions). (AAM-52760)
-* Corretto un bug in [Data Explorer](https://docs.adobe.com/help/en/audience-manager/user-guide/features/data-explorer/data-explorer-overview.html) che impediva ad alcuni clienti di visualizzare il contenuto della sezione informazioni di base e gli operatori nel generatore di espressioni durante la creazione di caratteristiche basate su segnali di [!UICONTROL Data Explorer]. (AAM-53130)
+* Corretto un bug per cui i clienti non potevano aggiornare il nome del segmento a causa di un’autorizzazione RBAC [!UICONTROL VIEW_ALL_DESTINATIONS] mancante. L’autorizzazione [!UICONTROL VIEW_ALL_DESTINATIONS] non dovrebbe essere necessaria per aggiornare un segmento. Per ulteriori informazioni sulle autorizzazioni RBAC, consulta [Amministrazione (controlli RBAC)](https://docs.adobe.com/help/it-IT/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions). (AAM-52760)
+* Corretto un bug in [Data Explorer](https://docs.adobe.com/help/it-IT/audience-manager/user-guide/features/data-explorer/data-explorer-overview.html) che impediva ad alcuni clienti di visualizzare il contenuto della sezione informazioni di base e gli operatori nel generatore di espressioni durante la creazione di caratteristiche basate su segnali di [!UICONTROL Data Explorer]. (AAM-53130)
 * Corretto un bug che impediva ad alcuni clienti di caricare l’interfaccia di [!UICONTROL Audience Marketplace]. (AAM-52070)
 * Corretto un bug nell’[!UICONTROL API dei segmenti] per cui, a causa di alcuni segmenti senza descrizione, l’interfaccia si bloccava quando gli utenti tentavano di accedere a tali segmenti ed essi erano costretti a chiudere la pagina. (AAM-53071)
 * Miglioramenti di accessibilità in tutta l’interfaccia. (AAM-48952, AAM-48969, AAM-48979, AAM-48993, AAM-49048, AAM-49057, AAM-49058, AAM-49392)
@@ -189,26 +189,26 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
 * **AEM 6.5.4.0**
 AEM 6.5, Service Pack 4.0 (6.5.4.0, rilasciato 5 marzo 2020), è un aggiornamento importante che include nuove funzionalità, miglioramenti fondamentali per i clienti, prestazioni, stabilità e sicurezza migliorate introdotti successivamente alla data di disponibilità generale di AEM 6.5 di aprile 2019.
-   * [Novità in Adobe Experience Manager 6.5, Service Pack 4](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html)
-   * [Note sulla versione](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html)
-   * [Rilascio delle versioni finali di AEM Forms](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+   * [Novità in Adobe Experience Manager 6.5, Service Pack 4](https://docs.adobe.com/content/help/it-IT/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html)
+   * [Note sulla versione](https://helpx.adobe.com/it/experience-manager/6-5/release-notes/sp-release-notes.html)
+   * [Rilascio delle versioni finali di AEM Forms](https://helpx.adobe.com/it/aem-forms/kb/aem-forms-releases.html)
 
 * **AEM 6.4.8.0**
 
    AEM 6.4 Service Pack 8.0 (6.4.8.0, rilasciato 5 marzo 2020), è un aggiornamento importante che include correzioni di problemi fondamentali per i clienti, introdotte successivamente alla data di disponibilità generale di AEM 6.4 di aprile 2018.
-   * [Note sulla versione](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
-   * [Versioni CFP di AEM Forms](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+   * [Note sulla versione](https://helpx.adobe.com/it/experience-manager/6-4/release-notes/sp-release-notes.html)
+   * [Versioni CFP di AEM Forms](https://helpx.adobe.com/it/aem-forms/kb/aem-forms-releases.html)
 
 * **AEM 6.3.3.8**
 
    AEM 6.3 Service Pack 3–Cumulative Fix Pack 8 (6.3.3.8 rilasciato il 5 marzo 2019), è un aggiornamento importante che include correzioni fondamentali per i clienti, introdotte successivamente alla data di disponibilità generale di AEM 6.3, aprile 2017.
-   * [Note sulla versione](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
-   * [Versioni CFP di AEM Forms](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+   * [Note sulla versione](https://helpx.adobe.com/it/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
+   * [Versioni CFP di AEM Forms](https://helpx.adobe.com/it/aem-forms/kb/aem-forms-releases.html)
 
 * **AEM Assets Brand Portal**
 
    Brand Portal di AEM Assets 6.4 Service Pack 6 (6.4.6 rilasciato il 5 marzo 2020) modifica il modo in cui AEM Assets viene configurato con [!UICONTROL Brand Portal.] Inoltre, la release include altri miglioramenti e correzioni di bug.
-   * [Note sulla versione](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
+   * [Note sulla versione](https://docs.adobe.com/content/help/it-IT/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 
 ### Aiuto e documentazione
 
@@ -218,7 +218,7 @@ AEM 6.5, Service Pack 4.0 (6.5.4.0, rilasciato 5 marzo 2020), è un aggiornament
 
 * **AEM come Cloud Service – Dispatcher**
 
-   Le sezioni [Dispatcher e CDN](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/dispatcher/overview.html#dispatcher-cdn) e [Annullamento della validità della cache del dispatcher esplicito](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/dispatcher/overview.html#explicit-invalidation) sono state aggiornate per chiarire quali siano le opzioni disponibili e come funzionino.
+   Le sezioni [Dispatcher e CDN](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/implementing/dispatcher/overview.html#dispatcher-cdn) e [Annullamento della validità della cache del dispatcher esplicito](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/implementing/dispatcher/overview.html#explicit-invalidation) sono state aggiornate per chiarire quali siano le opzioni disponibili e come funzionino.
 
 * **Configurare AEM Assets con Brand Portal**
 
@@ -230,7 +230,7 @@ Consulta [Configure AEM Assets with Brand Portal (Configurare AEM Assets con Bra
    Una nuova opzione è disponibile in AEM come Cloud Service quando utilizzi il ritaglio intelligente nel componente elementi multimediali dinamici:
 
    **Abilita corrispondenza proporzioni**: seleziona questa opzione per consentire agli elementi multimediali dinamici di scegliere un rendering di ritaglio intelligente che corrisponda al meglio alle proporzioni dell’immagine originale.
-Consulta [When working with Smart Crop (Utilizzo di Smart Crop)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/adding-dynamic-media-assets-to-pages.html#when-working-with-smart-crop).
+Consulta [When working with Smart Crop (Utilizzo di Smart Crop)](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/assets/dynamicmedia/adding-dynamic-media-assets-to-pages.html#when-working-with-smart-crop).
 
 ### Community
 
@@ -241,16 +241,16 @@ Consulta [When working with Smart Crop (Utilizzo di Smart Crop)](https://docs.ad
 
 ### Risorse aggiuntive
 
-* [AEM come Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
-* [Informazioni e assistenza per AEM 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)
-* [Informazioni e assistenza per AEM 6.4](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [Informazioni e assistenza per AEM 6.3](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [Informazioni e assistenza per AEM 6.2](https://helpx.adobe.com/support/experience-manager/6-2.html)
-* [Guida utente di Cloud Manager](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [Documentazione delle versioni precedenti di AEM](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
-* [Pagina iniziale della guida di Dynamic Media Classic](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+* [AEM come Cloud Service](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/landing/home.html)
+* [Informazioni e assistenza per AEM 6.5](https://helpx.adobe.com/it/support/experience-manager/6-5.html)
+* [Informazioni e assistenza per AEM 6.4](https://helpx.adobe.com/it/support/experience-manager/6-4.html)
+* [Informazioni e assistenza per AEM 6.3](https://helpx.adobe.com/it/support/experience-manager/6-3.html)
+* [Informazioni e assistenza per AEM 6.2](https://helpx.adobe.com/it/support/experience-manager/6-2.html)
+* [Guida utente di Cloud Manager](https://helpx.adobe.com/it/experience-manager/cloud-manager/user-guide.html)
+* [Documentazione delle versioni precedenti di AEM](https://helpx.adobe.com/it/experience-manager/aem-previous-versions.html)
+* [Pagina iniziale della guida di Dynamic Media Classic](https://docs.adobe.com/content/help/it-IT/dynamic-media-classic/using/home.html)
 * [Note sulla versione di Dynamic Media](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
-* [Note sulla versione di Livefyre](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
+* [Note sulla versione di Livefyre](https://docs.adobe.com/content/help/it-IT/livefyre/using/release-notes/c-rn.html)
 
 ## ![Icona](/assets/campaign.png) [!DNL Campaign] {#ac}
 
@@ -258,24 +258,24 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 ### Campaign Classic
 
-* [Aggiornamento 19.1.4 di Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
+* [Aggiornamento 19.1.4 di Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
 ### Risorse aggiuntive
 
-* Adobe Campaign Standard: [Documentazione](https://helpx.adobe.com/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)   - [Pianificazione rilascio](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic: [Documentazione](https://helpx.adobe.com/support/campaign/classic.html) - [Note sulla versione](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-* Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
+* Adobe Campaign Standard: [Documentazione](https://helpx.adobe.com/it/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)    - [Pianificazione rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Classic: [Documentazione](https://helpx.adobe.com/it/support/campaign/classic.html) - [Note sulla versione](https://docs.campaign.adobe.com/doc/AC/it-IT/RN.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html)
 
 ## ![Icona](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-Aggiornato il 20 marzo 2020 per la release del 21 marzo:
+Aggiornato il 20 marzo 2020 per la versione del 21 marzo:
 
 | Visualizzazione | Funzione |
 |------|---------|
-| [!UICONTROL Portfolio] | Per linee guida su come gestire i portafogli per tenere conto dei cambiamenti di traffico derivanti dalla COVID-19, contatta il tuo account manager. |
-| Campagne Google Ads e Microsoft Ads | Nei portafogli ottimizzati con l&#39;opzione &quot;Auto-optimize Bid Adjustment Values&quot; (Ottimizza automaticamente i valori di regolazione bid), Advertising Cloud non ottimizza più automaticamente le impostazioni di regolazione delle offerte per le campagne utilizzando la strategia di offerta avanzata &quot;cost per click&quot; (eCPC). Il motore di ricerca ottimizza tutte le regolazioni delle offerte al momento dell&#39;asta. Advertising Cloud ottimizza ancora le offerte di base e — quando l&#39;opzione &quot;Regola automaticamente i limiti di budget delle campagne&quot; è abilitata — il bilancio della campagna. |
-| [!UICONTROL Avvisi Beta] | (Funzione Beta) È ora possibile creare modelli di avvisi per identificare quando un portfolio soddisfa condizioni specifiche — ad esempio, metriche delle prestazioni durante un periodo specificato, quindi generare un avviso. Puoi creare avvisi a livello di portfolio da **[!UICONTROL Insights &amp; Reports]** > **[!UICONTROL Alert (Beta)]** ma non da **[!UICONTROL Optimization]** > **[!UICONTROL Portfolio)]**. **Nota:** Gli avvisi creati dalla versione precedente di Alert Beta, che è stata sostituita in gennaio, non sono più disponibili. |
-| [!UICONTROL Amministratore] > Proprietà [!UICONTROL transazione] | Una nuova colonna &quot;ID proprietà&quot; mostra l’ID univoco della proprietà per ogni proprietà transazione. È possibile eseguire una ricerca su qualsiasi stringa contenuta nei valori delle colonne. |
+| [!UICONTROL Portfolio] | Per le linee guida su come gestire i portfolio in modo che tengano conto dei cambiamenti di traffico derivanti dal COVID-19, contatta il tuo account manager. |
+| Campagne Google Ads e Microsoft Ads | Nei portfolio ottimizzati con l’opzione “Auto-optimize Bid Adjustment Values”, Advertising Cloud non ottimizza più automaticamente le impostazioni di regolazione delle offerte per le campagne utilizzando la strategia di offerta avanzata “cost per click” (eCPC). Il motore di ricerca ottimizza tutte le regolazioni delle offerte al momento dell’asta. Advertising Cloud ottimizza ancora le offerte di base e, quando l’opzione “Regola automaticamente i limiti di budget delle campagne” è abilitata, il bilancio della campagna. |
+| [!UICONTROL Alerts Beta] | (Funzione Beta) È ora possibile creare modelli di avvisi per identificare quando un portfolio soddisfa condizioni specifiche, ad esempio, metriche delle prestazioni durante un periodo specificato, quindi generare un avviso. Puoi creare avvisi a livello di portfolio da **[!UICONTROL Insights &amp; Reports]** > **[!UICONTROL Alerts (Beta)]** ma non da **[!UICONTROL Optimization]** > **[!UICONTROL Portfolio)]**. **Nota:** Gli avvisi creati dalla versione precedente di Alerts Beta, che è stata sostituita in gennaio, non sono più disponibili. |
+| [!UICONTROL Amministratore] > [!UICONTROL Proprietà transazione] | Una nuova colonna “ID proprietà” mostra l’ID univoco della proprietà per ogni proprietà transazione. È possibile eseguire una ricerca su qualsiasi stringa contenuta nei valori delle colonne. |
 
 ## ![Icona](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -345,7 +345,7 @@ Articoli e video di auto-aiuto nuovi e recenti. <!--`https://jira.corp.adobe.com
 | [!DNL Adobe Campaign] - Audience Destinations | Articolo: [panoramica di Audience Destinations (BETA)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) | Scopri come sfruttare dati di profilo centralizzati e consolidati da Adobe Experience Platform per campagne di marketing in Adobe Campaign Standard. |
 | [!DNL Adobe Target] - Mobile SDK | Tutorial: [personalizzare le esperienze dell’app con Adobe Target](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | Implementa Adobe Target nella tua app Android. Convalida la configurazione dell’SDK Mobile Services e implementa richieste [!DNL Target] come preacquisizione di contenuto, richieste di blocco e altro ancora. |
 | Adobe Analytics | Video: [super sessione di Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | Guarda clip selezionate della “super sessione” high tech al Summit 2019. |
-| Adobe Analytics | Video: [introduzione alle metriche calcolate in Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | Apprendi le nozioni di base sulla creazione di [!UICONTROL metriche calcolate] nell’[!UICONTROL analisi del customer journey]. |
+| Adobe Analytics | Video: [introduzione alle metriche calcolate in Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | Apprendi le nozioni di base sulla creazione di [!UICONTROL metriche calcolate] in [!UICONTROL Customer Journey Analytics]. |
 | Adobe Analytics | Video: [super sessione di Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Guarda clip selezionate della sessione su viaggi e ospitalità al Summit 2019. |
 | Adobe Analytics | Video: [super sessione di Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | Guarda clip selezionate della sessione sulla vendita al dettaglio al Summit 2019. |
 | Adobe Analytics | Video - [Caso di utilizzo di un cliente: Accent Group investe nella customer experience per stimolare le vendite](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | Scopri in che modo Accent Group utilizza Adobe Experience Cloud per creare esperienze digitali impeccabili. |
