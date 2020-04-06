@@ -4,8 +4,8 @@ description: Modello per le note sulla versione di Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: abf763ddf0ed4ae9d8df5b7dcef4e664db4cf682
+translation-type: tm+mt
+source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
 
 ---
 
@@ -60,7 +60,7 @@ Cerchi la pagina iniziale della guida? Consulta la [documentazione di Adobe Expe
 | Esperienza personalizzata in base alle preferenze dell’utente | <ul><li>Nelle notifiche via e-mail viene utilizzata la preferenza relativa al fuso orario in base alle impostazioni del browser.</li><li>Una conferma via e-mail con tutte le preferenze selezionate viene inviata quando si attiva/annulla l’abbonamento.</li></ul> |
 | Migliore distribuzione dei messaggi evento | <ul><li>La cronologia degli eventi viene ordinata in base agli aggiornamenti cronologici degli eventi.</li><li>La data e l’ora della risoluzione dell’evento sono state aggiunte ai problemi principali/secondari chiusi.</li></ul> |
 
-## ![Icona](/assets/experience-cloud.png) Interfaccia e servizi principali di Experience Cloud {#ecloud}
+## ![Icona](/assets/ec_appicon_24.png) Interfaccia e servizi principali di Experience Cloud {#ecloud}
 
 Nuove funzioni e problemi risolti nell’interfaccia Experience Cloud, tra cui gestione e servizi principali (attributi del cliente, pubblico, trigger, cookie e così via).
 
@@ -86,7 +86,7 @@ Gli aggiornamenti includono:
 
 Per la documentazione sul prodotto, consulta la guida di [Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/experience-cloud.html).
 
-## ![Icona](/assets/platform.png) Experience Platform {#platform}
+## ![Icona](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 Note sulla versione di [!UICONTROL Experience Platform], [!UICONTROL Experience Platform Launch], [!UICONTROL Identity Service], Journey Orchestration, Mobile Services e bollettini sulla sicurezza.
 
@@ -321,7 +321,7 @@ Nel corso del trimestre verranno presentate le seguenti funzionalità:
 
 Per leggere le note precedenti e complessive, consulta le [note sulla versione Marketo](https://docs.marketo.com/x/CgA6Ag).
 
-## ![Icona](/assets/experience-cloud.png) Nuovi documentazione e tutorial {#selfhelp}
+## ![Icona](/assets/ec_appicon_24.png) Nuovi documentazione e tutorial {#selfhelp}
 
 Articoli e video di auto-aiuto nuovi e recenti. <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
