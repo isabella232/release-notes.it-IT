@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
+source-git-commit: 5147d6252a3bf0bcf0426490c3d3bd96cb1739d5
 
 ---
 
@@ -29,7 +29,7 @@ Ultimo aggiornamento: 11 marzo 2020
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia e servizi principali di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - Data di rilascio: **12 marzo 2020** (aggiornato il 27 marzo 2020)
+* [!DNL Analytics](#analytics) - Data di rilascio: **12 marzo 2020** (aggiornato il 7 aprile 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -128,7 +128,7 @@ Data di rilascio: **12 marzo 2020**
 Nuove funzioni e problemi risolti in Adobe Analytics:
 
 * [Nuove funzionalità, miglioramenti e problemi risolti in Adobe Analytics](#aa-features)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 27 marzo 2020)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 7 aprile 2020)
 * [AppMeasurement](#appm)
 
 Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](https://docs.adobe.com/content/help/it-IT/analytics/landing/home.html).
@@ -153,6 +153,7 @@ Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](http
 
 | Avviso | Data di aggiunta    o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
+| Modifica del metodo di calcolo delle voci/uscite in Workspace | 7 aprile 2020 | In Analysis Workspace, a partire da marzo 2020, è stato modificato il modo in cui il valore &quot;None&quot; interagisce con le voci/uscite. Poiché ora in Analysis Workspace è possibile attivare e disattivare &quot;Nones&quot;, dopo l’entrata o l’uscita viene applicato &quot;None&quot;, mentre (per le eVar) veniva applicato in precedenza. Ad esempio, si supponga che il primo hit di una visita non contenga alcun valore per eVarx, ma il secondo hit lo sia. In Reporting e analisi verrà visualizzato come &quot;Non specificato&quot; per la voce, ma in Analysis Workspace verrà visualizzato come valore per il secondo hit. |
 | Impostazione di fine del ciclo vita del **[!UICONTROL Livello di conversione]** | 3 marzo 2020 | L’impostazione non funzionante del [Livello di conversione](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/general-acct-settings-admin.html) in **[!UICONTROL Admin Tools (Strumenti di amministrazione)] > [!UICONTROL Report Suite (Suite di rapporti)] > [!UICONTROL General Account Settings (Impostazioni generali dell’account)]** sarà rimossa dall’interfaccia utente il 12 marzo 2020. |
 | Fine del ciclo vita dell’**[!UICONTROL Archivio del dashboard]** | 27 marzo 2020 | L’impostazione **[!UICONTROL View Archive]** (Visualizza archivio) nella sezione **[!UICONTROL Manage Dashboards]** (Gestione dashboard) in [!UICONTROL Reports &amp; Analytics] non sarà più disponibile da ottobre 2020. |
 | Fine del supporto per TLS 1.1 | 3 ottobre 2019 | Entro il 31 marzo 2020, Adobe Analytics rimuoverà il supporto per TLS 1.1. Questo cambiamento fa parte del nostro impegno continuo per mantenere gli standard di sicurezza più elevati e promuovere la sicurezza dei dati dei clienti. |
