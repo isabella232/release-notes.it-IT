@@ -63,7 +63,7 @@ Nuove funzioni e problemi risolti nell’interfaccia Experience Cloud, tra cui g
 
 | Funzione | Data di rilascio | Descrizione |
 | ----|----|---- |
-| Admin Tool - visualizza dettagli utente | 26 febbraio 2020 | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli nel nuovo Admin Tool. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. Consulta la guida [Admin Tool di Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) per ulteriori dettagli. |
+| Admin Tool - visualizza dettagli utente | 26 febbraio 2020 | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli nel nuovo Admin Tool. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. Consulta la guida [Admin Tool di Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) per ulteriori dettagli. |
 
 ### Dominio di prodotto unificato
 
