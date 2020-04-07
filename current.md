@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5147d6252a3bf0bcf0426490c3d3bd96cb1739d5
+source-git-commit: 96d931c9b5001ddbaf9887b45a95adcc468a0376
 
 ---
 
@@ -273,10 +273,10 @@ Aggiornato il 20 marzo 2020 per la versione del 21 marzo:
 
 | Visualizzazione | Funzione |
 |------|---------|
-| [!UICONTROL Portfolio] | Per le linee guida su come gestire i portfolio in modo che tengano conto dei cambiamenti di traffico derivanti dal COVID-19, contatta il tuo account manager. |
-| Campagne Google Ads e Microsoft Ads | Nei portfolio ottimizzati con l’opzione “Auto-optimize Bid Adjustment Values”, Advertising Cloud non ottimizza più automaticamente le impostazioni di regolazione delle offerte per le campagne utilizzando la strategia di offerta avanzata “cost per click” (eCPC). Il motore di ricerca ottimizza tutte le regolazioni delle offerte al momento dell’asta. Advertising Cloud ottimizza ancora le offerte di base e, quando l’opzione “Regola automaticamente i limiti di budget delle campagne” è abilitata, il bilancio della campagna. |
+| [!UICONTROL Portfolio] | For guidelines on how to manage your portfolios to account for traffic changes resulting from [!DNL COVID-19], contact your account manager. |
+| Campagne Google Ads e Microsoft Ads | In optimized portfolios with the [!UICONTROL Auto-optimize Bid Adjustment Values] option, Advertising Cloud no longer automatically optimizes the bid adjustment settings for campaigns using the enhanced cost per click (eCPC) bid strategy. Il motore di ricerca ottimizza tutte le regolazioni delle offerte al momento dell’asta. Advertising Cloud still optimizes the base bids and — when the [!UICONTROL Auto adjust campaign budget limits] option is enabled — the campaign budget. |
 | [!UICONTROL Alerts Beta] | (Funzione Beta) È ora possibile creare modelli di avvisi per identificare quando un portfolio soddisfa condizioni specifiche, ad esempio, metriche delle prestazioni durante un periodo specificato, quindi generare un avviso. Puoi creare avvisi a livello di portfolio da **[!UICONTROL Insights &amp; Reports]** > **[!UICONTROL Alerts (Beta)]** ma non da **[!UICONTROL Optimization]** > **[!UICONTROL Portfolio)]**. **Nota:** Gli avvisi creati dalla versione precedente di Alerts Beta, che è stata sostituita in gennaio, non sono più disponibili. |
-| [!UICONTROL Amministratore] > [!UICONTROL Proprietà transazione] | Una nuova colonna “ID proprietà” mostra l’ID univoco della proprietà per ogni proprietà transazione. È possibile eseguire una ricerca su qualsiasi stringa contenuta nei valori delle colonne. |
+| [!UICONTROL Amministratore] > [!UICONTROL Proprietà transazione] | A new [!UICONTROL Property ID] column shows the unique property ID for each transaction property. È possibile eseguire una ricerca su qualsiasi stringa contenuta nei valori delle colonne. |
 
 ## ![Icona](/assets/magento.png) [!DNL Magento] {#magento}
 
