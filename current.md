@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3e124e820e573047298f878cf8cb2bf2a6b7f7dd
+source-git-commit: 87f42aedd2b8c987b092c614468d536fa48ae724
 
 ---
 
@@ -165,6 +165,10 @@ Per la documentazione del prodotto, consultate Home [dell&#39;Aiuto di](https://
 ## ![Icona](/assets/audience-manager.png) Audience Manager {#aam}
 
 Nuove funzioni e correzioni in Adobe Audience Manager:
+
+| Funzione | Descrizione |
+| -----------| ---------- |  
+| [Principali problemi di assistenza clienti](../support-issues/support-issues-overview.md) | Abbiamo aggiunto una nuova sezione al nostro portale della documentazione, che include le risposte alle domande più frequenti ricevute dal nostro team di assistenza clienti. |
 
 * È stato risolto un problema che impediva il funzionamento dei pulsanti [!UICONTROL Duplica test] e [!UICONTROL Duplica modello] di allocazione in [!UICONTROL Audience Lab] . (AAM-53388)
 * È stato risolto un problema che causava la visualizzazione di [!UICONTROL Tasso] di corrispondenza e Pubblico [!UICONTROL indirizzabile al] segmento come 0 quando una destinazione è configurata per l’esportazione di UUID. Il [!UICONTROL valore Frequenza] di corrispondenza e Pubblico [!UICONTROL indirizzabile ai] segmenti ora viene visualizzato al 100%. (AAM-51615)
