@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1cbba06183a2cd2897303e99dd7da89041a2d106
+source-git-commit: 26ff9349ed0c5dc19167e4d21c03f5261f802e73
 
 ---
 
@@ -181,8 +181,9 @@ Nuove funzioni e correzioni in Adobe Audience Manager:
 
 | Funzione | Descrizione |
 | -----------| ---------- |  
-| Principali problemi di assistenza clienti | Abbiamo aggiunto una nuova sezione al nostro portale della documentazione, che include le risposte alle domande più frequenti ricevute dal nostro team di assistenza clienti. |
+| [Principali problemi di assistenza clienti](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | Abbiamo aggiunto una nuova sezione al nostro portale della documentazione, che include le risposte alle domande più frequenti ricevute dal nostro team di assistenza clienti. |
 
+* È stato risolto un problema che causava la generazione di rapporti non accurati dei tipi di pubblico di [riferimento](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html) per i segmenti contenenti ID dispositivo mobile. In seguito a questo aggiornamento, potrebbe verificarsi un aumento del pubblico [indirizzabile](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html).
 * È stato risolto un problema che impediva il funzionamento dei pulsanti [!UICONTROL Duplica test] e [!UICONTROL Duplica modello] di allocazione in [!UICONTROL Audience Lab] . (AAM-53388)
 * È stato risolto un problema che causava la visualizzazione di [!UICONTROL Tasso] di corrispondenza e Pubblico [!UICONTROL indirizzabile al] segmento come 0 quando una destinazione è configurata per l’esportazione di UUID. Il [!UICONTROL valore Frequenza] di corrispondenza e Pubblico [!UICONTROL indirizzabile ai] segmenti ora viene visualizzato al 100%. (AAM-51615)
 * È stato risolto un problema che causava la doppia codifica HTML dei nomi delle caratteristiche contenenti caratteri speciali. (AAM-54001)
