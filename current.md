@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 26ff9349ed0c5dc19167e4d21c03f5261f802e73
+source-git-commit: 69b6adbefa394d7d44939588dcef27c89890b00b
 
 ---
 
@@ -31,7 +31,7 @@ Nuove funzioni e correzioni in [!DNL Adobe Experience Cloud].
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia e servizi principali di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) (Modifica della data di **rilascio - vedere aggiornamento il 15 aprile**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -110,60 +110,69 @@ Unità 4.19.0 (10 marzo 2020):
 
 * [Note](https://docs.adobe.com/content/help/it-IT/launch/using/intro/release-notes/current.html)sulla versione di Experience Platform Launch.
 * [Note sulla versione della piattaforma Experience](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
-* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/it/security.html)    (Tutti i prodotti Adobe)
+* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/it/security.html) (Tutti i prodotti Adobe)
 
 ## ![Icona](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-Data di rilascio: **16 aprile 2020**
+>[!IMPORTANT]
+>
+>La versione di manutenzione di Adobe Analytics di aprile è stata spostata al 21 maggio 2020. Per informazioni aggiornate sulla versione di Analytics, consultate le note sulla versione di [marzo](c-legacy-releases\2020\03122020.md)
 
-* [Nuove funzionalità, miglioramenti e problemi risolti in Adobe Analytics](#aa-features)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 7 aprile 2020)
-* [AppMeasurement](#appm)
+<!-- * [New features, enhancements, and fixes in Adobe Analytics](#aa-features)
+* [Important notices for Analytics administrators](#aa-notices) (Updated April 7, 2020)
+* [AppMeasurement](#appm) -->
+
+* [Customer Journey Analytics](#cust-journey)
 * [Nuove esercitazioni di Analytics](#tutorials-analytics)
 
-### Nuove funzionalità, miglioramenti e problemi risolti in Adobe Analytics {#aa-features}
+<!-- ### New features, enhancements, and fixes in Adobe Analytics {#aa-features}
+
+| Feature    | Description  |
+| -----------| ---------- |
+|Analytics support for [!UICONTROL Experience Edge] |You can now forward data that was sent to [!UICONTROL Experience Edge] to Analytics.|
+|[!UICONTROL Workspace]: Automatically build Freeform Tables from a blank state|Previously, you could not drop components directly into a blank project or blank panel; you had to add a freeform table first. You can now drop components directly into a blank project or panel, and a freeform table will automatically be built for you in a recommended format. Additionally, improvements were made to how mixed component types (e.g. dimensions & metrics) are handled when dropped into a blank freeform table together.|
+
+#### Analytics fixes
+
+* Fixed an issue that caused missing Analytics segment data in Audience Manager. (AN-206221)
+* Fixed an issue with [!UICONTROL Data Sources] processing showing the wrong dates. (AN-213604)
+* Fixed an issue with classification files not getting uploaded to FTP properly. (AN-214102)
+* Fixed an issue with the API method `Segments.Get` not returning a full response. (AN-206210)
+* Fixed an issue where table line items were converted to special characters in [!DNL Workspace] PDF download. (AN-196153)
+* Fixed an issue with Adobe Analytics API 1.4 call `visattrcustomeridcustomerattributes` not working properly. (AN-186873)
+* Fixed an issue with data appearing in reports but missing from the [!UICONTROL Data Feed]. (AN-211923)
+* Fixed an issue with being unable to copy [!UICONTROL Product Profile] permissions. (AN-211113)
+* Fixed an issue where users with Federated IDs were not able to log in to Report Builder. (AN-207750)
+* Fixed an issue with [!UICONTROL AdWords] data not showing in [!UICONTROL Advertising Analytics]. (AN-213249)
+* Fixed an issue where classification data did not display in the trended view. (AN-212761)
+* Fixed an issue that caused an incorrect published segment count in the [!UICONTROL Segment Manager]. (AN-213374)
+
+#### Additional Analytics fixes
+
+AN-212151; AN-214343; AN-215017; AN-115525; AN-123869; AN-101871; AN-152580; AN-160480; AN-199299; AN-209486; AN-212961; AN-211539; AN-213095; AN-212653; AN-211826; AN-206948; AN-208607; AN-204286; AN-214401; AN-212130; AN-211943; AN-212709; AN-212833; AN-211550; AN-212977; AN-213422; AN-213450; AN-214528; AN-213827; AN-214094; AN-214153; AN-214234; AN-214355; AN-214427; AN-214642; AN-214691; AN-214924; AN-215080; AN-215212
+
+### Important notices for [!DNL Analytics] administrators {#aa-notices}
+
+| Notice | Date Added or Updated  | Description |
+| -----------| ---------- | ---------- |
+|Change to how [!UICONTROL Entries/Exits] are calculated in [!UICONTROL Workspace]|April 7, 2020|In [!UICONTROL Analysis Workspace], as of March 2020, we have changed how the _None_ value interacts with [!UICONTROL Entries/Exits]. Because you can now turn _Nones_ on and off in [!UICONTROL Analysis Workspace], we apply the _None_ value after the entry or exit, whereas (for eVars) it used to be applied before. For example, assume the first hit of a visit has no value for eVars, but the second hit does. In [!UICONTROL Reports & Analytics] it will show up as _Unspecified_ for the Entry, but in [!UICONTROL Analysis Workspace] it will show up as the value on the second hit.|
+|EOL of **[!UICONTROL Conversion Level]** setting|March 3, 2020|The non-functioning [Conversion Level](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) setting in **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]** > **[!UICONTROL General Account Settings]** will be removed from the interface on March 12, 2020.|
+|EOL of **[!UICONTROL Dashboard Archive]**|March 27, 2020|The **[!UICONTROL View Archive]** setting under **[!UICONTROL Manage Dashboards]** in [!UICONTROL Reports & Analytics] will no longer be available as of October, 2020.|
+|End of Support for TLS 1.1 | October 3, 2019 | By March 31, 2020, Adobe Analytics will remove support for TLS 1.1. This change is part of our ongoing efforts to maintain the highest security standards and promote the safety of customer data.|
+|New Adobe Analytics domain|Dec. 18, 2019|On January 16, 2020, Adobe Analytics began moving to a new domain - `https://experience.adobe.com/analytics.`<br>**Note:** This change applies to all users accessing Analytics with their Adobe ID or Enterprise ID. <ul><li>The domain change may cause cookie issues when loading Analytics in Safari. Deselecting _Prevent cross-site tracking_ in the [!DNL Safari] Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Analytics to function on this new Adobe Experience Cloud domain. You can use other browsers without issue because this affects only [!DNL Safari] users.</li><li>The domain change may cause [!UICONTROL Activity Map] to stop working for some customers [in specific cases](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html).</li></ul>|
+|End of Life - Analytics Legacy APIs|January 9, 2020|In November 2020, the following Analytics Legacy API services will reach their end-of-life and will be shutdown. Current integrations built using these services will stop working. <ul><li>1.3 Analytics APIs</li><li>1.4 SOAP Analytics APIs</li><li>Legacy OAuth Authentication (OAuth and JWT)</li></ul>We have provided a [Legacy API EOL FAQ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) to help answer your questions and provide guidance on how to proceed. API integrations that employ these services can migrate to the [1.4 Analytics REST APIs](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) or the [2.0 Analytics APIs](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Legacy OAuth accounts can migrate to an [Adobe IO](https://console.adobe.io/home?mv=email) Analytics integration account, which can be used to access both the 1.4 Analytics APIs and 2.0 Analytics APIs.|
+|San Jose FTP Broker Ending for London and Singapore|July 2020|For customers in London and Singapore, we will no longer support brokering of data between London or Singapore and the San Jose data center [ftp.omniture.com](ftp://ftp.omniture.com/).<br/><ul><li>For London, use [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>For Singapore, use [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul>|
+|EOL of Ad Hoc Analysis|Aug 6, 2018|Adobe announced the intention to end-of-life Ad Hoc Analysis. An end-of-life date will be shared once available. For more information, visit [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/).|
+
+### [!DNL AppMeasurement] {#appm}
+
+See [AppMeasurement for Javascript release notes](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html). Version 2.20.0 was released on March 5, 2020. -->
+
+### Customer Journey Analytics {#cust-journey}
 
 | Funzione | Descrizione |
 | -----------| ---------- |
 | [!UICONTROL Analisi]percorso cliente: Backfill [!UICONTROL automatizzato del set di dati] | Questa nuova opzione consente di importare tutti i dati storici per una connessione in [!UICONTROL Customer Journey Analytics]. (Documentazione da seguire) |
-| Supporto di Analytics per [!UICONTROL Experience Edge] | Ora puoi inoltrare ad Analytics i dati inviati a [!UICONTROL Experience Edge] . |
-| [!UICONTROL Area di lavoro]: Creare automaticamente tabelle a forma libera da uno stato vuoto | In precedenza, non era possibile rilasciare componenti direttamente in un progetto vuoto o in un pannello vuoto; prima era necessario aggiungere una tabella a forma libera. Ora è possibile rilasciare i componenti direttamente in un progetto o pannello vuoto e una tabella a forma libera sarà automaticamente creata in un formato consigliato. Sono stati inoltre apportati miglioramenti al modo in cui i tipi di componenti misti (ad esempio, dimensioni e metriche) vengono gestiti quando vengono rilasciati insieme in una tabella a forma libera vuota. |
-
-#### Correzioni nell&#39;analisi
-
-* È stato risolto un problema che causava la mancanza di dati del segmento di Analytics in Audience Manager. (AN-206221)
-* È stato risolto un problema con l&#39;elaborazione di [!UICONTROL Origini] dati che causava la visualizzazione di date errate. (AN-213604)
-* È stato corretto un problema a causa del quale i file di classificazione non venivano caricati correttamente sull&#39;FTP. (AN-214102)
-* È stato risolto un problema con il metodo API che `Segments.Get` non restituiva una risposta completa. (AN-206210)
-* È stato risolto un problema che causava la conversione degli elementi di riga di tabella in caratteri speciali nel download [!DNL Workspace] PDF. (AN-196153)
-* È stato risolto un problema con la chiamata API 1.4 di Adobe Analytics che `visattrcustomeridcustomerattributes` non funzionava correttamente. (AN-186873)
-* È stato risolto un problema che causava la visualizzazione di dati nei report ma non presenti nel Feed dati. (AN-211923)
-* È stato corretto un problema a causa del quale non era possibile copiare le autorizzazioni Profilo  prodotto. (AN-211113)
-* È stato risolto un problema che impediva agli utenti con Federated ID di accedere al Generatore di report. (AN-207750)
-* È stato risolto un problema che impediva la visualizzazione dei dati [!UICONTROL AdWords] in [!UICONTROL Advertising Analytics]. (AN-213249)
-* È stato risolto un problema che impediva la visualizzazione dei dati di classificazione nella visualizzazione con tendenze. (AN-212761)
-* È stato risolto un problema che causava un numero di segmenti pubblicati errato in [!UICONTROL Segment Manager]. (AN-213374)
-
-#### Correzioni aggiuntive per Analytics
-
-AN-212151; AN-214343; AN-215017; AN-115525; AN-123869; AN-101871; AN-152580; AN-160480; AN-199299; AN-209486; AN-212961; AN-211539; AN-213095; AN-212653; AN-211826; AN-206948; AN-208607; AN-204286; AN-214401; AN-212130; AN-211943; AN-212709; AN-212833; AN-211550; AN-212977; AN-213422; AN-213450; AN-214528; AN-213827; AN-214094; AN-214153; AN-214234; AN-214355; AN-214427; AN-214642; AN-214691; AN-214924; AN-215080; AN-215212
-
-### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
-
-| Avviso | Data di aggiunta    o aggiornamento | Descrizione |
-| -----------| ---------- | ---------- |
-| Modifica della modalità di calcolo delle [!UICONTROL voci/uscite] in [!UICONTROL Workspace] | 7 aprile 2020 | In [!UICONTROL Analysis Workspace], a partire da marzo 2020, è stato modificato il modo in cui il valore _Nessuno_ interagisce con [!UICONTROL Entrate/Uscite]. Poiché ora è possibile attivare e disattivare _i numeri_ in [!UICONTROL Analysis Workspace], dopo l’entrata o l’uscita viene applicato il valore _Nessuno_ , mentre per le eVar prima era applicato. Ad esempio, si supponga che il primo hit di una visita non contenga alcun valore per le eVar, ma anche per il secondo. In [!UICONTROL Reporting e analisi] verrà visualizzato come _Non specificato_ per la voce, ma in [!UICONTROL Analysis Workspace] verrà visualizzato come valore per il secondo hit. |
-| Impostazione di fine del ciclo vita del **[!UICONTROL Livello di conversione]** | 3 marzo 2020 | The non-functioning [Conversion Level](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/general-acct-settings-admin.html) setting in **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]** > **[!UICONTROL General Account Settings]** will be removed from the interface on March 12, 2020. |
-| Fine del ciclo vita dell’**[!UICONTROL Archivio del dashboard]** | 27 marzo 2020 | L’impostazione **[!UICONTROL View Archive]** (Visualizza archivio) nella sezione **[!UICONTROL Manage Dashboards]** (Gestione dashboard) in [!UICONTROL Reports &amp; Analytics] non sarà più disponibile da ottobre 2020. |
-| Fine del supporto per TLS 1.1 | 3 ottobre 2019 | Entro il 31 marzo 2020, Adobe Analytics rimuoverà il supporto per TLS 1.1. Questo cambiamento fa parte del nostro impegno continuo per mantenere gli standard di sicurezza più elevati e promuovere la sicurezza dei dati dei clienti. |
-| Nuovo dominio Adobe Analytics | 18 dicembre 2019 | A partire dal 16 gennaio 2020, Adobe Analytics ha iniziato a spostarsi su un nuovo dominio - `https://experience.adobe.com/analytics.`<br>**Nota:** questa modifica si applica a tutti gli utenti che accedono ad Analytics con il proprio Adobe ID o Enterprise ID.<ul><li>La modifica del dominio potrebbe causare problemi con i cookie durante il caricamento di Analytics in Safari. Deselezionando l’opzione _Impedisci il rilevamento intersito_ nelle preferenze relative alla privacy di [!DNL Safari], i cookie verranno abilitati per tutti i domini (e tutte le esperienze intersito), permettendo ad Analytics di funzionare su questo nuovo dominio di Adobe Experience Cloud. Potrai utilizzare altri browser senza alcun problema, poiché questa modifica interessa solo gli utenti [!DNL Safari].</li><li>La modifica del dominio potrebbe impedire il funzionamento di [!UICONTROL Activity Map] per alcuni clienti [in casi specifici](https://docs.adobe.com/content/help/it-IT/analytics/analyze/activity-map/activity-map.html).</li></ul> |
-| Fine del ciclo di vita - Versioni precedenti delle API di Analytics | 9 gennaio 2020 | A partire da novembre 2020, i seguenti servizi appartenenti alle versioni precedenti delle API di Analytics termineranno il loro ciclo di vita e saranno chiusi. Le integrazioni esistenti create utilizzando questi servizi cesseranno di funzionare. <ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione una [FAQ per le versioni precedenti dell’API EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle tue domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
-| San Jose FTP Broker in scadenza per Londra e Singapore | Luglio 2020 | Per i clienti di Londra e Singapore, non supporteremo più il brokering dei dati tra Londra o Singapore e il data center di San Jose [ftp.omniture.com](ftp://ftp.omniture.com/).<br/><ul><li>Per Londra, utilizzare [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>Per Singapore, utilizzare [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
-| Fine del ciclo di vita di Ad Hoc Analysis | 6 agosto 2018 | Adobe ha annunciato l’intenzione di terminare Ad Hoc Analysis. Non appena disponibile, verrà comunicata la data di fine del ciclo di vita. Per ulteriori informazioni, visita [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
-
-### [!DNL AppMeasurement] {#appm}
-
-Consulta [AppMeasurement per le note sulla versione di JavaScript](https://docs.adobe.com/content/help/it-IT/analytics/implementation/appmeasurement-updates.html). La versione 2.20.0 è stata rilasciata il 5 marzo 2020.
 
 ### Nuove esercitazioni di Analytics {#tutorials-analytics}
 
@@ -283,7 +292,7 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 ### Risorse aggiuntive della guida Campaign
 
-* Adobe Campaign Standard: [Documentazione](https://helpx.adobe.com/it/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)    - [Pianificazione rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Standard: [Documentazione](https://helpx.adobe.com/it/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [Pianificazione rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentazione](https://helpx.adobe.com/it/support/campaign/classic.html) - [Note sulla versione](https://docs.campaign.adobe.com/doc/AC/it-IT/RN.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html)
 
