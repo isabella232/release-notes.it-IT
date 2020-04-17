@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
+source-git-commit: 16804e8f1eeb1d836b904c85a8c538077166242b
 
 ---
 
@@ -26,7 +26,7 @@ Nuove funzioni e correzioni in [!DNL Adobe Experience Cloud].
 
 **Data di rilascio: aprile 2020**
 
-(date di rilascio specifiche della soluzione potrebbero variare.)
+(date di rilascio specifiche possono variare.)
 
 * [Stato del sistema di Adobe](#status)
 * [Experience Platform](#platform)
@@ -34,10 +34,10 @@ Nuove funzioni e correzioni in [!DNL Adobe Experience Cloud].
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/it-IT/target/using/release-notes/target-release-notes.html) (collegamenti alla pagina della guida della soluzione)
+* [!DNL Target](https://docs.adobe.com/content/help/it-IT/target/using/release-notes/target-release-notes.html) (collegamenti alla pagina dell&#39;Aiuto di Target)
 * [!DNL Magento](#magento)
 * [!DNL Marketo](#marketo)
-* [!DNL Primetime](https://helpx.adobe.com/it/primetime/user-guide.html) (collegamenti alla pagina della guida della soluzione)
+* [!DNL Primetime](https://helpx.adobe.com/it/primetime/user-guide.html) (collegamenti alla pagina della guida di Primetime)
 
 Cerchi la pagina iniziale della guida? Consulta la [documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.html).
 
@@ -71,9 +71,9 @@ Adobe sta aggiornando l’intestazione del dominio e dell’interfaccia per unif
 
 Gli aggiornamenti includono:
 
-* Nuovi URL della soluzione: `experience.adobe.com/<application name>`:
+* Nuovi URL applicazione: `experience.adobe.com/<application name>`:
    * Tutti i prodotti adotteranno questo pattern per i propri URL. Cerca i nuovi URL che diventeranno validi nel corso del mese.
-   * Supporto browser: i browser supportati includono [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] e [!DNL Opera] (versioni più recenti). **Nota:** sebbene l’interfaccia di Experience Cloud supporti questi browser, le singole soluzioni potrebbero non supportare tutti i browser. Ad esempio, [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) non supporta [!DNL Opera] e [Target](https://docs.adobe.com/help/it-IT/target/using/implement-target/before-implement/supported-browsers.html) non supporta [!DNL Safari].
+   * Supporto browser: i browser supportati includono [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] e [!DNL Opera] (versioni più recenti). **Nota:** Sebbene l&#39;interfaccia di Experience Cloud supporti questi browser, le singole applicazioni potrebbero non supportare tutti i browser. Ad esempio, [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) non supporta [!DNL Opera] e [Target](https://docs.adobe.com/help/it-IT/target/using/implement-target/before-implement/supported-browsers.html) non supporta [!DNL Safari].
    * (Solo per [!DNL Safari]) La modifica del dominio potrebbe causare problemi di cookie in [!DNL Safari]. Deselezionando l’opzione _Impedisci il tracciamento intersito_ nelle preferenze relative alla privacy di [!DNL Safari], i cookie verranno abilitati per tutti i domini (e tutte le esperienze intersito), permettendo ad Experience Cloud di funzionare su questo nuovo dominio.
 * Un passaggio più semplice tra le organizzazioni o verso un’altra applicazione.
 * Guida di prodotto migliorata: [!UICONTROL Experience League] è stato integrato nel prodotto, in modo tale che la ricerca nella guida includa anche i risultati dei forum e dei contenuti video della community. Questa modifica semplifica l’accesso a più contenuti e ti consente di ottenere il massimo da Experience Cloud. Fai clic inoltre su **[!UICONTROL Guida]** > **[!UICONTROL Feedback]** per segnalare i problemi o condividere le tue idee con Adobe.
@@ -194,7 +194,7 @@ Nuove funzioni e correzioni in Adobe Audience Manager:
 * È stato risolto un problema che impediva il funzionamento dei pulsanti [!UICONTROL Duplica test] e [!UICONTROL Duplica modello] di allocazione in [!UICONTROL Audience Lab] . (AAM-53388)
 * È stato risolto un problema che causava la visualizzazione di [!UICONTROL Tasso] di corrispondenza e Pubblico [!UICONTROL indirizzabile al] segmento come 0 quando una destinazione è configurata per l’esportazione di UUID. Il [!UICONTROL valore Frequenza] di corrispondenza e Pubblico [!UICONTROL indirizzabile ai] segmenti ora viene visualizzato al 100%. (AAM-51615)
 * È stato risolto un problema che causava la doppia codifica HTML dei nomi delle caratteristiche contenenti caratteri speciali. (AAM-54001)
-* È stato risolto un problema che impediva ad alcuni utenti di passare dall&#39;interfaccia [!DNL Audience Manager] utente ad altre soluzioni Adobe Experience Cloud. (AAM-52917)
+* È stato risolto un problema che impediva ad alcuni utenti di passare dall’interfaccia [!DNL Audience Manager] utente ad altre applicazioni Adobe Experience Cloud. (AAM-52917)
 * È stato risolto un problema che impediva ad alcuni utenti di creare un&#39;origine dati SHA256 per le destinazioni basate su Persone. (AAM-53525)
 * Miglioramenti a livello di accessibilità nell&#39;interfaccia. (AAM-48986, AAM-49009, AAM-48984, AAM-48939, AAM-48940, AAM-48964, AAM-49032, AAM-49360)
 
@@ -307,7 +307,7 @@ Per le note sulla versione, consulta:
 
 ## ![Icona](/assets/marketo.png) [!DNL Marketo] {#marketo}
 
-[!DNL Marketo Engage] è una soluzione completa per i responsabili della gestione dei lead e per gli esperti di marketing B2B che desiderano trasformare l’esperienza dei clienti seguendo tutte le fasi dei processi di acquisto più complessi.
+[!DNL Marketo Engage] è un&#39;applicazione completa per i responsabili della gestione dei lead e per gli esperti di marketing B2B che desiderano trasformare le esperienze dei clienti coinvolgendo in ogni fase di viaggi di acquisto complessi.
 
 ### Aggiornamenti principali di Marketo Engagement
 
