@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
+source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
 
 ---
 
@@ -29,7 +29,7 @@ Nuove funzioni e correzioni in [!DNL Adobe Experience Cloud].
 (date di rilascio specifiche della soluzione potrebbero variare.)
 
 * [Stato del sistema di Adobe](#status)
-* [Interfaccia e servizi principali di Experience Cloud](#ecloud)
+* [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics) **(Modifica della data di rilascio - vedere aggiornamento il 15 aprile)**
 * [Audience Manager](#aam)
@@ -57,9 +57,9 @@ Cerchi la pagina iniziale della guida? Consulta la [documentazione di Adobe Expe
 | Iscrizioni personalizzate basate su adesioni | <ul><li>Raccomandazioni di iscrizione pre-selezionate in base alle adesioni DX dell&#39;utente.</li><li>Le iscrizioni consigliate sono evidenziate nella parte superiore dell&#39;elenco dei prodotti per una visualizzazione rapida.</li><li>Le notifiche e-mail ricevute sono pertinenti alle adesioni dei prodotti dell&#39;utente.</li></ul> |
 | Gestione più semplice delle iscrizioni | <ul><li>**[!UICONTROL Gestione iscrizioni]** dispone di una nuova esperienza utente per gestire le iscrizioni a prodotti ed eventi.</li><li>Nuova opzione per visualizzare e modificare separatamente le iscrizioni a prodotti e eventi.</li><li>L’opzione **[!UICONTROL Elimina]** consente di annullare l’iscrizione a un prodotto o a un’iscrizione a un evento.</li><li>L’opzione **[!UICONTROL Annulla sottoscrizione tutto]** è disponibile con un solo clic per le iscrizioni al prodotto.</li><li>Il supporto UX è disponibile per le superfici Web/Mobile/Tablet e per la localizzazione in 19 lingue.</li></ul> |
 
-## ![Icona](/assets/ec_appicon_24.png) Interfaccia e servizi principali di Experience Cloud {#ecloud}
+## ![Icona](/assets/ec_appicon_24.png) interfaccia Experience Cloud {#ecloud}
 
-Nuove funzioni e problemi risolti nell’interfaccia Experience Cloud, tra cui gestione e servizi principali (attributi del cliente, pubblico, trigger, cookie e così via):
+Nuove funzioni e problemi risolti nell’interfaccia Experience Cloud, inclusi amministrazione e servizi come attributi del cliente, audience, trigger e così via):
 
 * La pagina [!UICONTROL Feed] di Experience Cloud era obsoleta. (EXC-8505)
 * La pagina di accesso di Experience Cloud è stata aggiornata per riflettere i nuovi elementi di branding. (EXC-10747)
