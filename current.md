@@ -4,13 +4,13 @@ description: Modello per le note sulla versione di Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3a66c0ee04a336a702ea9ff502a0f2ce6c5b2109
 
 ---
 
 
-# Note sulla versione di Adobe Experience Cloud - Aprile 2020
+# Note sulla versione di Adobe Experience Cloud - aprile 2020
 
 ![Banner](/assets/experience-cloud-banner-3.png)
 
@@ -22,18 +22,18 @@ Nuove funzioni e correzioni in [!DNL Adobe Experience Cloud].
 
 **Data di rilascio: aprile 2020**
 
-(date di rilascio specifiche possono variare.)
+Le date di rilascio specifiche potrebbero variare.
 
 * [Stato del sistema di Adobe](#status)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) **(aggiornato il 16 aprile)**
+* [!DNL Analytics](#analytics) **(Aggiornato il 16 aprile)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/it-IT/target/using/release-notes/target-release-notes.html) (collegamenti alla pagina dell&#39;Aiuto di Target)
+* [!DNL Target](https://docs.adobe.com/content/help/it-IT/target/using/release-notes/target-release-notes.html) (link alla guida di Target)
 * [!DNL Magento](#magento)
 * [!DNL Marketo](#marketo)
-* [!DNL Primetime](https://helpx.adobe.com/it/primetime/user-guide.html) (collegamenti alla pagina della guida di Primetime)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (link alla guida di Primetime)
 
 Cerchi la pagina iniziale della guida? Consulta la [documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.html).
 
@@ -52,14 +52,14 @@ Cerchi la pagina iniziale della guida? Consulta la [documentazione di Adobe Expe
 | Abbonamenti personalizzati in base ai prodotti esistenti | <ul><li>Suggerimenti per abbonamenti preselezionati in base alle attuali adesioni DX dell’utente.</li><li>Gli abbonamenti consigliati sono evidenziati ed elencati per primi, per velocizzarne la visualizzazione.</li><li>Le notifiche e-mail ricevute sono pertinenti in base ai prodotti a cui l’utente ha diritto.</li></ul> |
 | Gestione più semplice degli abbonamenti | <ul><li>**[!UICONTROL Gestione abbonamenti]** offre una nuova esperienza utente per gestire gli abbonamenti a prodotti ed eventi.</li><li>Nuova opzione per visualizzare e modificare separatamente gli abbonamenti a prodotti e eventi.</li><li>L’opzione **[!UICONTROL Elimina]** consente di annullare l’abbonamento a un prodotto o un evento.</li><li>L’opzione **[!UICONTROL Annulla tutti gli abbonamenti]** con un solo clic è disponibile per gli abbonamenti dei prodotti.</li><li>Il supporto UX è disponibile per web, mobile e tablet, con localizzazione in 19 lingue.</li></ul> |
 
-## ![Icona](/assets/ec_appicon_24.png) interfaccia Experience Cloud {#ecloud}
+## ![Icona](/assets/ec_appicon_24.png) interfaccia di Experience Cloud {#ecloud}
 
 Nuove funzioni e correzioni nell’interfaccia di Experience Cloud:
 
 * La pagina [!UICONTROL Feed] di Experience Cloud è stata dichiarata obsoleta. (EXC-8505)
 * La pagina di accesso di Experience Cloud è stata aggiornata con nuovi elementi di branding. (EXC-10747)
 
-For product documentation, see [Experience Cloud interface help](https://docs.adobe.com/content/help/it-IT/core-services/interface/experience-cloud.html).
+Per la documentazione sul prodotto consulta la [guida all’interfaccia di Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/experience-cloud.html).
 
 ### Dominio di prodotto unificato
 
@@ -67,16 +67,16 @@ Adobe sta aggiornando l’intestazione del dominio e dell’interfaccia per unif
 
 Gli aggiornamenti includono:
 
-* Nuovi URL applicazione: `experience.adobe.com/<application name>`:
+* Nuovi URL dell’applicazione: `experience.adobe.com/<application name>`:
    * Tutti i prodotti adotteranno questo pattern per i propri URL. Cerca i nuovi URL che diventeranno validi nel corso del mese.
-   * Supporto browser: i browser supportati includono [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] e [!DNL Opera] (versioni più recenti). **Nota:** Sebbene l&#39;interfaccia di Experience Cloud supporti questi browser, le singole applicazioni potrebbero non supportare tutti i browser. Ad esempio, [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) non supporta [!DNL Opera] e [Target](https://docs.adobe.com/help/it-IT/target/using/implement-target/before-implement/supported-browsers.html) non supporta [!DNL Safari].
+   * Supporto browser: i browser supportati includono [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] e [!DNL Opera] (versioni più recenti). **Nota:** sebbene l’interfaccia di Experience Cloud supporti questi browser, le singole applicazioni potrebbero non supportare tutti i browser. Ad esempio, [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) non supporta [!DNL Opera] e [Target](https://docs.adobe.com/help/it-IT/target/using/implement-target/before-implement/supported-browsers.html) non supporta [!DNL Safari].
    * (Solo per [!DNL Safari]) La modifica del dominio potrebbe causare problemi di cookie in [!DNL Safari]. Deselezionando l’opzione _Impedisci il tracciamento intersito_ nelle preferenze relative alla privacy di [!DNL Safari], i cookie verranno abilitati per tutti i domini (e tutte le esperienze intersito), permettendo ad Experience Cloud di funzionare su questo nuovo dominio.
 * Un passaggio più semplice tra le organizzazioni o verso un’altra applicazione.
 * Guida di prodotto migliorata: [!UICONTROL Experience League] è stato integrato nel prodotto, in modo tale che la ricerca nella guida includa anche i risultati dei forum e dei contenuti video della community. Questa modifica semplifica l’accesso a più contenuti e ti consente di ottenere il massimo da Experience Cloud. Fai clic inoltre su **[!UICONTROL Guida]** > **[!UICONTROL Feedback]** per segnalare i problemi o condividere le tue idee con Adobe.
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-Note sulla versione [!DNL Experience Platform,] incluse [!DNL Experience Platform Launch,] Orchestrazione viaggio, [!UICONTROL Offerte], [!UICONTROL Persone], [!UICONTROL Luoghi], Servizi mobilie bollettini sulla sicurezza.
+Note sulla versione [!DNL Experience Platform,] che includono [!DNL Experience Platform Launch,] [!UICONTROL Journey Orchestration], [!UICONTROL Offerte], [!UICONTROL Persone], [!UICONTROL Places], [!UICONTROL Mobile Services] e bollettini sulla sicurezza.
 
 ### Journey Orchestration {#journey}
 
@@ -103,19 +103,19 @@ Unity 4.19.0 (10 marzo 2020):
 
 ### Informazioni aggiuntive sulla versione di Experience Platform
 
-* [Note sulla versione di Experience Platform Launch](https://docs.adobe.com/content/help/it-IT/launch/using/intro/release-notes/current.html).
+* [Note sulla versione di Experience Platform Launch](https://docs.adobe.com/content/help/it-IT/launch/using/intro/release-notes/current.html)
 * [Note sulla versione di Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
-* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/it/security.html) (Tutti i prodotti Adobe)
+* [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/it/security.html)  (Tutti i prodotti Adobe)
 
 ## ![Icona](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
 >[!IMPORTANT]
 >
->La versione di manutenzione di Adobe Analytics di aprile è stata spostata al 21 maggio 2020. Per informazioni aggiornate sulla versione di Analytics, consultate le note sulla versione di [marzo](c-legacy-releases/2020/03122020.md)
+>Il rilascio della versione di manutenzione di Adobe Analytics di aprile è stato spostato al 21 maggio 2020. Per informazioni aggiornate sul rilascio di Analytics consulta le [note sulla versione di marzo](c-legacy-releases/2020/03122020.md)
 
 * [Customer Journey Analytics](#cust-journey)
 <!--* [New features in Adobe Analytics](#aa-features)-->
-* [Avvisi importanti per gli amministratori](#aa-notices) di Analytics (aggiornato il 16 aprile 2020)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices)  (aggiornato il 16 aprile 2020)
 * [AppMeasurement](#appm)
 * [Nuove esercitazioni per Analytics](#tutorials-analytics)
 
@@ -123,7 +123,7 @@ Unity 4.19.0 (10 marzo 2020):
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| [!UICONTROL Customer Journey Analytics]: Recupero automatico del set di dati | Questa nuova opzione consente di importare tutti i dati storici per una connessione in [!UICONTROL Customer Journey Analytics]. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html) |
+| [!UICONTROL Customer Journey Analytics]: Recupero automatico del set di dati | Questa nuova opzione consente di importare tutti i dati storici per una connessione in [!UICONTROL Customer Journey Analytics]. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-connections/create-connection.translate.html) |
 
 <!--### New features in Adobe Analytics {#aa-features}
 
@@ -153,14 +153,14 @@ AN-212151; AN-214343; AN-215017; AN-115525; AN-123869; AN-101871; AN-152580; AN-
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
-| Avviso | Data di aggiunta o aggiornamento | Descrizione |
+| Avviso | Data di aggiunta  o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
-| Rimosso il controllo &quot;Segmento applicato in Data Warehouse&quot; | 16 aprile 2020 | A partire dal 16 aprile 2020, non sarà più possibile verificare se un segmento viene applicato in una richiesta Data Warehouse, dall&#39;interno del Generatore di segmenti. Precedentemente, questo controllo cercava segmenti singoli applicati nelle richieste di Data Warehouse (escludeva più segmenti applicati) e restituiva una notifica di avviso se true. Questa modifica non influisce sul controllo della compatibilità dei prodotti Data Warehouse per i segmenti. |
+| È stato rimosso il controllo “Segmento applicato in Data Warehouse” | 16 aprile 2020 | A partire dal 16 aprile 2020 non sarà più possibile verificare se un segmento viene applicato in una richiesta di Data Warehouse dall&#39;interno del segment builder. Precedentemente questo controllo cercava segmenti singoli applicati nelle richieste di Data Warehouse (escludeva i segmenti multipli applicati) e restituiva una notifica di avviso se true. Questa modifica non influisce sul controllo della compatibilità del prodotto Data Warehouse per i segmenti. |
 | Modifica del metodo di calcolo di [!UICONTROL Entrate/Uscite] in [!UICONTROL Workspace] | 7 aprile 2020 | A partire da marzo 2020, in [!UICONTROL Analysis Workspace] è stato modificato il modo in cui il valore _None_ interagisce con [!UICONTROL Entrate\Uscite]. Poiché ora in [!UICONTROL Analysis Workspace] è possibile attivare e disattivare i valori _None_, viene applicato il valore _None_ dopo l’entrata o l’uscita, mentre per le eVar veniva già applicato in precedenza. Ad esempio, si supponga che il primo risultato di una visita non presenti alcun valore per le eVar, mentre si verifica il contrario per il secondo. In [!UICONTROL Reports &amp; Analytics] verrà visualizzato come _Non specificato_ per l’entrata, ma in [!UICONTROL Analysis Workspace] verrà visualizzato come valore per il secondo risultato. |
-| Impostazione di fine del ciclo vita del **[!UICONTROL Livello di conversione]** | 3 marzo 2020 | L’impostazione non funzionante del [Livello di conversione](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/general-acct-settings-admin.html) in **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Suite di rapporti]** > **[!UICONTROL Impostazioni account generali]** sarà rimossa dall’interfaccia utente il 12 marzo 2020. |
+| Impostazione di fine del ciclo vita del **[!UICONTROL Livello di conversione]** | 3 marzo 2020 | L’impostazione non funzionante del [Livello di conversione](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/general-acct-settings-admin.html) in **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Suite di rapporti]** > **[!UICONTROL Impostazioni account generali]** sarà rimossa dall’interfaccia utente il 12 marzo 2020. |
 | Fine del ciclo vita di **[!UICONTROL Archivio dashboard]** | 27 marzo 2020 | L’impostazione **[!UICONTROL View Archive]** (Visualizza archivio) nella sezione **[!UICONTROL Manage Dashboards]** (Gestione dashboard) in [!UICONTROL Reports &amp; Analytics] non sarà più disponibile da ottobre 2020. |
 | Fine del supporto per TLS 1.1 | 3 ottobre 2019 | Entro il 31 marzo 2020, Adobe Analytics rimuoverà il supporto per TLS 1.1. Questo cambiamento fa parte del nostro impegno continuo per mantenere gli standard di sicurezza più elevati e promuovere la sicurezza dei dati dei clienti. |
-| Nuovo dominio Adobe Analytics | 18 dicembre 2019 | A partire dal 16 gennaio 2020, Adobe Analytics ha iniziato a spostarsi su un nuovo dominio - `https://experience.adobe.com/analytics.`<br>**Nota:** questa modifica si applica a tutti gli utenti che accedono ad Analytics con il proprio Adobe ID o Enterprise ID.<ul><li>La modifica del dominio potrebbe causare problemi con i cookie durante il caricamento di Analytics in Safari. Deselezionando l’opzione _Impedisci il rilevamento intersito_ nelle preferenze relative alla privacy di [!DNL Safari], i cookie verranno abilitati per tutti i domini (e tutte le esperienze intersito), permettendo ad Analytics di funzionare su questo nuovo dominio di Adobe Experience Cloud. Potrai utilizzare altri browser senza alcun problema, poiché questa modifica interessa solo gli utenti [!DNL Safari].</li><li>La modifica del dominio potrebbe impedire il funzionamento di [!UICONTROL Activity Map] per alcuni clienti [in casi specifici](https://docs.adobe.com/content/help/it-IT/analytics/analyze/activity-map/activity-map.html).</li></ul> |
+| Nuovo dominio Adobe Analytics | 18 dicembre 2019 | A partire dal 16 gennaio 2020, Adobe Analytics ha iniziato a spostarsi su un nuovo dominio - `https://experience.adobe.com/analytics.`<br>**Nota:** questa modifica si applica a tutti gli utenti che accedono ad Analytics con il proprio Adobe ID o Enterprise ID.<ul><li>La modifica del dominio potrebbe causare problemi con i cookie durante il caricamento di Analytics in Safari. Deselezionando l’opzione _Impedisci il rilevamento intersito_ nelle preferenze relative alla privacy di [!DNL Safari], i cookie verranno abilitati per tutti i domini (e tutte le esperienze intersito), permettendo ad Analytics di funzionare su questo nuovo dominio di Adobe Experience Cloud. Potrai utilizzare altri browser senza alcun problema, poiché questa modifica interessa solo gli utenti [!DNL Safari].</li><li>La modifica del dominio potrebbe impedire il funzionamento di [!UICONTROL Activity Map] per alcuni clienti [in casi specifici](https://docs.adobe.com/content/help/it-IT/analytics/analyze/activity-map/activity-map.html).</li></ul> |
 | Fine del ciclo di vita - Versioni precedenti delle API di Analytics | 9 gennaio 2020 | A partire da novembre 2020, i seguenti servizi appartenenti alle versioni precedenti delle API di Analytics termineranno il loro ciclo di vita e saranno chiusi. Le integrazioni esistenti create utilizzando questi servizi cesseranno di funzionare. <ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione una [FAQ per le versioni precedenti dell’API EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle tue domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
 | San Jose FTP Broker in scadenza per Londra e Singapore | Luglio 2020 | Per i clienti di Londra e Singapore, non supporteremo più il brokering dei dati tra Londra o Singapore e il data center di San Jose [ftp.omniture.com](ftp://ftp.omniture.com/).<br/><ul><li>Per Londra, utilizzare [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>Per Singapore, utilizzare [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
 | Fine del ciclo di vita di Ad Hoc Analysis | 6 agosto 2018 | Adobe ha annunciato l’intenzione di terminare Ad Hoc Analysis. Non appena disponibile, verrà comunicata la data di fine del ciclo di vita. Per ulteriori informazioni, visita [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
@@ -191,7 +191,7 @@ Nuove funzioni e correzioni in Adobe Audience Manager:
 * È stato risolto un problema che impediva il funzionamento dei pulsanti [!UICONTROL Duplica test] e [!UICONTROL Duplica modello di allocazione] in [!UICONTROL Audience Lab]. (AAM-53388)
 * È stato risolto un problema a causa del quale il [!UICONTROL Tasso di corrispondenza] e i [!UICONTROL Tipi di pubblico indirizzabili per segmento] venivano visualizzati come 0 quando una destinazione era configurata per l’esportazione di UUID. Ora [!UICONTROL Tasso di corrispondenza] e [!UICONTROL Tipi di pubblico indirizzabili per segmento] vengono visualizzati al 100%. (AAM-51615)
 * È stato risolto un problema a causa del quale i nomi delle caratteristiche contenenti caratteri speciali venivano codificati in HTML due volte. (AAM-54001)
-* Fixed an issue blocking some users from switching to other Adobe Experience Cloud applications from the [!DNL Audience Manager] user interface. (AAM-52917)
+* È stato risolto un problema che impediva ad alcuni utenti di passare ad altre applicazioni di Adobe Experience Cloud dall’interfaccia utente di [!DNL Audience Manager]. (AAM-52917)
 * È stato risolto un problema che impediva ad alcuni utenti di creare un’origine dati SHA256 per le destinazioni basate su persone. (AAM-53525)
 * Miglioramenti di accessibilità in tutta l’interfaccia. (AAM-48986, AAM-49009, AAM-48984, AAM-48939, AAM-48940, AAM-48964, AAM-49032, AAM-49360)
 
@@ -221,7 +221,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
 * **Configurazione di Dynamic Media - Modalità Scene7**
 
-   La pagina Configurazione di Dynamic Media, disponibile da **[!UICONTROL Strumenti > Servizi cloud]**, contiene la nuova opzione Sincronizza tutti i contenuti.
+   La pagina Configurazione di Dynamic Media, disponibile da **[!UICONTROL Strumenti > Servizi cloud]**, contiene la nuova opzione Sincronizza tutti i contenuti.
 
    Consulta [Creazione di una configurazione di Dynamic Media](https://docs.adobe.com/content/help/it-IT/experience-manager-65/assets/dynamic/config-dms7.html#configuring-dynamic-media-cloud-services).
 
@@ -265,10 +265,10 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 * [Informazioni e assistenza per AEM 6.4](https://helpx.adobe.com/it/support/experience-manager/6-4.html)
 * [Informazioni e assistenza per AEM 6.3](https://helpx.adobe.com/it/support/experience-manager/6-3.html)
 * [Informazioni e assistenza per AEM 6.2](https://helpx.adobe.com/it/support/experience-manager/6-2.html)
-* [Guida utente di Cloud Manager](https://helpx.adobe.com/it/experience-manager/cloud-manager/user-guide.html)
+* [Guida utente di Cloud Manager](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
 * [Documentazione delle versioni precedenti di AEM](https://helpx.adobe.com/it/experience-manager/aem-previous-versions.html)
 * [Pagina iniziale della guida di Dynamic Media Classic](https://docs.adobe.com/content/help/it-IT/dynamic-media-classic/using/home.html)
-* [Note sulla versione di Dynamic Media](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
+* [Note sulla versione di Dynamic Media](https://docs.adobe.com/content/help/it-IT/dynamic-media-developer-resources/release-notes/s7rn2017.html)
 * [Note sulla versione di Livefyre](https://docs.adobe.com/content/help/it-IT/livefyre/using/release-notes/c-rn.html)
 
 ## ![Icona](/assets/campaign.png) [!DNL Campaign] {#ac}
@@ -287,7 +287,7 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 ### Risorse aggiuntive per Campaign
 
-* Adobe Campaign Standard: [Documentazione](https://helpx.adobe.com/it/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [Pianificazione rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Standard: [Documentazione](https://helpx.adobe.com/it/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)  - [Pianificazione rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentazione](https://helpx.adobe.com/it/support/campaign/classic.html) - [Note sulla versione](https://docs.campaign.adobe.com/doc/AC/it-IT/RN.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html)
 
@@ -304,9 +304,9 @@ Per le note sulla versione, consulta:
 
 ## ![Icona](/assets/marketo.png) [!DNL Marketo] {#marketo}
 
-[!DNL Marketo Engage] è un&#39;applicazione completa per i responsabili della gestione dei lead e per gli esperti di marketing B2B che desiderano trasformare le esperienze dei clienti coinvolgendo in ogni fase di viaggi di acquisto complessi.
+[!DNL Marketo Engage] è un’applicazione completa per lead management e marketer B2B che intendono trasformare le esperienze dei clienti impegnandosi in ogni fase dei percorsi d’acquisto complessi.
 
-### Aggiornamenti principali di Marketo Engagement
+### Aggiornamenti principali di Marketo Engage
 
 Per ulteriori informazioni, consulta le [Note sulla versione](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) di [!DNL Marketo].
 
