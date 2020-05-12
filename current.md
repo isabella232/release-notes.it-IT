@@ -4,8 +4,11 @@ description: Modello per le note sulla versione di Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: bf3e1b2ed24c2f106ee3e6bfcc888ffa7eda7ba0
+translation-type: tm+mt
+source-git-commit: 77e4ac05707d9aa42ddf2e7fb93027b3226058e9
+workflow-type: tm+mt
+source-wordcount: '3632'
+ht-degree: 99%
 
 ---
 
@@ -85,7 +88,7 @@ Note sulla versione [!DNL Experience Platform,] che includono [!DNL Experience P
 Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vasta scala attraverso i vari canali dell’esperienza, anticipando in modo intelligente e in tempo reale le esigenze di ciascuno di essi, ovunque li porti il loro percorso.
 
 * [Documentazione](https://docs.adobe.com/content/help/it-IT/journeys/using/journey-orchestration-home.html)
-* [Note sulla versione](https://docs.adobe.com/content/help/it-IT/journeys/using/release-notes/release-notes.html)
+* [Note sulla versione](http://www.adobe.com/go/platform-release-notes-en)
 * [Video sulle procedure](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### Mobile Services e Mobile SDK {#mobile}
@@ -253,7 +256,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 | [Configurare AEM Runtime locale](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html) | Adobe Experience Manager (AEM) può essere eseguito localmente utilizzando [!UICONTROL QuickStart Jar] dell’SDK di AEM as a Cloud Service. Questo consente agli sviluppatori di implementare e testare il codice personalizzato, la configurazione e i contenuti prima di passare al controllo del codice sorgente e di distribuirli in un ambiente AEM as a Cloud Service. |
 | [Navigazione](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/authoring/navigation.html) | Scopri le nozioni di base per la navigazione in AEM Assets. |
 | [Versioni](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/versions.html) | Scopri in che modo AEM crea e gestisce le versioni delle risorse. |
-| [Integrazione AEM - [!DNL Magento] tramite [!UICONTROL Commerce Integration Framework]](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/getting-started.html) | Questo video illustra la configurazione dell’integrazione tra AEM e [!DNL Magento]. |
+| [AEM - [!DNL Magento] Integrazione con [!UICONTROL Commerce Integration Framework]](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/getting-started.html) | Questo video illustra la configurazione dell’integrazione tra AEM e [!DNL Magento]. |
 | [Introduzione allo stack dell’architettura di AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-architecture.html) | L’archetipo del progetto CIF crea un progetto CIF minimo di Adobe Experience Manager (AEM) da usare come punto di partenza per i progetti dei clienti con componenti CIF di base. |
 | [Introduzione a OSGi](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-osgi.html) | Introduzione a OSGi, architettura modulare dinamica per le applicazioni Java alla base di Adobe Experience Manager. |
 | [Introduzione a Java Content Repository (JCR)](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-jcr.html) | Introduzione a Java Content Repository (JCR) utilizzato da Adobe Experience Manager. |
