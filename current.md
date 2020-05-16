@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ea42901b975981a10d42b9681d494604c385018c
+source-git-commit: 8ed0b98440cd68357d792abaec2a99dccbfa47dc
 workflow-type: tm+mt
 source-wordcount: '4766'
 ht-degree: 38%
@@ -29,7 +29,7 @@ Questa pagina contiene nuove funzioni, correzioni e note importanti in [!DNL Ado
 
 **Data di rilascio: 2020 maggio**
 
-Ultimo aggiornamento: **15 maggio 2020**
+Ultimo aggiornamento: **16 maggio 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud)
