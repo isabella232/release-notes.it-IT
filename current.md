@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: de8c5772f391dffac4458a736f0e0ea38c53c701
+source-git-commit: ea42901b975981a10d42b9681d494604c385018c
 workflow-type: tm+mt
-source-wordcount: '4764'
+source-wordcount: '4766'
 ht-degree: 38%
 
 ---
@@ -49,6 +49,8 @@ Hai bisogno di aiuto? Visita [[!DNL Adobe Experience League]](https://experience
 ## ![Icona](/assets/adobe.png) Stato del sistema di Adobe {#status}
 
 [!UICONTROL Stato del sistema di Adobe] fornisce informazioni dettagliate, aggiornamenti sullo stato e notifiche e-mail relative agli eventi di sospensione, interruzione e manutenzione di prodotti e servizi cloud di Adobe. Consulta [status.adobe.com](https://status.adobe.com/).
+
+Data di rilascio: **21 maggio 2020**
 
 **Novità**
 
