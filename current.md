@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2cd60d72cfd5fa7d7ab0a17ba230162601f69b13
+source-git-commit: e10656f2a2d2180295c61b7aad9e75391e23ccbd
 workflow-type: tm+mt
-source-wordcount: '4768'
+source-wordcount: '4800'
 ht-degree: 38%
 
 ---
@@ -29,7 +29,7 @@ Questa pagina contiene nuove funzioni, correzioni e note importanti in [!DNL Ado
 
 **Data di rilascio: 2020 maggio**
 
-Ultimo aggiornamento: **16 maggio 2020**
+Ultimo aggiornamento: **19 maggio 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud)
@@ -160,6 +160,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | Supporto di Analytics per [!UICONTROL Adobe Experience Platform Edge Network] | Consente di utilizzare un singolo tag per inviare dati a più soluzioni Adobe, come Adobe Analytics, Adobe Target, Adobe Audience Manager, Adobe Experience Platform Data Lake, Unified Profile e Experience Cloud ID Service. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/experience-platform/edge/home.html) |
 | [!UICONTROL Dashboard di Adobe Analytics] | [!UICONTROL Le dashboard] di Adobe Analytics sono un&#39;app mobile che consente agli utenti di accedere in qualsiasi momento e ovunque alle informazioni provenienti da Adobe Analytics. Questa app è destinata ai dirigenti che cercano l&#39;accesso in movimento alle metriche chiave. Consente l&#39;accesso a scorecard interattive curate e saranno disponibili per i sistemi operativi iOS e Android. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL Workspace][!UICONTROL : creazione automatica di tabelle a forma libera da uno stato vuoto] | Previously, you could not drop components directly into a blank project or blank panel; you had to add a [!UICONTROL Freeform Table] first. You can now drop components directly into a blank project or panel, and a [!UICONTROL Freeform Table] is automatically built for you in a recommended format. Sono stati inoltre apportati miglioramenti al modo in cui i tipi di componenti misti (come dimensioni e metriche) vengono gestiti quando vengono rilasciati insieme in una tabella a forma libera vuota. |
+| [!UICONTROL Pacchetto] Adobe Analytics aggiunto alla pagina [!UICONTROL Livello] di accesso alle funzioni | Ora puoi vedere a quale pacchetto [!UICONTROL di] Adobe Analytics (SKU) la tua società ha diritto nella pagina [!UICONTROL Admin] (Amministratore) > [!UICONTROL Company Settings (Impostazioni] società) > [!UICONTROL Feature Access Level (Livello] di accesso alle funzioni). |
 
 #### Correzioni di Adobe Analytics
 
