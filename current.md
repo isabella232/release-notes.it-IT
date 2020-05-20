@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99e67d659f3da76d0613629dfc7e7d853a9e1349
+source-git-commit: 16d1b900c55d8e9674275c4113298a109de09df6
 workflow-type: tm+mt
-source-wordcount: '4798'
+source-wordcount: '4811'
 ht-degree: 38%
 
 ---
@@ -97,6 +97,10 @@ Le app seguenti utilizzano il nuovo dominio experience.adobe.com:
 | Places Service | `experience.adobe.com/places` |
 | Distribuzione software | `experience.adobe.com/downloads` |
 | Strumenti di amministrazione (versione beta) | `experience.adobe.com/admin` |
+
+>[!NOTE]
+>
+>**[!UICONTROL Bacheca e raccolte]**, un filtro legacy nel selettore [!UICONTROL Marketing Cloud Assets] , è in fase di disattivazione.
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
