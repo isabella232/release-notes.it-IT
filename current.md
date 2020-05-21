@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c0a5d3cca0320f8459aeb4ee34bfd655d032c23c
+source-git-commit: 2a41fbc7e69c9c2a262c71e20808e6b672037c6a
 workflow-type: tm+mt
-source-wordcount: '4895'
-ht-degree: 37%
+source-wordcount: '5024'
+ht-degree: 36%
 
 ---
 
@@ -144,6 +144,7 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 * [Nuove funzioni nell&#39;analisi del percorso cliente](#cust-journey)
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Avvisi importanti per gli amministratori](#aa-notices) di Analytics (**aggiornato il 21 maggio 2020**)
+* [Correzioni](#aa-fixes) di Adobe Analytics (**aggiornato il 21 maggio 2020**)
 * [AppMeasurement](#appm)
 * [Nuove esercitazioni per Analytics](#tutorials-analytics)
 
@@ -167,8 +168,10 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL Pacchetto] Adobe Analytics aggiunto alla pagina [!UICONTROL Livello] di accesso alle funzioni | Ora puoi vedere a quale pacchetto [!UICONTROL di] Adobe Analytics (SKU) la tua azienda ha diritto in **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Feature Access Level]**(Amministratore> ImpostazioniSocietà > Livello di accesso allefunzioni). |
 | Miglioramenti all&#39;accessibilità | Il team di Adobe Analytics ha apportato diversi miglioramenti in termini di accessibilità ad Analysis Workspace, tra cui la navigazione tramite tastiera, il contrasto del colore e il supporto degli assistenti vocali. |
 
-#### Correzioni di Adobe Analytics
+#### Correzioni di Adobe Analytics (#aa-fix)
 
+* Adobe ha modificato la metrica [!UICONTROL Time Spent] in modo da non includere mai &quot;none&quot;. Ciò significa che, indipendentemente dal fatto che l’interfaccia utente non contenga o meno alcuna voce, facciamo un’eccezione speciale per escludere sempre &quot;none&quot; nel calcolo del [!UICONTROL tempo trascorso] . Pertanto, anche se hai configurato un report che includeva la metrica [!UICONTROL Time Spent] (Tempo trascorso) su &quot;none&quot;, restituirebbe sempre 0 volte il tempo trascorso per l&#39;elemento di riga &quot;none&quot;. Questo potrebbe modificare il reporting storico in Reporting e analisi nonché nell&#39;API di reporting v1.4. (AN-197958)
+* È stato corretto un problema in seguito al quale l&#39;istanza/visita/visitatore non veniva conteggiata nel denominatore per le metriche [!UICONTROL Tempo trascorso] .  Ciò si verifica quando un hit senza valore per la dimensione (ad esempio, [!UICONTROL Pagename]) viene seguito nello stesso secondo. (AN-211074)
 * Fixed an issue that caused missing [!DNL Analytics] segment data in Audience Manager. (AN-206221)
 * È stato risolto un problema nell’elaborazione di [!UICONTROL Origini dati] che causava la visualizzazione di date errate. (AN-213604)
 * È stato risolto un problema a causa del quale i file di classificazione non venivano caricati correttamente su FTP. (AN-214102)
