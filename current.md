@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 36c098558e178fdaea0bab49528e54a93980ac0b
+source-git-commit: 4bdb8dde04f55703e52aca1295aad03374f3eb25
 workflow-type: tm+mt
 source-wordcount: '4998'
 ht-degree: 36%
@@ -166,7 +166,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 #### Correzioni di Adobe Analytics (#aa-fix)
 
-* Adobe ha modificato la metrica [!UICONTROL Time Spent] in modo da non includere mai &quot;none&quot;. Ciò significa che, indipendentemente dal fatto che l’interfaccia utente non contenga o meno alcuna voce, facciamo un’eccezione speciale per escludere sempre &quot;none&quot; nel calcolo del [!UICONTROL tempo trascorso] . Pertanto, anche se hai configurato un report che includeva la metrica [!UICONTROL Time Spent] (Tempo trascorso) su &quot;none&quot;, restituirebbe sempre 0 volte il tempo trascorso per l&#39;elemento di riga &quot;none&quot;. Questo potrebbe modificare il reporting storico in Reporting e analisi nonché nell&#39;API di reporting v1.4. (AN-197958)
+* Adobe ha modificato la metrica [!UICONTROL Tempo trascorso] in modo da non includere mai &quot;Non specificato&quot; nel calcolo. Ciò significa che, indipendentemente dal fatto che l&#39;interfaccia utente dica di includere &quot;Non specificato&quot;, facciamo un&#39;eccezione speciale per escludere sempre &quot;Non specificato&quot; nel calcolo del [!UICONTROL Tempo trascorso] . Pertanto, anche se hai configurato un report contenente la metrica [!UICONTROL Tempo trascorso] per includere &quot;Non specificato&quot;, restituirà sempre 0 volte per l&#39;elemento di riga &quot;Non specificato&quot;. Questo potrebbe modificare i report storici in Reporting e analisi, nonché nell&#39;API di reporting v1.4. (AN-197958)
 * È stato corretto un problema in seguito al quale l&#39;istanza/visita/visitatore non veniva conteggiata nel denominatore per le metriche [!UICONTROL Tempo trascorso] .  Ciò si verifica quando un hit senza valore per la dimensione (ad esempio, [!UICONTROL Pagename]) viene seguito nello stesso secondo. (AN-211074)
 * Fixed an issue that caused missing [!DNL Analytics] segment data in Audience Manager. (AN-206221)
 * È stato risolto un problema nell’elaborazione di [!UICONTROL Origini dati] che causava la visualizzazione di date errate. (AN-213604)
