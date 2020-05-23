@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4bdb8dde04f55703e52aca1295aad03374f3eb25
+source-git-commit: 1784b66efbcd85c25145fbf5b84f95c0285412ab
 workflow-type: tm+mt
-source-wordcount: '4998'
+source-wordcount: '4997'
 ht-degree: 36%
 
 ---
@@ -164,7 +164,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL Pacchetto] Adobe Analytics aggiunto alla pagina [!UICONTROL Livello] di accesso alle funzioni | Ora puoi vedere a quale pacchetto [!UICONTROL di] Adobe Analytics (SKU) la tua azienda ha diritto in **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Feature Access Level]**(Amministratore> ImpostazioniSocietà > Livello di accesso allefunzioni). |
 | Miglioramenti all&#39;accessibilità | Il team di Adobe Analytics ha apportato diversi miglioramenti in termini di accessibilità ad Analysis Workspace, tra cui la navigazione tramite tastiera, il contrasto del colore e il supporto degli assistenti vocali. |
 
-#### Correzioni di Adobe Analytics (#aa-fix)
+#### Correzioni di Adobe Analytics {#aa-fixes}
 
 * Adobe ha modificato la metrica [!UICONTROL Tempo trascorso] in modo da non includere mai &quot;Non specificato&quot; nel calcolo. Ciò significa che, indipendentemente dal fatto che l&#39;interfaccia utente dica di includere &quot;Non specificato&quot;, facciamo un&#39;eccezione speciale per escludere sempre &quot;Non specificato&quot; nel calcolo del [!UICONTROL Tempo trascorso] . Pertanto, anche se hai configurato un report contenente la metrica [!UICONTROL Tempo trascorso] per includere &quot;Non specificato&quot;, restituirà sempre 0 volte per l&#39;elemento di riga &quot;Non specificato&quot;. Questo potrebbe modificare i report storici in Reporting e analisi, nonché nell&#39;API di reporting v1.4. (AN-197958)
 * È stato corretto un problema in seguito al quale l&#39;istanza/visita/visitatore non veniva conteggiata nel denominatore per le metriche [!UICONTROL Tempo trascorso] .  Ciò si verifica quando un hit senza valore per la dimensione (ad esempio, [!UICONTROL Pagename]) viene seguito nello stesso secondo. (AN-211074)
