@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1784b66efbcd85c25145fbf5b84f95c0285412ab
+source-git-commit: be366e4ce14fe1f095ba60b85cc9adcd633cb3eb
 workflow-type: tm+mt
-source-wordcount: '4997'
+source-wordcount: '5040'
 ht-degree: 36%
 
 ---
@@ -25,12 +25,12 @@ Questa pagina contiene nuove funzioni, correzioni e note importanti in [!DNL Ado
 
 **Data di rilascio: 2020 maggio**
 
-Ultimo aggiornamento: **21 maggio 2020**
+Ultimo aggiornamento: **26 maggio 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**Aggiornato il 21 maggio 2020**)
+* [!DNL Analytics](#analytics) (**Aggiornato il 26 maggio 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -139,7 +139,7 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 
 * [Nuove funzioni nell&#39;analisi del percorso cliente](#cust-journey)
 * [Nuove funzioni di Adobe Analytics](#aa-features)
-* [Avvisi importanti per gli amministratori](#aa-notices) di Analytics (**aggiornato il 21 maggio 2020**)
+* [Avvisi importanti per gli amministratori](#aa-notices) di Analytics (**aggiornato il 26 maggio 2020**)
 * [Correzioni](#aa-fixes) di Adobe Analytics (**aggiornato il 21 maggio 2020**)
 * [AppMeasurement](#appm)
 * [Nuove esercitazioni per Analytics](#tutorials-analytics)
@@ -209,6 +209,7 @@ AN-101871, AN-115525; AN-123869; AN-152580; AN-160480; AN-178128; AN-186907; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
+| Whitelist di tecnologia di terze parti | 12 marzo 2020 (data di entrata in vigore) | Adobe Analytics ha iniziato a sfruttare tecnologie di terze parti per la gestione del rollout delle funzioni e il supporto nel prodotto. I seguenti URL devono essere aggiunti alle whitelist del firewall di rete necessarie per garantire l’accesso completo alle funzioni:<ul><li>Vista d&#39;insieme: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
 | Miglioramento della ridondanza per la disponibilità di Analysis Workspace | 21 maggio 2020 | Per garantire la disponibilità di Analysis Workspace, stiamo aggiungendo un CDN secondario (Content Delivery Network) per migliorare la ridondanza. I seguenti URL devono essere aggiunti alle whitelist del firewall di rete necessarie:<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | Modifica del metodo di calcolo di [!UICONTROL Entrate/Uscite] in [!UICONTROL Workspace] | 7 aprile 2020 | A partire da marzo 2020, in [!UICONTROL Analysis Workspace] è stato modificato il modo in cui il valore _None_ interagisce con [!UICONTROL Entrate/Uscite]. Because you can now turn _Nones_ on and off in [!UICONTROL Analysis Workspace], we apply the _None_ value after the entry or exit, whereas (for eVars) it used to be applied before entry or exit. Ad esempio, si supponga che il primo hit di una visita non abbia alcun valore per le eVar, ma il secondo hit lo sia. In [!UICONTROL Reports &amp; Analytics] the first hit will show as _Unspecified_ for the Entry, but in [!UICONTROL Analysis Workspace] it will show up as the value on the second hit. |
 | Impostazione di fine del ciclo vita del **[!UICONTROL Livello di conversione]** | 3 marzo 2020 | L’impostazione non funzionante del [Livello di conversione](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/general-acct-settings-admin.html) in **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Suite di rapporti]** > **[!UICONTROL Impostazioni account generali]** sarà rimossa dall’interfaccia utente il 12 marzo 2020. |
