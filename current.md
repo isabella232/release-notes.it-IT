@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5283f48c529ee5d1eca229bbd0164bb9e8864aa6
+source-git-commit: 8e6be9e0d672aceac0cb99ec0973de6122e3ad51
 workflow-type: tm+mt
-source-wordcount: '5201'
+source-wordcount: '5212'
 ht-degree: 88%
 
 ---
@@ -25,12 +25,12 @@ Questa pagina contiene nuove funzioni, correzioni e note importanti di [!DNL Ado
 
 **Data di rilascio: maggio 2020**
 
-Ultimo aggiornamento: **27 maggio 2020**
+Ultimo aggiornamento: **29 maggio 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**Aggiornato il 27 maggio 2020**)
+* [!DNL Analytics](#analytics) (**Aggiornato il 29 maggio 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -137,11 +137,11 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 
 ## ![Icona](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-Updated **May 27, 2020**
+Updated **May 29, 2020**
 
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Nuove funzioni di Adobe Analytics](#aa-features)
-* [Nuove funzioni in Media Analytics](#media-aa) (**aggiornato il 27 maggio 2020**)
+* [Nuove funzioni in Media Analytics](#media-aa) (**aggiornato il 29 maggio 2020**)
 * [Avvisi importanti per gli amministratori](#aa-notices) di Analytics (**aggiornato il 26 maggio 2020**)
 * [Correzioni](#aa-fixes) di Adobe Analytics (**aggiornato il 21 maggio 2020**)
 * [AppMeasurement](#appm)
@@ -169,7 +169,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 #### New features in [!UICONTROL Media Analytics] {#media-aa}
 
-Date added: **May 27, 2020**
+Data di aggiornamento: **29 maggio 2020**
 
 **Tracciamento stato lettore:** [!UICONTROL I clienti di Media Analytics] possono acquisire l&#39;interazione del visualizzatore durante la riproduzione utilizzando un set standard di variabili di soluzione per l&#39;intero schermo, i sottotitoli codificati, l&#39;audio, l&#39;immagine nell&#39;immagine e la messa a fuoco. È inoltre possibile creare stati di lettore personalizzati. Le variabili di tracciamento dello stato del lettore sono ora disponibili per il reporting in [!UICONTROL Analysis Workspace]. Questa funzione richiede una delle seguenti operazioni:
 
@@ -179,7 +179,7 @@ Date added: **May 27, 2020**
    * [!UICONTROL Estensione] Media Analytics (per dispositivi mobili): [!UICONTROL Adobe Media Analytics per audio] e video v2.0 o versione successiva
 * [!UICONTROL Media Collection]
 
-Collegamento contenuto disponibile.
+Consultate [Informazioni sul tracciamento](https://docs.adobe.com/content/help/en/media-analytics/using/player-state-tracking/player-state-overview.html)dello stato del lettore.
 
 #### Correzioni ad Adobe Analytics {#aa-fixes}
 
