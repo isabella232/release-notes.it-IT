@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8e6be9e0d672aceac0cb99ec0973de6122e3ad51
+source-git-commit: 6c9c4b782fdf3dc9283d98d78d459bd38fef648d
 workflow-type: tm+mt
-source-wordcount: '5212'
-ht-degree: 88%
+source-wordcount: '5322'
+ht-degree: 86%
 
 ---
 
@@ -25,12 +25,12 @@ Questa pagina contiene nuove funzioni, correzioni e note importanti di [!DNL Ado
 
 **Data di rilascio: maggio 2020**
 
-Ultimo aggiornamento: **29 maggio 2020**
+Ultimo aggiornamento: **1 giugno 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**Aggiornato il 29 maggio 2020**)
+* [!DNL Analytics](#analytics) (**Aggiornato il 1° giugno 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -142,7 +142,7 @@ Updated **May 29, 2020**
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Media Analytics](#media-aa) (**aggiornato il 29 maggio 2020**)
-* [Avvisi importanti per gli amministratori](#aa-notices) di Analytics (**aggiornato il 26 maggio 2020**)
+* [Avvisi importanti per gli amministratori](#aa-notices) di Analytics (**aggiornato il 1° giugno 2020**)
 * [Correzioni](#aa-fixes) di Adobe Analytics (**aggiornato il 21 maggio 2020**)
 * [AppMeasurement](#appm)
 * [Nuove esercitazioni per Analytics](#tutorials-analytics)
@@ -226,6 +226,7 @@ AN-101871, AN-115525; AN-123869; AN-152580; AN-160480; AN-178128; AN-186907; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
+| Migrazione a un dominio di prodotto unificato | Data di validità: 28 maggio 2020 | La migrazione a un dominio di prodotto unificato per Adobe Analytics, iniziata a gennaio 2020, è stata completata il 28 maggio 2020. Adobe Analytics funziona per rimuovere tutti i riferimenti di `omniture.com` dominio dalla propria architettura, ma è importante inserirli in una whitelist `omniture.com` come cookie di terze parti. Al termine della migrazione dell&#39;architettura completa (presto), riceverai una notifica tramite le note sulla versione e questo passaggio nella whitelist non sarà più necessario. [Di seguito](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) è riportato un elenco completo degli indirizzi IP e dei domini consigliati da inserire nella whitelist.<br>Se l&#39;organizzazione blocca i cookie di terze parti, contattate l&#39;Assistenza clienti per recuperare l&#39;accesso ad Adobe Analytics. |
 | Nuova pagina di destinazione predefinita di Adobe Analytics | Data di validità: 18 giugno 2020 | Il 18 giugno 2020, la pagina di destinazione predefinita per Adobe Analytics passerà da [!UICONTROL Rapporti] a [!UICONTROL Workspace]. Questa modifica verrà applicata agli utenti che non hanno precedentemente impostato una pagina di destinazione personalizzata. |
 | Whitelist di tecnologia di terze parti | (Data di validità: 12 marzo 2020 | Adobe Analytics ha iniziato a sfruttare tecnologie di terze parti per la gestione del rollout delle funzioni e il supporto nel prodotto. I seguenti URL devono essere aggiunti alle whitelist del firewall di rete necessarie per garantire l’accesso completo alle funzioni:<ul><li>Vista d&#39;insieme: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
 | Miglioramento della ridondanza per la disponibilità di Analysis Workspace | 21 maggio 2020 | Per garantire la disponibilità di Analysis Workspace, stiamo aggiungendo un CDN secondario (Content Delivery Network) per migliorare la ridondanza. I seguenti URL devono essere aggiunti alle whitelist del firewall di rete necessarie:<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
