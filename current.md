@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 02f473e0c7908d44aa0444ce99f4540d9e79b254
+source-git-commit: 4e1e40af6c04665ce8a44e4fb30156da2d5d9357
 workflow-type: tm+mt
-source-wordcount: '5368'
+source-wordcount: '5379'
 ht-degree: 86%
 
 ---
@@ -163,9 +163,9 @@ Updated **May 29, 2020**
 | API di inserimento dati in blocco | 31 maggio 2020 | Consente di acquisire batch di dati Analytics in modo semplice e indipendente. Utile per i dati lato server e offline. [Ulteriori informazioni...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | Supporto di Analytics per [!UICONTROL Adobe Experience Platform Edge Network] | 31 maggio 2020 | Consente di utilizzare un singolo tag per inviare dati a più soluzioni Adobe, come Adobe Analytics, Adobe Target, Adobe Audience Manager, Adobe Experience Platform Data Lake, Unified Profile ed Experience Cloud ID Service. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/experience-platform/edge/solutions/analytics/analytics-overview.html) |
 | [!UICONTROL Dashboard di Adobe Analytics] | 31 maggio 2020 | [!UICONTROL Dashboard di Adobe Analytics] è un’app mobile che consente agli utenti di accedere agli insight provenienti da Adobe Analytics ovunque e in qualsiasi momento. L’app è destinata ai dirigenti che desiderano avere accesso alle metriche chiave on-the-go. Consente l’accesso a scorecard interattive curate e sarà disponibile per i sistemi operativi iOS e Android. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/mobapp/home.html) |
-| [!UICONTROL Area di lavoro]: Genera automaticamente tabelle a forma libera [del 21 maggio 2020!UICONTROL] da uno stato vuoto | In precedenza non era possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto, bisognava prima aggiungere una [!UICONTROL Tabella a mano libera]. Ora è possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto e una [!UICONTROL Tabella a mano libera] viene creata automaticamente in un formato raccomandato. Inoltre sono stati apportati miglioramenti alla gestione dei tipi di componenti misti (quali dimensioni e metriche) quando vengono rilasciati insieme in una tabella a mano libera vuota. |
+| [!UICONTROL Workspace]: creazione automatica di [!UICONTROL tabelle a mano libera] da uno stato vuoto | [21 maggio 2020 | In precedenza non era possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto, bisognava prima aggiungere una [!UICONTROL Tabella a mano libera]. Ora è possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto e una [!UICONTROL Tabella a mano libera] viene creata automaticamente in un formato raccomandato. Inoltre sono stati apportati miglioramenti alla gestione dei tipi di componenti misti (quali dimensioni e metriche) quando vengono rilasciati insieme in una tabella a mano libera vuota. |
 | [!UICONTROL Pacchetto] Adobe Analytics aggiunto alla pagina [!UICONTROL Livello] di accesso alle funzioni | 21 maggio 2020 | Ora puoi vedere a quale pacchetto [!UICONTROL di] Adobe Analytics (SKU) la tua azienda ha diritto in **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Feature Access Level]**(Amministratore> ImpostazioniSocietà > Livello di accesso allefunzioni). |
-| Miglioramenti all&#39;accessibilità | 21 maggio 2020 | Il team di Adobe Analytics ha apportato diversi miglioramenti in termini di accessibilità ad Analysis Workspace, tra cui la navigazione tramite tastiera, il contrasto del colore e il supporto degli assistenti vocali. |
+| Miglioramenti all&#39;accessibilità | 21 maggio 2020 | Il team di Adobe Analytics ha apportato diversi miglioramenti in termini di accessibilità ad Analysis Workspace, tra cui la navigazione tramite tastiera, il contrasto del colore e il supporto degli assistenti vocali. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 #### New features in [!UICONTROL Media Analytics] {#media-aa}
 
