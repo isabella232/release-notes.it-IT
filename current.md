@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: feb921205059c7ab4ba9d59964fae9b1954d12a0
 workflow-type: tm+mt
 source-wordcount: '5640'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Ultimo aggiornamento: **4 giugno 2020**
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**Aggiornato il 4 giugno 2020**)
+* [!DNL Analytics](#analytics) (**aggiornato il 4 giugno 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -112,7 +112,7 @@ Aggiornato il **15 maggio 2020**
 * È stata migliorata la guida utente, inclusi gli articoli contenuti e la documentazione pertinente al contesto nel menu Guida.
 * Possibilità di fornire feedback su Experience Platform e aprire ticket per il supporto.
 
-Consulta [Note sulla versione di Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md) per maggiori informazioni.
+Consulta [Note sulla versione di Experience Platform](https://docs.adobe.com/content/help/it-IT/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md) per maggiori informazioni.
 
 ### Nuova documentazione sugli attributi del cliente
 
@@ -132,7 +132,7 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 ### Informazioni aggiuntive sulla versione di Experience Platform
 
 * [Note sulla versione di Experience Platform Launch](https://docs.adobe.com/content/help/it-IT/launch/using/intro/release-notes/current.html)
-* [Note sulla versione di Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
+* [Note sulla versione di Experience Platform](https://docs.adobe.com/content/help/it-IT/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md)
 * [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/it/security.html) (Tutti i prodotti Adobe)
 
 ## ![Icona](/assets/analytics.png) [!DNL Analytics] {#analytics}
@@ -140,7 +140,7 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 * [Nuove funzioni in Adobe Analytics](#aa-features) (**aggiornato il 4 giugno 2020**)
 * [Nuove funzioni in Analisi](#cust-journey) del percorso del cliente (**aggiornato il 4 giugno 2020**)
 * [Nuove funzioni di Media Analytics](#media-aa) (**aggiornato il 29 maggio 2020**)
-* [Avvisi importanti per gli amministratori](#aa-notices) di Analytics (**aggiornato il 1° giugno 2020**)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (**aggiornato il 1° giugno 2020**)
 * [Correzioni apportate ad Adobe Analytics](#aa-fixes) (**aggiornato il 21 maggio 2020**)
 * [AppMeasurement](#appm)
 * [Nuove esercitazioni per Analytics](#tutorials-analytics)
@@ -150,30 +150,30 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 <!--First-Party Domains Available in China RDC: June 18 - Enables customers with a cn domain to request a 1st-party domain for use inside of Mainland China. Learn more... 
 Anomaly det. support in CJA - June 18; Project Sharing Roles - June 18; Blank panel in WS now includes panels and vizs - June 18; -->
 
-| Funzione | [Disponibilità](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) generale - Data destinazione | Descrizione |
+| Funzione | [Disponibilità](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) generale - Data destinazione | Descrizione |
 | -----------| ------------ | ---------- |
 | [!UICONTROL Pannello Analytics for Target] in [!UICONTROL Workspace] | 25 giugno 2020 | Il pannello [!UICONTROL Analytics for Target] (A4T) consente di analizzare le attività e le esperienze Adobe Target in [!UICONTROL Analysis Workspace.] [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
 | [!UICONTROL Pannello Approfondimenti] rapidi in [!UICONTROL Workspace] | 25 giugno 2020 | [!UICONTROL Approfondimenti] rapidi fornisce indicazioni per i non analisti e i nuovi utenti di [!UICONTROL Analysis Workspace] per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| [!UICONTROL API di inserimento] dati in blocco | 31 maggio 2020 | Consente di acquisire batch di dati Analytics in modo semplice e indipendente. Utile per i dati lato server e offline. [Ulteriori informazioni...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
+| [!UICONTROL API di inserimento dati in blocco] | 31 maggio 2020 | Consente di inserire batch di dati Analytics in modo semplice e indipendente. Utile per i dati lato server e offline. [Ulteriori informazioni...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | Adobe Analytics support for [!UICONTROL Adobe Experience Platform Edge Network] | 31 maggio 2020 | Consente di utilizzare un singolo tag per inviare dati a più soluzioni Adobe, come Adobe Analytics, Adobe Target, Adobe Audience Manager, Adobe Experience Platform Data Lake, Unified Profile ed Experience Cloud ID Service. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/experience-platform/edge/solutions/analytics/analytics-overview.html) |
 | [!UICONTROL Dashboard di Adobe Analytics] | 21 maggio 2020 | [!UICONTROL Dashboard di Adobe Analytics] è un’app mobile che consente agli utenti di accedere agli insight provenienti da Adobe Analytics ovunque e in qualsiasi momento. L’app è destinata ai dirigenti che desiderano avere accesso alle metriche chiave on-the-go. Consente l’accesso a scorecard interattive curate e sarà disponibile per i sistemi operativi iOS e Android. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/mobapp/home.html) |
-| [!UICONTROL Workspace]: creazione automatica di [!UICONTROL tabelle a mano libera] da uno stato vuoto | [21 maggio 2020 | In precedenza non era possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto, bisognava prima aggiungere una [!UICONTROL Tabella a mano libera]. Ora è possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto e una [!UICONTROL Tabella a mano libera] viene creata automaticamente in un formato raccomandato. Inoltre sono stati apportati miglioramenti alla gestione dei tipi di componenti misti (quali dimensioni e metriche) quando vengono rilasciati insieme in una tabella a mano libera vuota. |
+| [!UICONTROL Workspace]: creazione automatica di [!UICONTROL tabelle a mano libera] da uno stato vuoto | 21 maggio 2020 | In precedenza non era possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto, bisognava prima aggiungere una [!UICONTROL Tabella a mano libera]. Ora è possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto e una [!UICONTROL Tabella a mano libera] viene creata automaticamente in un formato raccomandato. Inoltre sono stati apportati miglioramenti alla gestione dei tipi di componenti misti (quali dimensioni e metriche) quando vengono rilasciati insieme in una tabella a mano libera vuota. |
 | Il [!UICONTROL pacchetto di Adobe Analytics] è stato aggiunto alla pagina [!UICONTROL Livello di accesso alle funzioni] | 21 maggio 2020 | Ora puoi vedere a quale [!UICONTROL pacchetto di Adobe Analytics] (SKU) ha diritto la tua società in **[!UICONTROL Admin]** > **[!UICONTROL Impostazioni della società]** > **[!UICONTROL Livello di accesso alle funzioni]**. |
-| Miglioramenti all’accessibilità | 21 maggio 2020 | Il team di Adobe Analytics ha apportato diversi miglioramenti ad Analysis Workspace in termini di accessibilità, tra cui la navigazione da tastiera, il contrasto del colore e il supporto per la lettura dello schermo. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| Miglioramenti all’accessibilità | 21 maggio 2020 | Il team di Adobe Analytics ha apportato diversi miglioramenti ad Analysis Workspace in termini di accessibilità, tra cui la navigazione da tastiera, il contrasto del colore e il supporto per la lettura dello schermo. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
-| Funzione | [Disponibilità](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) generale - Data destinazione | Descrizione |
+| Funzione | [Disponibilità](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) generale - Data destinazione | Descrizione |
 | -----------| --------- | ---------- |
 | [!UICONTROL Pannello Approfondimenti] rapidi in [!UICONTROL Workspace] | 25 giugno 2020 | [!UICONTROL Approfondimenti] rapidi fornisce indicazioni per i non analisti e i nuovi utenti di [!UICONTROL Analysis Workspace] per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 | [!UICONTROL Customer Journey Analytics]: disponibilità globale | 21 maggio 2020 | Rende [!UICONTROL Customer Journey Analytics] disponibile ai clienti nei paesi EMEA e APAC. |
 | [!UICONTROL Customer Journey Analytics]: supporto per le [!UICONTROL Sandbox di Adobe Experience Platform] | 21 maggio 2020 | Consente di selezionare delle specifiche [!UICONTROL Sandbox di Adobe Experience Platform] da cui creare connessioni CJA. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-connections/create-connection.html) |
-| [!UICONTROL Workspace]: creazione automatica di [!UICONTROL tabelle a mano libera] da uno stato vuoto | [21 maggio 2020 | In precedenza non era possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto, bisognava prima aggiungere una [!UICONTROL Tabella a mano libera]. Ora è possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto e una [!UICONTROL Tabella a mano libera] viene creata automaticamente in un formato raccomandato. Inoltre sono stati apportati miglioramenti alla gestione dei tipi di componenti misti (quali dimensioni e metriche) quando vengono rilasciati insieme in una tabella a mano libera vuota. |
-| Miglioramenti all’accessibilità | 21 maggio 2020 | Il team di Adobe Analytics ha apportato diversi miglioramenti ad Analysis Workspace in termini di accessibilità, tra cui la navigazione da tastiera, il contrasto del colore e il supporto per la lettura dello schermo. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| [!UICONTROL Workspace]: creazione automatica di [!UICONTROL tabelle a mano libera] da uno stato vuoto | 21 maggio 2020 | In precedenza non era possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto, bisognava prima aggiungere una [!UICONTROL Tabella a mano libera]. Ora è possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto e una [!UICONTROL Tabella a mano libera] viene creata automaticamente in un formato raccomandato. Inoltre sono stati apportati miglioramenti alla gestione dei tipi di componenti misti (quali dimensioni e metriche) quando vengono rilasciati insieme in una tabella a mano libera vuota. |
+| Miglioramenti all’accessibilità | 21 maggio 2020 | Il team di Adobe Analytics ha apportato diversi miglioramenti ad Analysis Workspace in termini di accessibilità, tra cui la navigazione da tastiera, il contrasto del colore e il supporto per la lettura dello schermo. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 #### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
 
-Data di aggiornamento: **29 maggio 2020**
+Data dell’aggiornamento: **29 maggio 2020**
 
 **Tracciamento dello stato del lettore:** i clienti di [!UICONTROL Media Analytics] possono registrare l’interazione del visualizzatore durante la riproduzione utilizzando un set standard di variabili di soluzione per riproduzione a schermo intero, sottotitoli, muto, immagine nell’immagine e messa a fuoco. È inoltre possibile creare degli stati del lettore personalizzati. Le variabili di tracciamento dello stato del lettore sono ora disponibili per il reporting in [!UICONTROL Analysis Workspace]. Questa funzione richiede uno dei seguenti elementi:
 
@@ -183,7 +183,7 @@ Data di aggiornamento: **29 maggio 2020**
    * [!UICONTROL Estensione Media Analytics] (per dispositivi mobile): [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 o versione successiva
 * [!UICONTROL Media Collection]
 
-Consultate [Informazioni sul tracciamento](https://docs.adobe.com/content/help/en/media-analytics/using/player-state-tracking/player-state-overview.html)dello stato del lettore.
+Consulta le [informazioni sul tracciamento dello stato del lettore](https://docs.adobe.com/content/help/it-IT/media-analytics/using/player-state-tracking/player-state-overview.html).
 
 #### Correzioni ad Adobe Analytics {#aa-fixes}
 
@@ -230,9 +230,9 @@ AN-101871, AN-115525; AN-123869; AN-152580; AN-160480; AN-178128; AN-186907; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
-| Migrazione a un dominio di prodotto unificato | Data di validità: 28 maggio 2020 | La migrazione a un dominio di prodotto unificato per Adobe Analytics, iniziata a gennaio 2020, è stata completata il 28 maggio 2020. Adobe Analytics funziona per rimuovere tutti i riferimenti di `omniture.com` dominio dalla propria architettura, ma è importante inserirli in una whitelist `omniture.com` come cookie di terze parti. Al termine della migrazione dell&#39;architettura completa (presto), riceverai una notifica tramite le note sulla versione e questo passaggio nella whitelist non sarà più necessario. [Di seguito](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) è riportato un elenco completo degli indirizzi IP e dei domini consigliati da inserire nella whitelist.<br>Se l&#39;organizzazione blocca i cookie di terze parti, contattate l&#39;Assistenza clienti per recuperare l&#39;accesso ad Adobe Analytics. |
-| Nuova pagina di destinazione predefinita di Adobe Analytics | Data di validità: 18 giugno 2020 | Il 18 giugno 2020, la pagina di destinazione predefinita per Adobe Analytics passerà da [!UICONTROL Rapporti] a [!UICONTROL Workspace]. Questa modifica verrà applicata agli utenti che non hanno precedentemente impostato una pagina di destinazione personalizzata. |
-| Whitelist della tecnologia di terze parti | (Data di validità: 12 marzo 2020 | Adobe Analytics ha iniziato a sfruttare tecnologie di terze parti per la gestione del rollout delle funzioni e per il supporto integrato nel prodotto. I seguenti URL devono essere aggiunti alle whitelist del firewall di rete necessarie per garantire l’accesso completo alle funzioni:<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
+| Migrazione a un dominio di prodotto unificato | Data di validità: 28 maggio 2020 | La migrazione a un dominio di prodotto unificato per Adobe Analytics, iniziata a gennaio 2020, è stata completata il 28 maggio 2020. Adobe Analytics è in grado di rimuovere tutti i riferimenti al dominio `omniture.com` dalla propria architettura, ma è comunque importante inserire `omniture.com` in una whitelist come cookie di terze parti. Al termine della migrazione dell’intera architettura (che avverrà presto), riceverai una notifica tramite le note sulla versione e non sarà più necessario compiere questo passaggio. [Qui](https://helpx.adobe.com/it/analytics/kb/adobe-ip-addresses.html) è riportato un elenco completo degli indirizzi IP e dei domini che si consiglia di inserire nella whitelist.<br>Se l’organizzazione blocca i cookie di terze parti, contatta l’assistenza clienti per recuperare l’accesso ad Adobe Analytics. |
+| Nuova pagina di destinazione predefinita di Adobe Analytics | Data di validità: 18 giugno 2020 | Il 18 giugno 2020 la pagina di destinazione predefinita per Adobe Analytics passerà da [!UICONTROL Reports] a [!UICONTROL Workspace]. Questa modifica verrà applicata agli utenti che non hanno precedentemente impostato una pagina di destinazione personalizzata. |
+| Whitelist della tecnologia di terze parti | Data di validità: 12 marzo 2020 | Adobe Analytics ha iniziato a sfruttare tecnologie di terze parti per la gestione del rollout delle funzioni e per il supporto integrato nel prodotto. I seguenti URL devono essere aggiunti alle whitelist del firewall di rete necessarie per garantire l’accesso completo alle funzioni:<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>LaunchDarkly: https://app.launchdarkly.com</li></ul> |
 | Migliore ridondanza per la disponibilità di Analysis Workspace | 21 maggio 2020 | Per garantire la disponibilità di Analysis Workspace, stiamo aggiungendo una CDN (Content Delivery Network) secondaria per migliorare la ridondanza. I seguenti URL devono essere aggiunti alle whitelist del firewall di rete necessarie:<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | Modifica del metodo di calcolo di [!UICONTROL Entrate/Uscite] in [!UICONTROL Workspace] | 7 aprile 2020 | A partire da marzo 2020, in [!UICONTROL Analysis Workspace] è stato modificato il modo in cui il valore _None_ interagisce con [!UICONTROL Entrate/Uscite]. Poiché ora in [!UICONTROL Analysis Workspace] è possibile attivare e disattivare i valori _None_, viene applicato il valore _None_ dopo l’entrata o l’uscita, mentre per le eVar veniva applicato prima dell’entrata o dell’uscita. Ad esempio, si supponga che il primo risultato di una visita non presenti alcun valore per le eVar, ma il secondo sì. In [!UICONTROL Reports &amp; Analytics] il primo risultato verrà visualizzato come _non specificato_ per l’Entrata, ma in [!UICONTROL Analysis Workspace] verrà visualizzato come valore per il secondo risultato. |
 | Impostazione di fine del ciclo vita del **[!UICONTROL Livello di conversione]** | 3 marzo 2020 | L’impostazione non funzionante del [Livello di conversione](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/general-acct-settings-admin.html) in **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Suite di rapporti]** > **[!UICONTROL Impostazioni account generali]** sarà rimossa dall’interfaccia utente il 12 marzo 2020. |
@@ -397,9 +397,9 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 | Contenuto | Descrizione |
 | -----------| ---------- |  
-| [Pannello di controllo - Gestione record di Google TXT](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html) | Scopri come aggiungere i record di verifica del sito Google TXT a tutti i tuoi sottodomini utilizzati per inviare e-mail agli indirizzi GMAIL con il pannello di controllo Campaign. |
-| [Configurare ed eseguire un flusso di lavoro con l’attività API esterna](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) | Scopri come chiamare un endpoint REST API esterno utilizzando l’attività API esterna. |
-| [Guida introduttiva alle notifiche push per Android-Tutorial](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | Questa esercitazione illustra i passaggi per la configurazione di notifiche push con Campaign Standard e con l’app Android. |
+| [Pannello di controllo - Gestione record di Google TXT](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html) | Scopri come aggiungere i record di verifica del sito Google TXT a tutti i tuoi sottodomini utilizzati per inviare e-mail agli indirizzi GMAIL con il pannello di controllo Campaign. |
+| [Configurare ed eseguire un flusso di lavoro con l’attività API esterna](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) | Scopri come chiamare un endpoint REST API esterno utilizzando l’attività API esterna. |
+| [Guida introduttiva alle notifiche push per Android-Tutorial](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | Questa esercitazione illustra i passaggi per la configurazione di notifiche push con Campaign Standard e con l’app Android. |
 
 * Nuove esercitazioni di Campaign Classic
 
@@ -410,7 +410,7 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 ### Risorse per Campaign
 
-* Adobe Campaign Standard: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/campaign-standard-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html) - [Video dimostrativi](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [Piano delle versioni future](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-planning.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Standard: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/campaign-standard-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html) - [Video dimostrativi](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/overview.html) - [Piano delle versioni future](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-planning.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/campaign-classic-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html) - [Video dimostrativi](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/documentation-updates.html)
 * Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html)
 
