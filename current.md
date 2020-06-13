@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e239cc0afb9ebde272f37fa0181b1454412ac2ae
+source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
 workflow-type: tm+mt
-source-wordcount: '6520'
+source-wordcount: '6522'
 ht-degree: 35%
 
 ---
@@ -346,10 +346,12 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
       * Il supporto sandbox self-service migliorato in Cloud Manager consente agli utenti autorizzati di eliminare tutti gli ambienti all&#39;interno di una sandbox e ricevere crediti.
       * Gli ambienti sandbox con sospensione automatica &quot;ibernano&quot; automaticamente le sandbox dopo un periodo di inattività. I clienti possono attivare attivamente la disattivazione.
    * Strumenti di transizione per supportare l&#39;accelerazione cloud
+
    Con l&#39;obiettivo di ridurre i tempi e i costi di transizione dal servizio locale a quello cloud, questo mese sono stati lanciati due strumenti di transizione. Questi strumenti sono progettati per automatizzare alcune delle attività chiave durante il processo di transizione e quindi, riducendo lo sforzo complessivo. .
 
    1. [Utilizzando Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (disponibile su SD) è possibile semplificare l&#39;attività di trasferimento dei contenuti e renderla scalabile. Grazie a un’interfaccia utente semplice, lo strumento è self-service per clienti e partner esistenti (on-prem/AMS) che passano ad AEM come servizio cloud.
    1. [Strumento AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) per automatizzare la conversione delle configurazioni di AMS Dispatcher in configurazioni di Cloud Service Dispatcher.
+
    [Note sulla versione di AEM come servizio cloud 2020.6.0](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Strumenti di transizione:
@@ -404,7 +406,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 | [Componenti della console Web AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale dell’SDK del servizio Cloud tramite la console Web Components. |
 | [Debug dell’avvio rapido locale dell’SDK AEM tramite i registri](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale dell’SDK del servizio Cloud tramite la console Web Bundles. |
 | [Debug remoto di AEM come avvio rapido locale dell’SDK di servizio cloud](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/remote-debugging.html) | Esercitazione video | Scopri il debugging Java remoto dall’IDE, per consentirti di analizzare a fondo l’esecuzione del codice in tempo reale in AEM per comprendere esattamente il flusso di esecuzione. |
-| [Impostazione smart tag](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | Istruzioni dettagliate per integrare Adobe Experience Manager (AEM) con Smart Content Service tramite Adobe I/O. |
+| [Impostazione smart tag](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | Esercitazione video | Istruzioni dettagliate per integrare Adobe Experience Manager (AEM) con Smart Content Service tramite Adobe I/O. |
 | [Generazione batch di documenti](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/interactive-communications/batch-generation-interactive-communications.html) | Articolo | Scopri come utilizzare l&#39;API Batch per produrre più comunicazioni interattive da un modello. |
 | [Creazione di un documento canale di stampa in AEM Forms](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html) | Articolo | Scopri i passaggi necessari per creare una comunicazione interattiva per il canale di stampa. |
 | [Accesso ad Adobe Asset Link](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/launch-adobe-asset-link.html) | Esercitazione video | Scopri come accedere ai contenuti memorizzati in Risorse Adobe Experience Manager (AEM Assets), senza uscire dalle app desktop Creative Cloud che ti sono familiari. |
