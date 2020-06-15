@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
+source-git-commit: 233093d41875b9fba88afefa0ecbfc9ace21a900
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: '6530'
 ht-degree: 37%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 37%
 
 ![Banner](/assets/experience-cloud-banner-3.png)
 
-This page describes new features, fixes, and important notices in [!DNL Adobe Experience Cloud]. Vengono inoltre evidenziate nuove documentazione, corsi di formazione ed esercitazioni video per trarre il massimo da Experience Cloud.
+This page describes new features, fixes, and important notices in [!DNL Adobe Experience Cloud]. Vengono inoltre evidenziate nuove documentazione, corsi di formazione ed esercitazioni video per consentirvi di sfruttare al meglio  Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -31,13 +31,13 @@ This page describes new features, fixes, and important notices in [!DNL Adobe Ex
 
 Le date di rilascio del prodotto possono variare. Controllate spesso la disponibilità di aggiornamenti.
 
-Ultimo aggiornamento: **12 giugno 2020**
+Ultimo aggiornamento: **15 giugno 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics)
+* [Analytics](#analytics) (e [Customer Journey Analytics](#cust-journey))
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -69,7 +69,7 @@ Rilasciato: **21 maggio 2020**
 
 ## ![Icona](/assets/ec_appicon_24.png) Interfaccia di Experience Cloud {#ecloud}
 
-Aggiornamenti generali all&#39;interfaccia di Experience Cloud.
+Aggiornamenti generali &#39;interfaccia Experience Cloud.
 
 **Dominio di prodotto unificato**
 
@@ -79,7 +79,7 @@ Gli aggiornamenti includono:
 
 * Nuovi URL dell’applicazione: `experience.adobe.com/<application name>`:
    * Tutti i prodotti adotteranno questo pattern per i propri URL. Cerca i nuovi URL che diventeranno validi nel corso del mese.
-   * Supporto browser: i browser supportati includono [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] e [!DNL Opera] (versioni più recenti). **Nota:** Sebbene l&#39;interfaccia di Experience Cloud supporti questi browser, le singole applicazioni potrebbero non supportare tutti i browser. Ad esempio, [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) non supporta [!DNL Opera] e [Target](https://docs.adobe.com/help/it-IT/target/using/implement-target/before-implement/supported-browsers.html) non supporta [!DNL Safari].
+   * Supporto browser: i browser supportati includono [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] e [!DNL Opera] (versioni più recenti). **Nota:** Sebbene &#39;interfaccia Experience Cloud supporti questi browser, le singole applicazioni potrebbero non supportare tutti i browser. Ad esempio, [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) non supporta [!DNL Opera] e [Target](https://docs.adobe.com/help/it-IT/target/using/implement-target/before-implement/supported-browsers.html) non supporta [!DNL Safari].
    * (Solo per [!DNL Safari]) La modifica del dominio potrebbe causare problemi di cookie in [!DNL Safari]. Deselezionando l’opzione _Impedisci il tracciamento intersito_ nelle preferenze relative alla privacy di [!DNL Safari], i cookie verranno abilitati per tutti i domini (e tutte le esperienze intersito), permettendo ad Experience Cloud di funzionare su questo nuovo dominio.
 * Un passaggio più semplice tra le organizzazioni o verso un’altra applicazione.
 * Guida di prodotto migliorata: [!UICONTROL Experience League] è stato integrato nel prodotto, in modo tale che la ricerca nella guida includa anche i risultati dei forum e dei contenuti video della community. Questa modifica semplifica l’accesso a più contenuti e ti consente di ottenere il massimo da Experience Cloud. Fai clic inoltre su **[!UICONTROL Guida]** > **[!UICONTROL Feedback]** per segnalare i problemi o condividere le tue idee con Adobe.
@@ -118,21 +118,21 @@ Data di rilascio: **10 giugno 2020**
 * **Segmentazione:** È stato aggiunto un campo data anniversario per le funzioni data, che consente agli utenti di valutare le date senza l&#39;anno.
 * **Origini:** Nuovi connettori sorgente per [!DNL Apache HDFS] e [!DNL Couchbase].
 
-Per ulteriori informazioni su queste funzioni, consulta Note [sulla versione di](https://docs.adobe.com/content/help/it-IT/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md)Experience Platform.
+Per ulteriori informazioni su queste funzioni, consultate [note](https://docs.adobe.com/content/help/it-IT/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md)sulla versione di Experience Platform.
 
 ### Informazioni aggiuntive sulla versione di Experience Platform
 
 * [Note sulla versione di Experience Platform Launch](https://docs.adobe.com/content/help/it-IT/launch/using/intro/release-notes/current.html)
 * [Bollettini sulla sicurezza e avvisi](https://helpx.adobe.com/it/security.html) (Tutti i prodotti Adobe)
 
-### Nuovi corsi ed esercitazioni sulla piattaforma Experience {#tutorials-plat}
+### Nuovi corsi  Experience Platform ed esercitazioni {#tutorials-plat}
 
 | Contenuto | Tipo di contenuto | Descrizione |
 | -----------| ---------- | ---------- |
-| [Introduzione ad Adobe Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1) | Corso | Scopri in che modo Adobe Experience Platform ti aiuta a fornire l&#39;esperienza giusta trasformando i tuoi dati in solidi profili cliente in tempo reale e informazioni basate sull&#39;intelligenza artificiale che puoi attivare in ogni canale. Questo corso introduttivo offre una panoramica delle funzionalità, dei casi di utilizzo, della relazione con Adobe Experience Cloud, dell’architettura di base, dell’interfaccia e dei ruoli del progetto della piattaforma Experience. |
-| [Introduzione a Web SDK e Edge Network](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-web-sdk-and-edge-network.html) | Esercitazione video | Panoramica di Adobe Experience Platform SDK e Edge Network. Experience Platform Web SDK è una libreria JavaScript lato client che consente ai clienti di utilizzare una libreria JavaScript, un tipo di beacon, un flusso di dati, una e una destinazione lato server per inviare dati a tutte le applicazioni Adobe e a destinazioni terze parti. |
-| [Demo di Web SDK e Edge Network](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/demo-of-web-sdk-and-edge-network.html) | Esercitazione video | Guarda l’SDK Web e la rete Edge di Adobe Experience Platform in azione, con una singola chiamata ad Adobe per l’invio di dati a Experience Platform, Analytics, Audience Manager e Target. |
-| [Demo della piattaforma dati del cliente in tempo reale](https://docs.adobe.com/content/help/en/platform-learn/tutorials/rtcdp/demo.html) | Esercitazione video | Scopri come la tecnologia CDP in tempo reale viene utilizzata per raccogliere dati da più origini. Puoi unire tali dati in un unico profilo cliente in tempo reale e attivarli per creare esperienze cliente personalizzate. |
+| [Introduzione al Adobe Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1) | Corso | Scopri come  Adobe Experience Platform ti aiuta a fornire l&#39;esperienza giusta trasformando i tuoi dati in solidi profili cliente in tempo reale e informazioni basate sull&#39;intelligenza artificiale che puoi attivare in ogni canale. Questo corso introduttivo offre una panoramica  funzionalità di Experience Platform, casi di utilizzo, relazione con Adobe Experience Cloud, architettura di base, interfaccia e ruoli di progetto. |
+| [Introduzione a Web SDK e Edge Network](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-web-sdk-and-edge-network.html) | Esercitazione video | Panoramica di  Adobe Experience Platform SDK e Edge Network.  Experience Platform Web SDK è una libreria JavaScript lato client che consente ai clienti di utilizzare una libreria JavaScript, un tipo di beacon, un flusso di dati, una e una destinazione lato server per inviare dati a tutte le applicazioni Adobe e a destinazioni terze parti. |
+| [Demo di Web SDK e Edge Network](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/demo-of-web-sdk-and-edge-network.html) | Esercitazione video | Guarda l’SDK Web  Adobe Experience Platform e Edge Network in azione, con una singola chiamata ad Adobe che invia dati a  Experience Platform,  Analytics,  Audience Manager e Target. |
+| [Demo di Platform sui dati dei clienti in tempo reale](https://docs.adobe.com/content/help/en/platform-learn/tutorials/rtcdp/demo.html) | Esercitazione video | Scopri come la tecnologia CDP in tempo reale viene utilizzata per raccogliere dati da più origini. Puoi unire tali dati in un unico profilo cliente in tempo reale e attivarli per creare esperienze cliente personalizzate. |
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
@@ -142,12 +142,12 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 
 È stata pubblicata la versione Q2. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/journeys/using/release-notes/release-notes.html)
 
-### Nuovi corsi e esercitazioni sull&#39;orchestrazione del viaggio {#jo-tutorials}
+### Nuovi corsi ed esercitazioni Journey Orchestration {#jo-tutorials}
 
 | Contenuto | Tipo di contenuto | Descrizione |
 | -----------| ---------- | ---------- |
-| [Guida introduttiva all&#39;orchestrazione del percorso per gli amministratori](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | Corso | Scopri come configurare e utilizzare l&#39;orchestrazione del percorso. Questo corso descrive i concetti chiave e le fasi di configurazione necessarie per consentire l&#39;orchestrazione di un percorso. Scopri come creare, pubblicare e come segnalare e analizzare i viaggi orchestrati. |
-| [Guida introduttiva all&#39;orchestrazione del percorso per gli utenti aziendali](https://experienceleague.corp.adobe.com/?recommended=JourneyOrchestration-U-1-2020.1) | Corso | Scopri come configurare e utilizzare l&#39;orchestrazione del percorso. Questo corso descrive i concetti chiave. Scoprirai come creare, pubblicare, generare rapporti e analizzare i tuoi viaggi organizzati. |
+| [Guida introduttiva ad Journey Orchestration per gli amministratori](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | Corso | Scoprite come configurare e utilizzare Journey Orchestration. Questo corso descrive i concetti chiave e le fasi di configurazione necessarie per consentire l&#39;orchestrazione di un percorso. Scopri come creare, pubblicare e come segnalare e analizzare i viaggi orchestrati. |
+| [Guida introduttiva ad Journey Orchestration per gli utenti aziendali](https://experienceleague.corp.adobe.com/?recommended=JourneyOrchestration-U-1-2020.1) | Corso | Scoprite come configurare e utilizzare Journey Orchestration. Questo corso descrive i concetti chiave. Scoprirai come creare, pubblicare, generare rapporti e analizzare i tuoi viaggi organizzati. |
 
 ### Risorse aggiuntive per Journey Orchestration
 
@@ -160,30 +160,30 @@ Updated **June 10, 2020**
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Nuove funzioni di Media Analytics](#media-aa)
-* [Problemi risolti in Adobe Analytics](#aa-fixes)
+* [Problemi risolti in Adobe  Analytics](#aa-fixes)
 * [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
-* [Nuovi corsi ed esercitazioni di Adobe Analytics](#tutorials-analytics)
+* [Nuovi corsi ed esercitazioni su Adobe  Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
 ### Nuove funzioni di Adobe Analytics {#aa-features}
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-------|
-| IQ attribuzione: [!UICONTROL Attribuzione algoritmica] | 18 giugno 2020 | Il modello [!UICONTROL Attribuzione] algoritmica di [!UICONTROL Analysis Workspace] utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| IQ attribuzione: Finestre di lookback personalizzate | 18 giugno 2020 | Ora puoi configurare qualsiasi modello di attribuzione in [!UICONTROL Attribution IQ] per includere punti di contatto con un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione di attribuzione per gli eventi che si verificano all&#39;inizio del periodo di reporting, tenendo conto delle interazioni che si sono verificate nei mesi precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| Ruoli di progetto per progetti condivisi [!UICONTROL Workspace] | 18 giugno 2020 | Quando condividi un progetto [!UICONTROL Workspace] , ora puoi posizionare i destinatari in uno dei tre ruoli di progetto, a seconda dell’esperienza di progetto che desideri abbiano: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Visualizza progetti [!UICONTROL Workspace] | 18 giugno 2020 | [!UICONTROL I progetti Workspace] possono essere condivisi con gli utenti come _[!UICONTROL Solo visualizzabili]_. Quando un destinatario di visualizzazione apre il progetto condiviso, riceve un&#39;esperienza di progetto più restrittiva senza barra a sinistra e interazioni limitate.[Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Possibilità di co-modificare i progetti [!UICONTROL Workspace] | 18 giugno 2020 | I destinatari aggiunti al ruolo _[!UICONTROL Can Edit]_(Può modificare) possono salvare in un progetto condiviso con loro. Questo vale sia per gli amministratori che per gli utenti non amministratori.[Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Pannello vuoto aggiornato in [!UICONTROL Workspace] | 18 giugno 2020 | Il pannello vuoto in [!UICONTROL Workspace] ora include pannelli e visualizzazioni, per consentirvi di scegliere in modo più semplice il flusso di lavoro di analisi più adatto alle vostre esigenze. |
-| Domini di prime parti disponibili in Cina RDC | 18 giugno 2020 | Consente ai clienti con un `.cn` dominio di richiedere un dominio di prime parti da utilizzare all&#39;interno della Cina continentale. (Documentazione disponibile con l&#39;acquisto di SKU China Performance Optimization). |
-| Pannello Quick Insights (Approfondimenti rapidi) in [!UICONTROL Workspace] (Area di lavoro) | 25 giugno 2020 | Quick Insights fornisce indicazioni ai non analisti e ai nuovi utenti di [!UICONTROL Analysis Workspace] per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| Pannello [!UICONTROL Analytics for Target] in [!UICONTROL Workspace] (Area di lavoro) | 25 giugno 2020 | Il pannello [!UICONTROL Analytics for Target] (A4T) consente di analizzare le attività e le esperienze Adobe Target in [!UICONTROL Analysis Workspace]. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| IQ attribuzione: Attribuzione algoritmica | 18 giugno 2020 | Il modello [!UICONTROL Attribuzione] algoritmica in  Analysis Workspace utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| IQ attribuzione: Finestre di lookback personalizzate | 18 giugno 2020 | Ora puoi configurare qualsiasi modello di attribuzione in [!UICONTROL Attribution IQ] per includere punti di contatto fino a 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione di attribuzione per gli eventi che si verificano all&#39;inizio del periodo di reporting, tenendo conto delle interazioni che si sono verificate nei mesi precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| Ruoli del progetto per progetti Workspace condivisi | 18 giugno 2020 | Quando condividi un progetto Workspace, ora puoi posizionare i destinatari in uno dei tre ruoli di progetto, a seconda dell’esperienza di progetto che desideri abbiano: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Visualizza progetti Workspace | 18 giugno 2020 | I progetti Workspace possono essere condivisi con gli utenti solo come &quot;Può visualizzare&quot;. Quando un destinatario di visualizzazione apre il progetto condiviso, riceve un&#39;esperienza di progetto più restrittiva, senza barra a sinistra e interazioni limitate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Possibilità di co-modificare i progetti Workspace | 18 giugno 2020 | I destinatari aggiunti al ruolo &quot;Can edit&quot; possono salvare su un progetto condiviso con loro. Questo vale sia per gli amministratori che per gli utenti non amministratori. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Pannello vuoto aggiornato in Workspace | 18 giugno 2020 | Il pannello vuoto in Workspace ora include pannelli e visualizzazioni, per consentirvi di scegliere in modo più semplice il flusso di lavoro di analisi più adatto alle vostre esigenze. |
+| Domini di prime parti disponibili in Cina RDC | 18 giugno 2020 | Consente ai clienti con un `.cn` dominio di richiedere un dominio di prime parti da utilizzare all&#39;interno della Cina continentale. (Documentazione disponibile con l&#39;acquisto di SKU &quot;China Performance Optimization&quot;.) |
+| Pannello Quick Insights (Approfondimenti rapidi) in Workspace (Area di lavoro) | 25 giugno 2020 | Quick Insights fornisce indicazioni ai non analisti e ai nuovi utenti di Analysis Workspace per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| Pannello Analytics for Target in Workspace (Area di lavoro) | 25 giugno 2020 | Il pannello  Analytics per Target (A4T) consente di analizzare le attività e le esperienze di  Adobe Target, con estrema sicurezza, in  Analysis Workspace. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-----|
-| IQ attribuzione: [!UICONTROL Attribuzione algoritmica] | 18 giugno 2020 | Il modello [!UICONTROL Attribuzione] algoritmica di [!UICONTROL Analysis Workspace] utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| IQ attribuzione: [!UICONTROL Attribuzione algoritmica] | 18 giugno 2020 | Il modello [!UICONTROL Attribuzione] algoritmica in [!UICONTROL Analysis Workspace] utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
 | IQ attribuzione: Finestre di lookback personalizzate | 18 giugno 2020 | Ora puoi configurare qualsiasi modello di attribuzione in [!UICONTROL Attribution IQ] per includere punti di contatto con un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione di attribuzione per gli eventi che si verificano all&#39;inizio del periodo di reporting, tenendo conto delle interazioni che si sono verificate nei mesi precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
 | Supporto per il rilevamento delle [!UICONTROL anomalie] | 18 giugno 2020 | [!UICONTROL Il rilevamento] delle anomalie fornisce un metodo statistico per determinare in che modo una determinata metrica è cambiata rispetto ai dati precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | Ruoli di progetto per progetti condivisi [!UICONTROL Workspace] | 18 giugno 2020 | Quando condividi un progetto [!UICONTROL Workspace] , ora puoi posizionare i destinatari in uno dei tre ruoli di progetto, a seconda dell’esperienza di progetto che desideri abbiano: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
@@ -205,21 +205,21 @@ Data dell’aggiornamento: **29 maggio 2020**
 
 Consulta le [informazioni sul tracciamento dello stato del lettore](https://docs.adobe.com/content/help/it-IT/media-analytics/using/player-state-tracking/player-state-overview.html).
 
-### Problemi risolti in Adobe Analytics {#aa-fixes}
+### Problemi risolti in Adobe  Analytics {#aa-fixes}
 
 * È stato risolto un problema che causava la mancata corrispondenza tra segmenti con ricerche multibyte per determinate suite di rapporti. Ora verranno confrontati con le stringhe corrette. (AN-220043)
-* È stato risolto un problema con il filtro  elemento in [!UICONTROL Reporting e analisi] che non funzionava. (AN-206132)
+* È stato risolto un problema con il Filtro  elemento in [!UICONTROL Reporting e  Analytics] che non funzionava. (AN-206132)
 * È stato corretto un tempo di risposta lento nell&#39;interfaccia Progetti  pianificati. (AN-214837)
-* È stato risolto un problema con l&#39;API di reporting di Analytics 2.0 che generava un errore nell&#39;intervallo di date. (AN-215087)
+* È stato risolto un problema che causava un errore  Analytics Reporting API 2.0 con un intervallo di date. (AN-215087)
 * Fixed a case in which the instance/visit/visitor wasn&#39;t being counted in the denominator for the [!UICONTROL Time Spent] metrics. Ciò si verifica quando un hit senza valore per la dimensione (ad es. Nome programma) viene seguito nello stesso secondo. (AN-211074)
 * È stato corretto un problema a causa del quale gli utenti non potevano accedere ai progetti [!UICONTROL Workspace] condivisi con loro. (AN-217561)
 * È stato corretto un problema a causa del quale le chiavi non venivano classificate da Generatore [!UICONTROL regole di]classificazione. (AN-221538)
 * È stato risolto un problema con l&#39;utilizzo [!UICONTROL delle chiamate] server che non segnalava i dati di utilizzo. (AN-210452)
-* Sono stati risolti dei problemi relativi ai segmenti Adobe Analytics pubblicati per i quali mancavano dati in Audience Manager. (AN-220208, AN-220659)
-* È stato risolto un problema che causava la visualizzazione di dati nei rapporti ma i registri dei feed [!UICONTROL di] dati indicavano &quot;Nessun dato di data warehouse&quot;. (AN-220784, AN-220858)
-* Sono stati risolti i problemi che impedivano il lancio di Analisi [!UICONTROL ad hoc dal] `experiencecloud.com` dominio. (AN-219680, AN-221629)
+* Sono stati risolti dei problemi relativi ai segmenti Adobe  Analytics pubblicati per i quali i dati mancanti  Audience Manager erano mancanti. (AN-220208, AN-220659)
+* È stato risolto un problema che causava la visualizzazione di dati nei rapporti ma i registri Feed  dati dicevano &quot;Nessun dato Data warehouse&quot;. (AN-220784, AN-220858)
+* Sono stati risolti dei problemi che impedivano il lancio di [!UICONTROL Ad hoc analysis] dal `experiencecloud.com` dominio. (AN-219680, AN-221629)
 * Sono stati risolti i problemi relativi all&#39;utilizzo del tasto di scelta rapida &quot;Ctrl (o Comando) + C&quot;. (AN-221101, AN-221537)
-* È stato risolto un problema con la pagina di abilitazione Mappa  attività. (AN-222029, AN-221242)
+* È stato risolto un problema con la pagina di abilitazione dei Activity Map  . (AN-222029, AN-221242)
 * È stato risolto un problema che impediva di aggiungere un punto di contatto nel mezzo di una visualizzazione [!UICONTROL Abbandono] . (AN-221648)
 
 #### Ulteriori correzioni di Adobe Analytics
@@ -240,21 +240,21 @@ AN-218269; AN-218455; AN-218492; AN-219888; AN-220447; AN-220546; AN-220788; AN-
 | San Jose FTP Broker in scadenza per Londra e Singapore | Luglio 2020 | Per i clienti di Londra e Singapore, non supporteremo più il brokering dei dati tra Londra o Singapore e il data center di San Jose [ftp.omniture.com](ftp://ftp.omniture.com/).<br/><ul><li>Per Londra, utilizzare [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>Per Singapore, utilizzare [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
 | Fine del ciclo di vita di Ad Hoc Analysis | 6 agosto 2018 | Adobe ha annunciato l’intenzione di terminare Ad Hoc Analysis. Non appena disponibile, verrà comunicata la data di fine del ciclo di vita. Per ulteriori informazioni, visita [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 
-#### Nuovi corsi ed esercitazioni di Analytics {#tutorials-analytics}
+#### Nuovi corsi  Analytics ed esercitazioni {#tutorials-analytics}
 
-Nuovi corsi, video di esercitazione e articoli in Analytics e Analisi del percorso del cliente.
+Nuovi corsi, video di esercitazione e articoli in  Analytics e Customer Journey Analytics.
 
 | Contenuto | Tipo di contenuto | Descrizione |
 | -----------| ---------- | ---------- | 
-| [Guida introduttiva all&#39;analisi del percorso dei clienti per gli utenti](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-U-1-2020.1) | Corso | In questo corso imparerai come utilizzare la funzione Analisi del percorso del cliente (CJA) per analizzare i dati provenienti da diverse origini dati. Scoprirai le differenze tra Adobe Analytics e Customer Journey Analytics e come vengono gestiti i dati in CJA. Dopo aver seguito questo corso, devi essere in grado di creare e personalizzare visualizzazioni tra canali per migliorare la comprensione dei clienti. |
-| [Guida introduttiva all&#39;analisi del percorso dei clienti per gli amministratori](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | Corso | Scopri come configurare e utilizzare [!UICONTROL l&#39;orchestrazione]del percorso. Questo corso illustra i concetti chiave e i passaggi di configurazione necessari per consentire l&#39;orchestrazione di un viaggio. Scoprirai come creare, pubblicare e come segnalare e analizzare i tuoi viaggi organizzati. |
-| [Guida introduttiva all&#39;analisi del percorso dei clienti per gli sviluppatori di dati](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-D-1-2020.1) | Corso | In questo corso imparerai come i dati entrano in analisi del percorso del cliente e come influenzano i rapporti per l&#39;analista. Questo corso si basa sulle conoscenze generali di Adobe Experience Platform. |
-| [Guida introduttiva all&#39;analisi del percorso dei clienti per gli amministratori](https://video.tv.adobe.com/v/34349?captions=ita) | Esercitazione video | Video introduttivo per l&#39;analisi del percorso dei clienti per gli amministratori. |
-| [Implementazione guidata di Analytics](https://experienceleague.adobe.com/?recommended=Analytics-D-1-2019.1) | Corso | In questo corso imparerai come iniziare ad implementare Adobe Analytics, comprendere i concetti di Analytics, creare un piano e implementare Adobe Analytics tramite Experience Platform Launch. |
-| [Nozioni di base di Adobe Analytics per i leader](https://experienceleague.adobe.com/?recommended=Analytics-L-1-2020.1) | Corso | In questo corso, scopri le nozioni di base di Analytics e come Analysis Workspace può cambiare la tua attività. Scopri come scoprire informazioni approfondite con Adobe Sensei, ascoltare le testimonianze dei clienti e vedere le testimonianze degli esperti del settore al Summit 2019. |
-| [Guida introduttiva ad Analysis Workspace](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.1.workspace) | Corso | Scopri come iniziare a utilizzare Analysis Workspace. Crea il primo progetto, scopri come definire intervalli di date, applicare segmenti, condividere e collaborare ai progetti. |
-| [Adobe Analytics Dashboard Scorecard Builder](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | Esercitazione video | In questo video, scopri come creare e condividere [!UICONTROL scorecard] in [!UICONTROL Analysis Workspace] da visualizzare sulle dashboard di Adobe Analytics (app mobile). |
-| [Adobe Analytics Dashboard per esperienze in-app](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | Esercitazione video | In questo video, scopri come utilizzare le dashboard di Adobe Analytics (app mobile) per accedere e visualizzare le [!UICONTROL scorecard] create da o condivise con te. |
+| [Guida introduttiva ad Customer Journey Analytics per gli utenti](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-U-1-2020.1) | Corso | In questo corso verrà illustrato come utilizzare Customer Journey Analytics (CJA) per analizzare i dati provenienti da diverse origini dati. Verranno illustrate le differenze tra Adobe  Analytics e Customer Journey Analytics e la modalità di gestione dei dati in CJA. Dopo aver seguito questo corso, devi essere in grado di creare e personalizzare visualizzazioni tra canali per migliorare la comprensione dei clienti. |
+| [Guida introduttiva ad Customer Journey Analytics per gli amministratori](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | Corso | Scoprite come configurare e utilizzare [!UICONTROL Journey Orchestration]. Questo corso illustra i concetti chiave e i passaggi di configurazione necessari per consentire l&#39;orchestrazione di un viaggio. Scoprirai come creare, pubblicare e come segnalare e analizzare i tuoi viaggi organizzati. |
+| [Guida introduttiva ad Customer Journey Analytics per i tecnici dei dati](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-D-1-2020.1) | Corso | In questo corso imparerai come i dati vengono inviati ad Customer Journey Analytics e come influenzano i rapporti per l&#39;analista. Questo corso si basa sulla conoscenza generale del Adobe Experience Platform . |
+| [Guida introduttiva ad Customer Journey Analytics per gli amministratori](https://video.tv.adobe.com/v/34349?captions=ita) | Esercitazione video | Video introduttivo per Customer Journey Analytics per gli amministratori. |
+| [Implementazione guidata  Analytics](https://experienceleague.adobe.com/?recommended=Analytics-D-1-2019.1) | Corso | In questo corso imparerai come iniziare ad implementare Adobe  Analytics, capire  concetti di Analytics, creare un piano e implementare Adobe  Analytics utilizzando l&#39;Experience Platform Launch. |
+| [Nozioni di base di Adobe  Analytics per i leader](https://experienceleague.adobe.com/?recommended=Analytics-L-1-2020.1) | Corso | In questo corso, scopri le  basi di Analytics e come  Analysis Workspace può cambiare la tua attività. Scopri come scoprire informazioni approfondite con Adobe Sensei, ascoltare le testimonianze dei clienti e vedere le testimonianze degli esperti del settore al Summit 2019. |
+| [Guida introduttiva  Analysis Workspace](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.1.workspace) | Corso | Scoprite come utilizzare  Analysis Workspace. Crea il primo progetto, scopri come definire intervalli di date, applicare segmenti, condividere e collaborare ai progetti. |
+| [Adobe  Analytics dashboards Scorecard Builder](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | Esercitazione video | In questo video, scopri come creare e condividere [!UICONTROL scorecard] in [!UICONTROL Analysis Workspace] da visualizzare sulle dashboard Adobe  Analytics (app mobile). |
+| [Adobe  Analytics Dashboard per l&#39;esperienza in-app](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | Esercitazione video | In questo video, scopri come utilizzare le dashboard Adobe  Analytics (app mobile) per accedere e visualizzare le [!UICONTROL scorecard] create da o condivise con te. |
 
 #### Risorse dell’Aiuto di Analytics
 
@@ -273,7 +273,7 @@ Audience Manager sta aggiornando il dominio e la barra di intestazione per migli
 
 * Un passaggio più semplice tra le organizzazioni o verso un’altra applicazione.
 * È stata migliorata la Guida utente, inclusi gli articoli contenuti e i video pertinenti al contesto nel menu Guida.
-* Possibilità di fornire feedback su Experience Platform e sui biglietti per il supporto dei file.
+* Possibilità di fornire feedback su  Experience Platform e sui biglietti di supporto per i file.
 * Un nuovo pattern URL più semplice. Aggiorna i segnalibri nel nuovo URL: `experience.adobe.com/audience-manager`.
 
 Questi aggiornamenti sono disponibili solo per gli utenti che accedono utilizzando l’Adobe ID. Per passare a un accesso Adobe ID, consulta [Gestione di utenti e prodotti Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html).
@@ -282,11 +282,11 @@ Questi aggiornamenti sono disponibili solo per gli utenti che accedono utilizzan
 
 | Funzione | Descrizione |
 | -----------| ---------- |  
-| [Plug-in Audience Manager per IAB TCF v2.0 ](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html) | Continuando a prestare attenzione alla privacy by Design, Adobe sta aggiornando il plug-in Audience Manager per IAB TCF alla versione 2.0 di IAB Transparency &amp; Consent Framework (TCF), a partire dal 10 giugno 2020. I clienti che hanno implementato il plug-in Audience Manager per IAB TCF devono effettuare l’aggiornamento alla versione 2.0 entro il 15 agosto 2020, per poter continuare a utilizzare la funzione. Dopo il 15 agosto 2020, la versione 1.1 diventerà obsoleta e non più supportata. |
+| [Plug-in Audience Manager per IAB TCF v2.0 ](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html) | Continuando a prestare attenzione alla privacy by Design da parte di Adobe, il plug-in  Audience Manager per IAB TCF verrà aggiornato alla versione 2.0 di IAB Transparency &amp; Consent Framework (TCF), a partire dal 10 giugno 2020. I clienti che hanno implementato il plug-in Audience Manager  per IAB TCF devono effettuare l&#39;aggiornamento alla versione 2.0 entro il 15 agosto 2020, per poter continuare a utilizzare la funzione. Dopo il 15 agosto 2020, la versione 1.1 diventerà obsoleta e non più supportata. |
 
 **Correzioni**
 
-* Aggiornamento dei Termini e condizioni di [!UICONTROL Audience Marketplace] per riflettere i requisiti legali in aree geografiche specifiche. (AAM-54518)
+* Aggiornati i Termini e le Condizioni [!UICONTROL di Audience Marketplace] per riflettere i requisiti legali in aree geografiche specifiche. (AAM-54518)
 * È stato risolto un problema che causava un errore 404 durante l&#39;accesso alla pagina [!UICONTROL Caratteristiche] dai segnalibri. (AAM-54768)
 * È stato risolto un problema che causava il timeout dell&#39;API di aggiornamento di destinazione durante il recupero dei modelli algoritmici. (AAM-54342)
 * Gli utenti ora possono vedere un indicatore di precisione della classificazione del modello per [!UICONTROL Smart Personas]. (AAM-54847)
@@ -299,16 +299,16 @@ Questi aggiornamenti sono disponibili solo per gli utenti che accedono utilizzan
 * È stato risolto un problema che impediva agli utenti di aggiungere caratteristiche in blocco ai segmenti nel Generatore segmenti. (AAM-55033)
 * Miglioramenti di accessibilità in tutta l’interfaccia. (AAM-47269, AAM-48966, AAM-48976, AAM-49369, AAM-49023, AAM-49042).
 
-### Nuovi corsi ed esercitazioni su Audience Manager {#tutorials-aam}
+### Nuovi corsi  Audience Manager ed esercitazioni {#tutorials-aam}
 
 | Contenuto | Tipo di contenuto | Descrizione |
 | -----------| ---------- | ---------- |  
-| [Introduzione ad Audience Manager](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1) | Corso | Questo corso illustra le nozioni di base di Audience Manager e i problemi che è possibile risolvere. Scopri i casi di utilizzo comuni e i termini e i concetti chiave di Audience Manager. |
-| [Introduzione all&#39;identità in Audience Manager](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/introduction-to-identity-in-audience-manager.html) | Esercitazione video | Scopri come Adobe Audience Manager gestisce l’identità, inclusi profili interni e unione dei profili, nonché la sincronizzazione degli ID con i partner. |
+| [Introduzione a  Audience Manager](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1) | Corso | Questo corso illustra le nozioni di base di  Audience Manager e i problemi che è possibile risolvere. Informazioni sui casi d’uso comuni e sui principali  termini e concetti di Audience Manager. |
+| [Introduzione all&#39;identità in  Audience Manager](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/introduction-to-identity-in-audience-manager.html) | Esercitazione video | Scopri come  Adobe Audience Manager gestisce l&#39;identità, inclusi profili interni e unione di profili, nonché la sincronizzazione degli ID con i partner. |
 | [Informazioni e configurazione della destinazione basata su LinkedIn](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) | Corso | Questo video illustra i concetti e i passaggi necessari per creare una destinazione basata sulle persone su LinkedIn. Si basa sui video aggiuntivi e la documentazione relativa alle destinazioni basate sulle persone. |
-| [Creazione di caratteristiche basate su regole](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-rule-based-traits.html) | Esercitazione video | Scopri come utilizzare [!UICONTROL Trait Builder] nell’interfaccia di Audience Manager per creare una caratteristica basata su regole, per acquisire l’attività in tempo reale nei profili di Audience Manager. |
-| [Abilitazione del plug-in Audience Manager per IAB TCF 2.0](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/setup-and-admin/data-governance-and-privacy/iab-tcf-support.html#enabling-iab-tcf) | Esercitazione video | Scoprite come abilitare il plug-in Audience Manager per IAB TCF. Abilitare questo plug-in è semplice se utilizzi Adobe Experience Platform Launch. |
-| [Demo del plug-in Audience Manager per IAB TCF 2.0](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/setup-and-admin/data-governance-and-privacy/iab-tcf-support.html#demo) | Esercitazione video | In questo video, scopri in che modo i cookie e i beacon del servizio Experience Cloud ID e le soluzioni sono influenzati dalle selezioni di scelta dell’utente IAB. |
+| [Creazione di caratteristiche basate su regole](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-rule-based-traits.html) | Esercitazione video | Scopri come utilizzare [!UICONTROL Trait Builder] nell&#39;interfaccia Audience Manager  per creare una caratteristica basata su regole, consentendo di acquisire l&#39;attività in tempo reale  profili Audience Manager. |
+| [Abilitazione del plug-in  Audience Manager per IAB TCF 2.0](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/setup-and-admin/data-governance-and-privacy/iab-tcf-support.html#enabling-iab-tcf) | Esercitazione video | Scoprite come abilitare il plug-in Audience Manager  per IAB TCF. Abilitare questo plug-in è semplice se si utilizza  lancio Adobe Experience Platform. |
+| [Demo del plug-in Audience Manager  per IAB TCF 2.0](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/setup-and-admin/data-governance-and-privacy/iab-tcf-support.html#demo) | Esercitazione video | In questo video, scopri in che modo i cookie e i beacon di  Experience Cloud ID Service e delle soluzioni sono influenzati dalle selezioni di scelta dell’utente IAB. |
 
 ## ![Icona](/assets/aem.png) Adobe Experience Manager {#aem}
 
@@ -334,25 +334,25 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
 * **AEM as a Cloud Service**
 
-   Novità su AEM come servizio cloud
+   Novità su AEM come Cloud Service
 
    Le evidenziazioni includono:
 
-   * Framework di integrazione di AEM Sites Commerce.
+   * AEM Sites Commerce Integration Framework.
    * Tag avanzati avanzati e nuove funzionalità nell’esperienza di formazione guidata dell’interfaccia utente.
    * Supporto di Adobe Asset Link per Adobe Xd.
-   * Supporto 3D per contenuti multimediali dinamici di AEM Assets.
+   * Supporto AEM Assets Dynamic Media 3D.
    * I nuovi miglioramenti Self Service riducono le dipendenze da Adobe per le operazioni sandbox.
       * Il supporto sandbox self-service migliorato in Cloud Manager consente agli utenti autorizzati di eliminare tutti gli ambienti all&#39;interno di una sandbox e ricevere crediti.
       * Gli ambienti sandbox con sospensione automatica &quot;ibernano&quot; automaticamente le sandbox dopo un periodo di inattività. I clienti possono attivare attivamente la disattivazione.
    * Strumenti di transizione per supportare l&#39;accelerazione cloud
 
-   Con l&#39;obiettivo di ridurre i tempi e i costi di transizione dal servizio locale a quello cloud, questo mese sono stati lanciati due strumenti di transizione. Questi strumenti sono progettati per automatizzare alcune delle attività chiave durante il processo di transizione e quindi, riducendo lo sforzo complessivo. .
+   Con l&#39;obiettivo di ridurre il tempo e i costi per la transizione dalla sede ad Cloud Service, questo mese sono stati lanciati due strumenti di transizione. Questi strumenti sono progettati per automatizzare alcune delle attività chiave durante il processo di transizione e quindi, riducendo lo sforzo complessivo. .
 
-   1. [Utilizzando Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (disponibile su SD) è possibile semplificare l&#39;attività di trasferimento dei contenuti e renderla scalabile. Grazie a un’interfaccia utente semplice, lo strumento è self-service per clienti e partner esistenti (on-prem/AMS) che passano ad AEM come servizio cloud.
-   1. [Strumento AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) per automatizzare la conversione delle configurazioni di AMS Dispatcher in configurazioni di Cloud Service Dispatcher.
+   1. [Utilizzando Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (disponibile su SD) è possibile semplificare l&#39;attività di trasferimento dei contenuti e renderla scalabile. Grazie a un’interfaccia utente semplice, lo strumento è self-service per clienti e partner esistenti (on-prem/AMS) che passano ad AEM come Cloud Service.
+   1. [Strumento AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) per automatizzare la conversione delle configurazioni AMS Dispatcher in configurazioni Cloud Service Dispatcher.
 
-   [Note sulla versione di AEM come servizio cloud 2020.6.0](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
+   [Note sulla versione di AEM come Cloud Service 2020.6.0](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Strumenti di transizione:
 
@@ -364,13 +364,13 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
    La release 2.9.0 dei componenti core introduce l’integrazione con [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) e un nuovo componente Barra di avanzamento, ed è ora disponibile insieme alla documentazione [di](https://docs.adobe.com/content/help/it-IT/experience-manager-core-components/using/introduction.html) authoring e ai dettagli [per gli sviluppatori e al download del progetto disponibile su GitHub](https://github.com/adobe/aem-core-wcm-components).
 
-* **Passaggio ad AEM come servizio cloud**
+* **Passaggio ad AEM come Cloud Service**
 
-   [Il passaggio ad AEM come servizio](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) cloud descrive il percorso di transizione consigliato per un cliente AEM esistente che passa al servizio cloud. L&#39;obiettivo di questa documentazione è quello di fornire ai clienti informazioni, indicazioni e best practice per aiutarli a prepararsi a questa transizione e rendere il percorso strutturato e prevedibile.
+   [Il passaggio ad AEM come Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) descrive il percorso di transizione consigliato per un cliente AEM già esistente che si sposta su Cloud Service. L&#39;obiettivo di questa documentazione è quello di fornire ai clienti informazioni, indicazioni e best practice per aiutarli a prepararsi a questa transizione e rendere il percorso strutturato e prevedibile.
 
-   Uno degli strumenti di transizione cloud - Strumento di trasferimento dei contenuti è stato rilasciato. [Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) è sviluppato da Adobe e può essere utilizzato per spostare il contenuto esistente da un’istanza di AEM di origine (locale o AMS) all’istanza di AEM Cloud Service di destinazione.
+   Uno degli strumenti di transizione cloud - Strumento di trasferimento dei contenuti è stato rilasciato. [Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) è sviluppato da Adobe e può essere utilizzato per spostare il contenuto esistente da un’istanza AEM di origine (locale o AMS) all’istanza Cloud Service AEM di destinazione.
 
-   È stato rilasciato uno degli strumenti di refactoring del codice - AEM Dispatcher Converter. [AEM Dispatcher Converter](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/refactoring-tools/dispatcher-transformation-utility-tools.html) è uno strumento per convertire le configurazioni AEM Dispatcher esistenti in AEM come configurazioni di Cloud Service Dispatcher ed è disponibile.
+   È stato rilasciato uno degli strumenti di refactoring del codice - AEM Dispatcher Converter. [AEM Dispatcher Converter](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/refactoring-tools/dispatcher-transformation-utility-tools.html) è uno strumento per convertire le configurazioni AEM Dispatcher esistenti in AEM come configurazioni Cloud Service Dispatcher ed è disponibile.
 
 * **Accessibilità e linee guida WCAG 2.1**
 
@@ -394,30 +394,30 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
    Ora puoi consultare tutti gli annunci relativi ad AEM e gli interessanti riferimenti ai blogger interni ed esterni in un&#39;unica posizione. Consulta la sezione [Discussione della community AEM.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/bd-p/adobe-experience-manager-discussions)
 
-### Nuovi corsi ed esercitazioni di Experience Manager
+### Nuovi corsi  Experience Manager ed esercitazioni
 
 | Contenuto | Tipo di contenuto | Descrizione |
 | -----------| ---------- | ---------- |
-| [Guida introduttiva ad Adobe Asset Link per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.asset.link) | Corso | In questo corso, scopri come utilizzare le funzioni e le funzionalità di Adobe Asset Link per arricchire il design creativo con il contenuto memorizzato in Risorse Adobe Experience Manager. Il corso illustra tutte le procedure, dal lancio del collegamento delle risorse Adobe, alle operazioni di base sulle risorse, alle opzioni di ricerca e navigazione e alla collaborazione efficace con altri utenti. |
-| [Guida introduttiva di Risorse AEM per utenti aziendali](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.assets) | Corso | Scopri come iniziare a usare Risorse AEM per gli utenti aziendali. Scopri le basi di Risorse AEM, le funzioni di collaborazione, la ricerca, l’organizzazione delle risorse e il download delle risorse e delle relative rappresentazioni. |
-| [Guida introduttiva ad AEM Sites per utenti aziendali](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites) | Corso | Scopri come utilizzare le funzionalità e le funzionalità di base di AEM Sites per gestire le pagine Web della tua organizzazione. Il corso tratta tutto, dall’introduzione a AEM Sites, dai concetti di base dell’authoring alle funzioni di authoring avanzate e alle funzionalità di gestione delle pagine. |
-| [Struttura dei progetti AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | Articolo | Descrive le modifiche necessarie ai progetti Adobe Experience Manager Maven in modo che siano compatibili con AEM Cloud Service. |
-| [Modelli Sling](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#sling-models) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale dell’SDK di Servizi cloud utilizzando la console Web di Sling Models. |
-| [Componenti della console Web AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale dell’SDK del servizio Cloud tramite la console Web Components. |
-| [Debug dell’avvio rapido locale dell’SDK AEM tramite i registri](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale dell’SDK del servizio Cloud tramite la console Web Bundles. |
-| [Debug remoto di AEM come avvio rapido locale dell’SDK di servizio cloud](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/remote-debugging.html) | Esercitazione video | Scopri il debugging Java remoto dall’IDE, per consentirti di analizzare a fondo l’esecuzione del codice in tempo reale in AEM per comprendere esattamente il flusso di esecuzione. |
-| [Impostazione smart tag](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | Esercitazione video | Istruzioni dettagliate per integrare Adobe Experience Manager (AEM) con Smart Content Service tramite Adobe I/O. |
+| [Guida introduttiva ad Adobe Asset Link per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.asset.link) | Corso | In questo corso, scopri come utilizzare le funzioni e le funzionalità di Adobe Asset Link per arricchire il design creativo con il contenuto memorizzato in  risorse di Adobe Experience Manager. Il corso illustra tutte le procedure, dal lancio del collegamento delle risorse Adobe, alle operazioni di base sulle risorse, alle opzioni di ricerca e navigazione e alla collaborazione efficace con altri utenti. |
+| [Guida introduttiva ai AEM Assets per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.assets) | Corso | Scoprite come iniziare a utilizzare i AEM Assets per gli utenti aziendali. Scoprite le nozioni di base di AEM Assets, funzioni di collaborazione, ricerca, organizzazione e download delle risorse e delle relative rappresentazioni. |
+| [Guida introduttiva ai AEM Sites per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites) | Corso | Scoprite come utilizzare le funzioni e le funzionalità di base di AEM Sites per gestire le pagine Web dell&#39;organizzazione. Il corso tratta tutto, dall’introduzione agli AEM Sites, i concetti di base dell’authoring, le funzioni di authoring avanzate e le funzionalità di gestione delle pagine. |
+| [Struttura dei progetti AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | Articolo | Descrive le modifiche necessarie per  progetti Adobe Experience Manager Maven in modo che siano compatibili con AEM Cloud Service. |
+| [Modelli Sling](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#sling-models) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale di Cloud Service SDK tramite la console Web Sling Models. |
+| [Componenti della console Web AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale dell’SDK Cloud Service tramite la console Web Components. |
+| [Debug dell’avvio rapido locale dell’SDK AEM tramite i registri](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale dell’SDK Cloud Service tramite la console Web Bundles. |
+| [Debug remoto di AEM come avvio rapido locale di Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/remote-debugging.html) | Esercitazione video | Scopri il debugging Java remoto dall’IDE, per consentirti di analizzare a fondo l’esecuzione del codice in tempo reale in AEM per comprendere esattamente il flusso di esecuzione. |
+| [Impostazione smart tag](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | Esercitazione video | Istruzioni passo passo per integrare  Adobe Experience Manager (AEM) con Smart Content Service tramite Adobe I/O. |
 | [Generazione batch di documenti](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/interactive-communications/batch-generation-interactive-communications.html) | Articolo | Scopri come utilizzare l&#39;API Batch per produrre più comunicazioni interattive da un modello. |
 | [Creazione di un documento canale di stampa in AEM Forms](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html) | Articolo | Scopri i passaggi necessari per creare una comunicazione interattiva per il canale di stampa. |
-| [Accesso ad Adobe Asset Link](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/launch-adobe-asset-link.html) | Esercitazione video | Scopri come accedere ai contenuti memorizzati in Risorse Adobe Experience Manager (AEM Assets), senza uscire dalle app desktop Creative Cloud che ti sono familiari. |
-| [Panoramica del pannello Collegamento risorse](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/panel-overview.html) | Esercitazione video | Adobe Asset Link consente agli utenti creativi di sfogliare, cercare, estrarre e archiviare le risorse memorizzate in Risorse AEM tramite il pannello in-app in InDesign, Photoshop e Illustrator. Scopri l’interfaccia utente e le funzionalità del pannello Collegamento risorse di Adobe. |
-| [Ricerca risorse](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/asset-search.html) | Esercitazione video | Gli utenti Creative possono cercare risorse memorizzate in Risorse AEM utilizzando le parole chiave o effettuare una ricerca in una posizione specifica. |
-| [Versioni e commenti del file](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/file-versioning-and-comments.html) | Esercitazione video | Con il pannello Collegamento risorse di Adobe potete accedere ai dettagli dei file delle risorse in Risorse AEM, come miniature, metadati di base e versioni direttamente dal pannello. |
-| [Check-In Check-Out](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/check-in-check-out.html) | Esercitazione video | Risorse Adobe consente di estrarre Risorse AEM direttamente dall’app creativa su cui state lavorando e di iniziare immediatamente a apportare modifiche. |
-| [Per rappresentazioni solo posizionamento per AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/for-placement-only.html) | Esercitazione video | Scopri come creare e utilizzare una rappresentazione Solo posizionamento (FPO) per le risorse AEM. |
-| [Inserisci copia](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/place-copy.html) | Esercitazione video | Scopri come utilizzare le risorse da Risorse AEM tramite l’operazione Inserisci copia. |
-| [Download e caricamento](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/download-and-upload.html) | Esercitazione video | Scopri come scaricare e caricare i file di risorse da e verso Risorse AEM tramite il pannello Collegamento risorse. |
-| [File e raccolte](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/files-and-collections.html) | Esercitazione video | Scopri come accedere in modo rapido e semplice ai file e alle raccolte di Risorse AEM dal pannello Collegamento risorse. |
+| [Accesso ad Adobe Asset Link](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/launch-adobe-asset-link.html) | Esercitazione video | Scopri come accedere al contenuto memorizzato in  risorse di Adobe Experience Manager (AEM Assets), senza uscire dalle app desktop Creative Cloud che hai più familiarità con. |
+| [Panoramica del pannello Collegamento risorse](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/panel-overview.html) | Esercitazione video | Adobe Asset Link consente agli utenti creativi di sfogliare, cercare, estrarre e archiviare le risorse memorizzate in AEM Assets mediante il pannello in-app in InDesign, Photoshop e Illustrator. Scopri l’interfaccia utente e le funzionalità del pannello Collegamento risorse di Adobe. |
+| [Ricerca risorse](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/asset-search.html) | Esercitazione video | Gli utenti Creative possono cercare risorse memorizzate in AEM Assets utilizzando le parole chiave oppure eseguire una ricerca in una posizione specifica. |
+| [Versioni e commenti del file](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/file-versioning-and-comments.html) | Esercitazione video | Con il pannello Collegamento risorse di Adobe potete accedere ai dettagli dei file per le risorse in AEM Assets, come miniature, metadati di base e versioni direttamente dal pannello. |
+| [Check-In Check-Out](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/check-in-check-out.html) | Esercitazione video | Adobe Asset consente di estrarre i AEM Assets direttamente dall’app creativa su cui state lavorando e di iniziare subito a apportare modifiche. |
+| [Per rappresentazione solo posizionamento per AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/for-placement-only.html) | Esercitazione video | Scopri come creare e utilizzare una rappresentazione Solo posizionamento (FPO) per le risorse AEM. |
+| [Inserisci copia](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/place-copy.html) | Esercitazione video | Scoprite come utilizzare le risorse dai AEM Assets mediante l’operazione Inserisci copia. |
+| [Download e caricamento](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/download-and-upload.html) | Esercitazione video | Scoprite come scaricare e caricare i file di risorse da e verso AEM Assets mediante il pannello Collegamento risorse. |
+| [File e raccolte](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/files-and-collections.html) | Esercitazione video | Scoprite come accedere in modo rapido e semplice ai file AEM Assets e alle raccolte dal pannello Collegamento risorse. |
 | [Scarica](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/sharing/download.html) | Esercitazione video | Scoprite come scaricare le risorse e le relative rappresentazioni nel computer locale per utilizzarle e condividerle. |
 
 ### Risorse aggiuntive
@@ -443,31 +443,31 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 | Contenuto | Tipo di contenuto | Descrizione |
 | -----------| ---------- | ---------- |  
-| [Guida introduttiva ad Adobe Campaign Standard per utenti aziendali](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | Corso | Scopri come navigare nell&#39;interfaccia, lavorare con le consegne e creare e gestire i dati dei destinatari. |
+| [Guida introduttiva  Adobe Campaign Standard per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | Corso | Scopri come navigare nell&#39;interfaccia, lavorare con le consegne e creare e gestire i dati dei destinatari. |
 
 ### Campaign Classic
 
 #### Ultima versione
 
-[Versione di Adobe Campaign Classic 20.2](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html)
+[rilascio di Adobe Campaign Classic 20.2](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html)
 
-#### Esercitazioni su Campaign Classic
+#### Esercitazioni Campaign Classic
 
 | Contenuto | Tipo di contenuto | Descrizione |
 | -----------| ---------- | ---------- |  
-| [Installazione e configurazione del client Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | Esercitazione video | Scopri come scaricare e installare la console Adobe Campaign Client, creare e gestire le connessioni a più ambienti e verificare l&#39;accesso alla console Adobe Campaign Client. |
+| [Installazione e configurazione del client di Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | Esercitazione video | Scoprite come scaricare e installare la console client  Adobe Campaign, creare e gestire le connessioni a più ambienti e verificare l&#39;accesso alla console client  Adobe Campaign. |
 
 ### Pannello di controllo di Campaign
 
 | Funzione | Descrizione |
 | -----------| ---------- |  
-| Monitoraggio profili attivi | Il Pannello di controllo consente di monitorare l&#39;utilizzo dei profili attivi per ciascuna istanza di Campaign. Questa funzione è in versione beta e disponibile per i clienti ospitati su AWS dalla build Campaign Standard 10368 e dalla build Campaign Classic 8931. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) |
+| Monitoraggio profili attivi | Il Pannello di controllo consente di monitorare l&#39;utilizzo dei profili attivi per ciascuna istanza di Campaign. Questa funzione è in versione beta e disponibile per i clienti ospitati su AWS dalla build Campaign Standard 10368 e Campaign Classic 8931. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) |
 
 ### Risorse per Campaign
 
 * Adobe Campaign Standard: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/campaign-standard-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html) - [Video dimostrativi](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/overview.html) - [Piano delle versioni future](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-planning.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/campaign-classic-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html) - [Video dimostrativi](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/documentation-updates.html)
-* Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) - Video introduttivi per [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) - Video per [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![Icona](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
