@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
+source-git-commit: 3dd0f7e9f8712786acc31a01dc0fdece9f4004b9
 workflow-type: tm+mt
-source-wordcount: '6530'
+source-wordcount: '6484'
 ht-degree: 37%
 
 ---
@@ -346,12 +346,10 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
       * Il supporto sandbox self-service migliorato in Cloud Manager consente agli utenti autorizzati di eliminare tutti gli ambienti all&#39;interno di una sandbox e ricevere crediti.
       * Gli ambienti sandbox con sospensione automatica &quot;ibernano&quot; automaticamente le sandbox dopo un periodo di inattività. I clienti possono attivare attivamente la disattivazione.
    * Strumenti di transizione per supportare l&#39;accelerazione cloud
-
    Con l&#39;obiettivo di ridurre il tempo e i costi per la transizione dalla sede ad Cloud Service, questo mese sono stati lanciati due strumenti di transizione. Questi strumenti sono progettati per automatizzare alcune delle attività chiave durante il processo di transizione e quindi, riducendo lo sforzo complessivo. .
 
    1. [Utilizzando Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (disponibile su SD) è possibile semplificare l&#39;attività di trasferimento dei contenuti e renderla scalabile. Grazie a un’interfaccia utente semplice, lo strumento è self-service per clienti e partner esistenti (on-prem/AMS) che passano ad AEM come Cloud Service.
    1. [Strumento AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) per automatizzare la conversione delle configurazioni AMS Dispatcher in configurazioni Cloud Service Dispatcher.
-
    [Note sulla versione di AEM come Cloud Service 2020.6.0](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Strumenti di transizione:
@@ -437,34 +435,21 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
 Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singoli utenti tra canali di marketing online e offline. Ora è possibile prevedere cosa vogliono i clienti, mediante esperienze determinate dalle loro abitudini e preferenze.
 
-### Campaign Standard
+### Nuovi rilasci di prodotti
 
-#### Nuovi corsi ed esercitazioni per Campaign Standard
+[rilascio](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html) Classic 20.2 include:
+
+* _Supporto di Emoticon_ - _Azure Synapse FDA Connector_ - _Nuove norme sulla privacy_
+* Pannello di controllo campagna: [Monitoraggio del profilo attivo](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)
+
+### Nuovi corsi ed esercitazioni per le campagne
 
 | Contenuto | Tipo di contenuto | Descrizione |
 | -----------| ---------- | ---------- |  
 | [Guida introduttiva  Adobe Campaign Standard per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | Corso | Scopri come navigare nell&#39;interfaccia, lavorare con le consegne e creare e gestire i dati dei destinatari. |
+| [Installazione e configurazione del client di Adobe Campaign](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | Video | Scoprite come scaricare e installare la console client  Adobe Campaign, creare e gestire le connessioni a più ambienti e verificare l&#39;accesso alla console client  Adobe Campaign |
 
-### Campaign Classic
-
-#### Ultima versione
-
-[rilascio di Adobe Campaign Classic 20.2](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html)
-
-#### Esercitazioni Campaign Classic
-
-| Contenuto | Tipo di contenuto | Descrizione |
-| -----------| ---------- | ---------- |  
-| [Installazione e configurazione del client di Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | Esercitazione video | Scoprite come scaricare e installare la console client  Adobe Campaign, creare e gestire le connessioni a più ambienti e verificare l&#39;accesso alla console client  Adobe Campaign. |
-
-### Pannello di controllo di Campaign
-
-| Funzione | Descrizione |
-| -----------| ---------- |  
-| Monitoraggio profili attivi | Il Pannello di controllo consente di monitorare l&#39;utilizzo dei profili attivi per ciascuna istanza di Campaign. Questa funzione è in versione beta e disponibile per i clienti ospitati su AWS dalla build Campaign Standard 10368 e Campaign Classic 8931. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) |
-
-### Risorse per Campaign
-
+### Risorse di aiuto
 * Adobe Campaign Standard: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/campaign-standard-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html) - [Video dimostrativi](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/overview.html) - [Piano delle versioni future](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-planning.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/campaign-classic-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html) - [Video dimostrativi](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/documentation-updates.html)
 * Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) - Video per [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
