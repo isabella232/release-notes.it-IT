@@ -4,7 +4,7 @@ product: Experience Cloud
 user-guide-title: Note sulla versione di Adobe Experience Cloud
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
+source-git-commit: bb83a8031e9f82a957fc95057f92d36c92502e3e
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 95%
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 # Note sulla versione di Experience Cloud {#experience-cloud}
 
-+ Note sulla versione di Adobe Experience Cloud
++ Note sulla versione di Adobe Experience Cloud{#exl-rns}
    + [Note sulla versione più recenti](current.md)
 + Note sulle versioni precedenti {#previous}
    + 2020 {#2020}
