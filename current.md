@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 233093d41875b9fba88afefa0ecbfc9ace21a900
+source-git-commit: acbbe734e4d1e6881b32a6ef33439eeac6e92715
 workflow-type: tm+mt
-source-wordcount: '6530'
+source-wordcount: '6531'
 ht-degree: 37%
 
 ---
@@ -67,7 +67,7 @@ Rilasciato: **21 maggio 2020**
 | Conferma dell’abbonamento agli eventi | <ul><li>Ora puoi ricevere una conferma e-mail quando effettui un abbonamento agli aggiornamenti per un singolo evento in corso.</li></ul> |
 | Miglioramenti dell’usabilità della navigazione globale | <ul><li>Esperienza utente coerente con `Adobe.com` nel menu di navigazione di livello principale.</li></ul> |
 
-## ![Icona](/assets/ec_appicon_24.png) Interfaccia di Experience Cloud {#ecloud}
+## ![Icona](/assets/ec_appicon_24.png) dell&#39;interfaccia Adobe Experience Cloud {#ecloud}
 
 Aggiornamenti generali &#39;interfaccia Experience Cloud.
 
