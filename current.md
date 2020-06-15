@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: acbbe734e4d1e6881b32a6ef33439eeac6e92715
+source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
 workflow-type: tm+mt
-source-wordcount: '6531'
+source-wordcount: '6530'
 ht-degree: 37%
 
 ---
@@ -67,7 +67,7 @@ Rilasciato: **21 maggio 2020**
 | Conferma dell’abbonamento agli eventi | <ul><li>Ora puoi ricevere una conferma e-mail quando effettui un abbonamento agli aggiornamenti per un singolo evento in corso.</li></ul> |
 | Miglioramenti dell’usabilità della navigazione globale | <ul><li>Esperienza utente coerente con `Adobe.com` nel menu di navigazione di livello principale.</li></ul> |
 
-## ![Icona](/assets/ec_appicon_24.png) dell&#39;interfaccia Adobe Experience Cloud {#ecloud}
+## ![Icona](/assets/ec_appicon_24.png) Interfaccia di Experience Cloud {#ecloud}
 
 Aggiornamenti generali &#39;interfaccia Experience Cloud.
 
@@ -254,7 +254,7 @@ Nuovi corsi, video di esercitazione e articoli in  Analytics e Customer Journey 
 | [Nozioni di base di Adobe  Analytics per i leader](https://experienceleague.adobe.com/?recommended=Analytics-L-1-2020.1) | Corso | In questo corso, scopri le  basi di Analytics e come  Analysis Workspace può cambiare la tua attività. Scopri come scoprire informazioni approfondite con Adobe Sensei, ascoltare le testimonianze dei clienti e vedere le testimonianze degli esperti del settore al Summit 2019. |
 | [Guida introduttiva  Analysis Workspace](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.1.workspace) | Corso | Scoprite come utilizzare  Analysis Workspace. Crea il primo progetto, scopri come definire intervalli di date, applicare segmenti, condividere e collaborare ai progetti. |
 | [Adobe  Analytics dashboards Scorecard Builder](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | Esercitazione video | In questo video, scopri come creare e condividere [!UICONTROL scorecard] in [!UICONTROL Analysis Workspace] da visualizzare sulle dashboard Adobe  Analytics (app mobile). |
-| [Adobe  Analytics Dashboard per l&#39;esperienza in-app](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | Esercitazione video | In questo video, scopri come utilizzare le dashboard Adobe  Analytics (app mobile) per accedere e visualizzare le [!UICONTROL scorecard] create da o condivise con te. |
+| [Adobe  Dashboard Analytics per l&#39;esperienza in-app](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | Esercitazione video | In questo video, scopri come utilizzare le dashboard Adobe  Analytics (app mobile) per accedere e visualizzare le [!UICONTROL scorecard] create da o condivise con te. |
 
 #### Risorse dell’Aiuto di Analytics
 
@@ -346,10 +346,12 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
       * Il supporto sandbox self-service migliorato in Cloud Manager consente agli utenti autorizzati di eliminare tutti gli ambienti all&#39;interno di una sandbox e ricevere crediti.
       * Gli ambienti sandbox con sospensione automatica &quot;ibernano&quot; automaticamente le sandbox dopo un periodo di inattività. I clienti possono attivare attivamente la disattivazione.
    * Strumenti di transizione per supportare l&#39;accelerazione cloud
+
    Con l&#39;obiettivo di ridurre il tempo e i costi per la transizione dalla sede ad Cloud Service, questo mese sono stati lanciati due strumenti di transizione. Questi strumenti sono progettati per automatizzare alcune delle attività chiave durante il processo di transizione e quindi, riducendo lo sforzo complessivo. .
 
    1. [Utilizzando Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (disponibile su SD) è possibile semplificare l&#39;attività di trasferimento dei contenuti e renderla scalabile. Grazie a un’interfaccia utente semplice, lo strumento è self-service per clienti e partner esistenti (on-prem/AMS) che passano ad AEM come Cloud Service.
    1. [Strumento AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) per automatizzare la conversione delle configurazioni AMS Dispatcher in configurazioni Cloud Service Dispatcher.
+
    [Note sulla versione di AEM come Cloud Service 2020.6.0](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Strumenti di transizione:
