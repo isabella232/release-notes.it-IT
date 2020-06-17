@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2a69ecde6ebbe9ffbb67d6a82daf7d026e28ed19
+source-git-commit: 0c5c9f6f0c03b68eb4c5695db71fca94afc9141b
 workflow-type: tm+mt
-source-wordcount: '6487'
+source-wordcount: '6486'
 ht-degree: 37%
 
 ---
@@ -346,10 +346,12 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
       * Il supporto sandbox self-service migliorato in Cloud Manager consente agli utenti autorizzati di eliminare tutti gli ambienti all&#39;interno di una sandbox e ricevere crediti.
       * Gli ambienti sandbox con sospensione automatica &quot;ibernano&quot; automaticamente le sandbox dopo un periodo di inattività. I clienti possono attivare attivamente la disattivazione.
    * Strumenti di transizione per supportare l&#39;accelerazione cloud
+
    Con l&#39;obiettivo di ridurre il tempo e i costi per la transizione dalla sede ad Cloud Service, questo mese sono stati lanciati due strumenti di transizione. Questi strumenti sono progettati per automatizzare alcune delle attività chiave durante il processo di transizione e quindi, riducendo lo sforzo complessivo. .
 
    1. [Utilizzando Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (disponibile su SD) è possibile semplificare l&#39;attività di trasferimento dei contenuti e renderla scalabile. Grazie a un’interfaccia utente semplice, lo strumento è self-service per clienti e partner esistenti (on-prem/AMS) che passano ad AEM come Cloud Service.
    1. [Strumento AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) per automatizzare la conversione delle configurazioni AMS Dispatcher in configurazioni Cloud Service Dispatcher.
+
    [Note sulla versione di AEM come Cloud Service 2020.6.0](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Strumenti di transizione:
@@ -360,7 +362,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
 * **Componenti di base**
 
-   La release 2.9.0 dei componenti core introduce l’integrazione con [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) e un nuovo componente Barra di avanzamento, ed è ora disponibile insieme alla documentazione [di](https://docs.adobe.com/content/help/it-IT/experience-manager-core-components/using/introduction.html) authoring e ai dettagli [per gli sviluppatori e al download del progetto disponibile su GitHub](https://github.com/adobe/aem-core-wcm-components).
+   Core Components 2.9.0 introduce l&#39;integrazione con [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) e un nuovo componente Progress Bar ed è ora disponibile insieme alla documentazione [di](https://docs.adobe.com/content/help/it-IT/experience-manager-core-components/using/introduction.html) authoring e ai dettagli per [gli sviluppatori e al download del progetto disponibile su GitHub](https://github.com/adobe/aem-core-wcm-components).
 
 * **Passaggio ad AEM come Cloud Service**
 
