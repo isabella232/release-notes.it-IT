@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1f0caf618aad2dd27a0642852a7a45c20b76bf07
+source-git-commit: fc51a317cdceb0cdf2ebf685c0a4480995dd4ef9
 workflow-type: tm+mt
-source-wordcount: '6484'
+source-wordcount: '6510'
 ht-degree: 37%
 
 ---
@@ -183,6 +183,7 @@ Updated **June 10, 2020**
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-----|
+| Supporto per gli array di oggetti | 18 giugno 2020 | I clienti CJA possono ora creare rapporti sulle dimensioni e le metriche visualizzate negli array di oggetti all&#39;interno dei loro schemi di set di dati AEP. Per saperne di più... |
 | IQ attribuzione: [!UICONTROL Attribuzione algoritmica] | 18 giugno 2020 | Il modello [!UICONTROL Attribuzione] algoritmica in [!UICONTROL Analysis Workspace] utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
 | IQ attribuzione: Finestre di lookback personalizzate | 18 giugno 2020 | Ora puoi configurare qualsiasi modello di attribuzione in [!UICONTROL Attribution IQ] per includere punti di contatto con un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione di attribuzione per gli eventi che si verificano all&#39;inizio del periodo di reporting, tenendo conto delle interazioni che si sono verificate nei mesi precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
 | Supporto per il rilevamento delle [!UICONTROL anomalie] | 18 giugno 2020 | [!UICONTROL Il rilevamento] delle anomalie fornisce un metodo statistico per determinare in che modo una determinata metrica è cambiata rispetto ai dati precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
