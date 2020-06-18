@@ -5,23 +5,19 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 05310c3c03c09918aee45015bd6c9bc341dce724
+source-git-commit: 07935d47bd84291ede7cfd2dcfab422a95b7cf71
 workflow-type: tm+mt
-source-wordcount: '6509'
-ht-degree: 37%
+source-wordcount: '6580'
+ht-degree: 36%
 
 ---
 
 
-# Accesso anticipato - Note sulla versione di Adobe Experience Cloud - Giugno 2020
+# Note sulla versione di Adobe Experience Cloud - Giugno 2020
 
 ![Banner](/assets/experience-cloud-banner-3.png)
 
 This page describes new features, fixes, and important notices in [!DNL Adobe Experience Cloud]. Vengono inoltre evidenziate nuove documentazione, corsi di formazione ed esercitazioni video per consentirvi di sfruttare al meglio  Experience Cloud.
-
->[!IMPORTANT]
->
->Questa pagina contiene informazioni precedenti al rilascio ed è soggetta a modifiche prima dell’effettivo rilascio pianificato.
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ This page describes new features, fixes, and important notices in [!DNL Adobe Ex
 
 Le date di rilascio del prodotto possono variare. Controllate spesso la disponibilità di aggiornamenti.
 
-Ultimo aggiornamento: **15 giugno 2020**
+Ultimo aggiornamento: **18 giugno 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud)
@@ -178,19 +174,21 @@ Updated **June 10, 2020**
 | Domini di prime parti disponibili in Cina RDC | 18 giugno 2020 | Consente ai clienti con un `.cn` dominio di richiedere un dominio di prime parti da utilizzare all&#39;interno della Cina continentale. (Documentazione disponibile con l&#39;acquisto di SKU &quot;China Performance Optimization&quot;.) |
 | Pannello Quick Insights (Approfondimenti rapidi) in Workspace (Area di lavoro) | 25 giugno 2020 | Quick Insights fornisce indicazioni ai non analisti e ai nuovi utenti di Analysis Workspace per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 | Pannello Analytics for Target in Workspace (Area di lavoro) | 25 giugno 2020 | Il pannello  Analytics per Target (A4T) consente di analizzare le attività e le esperienze di  Adobe Target, con estrema sicurezza, in  Analysis Workspace. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| [!UICONTROL La pagina Workspace] | Giugno 18,2020 | La pagina [!UICONTROL Informazioni su Workspace] contiene informazioni sull’ambiente  Analysis Workspace, sugli amministratori di Adobe  Analytics (se necessario) e su come fornire feedback all’interno del prodotto. È disponibile in **[!UICONTROL Workspace]** > **[!UICONTROL Aiuto]** > **[!UICONTROL Informazioni su Workspace]**. |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-----|
-| Supporto per gli array di oggetti | 18 giugno 2020 | I clienti CJA possono ora creare rapporti sulle dimensioni e le metriche visualizzate negli array di oggetti all&#39;interno dei loro schemi di set di dati AEP. Per saperne di più... |
-| IQ attribuzione: [!UICONTROL Attribuzione algoritmica] | 18 giugno 2020 | Il modello [!UICONTROL Attribuzione] algoritmica in [!UICONTROL Analysis Workspace] utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| IQ attribuzione: Finestre di lookback personalizzate | 18 giugno 2020 | Ora puoi configurare qualsiasi modello di attribuzione in [!UICONTROL Attribution IQ] per includere punti di contatto con un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione di attribuzione per gli eventi che si verificano all&#39;inizio del periodo di reporting, tenendo conto delle interazioni che si sono verificate nei mesi precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| Supporto per il rilevamento delle [!UICONTROL anomalie] | 18 giugno 2020 | [!UICONTROL Il rilevamento] delle anomalie fornisce un metodo statistico per determinare in che modo una determinata metrica è cambiata rispetto ai dati precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| Ruoli di progetto per progetti condivisi [!UICONTROL Workspace] | 18 giugno 2020 | Quando condividi un progetto [!UICONTROL Workspace] , ora puoi posizionare i destinatari in uno dei tre ruoli di progetto, a seconda dell’esperienza di progetto che desideri abbiano: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Visualizza progetti [!UICONTROL Workspace] | 18 giugno 2020 | [!UICONTROL I progetti Workspace] possono essere condivisi con gli utenti come _[!UICONTROL Solo visualizzabili]_. Quando un destinatario di visualizzazione apre il progetto condiviso, riceve un&#39;esperienza di progetto più restrittiva senza barra a sinistra e interazioni limitate.[Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Possibilità di co-modificare i progetti [!UICONTROL Workspace] | 18 giugno 2020 | I destinatari aggiunti al ruolo _[!UICONTROL Can Edit]_(Può modificare) possono salvare in un progetto condiviso con loro.[Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Pannello Quick Insights (Approfondimenti rapidi) in [!UICONTROL Workspace] (Area di lavoro) | 25 giugno 2020 | Quick Insights fornisce indicazioni ai non analisti e ai nuovi utenti di [!UICONTROL Analysis Workspace] per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| Supporto per gli array di oggetti | 18 giugno 2020 | I clienti CJA possono ora creare rapporti sulle dimensioni e le metriche visualizzate negli array di oggetti all&#39;interno dei loro schemi di set di dati  Adobe Experience Platform. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
+| IQ attribuzione: [!UICONTROL Attribuzione algoritmica] | 18 giugno 2020 | Il modello [!UICONTROL Attribuzione] algoritmica in [!UICONTROL Analysis Workspace] utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
+| IQ attribuzione: Finestre di lookback personalizzate | 18 giugno 2020 | Ora puoi configurare qualsiasi modello di attribuzione in [!UICONTROL Attribution IQ] per includere punti di contatto con un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione di attribuzione per gli eventi che si verificano all&#39;inizio del periodo di reporting, tenendo conto delle interazioni che si sono verificate nei mesi precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/models.html) |
+| Supporto per il rilevamento delle [!UICONTROL anomalie] | 18 giugno 2020 | [!UICONTROL Il rilevamento] delle anomalie fornisce un metodo statistico per determinare in che modo una determinata metrica è cambiata rispetto ai dati precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| Ruoli di progetto per progetti condivisi [!UICONTROL Workspace] | 18 giugno 2020 | Quando condividi un progetto [!UICONTROL Workspace] , ora puoi posizionare i destinatari in uno dei tre ruoli di progetto, a seconda dell’esperienza di progetto che desideri abbiano: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| Visualizza progetti [!UICONTROL Workspace] | 18 giugno 2020 | [!UICONTROL I progetti Workspace] possono essere condivisi con gli utenti come _[!UICONTROL Solo visualizzabili]_. Quando un destinatario di visualizzazione apre il progetto condiviso, riceve un&#39;esperienza di progetto più restrittiva senza barra a sinistra e interazioni limitate.[Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
+| Possibilità di co-modificare i progetti [!UICONTROL Workspace] | 18 giugno 2020 | I destinatari aggiunti al ruolo _[!UICONTROL Can Edit]_(Può modificare) possono salvare in un progetto condiviso con loro.[Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| Pannello Quick Insights (Approfondimenti rapidi) in [!UICONTROL Workspace] (Area di lavoro) | 25 giugno 2020 | Quick Insights fornisce indicazioni ai non analisti e ai nuovi utenti di [!UICONTROL Analysis Workspace] per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
+| [!UICONTROL La pagina Workspace] | Giugno 18,2020 | La pagina [!UICONTROL Informazioni su Workspace] contiene informazioni sull’ambiente  Analysis Workspace, sugli amministratori di Adobe  Analytics (se necessario) e su come fornire feedback all’interno del prodotto. È disponibile in **[!UICONTROL Workspace]** > **[!UICONTROL Aiuto]** > **[!UICONTROL Informazioni su Workspace]**. |
 
 ### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
 
@@ -347,10 +345,12 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
       * Il supporto sandbox self-service migliorato in Cloud Manager consente agli utenti autorizzati di eliminare tutti gli ambienti all&#39;interno di una sandbox e ricevere crediti.
       * Gli ambienti sandbox con sospensione automatica &quot;ibernano&quot; automaticamente le sandbox dopo un periodo di inattività. I clienti possono attivare attivamente la disattivazione.
    * Strumenti di transizione per supportare l&#39;accelerazione cloud
+
    Con l&#39;obiettivo di ridurre il tempo e i costi per la transizione dalla sede ad Cloud Service, questo mese sono stati lanciati due strumenti di transizione. Questi strumenti sono progettati per automatizzare alcune delle attività chiave durante il processo di transizione e quindi, riducendo lo sforzo complessivo. .
 
    1. [Utilizzando Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (disponibile su SD) è possibile semplificare l&#39;attività di trasferimento dei contenuti e renderla scalabile. Grazie a un’interfaccia utente semplice, lo strumento è self-service per clienti e partner esistenti (on-prem/AMS) che passano ad AEM come Cloud Service.
    1. [Strumento AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) per automatizzare la conversione delle configurazioni AMS Dispatcher in configurazioni Cloud Service Dispatcher.
+
    [Note sulla versione di AEM come Cloud Service 2020.6.0](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Strumenti di transizione:
