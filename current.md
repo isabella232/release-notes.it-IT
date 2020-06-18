@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0c5c9f6f0c03b68eb4c5695db71fca94afc9141b
+source-git-commit: af0ded4b9a09349d811a998a002b0f1c0f72403f
 workflow-type: tm+mt
 source-wordcount: '6486'
 ht-degree: 37%
@@ -254,7 +254,7 @@ Nuovi corsi, video di esercitazione e articoli in  Analytics e Customer Journey 
 | [Nozioni di base di Adobe  Analytics per i leader](https://experienceleague.adobe.com/?recommended=Analytics-L-1-2020.1) | Corso | In questo corso, scopri le  basi di Analytics e come  Analysis Workspace può cambiare la tua attività. Scopri come scoprire informazioni approfondite con Adobe Sensei, ascoltare le testimonianze dei clienti e vedere le testimonianze degli esperti del settore al Summit 2019. |
 | [Guida introduttiva  Analysis Workspace](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.1.workspace) | Corso | Scoprite come utilizzare  Analysis Workspace. Crea il primo progetto, scopri come definire intervalli di date, applicare segmenti, condividere e collaborare ai progetti. |
 | [Adobe  Analytics dashboards Scorecard Builder](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | Esercitazione video | In questo video, scopri come creare e condividere [!UICONTROL scorecard] in [!UICONTROL Analysis Workspace] da visualizzare sulle dashboard Adobe  Analytics (app mobile). |
-| [Adobe  Dashboard Analytics per l&#39;esperienza in-app](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | Esercitazione video | In questo video, scopri come utilizzare le dashboard Adobe  Analytics (app mobile) per accedere e visualizzare le [!UICONTROL scorecard] create da o condivise con te. |
+| [Adobe  Analytics Dashboard per l&#39;esperienza in-app](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | Esercitazione video | In questo video, scopri come utilizzare le dashboard Adobe  Analytics (app mobile) per accedere e visualizzare le [!UICONTROL scorecard] create da o condivise con te. |
 
 #### Risorse dell’Aiuto di Analytics
 
@@ -364,9 +364,9 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
    Core Components 2.9.0 introduce l&#39;integrazione con [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) e un nuovo componente Progress Bar ed è ora disponibile insieme alla documentazione [di](https://docs.adobe.com/content/help/it-IT/experience-manager-core-components/using/introduction.html) authoring e ai dettagli per [gli sviluppatori e al download del progetto disponibile su GitHub](https://github.com/adobe/aem-core-wcm-components).
 
-* **Passaggio ad AEM come Cloud Service**
+* **Passaggio ad AEM as a Cloud Service**
 
-   [Il passaggio ad AEM come Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) descrive il percorso di transizione consigliato per un cliente AEM già esistente che si sposta su Cloud Service. L&#39;obiettivo di questa documentazione è quello di fornire ai clienti informazioni, indicazioni e best practice per aiutarli a prepararsi a questa transizione e rendere il percorso strutturato e prevedibile.
+   [Il passaggio ad AEM come Cloud Service](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/moving/home.html) descrive il percorso di transizione consigliato per un cliente AEM già esistente che si sposta su Cloud Service. L&#39;obiettivo di questa documentazione è quello di fornire ai clienti informazioni, indicazioni e best practice per aiutarli a prepararsi a questa transizione e rendere il percorso strutturato e prevedibile.
 
    Uno degli strumenti di transizione cloud - Strumento di trasferimento dei contenuti è stato rilasciato. [Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) è sviluppato da Adobe e può essere utilizzato per spostare il contenuto esistente da un’istanza AEM di origine (locale o AMS) all’istanza Cloud Service AEM di destinazione.
 
@@ -401,7 +401,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 | [Guida introduttiva ad Adobe Asset Link per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.asset.link) | Corso | In questo corso, scopri come utilizzare le funzioni e le funzionalità di Adobe Asset Link per arricchire il design creativo con il contenuto memorizzato in  risorse di Adobe Experience Manager. Il corso illustra tutte le procedure, dal lancio del collegamento delle risorse Adobe, alle operazioni di base sulle risorse, alle opzioni di ricerca e navigazione e alla collaborazione efficace con altri utenti. |
 | [Guida introduttiva ai AEM Assets per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.assets) | Corso | Scoprite come iniziare a utilizzare i AEM Assets per gli utenti aziendali. Scoprite le nozioni di base di AEM Assets, funzioni di collaborazione, ricerca, organizzazione e download delle risorse e delle relative rappresentazioni. |
 | [Guida introduttiva ai AEM Sites per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites) | Corso | Scoprite come utilizzare le funzioni e le funzionalità di base di AEM Sites per gestire le pagine Web dell&#39;organizzazione. Il corso tratta tutto, dall’introduzione agli AEM Sites, i concetti di base dell’authoring, le funzioni di authoring avanzate e le funzionalità di gestione delle pagine. |
-| [Struttura dei progetti AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | Articolo | Descrive le modifiche necessarie per  progetti Adobe Experience Manager Maven in modo che siano compatibili con AEM Cloud Service. |
+| [Struttura dei progetti AEM](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | Articolo | Descrive le modifiche necessarie per  progetti Adobe Experience Manager Maven in modo che siano compatibili con AEM Cloud Service. |
 | [Modelli Sling](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#sling-models) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale di Cloud Service SDK tramite la console Web Sling Models. |
 | [Componenti della console Web AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale dell’SDK Cloud Service tramite la console Web Components. |
 | [Debug dell’avvio rapido locale dell’SDK AEM tramite i registri](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale dell’SDK Cloud Service tramite la console Web Bundles. |
