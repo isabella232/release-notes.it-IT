@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 07935d47bd84291ede7cfd2dcfab422a95b7cf71
+source-git-commit: 7901dd8a4f8a701dca516e90b72ec9e4ae0f6ded
 workflow-type: tm+mt
-source-wordcount: '6580'
-ht-degree: 36%
+source-wordcount: '6660'
+ht-degree: 35%
 
 ---
 
@@ -192,17 +192,12 @@ Updated **June 10, 2020**
 
 ### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
 
-Data dell’aggiornamento: **29 maggio 2020**
+Data di aggiornamento: **18 giugno 2020**
 
-**Tracciamento dello stato del lettore:** i clienti di [!UICONTROL Media Analytics] possono registrare l’interazione del visualizzatore durante la riproduzione utilizzando un set standard di variabili di soluzione per riproduzione a schermo intero, sottotitoli, muto, immagine nell’immagine e messa a fuoco. È inoltre possibile creare degli stati del lettore personalizzati. Le variabili di tracciamento dello stato del lettore sono ora disponibili per il reporting in [!UICONTROL Analysis Workspace]. Questa funzione richiede uno dei seguenti elementi:
-
-* SDK di [!DNL JavaScript] Media 3.0 o versione successiva
-* Per l’utilizzo con l’SDK di [!DNL Adobe Experience Platform] (AEP):
-   * [!UICONTROL Estensione Media Analytics] (per il web): [!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 o versione successiva
-   * [!UICONTROL Estensione Media Analytics] (per dispositivi mobile): [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 o versione successiva
-* [!UICONTROL Media Collection]
-
-Consulta le [informazioni sul tracciamento dello stato del lettore](https://docs.adobe.com/content/help/it-IT/media-analytics/using/player-state-tracking/player-state-overview.html).
+| Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
+| -----------| ---------- | ---------- |
+| [Dispositivi e piattaforme supportati](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 18 giugno 2020 | L’estensione Media Launch con AEP SDK ora supporta i seguenti dispositivi OTT:<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |  | [Dispositivi e piattaforme supportati](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 18 giugno 2020 | L’estensione Media Launch con AEP SDK ora supporta i seguenti dispositivi OTT:<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
+| [Tracciamento dello stato del lettore](https://docs.adobe.com/content/help/it-IT/media-analytics/using/player-state-tracking/player-state-overview.html) | 29 maggio 2020 | [!UICONTROL I clienti di Analytics]  Media possono acquisire l&#39;interazione del visualizzatore durante la riproduzione utilizzando un set standard di variabili di soluzioni per la visualizzazione a schermo intero, sottotitoli codificati, disattivazione dell&#39;audio, picture-in-picture e messa a fuoco. È inoltre possibile creare degli stati del lettore personalizzati. Le variabili di tracciamento dello stato del lettore sono ora disponibili per il reporting in [!UICONTROL Analysis Workspace]. Questa funzione richiede uno dei seguenti elementi: <ul><li>SDK di [!DNL JavaScript] Media 3.0 o versione successiva</li><li>Per l’utilizzo con l’SDK di [!DNL Adobe Experience Platform] (AEP):</li><li>[!UICONTROL Estensione Media Analytics] (per il web): [!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 o versione successiva</li><li>[!UICONTROL Estensione Media Analytics] (per dispositivi mobile): [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 o versione successiva</li><li>[!UICONTROL Media Collection]</li></ul> |
 
 ### Problemi risolti in Adobe  Analytics {#aa-fixes}
 
@@ -244,7 +239,7 @@ AN-218269; AN-218455; AN-218492; AN-219888; AN-220447; AN-220546; AN-220788; AN-
 Nuovi corsi, video di esercitazione e articoli in  Analytics e Customer Journey Analytics.
 
 | Contenuto | Tipo di contenuto | Descrizione |
-| -----------| ---------- | ---------- | 
+| -----------| ---------- | ---------- |
 | [Guida introduttiva ad Customer Journey Analytics per gli utenti](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-U-1-2020.1) | Corso | In questo corso verrà illustrato come utilizzare Customer Journey Analytics (CJA) per analizzare i dati provenienti da diverse origini dati. Verranno illustrate le differenze tra Adobe  Analytics e Customer Journey Analytics e la modalità di gestione dei dati in CJA. Dopo aver seguito questo corso, devi essere in grado di creare e personalizzare visualizzazioni tra canali per migliorare la comprensione dei clienti. |
 | [Guida introduttiva ad Customer Journey Analytics per gli amministratori](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | Corso | Scoprite come configurare e utilizzare [!UICONTROL Journey Orchestration]. Questo corso illustra i concetti chiave e i passaggi di configurazione necessari per consentire l&#39;orchestrazione di un viaggio. Scoprirai come creare, pubblicare e come segnalare e analizzare i tuoi viaggi organizzati. |
 | [Guida introduttiva ad Customer Journey Analytics per i tecnici dei dati](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-D-1-2020.1) | Corso | In questo corso imparerai come i dati vengono inviati ad Customer Journey Analytics e come influenzano i rapporti per l&#39;analista. Questo corso si basa sulla conoscenza generale del Adobe Experience Platform . |
