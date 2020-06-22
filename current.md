@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b909c99b4389be6ad67536e49224d33b3fb10af8
+source-git-commit: a88748f592df569028641cd53d563e3b6c1d1201
 workflow-type: tm+mt
 source-wordcount: '6688'
 ht-degree: 35%
@@ -340,10 +340,12 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
       * Il supporto sandbox self-service migliorato in Cloud Manager consente agli utenti autorizzati di eliminare tutti gli ambienti all&#39;interno di una sandbox e ricevere crediti.
       * Gli ambienti sandbox con sospensione automatica &quot;ibernano&quot; automaticamente le sandbox dopo un periodo di inattività. I clienti possono attivare attivamente la disattivazione.
    * Strumenti di transizione per supportare l&#39;accelerazione cloud
+
    Con l&#39;obiettivo di ridurre il tempo e i costi per la transizione dalla sede ad Cloud Service, questo mese sono stati lanciati due strumenti di transizione. Questi strumenti sono progettati per automatizzare alcune delle attività chiave durante il processo di transizione e quindi, riducendo lo sforzo complessivo. .
 
    1. [Utilizzando Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (disponibile su SD) è possibile semplificare l&#39;attività di trasferimento dei contenuti e renderla scalabile. Grazie a un’interfaccia utente semplice, lo strumento è self-service per clienti e partner esistenti (on-prem/AMS) che passano ad AEM come Cloud Service.
    1. [Strumento AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) per automatizzare la conversione delle configurazioni AMS Dispatcher in configurazioni Cloud Service Dispatcher.
+
    [Note sulla versione di AEM come Cloud Service 2020.6.0](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Strumenti di transizione:
