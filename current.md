@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1fe0c0a5b892802837115df53c2f178e6e0ee81c
+source-git-commit: 504a9a00daef04e57c5662d0a4e3e92920b40ccd
 workflow-type: tm+mt
-source-wordcount: '7082'
-ht-degree: 33%
+source-wordcount: '7037'
+ht-degree: 34%
 
 ---
 
@@ -336,19 +336,19 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
    * Tag avanzati avanzati e nuove funzionalità nell’esperienza di formazione guidata dell’interfaccia utente.
    * Supporto di Adobe Asset Link per Adobe Xd.
    * Supporto AEM Assets Dynamic Media 3D.
-   * New Self Service improvements reduce dependencies on Adobe for sandbox operations.
-      * Enhanced self-service sandbox support in Cloud Manager allows entitled users to delete all environments within a sandbox and receive credits.
-      * Auto-Hibernation sandbox environments automatically &quot;hibernates&quot; sandboxes after a period of inactivity. I clienti possono attivare attivamente la disattivazione.
+   * I nuovi miglioramenti Self Service riducono le dipendenze da Adobe per le operazioni sandbox.
+      * Il supporto sandbox self-service migliorato in Cloud Manager consente agli utenti autorizzati di eliminare tutti gli ambienti all&#39;interno di una sandbox e ricevere crediti.
+      * Gli ambienti sandbox con sospensione automatica &quot;ibernano&quot; automaticamente le sandbox dopo un periodo di inattività. I clienti possono attivare attivamente la disattivazione.
    * Strumenti di transizione per supportare l&#39;accelerazione cloud
 
    Con l&#39;obiettivo di ridurre il tempo e i costi per la transizione dalla sede ad Cloud Service, questo mese sono stati lanciati due strumenti di transizione. Questi strumenti sono progettati per automatizzare alcune delle attività chiave durante il processo di transizione e quindi, riducendo lo sforzo complessivo. .
 
    1. [Utilizzando Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (disponibile su SD) è possibile semplificare l&#39;attività di trasferimento dei contenuti e renderla scalabile. Grazie a un’interfaccia utente semplice, lo strumento è self-service per clienti e partner esistenti (on-prem/AMS) che passano ad AEM come Cloud Service.
-   1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) tool to automate converting AMS Dispatcher configurations to Cloud Service Dispatcher configurations.
+   1. [Strumento AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) per automatizzare la conversione delle configurazioni AMS Dispatcher in configurazioni Cloud Service Dispatcher.
 
    [Note sulla versione di AEM come Cloud Service 2020.6.0](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
-   Transition tooling:
+   Strumenti di transizione:
 
    https://github.com/adobe/aem-cloud-service-dispatcher-converter
 
@@ -356,19 +356,19 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
 * **Componenti di base**
 
-   Core Components 2.9.0 introduces integration with the [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) and a new Progress Bar Component and is now available along with [authoring documentation](https://docs.adobe.com/content/help/it-IT/experience-manager-core-components/using/introduction.html) and [developer details and project download available on GitHub](https://github.com/adobe/aem-core-wcm-components).
+   Core Components 2.9.0 introduce l&#39;integrazione con [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) e un nuovo componente Progress Bar ed è ora disponibile insieme alla documentazione [di](https://docs.adobe.com/content/help/it-IT/experience-manager-core-components/using/introduction.html) authoring e ai dettagli per [gli sviluppatori e al download del progetto disponibile su GitHub](https://github.com/adobe/aem-core-wcm-components).
 
 * **Passaggio ad AEM as a Cloud Service**
 
-   [Moving to AEM as a Cloud Service](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/moving/home.html) describes the recommended transition journey for an existing AEM customer moving to Cloud Service. The goal of this documentation is to provide customers with information, guidance and best practices to help them prepare for this transition and to make this journey structured and predictable.
+   [Il passaggio ad AEM come Cloud Service](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/moving/home.html) descrive il percorso di transizione consigliato per un cliente AEM già esistente che si sposta su Cloud Service. L&#39;obiettivo di questa documentazione è quello di fornire ai clienti informazioni, indicazioni e best practice per aiutarli a prepararsi a questa transizione e rendere il percorso strutturato e prevedibile.
 
-   One of the Cloud Transition Tools - Content Transfer Tool was released. [Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) è sviluppato da Adobe e può essere utilizzato per spostare il contenuto esistente da un’istanza AEM di origine (locale o AMS) all’istanza Cloud Service AEM di destinazione.
+   Uno degli strumenti di transizione cloud - Strumento di trasferimento dei contenuti è stato rilasciato. [Content Transfer Tool](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) è sviluppato da Adobe e può essere utilizzato per spostare il contenuto esistente da un’istanza AEM di origine (locale o AMS) all’istanza Cloud Service AEM di destinazione.
 
    È stato rilasciato uno degli strumenti di refactoring del codice - AEM Dispatcher Converter. [AEM Dispatcher Converter](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/refactoring-tools/dispatcher-transformation-utility-tools.html) è uno strumento per convertire le configurazioni AEM Dispatcher esistenti in AEM come configurazioni Cloud Service Dispatcher ed è disponibile.
 
 * **Accessibilità e linee guida WCAG 2.1**
 
-   Updates in relation to the WCAG 2.1 Guidelines:
+   Aggiornamenti relativi alle linee guida WCAG 2.1:
 
    * [Adobe Experience Manager as a Cloud Service e le linee guida per l’accessibilità dei contenuti web](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/accessibility/web-accessibility.html)
    * [Guida rapida alle linee guida WCAG 2.1](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/accessibility/quick-guide-wcag.html)
@@ -396,21 +396,21 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 | [Guida introduttiva ai AEM Assets per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.assets) | Corso | Scoprite come iniziare a utilizzare i AEM Assets per gli utenti aziendali. Scoprite le nozioni di base di AEM Assets, funzioni di collaborazione, ricerca, organizzazione e download delle risorse e delle relative rappresentazioni. |
 | [Guida introduttiva ai AEM Sites per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites) | Corso | Scoprite come utilizzare le funzioni e le funzionalità di base di AEM Sites per gestire le pagine Web dell&#39;organizzazione. Il corso tratta tutto, dall’introduzione agli AEM Sites, i concetti di base dell’authoring, le funzioni di authoring avanzate e le funzionalità di gestione delle pagine. |
 | [Struttura dei progetti AEM](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | Articolo | Descrive le modifiche necessarie per  progetti Adobe Experience Manager Maven in modo che siano compatibili con AEM Cloud Service. |
-| [Modelli Sling](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#sling-models) | Esercitazione video | Learn about debugging AEM as a Cloud Service SDK’s local quickstart using the Sling Models web console. |
-| [AEM Web Console Components](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | Esercitazione video | Learn about debugging AEM as a Cloud Service SDK’s local quickstart using the Components web console. |
+| [Modelli Sling](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#sling-models) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale di Cloud Service SDK tramite la console Web Sling Models. |
+| [Componenti della console Web AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale dell’SDK Cloud Service tramite la console Web Components. |
 | [Debug dell’avvio rapido locale dell’SDK AEM tramite i registri](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | Esercitazione video | Scopri come eseguire il debug di AEM come avvio rapido locale dell’SDK Cloud Service tramite la console Web Bundles. |
-| [Remote debugging the AEM as a Cloud Service SDK’s local quickstart](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/remote-debugging.html) | Esercitazione video | Scopri il debugging Java remoto dall’IDE, per consentirti di analizzare a fondo l’esecuzione del codice in tempo reale in AEM per comprendere esattamente il flusso di esecuzione. |
-| [Smart Tag Setup](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | Esercitazione video | Istruzioni passo passo per integrare  Adobe Experience Manager (AEM) con Smart Content Service tramite Adobe I/O. |
+| [Debug remoto di AEM come avvio rapido locale di Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/remote-debugging.html) | Esercitazione video | Scopri il debugging Java remoto dall’IDE, per consentirti di analizzare a fondo l’esecuzione del codice in tempo reale in AEM per comprendere esattamente il flusso di esecuzione. |
+| [Impostazione smart tag](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | Esercitazione video | Istruzioni passo passo per integrare  Adobe Experience Manager (AEM) con Smart Content Service tramite Adobe I/O. |
 | [Generazione batch di documenti](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/interactive-communications/batch-generation-interactive-communications.html) | Articolo | Scopri come utilizzare l&#39;API Batch per produrre più comunicazioni interattive da un modello. |
-| [Creating Print channel document in AEM Forms](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html) | Articolo | Scopri i passaggi necessari per creare una comunicazione interattiva per il canale di stampa. |
-| [Accesso ad Adobe Asset Link](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/launch-adobe-asset-link.html) | Esercitazione video | Learn about accessing content stored in Adobe Experience Manager Assets (AEM Assets), without leaving the Creative Cloud desktop apps you are most familiar with. |
-| [Asset Link Panel Overview](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/panel-overview.html) | Esercitazione video | Adobe Asset Link consente agli utenti creativi di sfogliare, cercare, estrarre e archiviare le risorse memorizzate in AEM Assets mediante il pannello in-app in InDesign, Photoshop e Illustrator. Scopri l’interfaccia utente e le funzionalità del pannello Collegamento risorse di Adobe. |
+| [Creazione di un documento canale di stampa in AEM Forms](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html) | Articolo | Scopri i passaggi necessari per creare una comunicazione interattiva per il canale di stampa. |
+| [Accesso ad Adobe Asset Link](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/launch-adobe-asset-link.html) | Esercitazione video | Scopri come accedere al contenuto memorizzato in  risorse di Adobe Experience Manager (AEM Assets), senza uscire dalle app desktop Creative Cloud che hai più familiarità con. |
+| [Panoramica del pannello Collegamento risorse](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/panel-overview.html) | Esercitazione video | Adobe Asset Link consente agli utenti creativi di sfogliare, cercare, estrarre e archiviare le risorse memorizzate in AEM Assets mediante il pannello in-app in InDesign, Photoshop e Illustrator. Scopri l’interfaccia utente e le funzionalità del pannello Collegamento risorse di Adobe. |
 | [Ricerca risorse](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/asset-search.html) | Esercitazione video | Gli utenti Creative possono cercare risorse memorizzate in AEM Assets utilizzando le parole chiave oppure eseguire una ricerca in una posizione specifica. |
 | [Versioni e commenti del file](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/file-versioning-and-comments.html) | Esercitazione video | Con il pannello Collegamento risorse di Adobe potete accedere ai dettagli dei file per le risorse in AEM Assets, come miniature, metadati di base e versioni direttamente dal pannello. |
-| [Check-In Check-Out](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/check-in-check-out.html) | Esercitazione video | Adobe Asset lets you check out AEM Assets directly from the creative app you are working on, and can immediately begin making edits. |
+| [Check-In Check-Out](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/check-in-check-out.html) | Esercitazione video | Adobe Asset consente di estrarre i AEM Assets direttamente dall’app creativa su cui state lavorando e di iniziare subito a apportare modifiche. |
 | [Per rappresentazione solo posizionamento per AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/for-placement-only.html) | Esercitazione video | Scopri come creare e utilizzare una rappresentazione Solo posizionamento (FPO) per le risorse AEM. |
-| [Inserisci copia](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/place-copy.html) | Esercitazione video | Learn how to use assets from AEM Assets using the Place Copy operation. |
-| [Download and Upload](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/download-and-upload.html) | Esercitazione video | Scoprite come scaricare e caricare i file di risorse da e verso AEM Assets mediante il pannello Collegamento risorse. |
+| [Inserisci copia](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/place-copy.html) | Esercitazione video | Scoprite come utilizzare le risorse dai AEM Assets mediante l’operazione Inserisci copia. |
+| [Download e caricamento](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/download-and-upload.html) | Esercitazione video | Scoprite come scaricare e caricare i file di risorse da e verso AEM Assets mediante il pannello Collegamento risorse. |
 | [File e raccolte](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/files-and-collections.html) | Esercitazione video | Scoprite come accedere in modo rapido e semplice ai file AEM Assets e alle raccolte dal pannello Collegamento risorse. |
 | [Scarica](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/sharing/download.html) | Esercitazione video | Scoprite come scaricare le risorse e le relative rappresentazioni nel computer locale per utilizzarle e condividerle. |
 
@@ -466,14 +466,14 @@ Updated **June 23, 2020**
 | -----------| ---------- |
 | Migrazione del dominio | (rilascio del 22 giugno)  Advertising Cloud DSP è migrato da https://www.tubemogul.com a [https://advertising.adobe.com](https://advertising.adobe.com). |
 | Integrazione di Adobe Analytics | (rilascio del 18 giugno) DSP ora può facoltativamente eliminare la metrica dei costi AMO dai dati che invia a  Analytics. Per eliminare la metrica, contatta il tuo account manager Adobe. |
-| Device Graph basato su persone | (Rilascio del 22 giugno) I clienti DSP self-service ora possono sfruttare un grafico del dispositivo (Adobe Experience Cloud Device Co-op o LiveRamp) per il targeting basato sulle persone e la gestione delle frequenze in tutte le nuove campagne. In questo modo potrai raggiungere il pubblico attraverso i dispositivi di proprietà e limitare la loro esposizione agli annunci. |
-| Rifiuto della CCPA | (rilascio del 22 giugno) È ora possibile comunicare le richieste di rinuncia CCPA a  Advertising Cloud utilizzando un nuovo segmento di rinuncia CCPA, che è possibile creare da [!UICONTROL Audiences > Segments (Audience > Segmenti]). Puoi anche recuperare rapporti mensili sugli ID inviati dai clienti per richieste di rinuncia alla vendita per l’account a) da [!UICONTROL Audiences > Segments] (Audience > Segmenti) o b) tramite l’API di traffico di  Advertising Cloud. Per ulteriori informazioni, consultate [https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html.](https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html) |
+| Device Graph basato su persone | (rilascio del 22 giugno) I clienti DSP self-service possono ora sfruttare un grafico del dispositivo (Adobe Experience Cloud Device Co-op |
+| o LiveRamp) per targeting basato sulle persone e gestione delle frequenze in tutte le nuove campagne. In questo modo potrai raggiungere il pubblico attraverso i dispositivi di proprietà e limitare la loro esposizione agli annunci. |
+| Rifiuto della CCPA | (rilascio del 22 giugno) È ora possibile comunicare le richieste di rinuncia CCPA a  Advertising Cloud utilizzando un nuovo segmento di rinuncia CCPA, che è possibile creare da [!UICONTROL Audiences > Segments (Audience > Segmenti]). Puoi anche recuperare rapporti mensili sugli ID inviati dai clienti per richieste di rinuncia alla vendita per l’account a) da [!UICONTROL Audiences > Segments] (Audience > Segmenti) o b) tramite l’API di traffico di  Advertising Cloud. Per ulteriori informazioni, consultate https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html. |
 | DoubleVerify Authent Brand Safety | (rilascio del 22 giugno) Gli inserzionisti ora possono eseguire il targeting per un singolo ID segmento DoubleVerify pre-bid, con filtri completi per la sicurezza del marchio per simulare le regole di blocco post-bid con DoubleVerify. Ora potete farlo nella sezione Targeting Media Quality delle impostazioni dell&#39;inserzionista in [!UICONTROL Settings (Impostazioni) > Advertiser (Annuncio pubblicitario)]. Per ulteriori informazioni sul servizio, contattate programmaticsales@doubleverify.com. Per questa funzione vengono applicate tariffe aggiuntive. |
 | Ottimizzazione CPA/ROAS | (rilascio del 20 maggio) I manager delle campagne non devono più limitare i nuovi posizionamenti all&#39;interno dei pacchetti per evitare la sovraallocazione del budget. I posizionamenti ricevono ora una allocazione di budget dinamica in base alle prestazioni CPM o CPA/ROAS. |
 | [!UICONTROL Campaign] Home | (rilascio del 3 giugno) Sono disponibili nuove metriche di valutazione a livello di campagna basate sul budget della campagna fornito e sul tempo trascorso. |
 | [!UICONTROL Posizionamenti] | (rilascio del 22 giugno) I filtri Diversità del sito e Dimensione lettore sono stati rimossi per semplificare la configurazione del posizionamento. |
 | Previsione posizionamento | (rilascio del 3 giugno) Per i posizionamenti CTV e video con ottimizzazione a livello di posizionamento, le impostazioni di posizionamento ora includono previsioni per lunghezze di annunci multipli (15 sec e 30 sec). Includono anche previsioni per l&#39;inventario VAST e VPAID. |
-| Ottimizzazione CPA/ROAS | (rilascio del 20 maggio) I manager delle campagne non devono più limitare i nuovi posizionamenti all&#39;interno dei pacchetti per evitare la sovraallocazione del budget. I posizionamenti ricevono ora una allocazione di budget dinamica in base alle prestazioni CPM o CPA/ROAS. |
 | [!UICONTROL Inventory] | (versione beta del 22 giugno) Un nuovo modulo ID offerta consente di impostare rapidamente un&#39;offerta privata già negoziata. |
 |  | (versione beta del 22 giugno) Il pre-roll interattivo è ora disponibile per l&#39;inventario VAST. Puoi impostare un singolo annuncio e un posizionamento interattivi pre-roll, riducendo il numero di annunci e posizionamenti. |
 | Ottica ACTV Audience | (rilascio del 18 giugno) Le ottiche Audience consentono agli utenti di creare e applicare audience secondarie ai loro flussi di lavoro di pianificazione, ordinamento e reporting. Questo consente loro di (1) acquisire informazioni rapide sui tipi di pubblico secondari, (2) avere flessibilità di negoziare sui tipi di pubblico preferiti e (3) misurare l&#39;esecuzione di una campagna attraverso l&#39;&quot;obiettivo&quot; di più audience. |
