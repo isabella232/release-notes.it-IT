@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 504a9a00daef04e57c5662d0a4e3e92920b40ccd
+source-git-commit: bcf089494e56dd5ece46bd7575bf661e352dc9f0
 workflow-type: tm+mt
-source-wordcount: '7037'
+source-wordcount: '7035'
 ht-degree: 34%
 
 ---
@@ -453,8 +453,6 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 ## ![Icona](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-Updated **June 3, 2020**
-
 * [Nuove funzioni in Advertising Cloud DSP](#adcloud-dsp)
 * [Nuove funzioni in Advertising Cloud Search](#adcloud-search)
 
@@ -466,8 +464,7 @@ Updated **June 23, 2020**
 | -----------| ---------- |
 | Migrazione del dominio | (rilascio del 22 giugno)  Advertising Cloud DSP è migrato da https://www.tubemogul.com a [https://advertising.adobe.com](https://advertising.adobe.com). |
 | Integrazione di Adobe Analytics | (rilascio del 18 giugno) DSP ora può facoltativamente eliminare la metrica dei costi AMO dai dati che invia a  Analytics. Per eliminare la metrica, contatta il tuo account manager Adobe. |
-| Device Graph basato su persone | (rilascio del 22 giugno) I clienti DSP self-service possono ora sfruttare un grafico del dispositivo (Adobe Experience Cloud Device Co-op |
-| o LiveRamp) per targeting basato sulle persone e gestione delle frequenze in tutte le nuove campagne. In questo modo potrai raggiungere il pubblico attraverso i dispositivi di proprietà e limitare la loro esposizione agli annunci. |
+| Device Graph basato su persone | (Rilascio del 22 giugno) I clienti DSP self-service ora possono sfruttare un grafico del dispositivo (Adobe Experience Cloud Device Co-op o LiveRamp) per il targeting basato sulle persone e la gestione delle frequenze in tutte le nuove campagne. In questo modo potrai raggiungere il pubblico attraverso i dispositivi di proprietà e limitare la loro esposizione agli annunci. |
 | Rifiuto della CCPA | (rilascio del 22 giugno) È ora possibile comunicare le richieste di rinuncia CCPA a  Advertising Cloud utilizzando un nuovo segmento di rinuncia CCPA, che è possibile creare da [!UICONTROL Audiences > Segments (Audience > Segmenti]). Puoi anche recuperare rapporti mensili sugli ID inviati dai clienti per richieste di rinuncia alla vendita per l’account a) da [!UICONTROL Audiences > Segments] (Audience > Segmenti) o b) tramite l’API di traffico di  Advertising Cloud. Per ulteriori informazioni, consultate https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html. |
 | DoubleVerify Authent Brand Safety | (rilascio del 22 giugno) Gli inserzionisti ora possono eseguire il targeting per un singolo ID segmento DoubleVerify pre-bid, con filtri completi per la sicurezza del marchio per simulare le regole di blocco post-bid con DoubleVerify. Ora potete farlo nella sezione Targeting Media Quality delle impostazioni dell&#39;inserzionista in [!UICONTROL Settings (Impostazioni) > Advertiser (Annuncio pubblicitario)]. Per ulteriori informazioni sul servizio, contattate programmaticsales@doubleverify.com. Per questa funzione vengono applicate tariffe aggiuntive. |
 | Ottimizzazione CPA/ROAS | (rilascio del 20 maggio) I manager delle campagne non devono più limitare i nuovi posizionamenti all&#39;interno dei pacchetti per evitare la sovraallocazione del budget. I posizionamenti ricevono ora una allocazione di budget dinamica in base alle prestazioni CPM o CPA/ROAS. |
