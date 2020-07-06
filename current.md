@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bcf089494e56dd5ece46bd7575bf661e352dc9f0
+source-git-commit: d081c9c185e4709eb758c1562466af2f92af593e
 workflow-type: tm+mt
-source-wordcount: '7035'
+source-wordcount: '6998'
 ht-degree: 87%
 
 ---
@@ -183,12 +183,13 @@ Data di rilascio: **18 giugno 2020**
 | Supporto per gli array di oggetti | 18 giugno 2020 | I clienti CJA possono ora creare rapporti sulle dimensioni e le metriche visualizzate negli array di oggetti all&#39;interno dei loro schemi di set di dati  Adobe Experience Platform. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
 | Attribution IQ: [!UICONTROL attribuzione algoritmica] | 18 giugno 2020 | Il modello [!UICONTROL attribuzione algoritmica] di [!UICONTROL Analysis Workspace] utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. Disponibile per i clienti Adobe  Analytics Ultimate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
 | Attribution IQ: finestre di lookback personalizzate | 18 giugno 2020 | Ora puoi configurare qualsiasi modello di attribuzione in [!UICONTROL Attribution IQ] in modo da includere punti di contatto risalenti a un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione dell’attribuzione per gli eventi che si verificano all’inizio del periodo di reporting tenendo conto delle interazioni avvenute nei mesi precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/models.html) |
-| Supporto per il [!UICONTROL rilevamento anomalie] | 18 giugno 2020 | Il [!UICONTROL rilevamento anomalie] fornisce un metodo statistico per determinare il cambiamento di una data metrica in relazione ai dati precedenti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | Ruoli di progetto per progetti [!UICONTROL Workspace] condivisi | 18 giugno 2020 | Ora quando condividi un progetto [!UICONTROL Workspace] puoi assegnare ai destinatari uno dei tre ruoli di progetto, a seconda di come desideri che interagiscano con il progetto: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
 | Progetti [!UICONTROL Workspace] solo visualizzazione | 18 giugno 2020 | I progetti [!UICONTROL Workspace] possono essere condivisi con gli utenti solo con la modalità di accesso _[!UICONTROL Può visualizzare]_. Quando un destinatario nel ruolo Visualizza apre il progetto condiviso, ottiene un’esperienza di progetto più restrittiva senza barra a sinistra e con interazioni limitate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
 | Possibilità di collaborare alla modifica dei progetti [!UICONTROL Workspace] | 18 giugno 2020 | I destinatari aggiunti al ruolo _[!UICONTROL Può modificare]_ possono salvare in sovrascrittura un progetto condiviso con loro. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
 | Pannello Quick Insights (Approfondimenti rapidi) in [!UICONTROL Workspace] (Area di lavoro) | 25 giugno 2020 | Quick Insights fornisce indicazioni ai non analisti e ai nuovi utenti di [!UICONTROL Analysis Workspace] per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
 | [!UICONTROL La pagina Workspace] | Giugno 18,2020 | La pagina [!UICONTROL Informazioni su Workspace] contiene informazioni sull’ambiente  Analysis Workspace, sugli amministratori di Adobe  Analytics (se necessario) e su come fornire feedback all’interno del prodotto. È disponibile in **[!UICONTROL Workspace]** > **[!UICONTROL Aiuto]** > **[!UICONTROL Informazioni su Workspace]**. |
+
+<!-->Support for [!UICONTROL Anomaly Detection] - July ??, 2020 - [!UICONTROL Anomaly Detection] provides a statistical method to determine how a given metric has changed in relation to previous data. [Learn more...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)<-->
 
 ### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
 
