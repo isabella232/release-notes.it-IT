@@ -4,11 +4,11 @@ description: Note sulla versione di Adobe Experience Cloud
 doc-type: release notes
 last-update: June 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: efd848cda1046613c889825fff57b868b67e1c80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7021'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -253,7 +253,7 @@ Nuovi corsi, esercitazioni video e articoli in Analytics e Customer Journey Anal
 
 #### AppMeasurement {#appm}
 
-Per gli aggiornamenti più recenti sulle versioni di AppMeasurement, fare riferimento alle note [sulla versione di](https://docs.adobe.com/content/help/it-IT/analytics/implementation/appmeasurement-updates.html)AppMeasurement per JavaScript.
+Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, fare riferimento alle [note sulla versione di AppMeasurement per JavaScript](https://docs.adobe.com/content/help/it-IT/analytics/implementation/appmeasurement-updates.html).
 
 #### Risorse dell’Aiuto di Analytics
 
@@ -469,7 +469,7 @@ Aggiornato il **23 giugno 2020**
 | -----------| ---------- |
 | Migrazione del dominio | Advertising Cloud DSP è migrato da https://www.tubemogul.com a [https://advertising.adobe.com](https://advertising.adobe.com) (rilascio del 22 giugno). |
 | Integrazione di Adobe Analytics | DSP ora può eliminare facoltativamente la metrica dei costi AMO dai dati che invia ad Analytics (rilascio del 18 giugno). Per eliminare la metrica, contatta il tuo account manager Adobe. |
-| Device Graph basato su persone | I clienti DSP self-service ora possono sfruttare un grafico dei dispositivi (Adobe Experience Cloud Device Co-op o LiveRamp) per il targeting basato sulle persone e la gestione delle frequenze in tutte le nuove campagne (rilascio del 22 giugno). In questo modo potrai raggiungere il pubblico in tutti i dispositivi e limitare l’esposizione agli annunci. |
+| Grafico dei dispositivi basato sulle persone | I clienti DSP self-service ora possono sfruttare un grafico dei dispositivi (Adobe Experience Cloud Device Co-op o LiveRamp) per il targeting basato sulle persone e la gestione delle frequenze in tutte le nuove campagne (rilascio del 22 giugno). In questo modo potrai raggiungere il pubblico in tutti i dispositivi e limitare l’esposizione agli annunci. |
 | Rifiuto del CCPA | È ora possibile comunicare le richieste di rifiuto del CCPA ad Advertising Cloud utilizzando un nuovo segmento di rifiuto del CCPA, che è possibile creare da [!UICONTROL Audiences > Segmenti] (rilascio del 22 giugno). È possibile inoltre recuperare rapporti mensili sugli ID inviati dai clienti per richieste di rifiuto per l’account a) da [!UICONTROL Audiences > Segmenti] o b) tramite l’API di traffico di Advertising Cloud. Per ulteriori informazioni, consulta https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html. |
 | Authentic Brand Safety di DoubleVerify | Gli inserzionisti ora possono eseguire il targeting per un singolo ID segmento DoubleVerify pre-bid, con filtri completi per la sicurezza del brand per simulare le regole di blocco post-bid con DoubleVerify (rilascio del 22 giugno). Ora è possibile farlo nella sezione del targeting Media Quality nelle impostazioni dell’inserzionista in [!UICONTROL Impostazioni > Inserzionista]. Per ulteriori informazioni sul servizio, contatta programmaticsales@doubleverify.com. Per questa funzione si applicano tariffe aggiuntive. |
 | Ottimizzazione CPA/ROAS | I manager delle campagne non devono più limitare i nuovi posizionamenti all’interno dei pacchetti per evitare la sovrallocazione del budget (rilascio del 20 maggio). I posizionamenti ora ottengono un’allocazione dinamica del budget basata sul CPM o sulla performance CPA/ROAS. |
