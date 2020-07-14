@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 985ec5f911f0cfa433e12abb5e55724dbecadb2e
+source-git-commit: 64307f885074b216956a8711384b60a4806a13a3
 workflow-type: tm+mt
 source-wordcount: '4373'
 ht-degree: 57%
@@ -144,8 +144,8 @@ Data di rilascio: **16 luglio 2020**
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-------|
-| Area di lavoro: Nuovi predefiniti per intervalli di date | Sono stati aggiunti 4 nuovi intervalli di date (_settimana/mese/trimestre/anno_ corrente (escluso il giorno corrente) per consentire agli utenti di scegliere tra intervalli di date che non includono dati relativi ai giorni parziali a partire da oggi. |
-| API di ripristino dei dati - versione beta pubblica (aggiornamento **14 luglio 2020**) | L&#39;API Data Repair offre un meccanismo per eliminare o modificare alcuni dati Adobe  Analytics esistenti. Le richieste di ripristino dei dati vengono effettuate inviando una definizione di processo all&#39;API di ripristino dei dati, che include la suite di rapporti, l&#39;intervallo di date, le variabili e le azioni da applicare ai dati. All&#39;inizio della versione beta pubblica, l&#39;API di ripristino dei dati supporterà l&#39;eliminazione dei dati  Activity Map. Le funzioni aggiuntive verranno implementate in un secondo momento. Contatta l’Assistenza clienti per partecipare alla versione beta pubblica dell’API di ripristino dei dati. [Ulteriori informazioni...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
+| Area di lavoro: Nuovi predefiniti per intervalli di date | 16 luglio 2020 | Sono stati aggiunti 4 nuovi intervalli di date (_settimana/mese/trimestre/anno_ corrente (escluso il giorno corrente) per consentire agli utenti di scegliere tra intervalli di date che non includono dati relativi ai giorni parziali a partire da oggi. |
+| Versione beta pubblica API di ripristino dati | 14 luglio 2020 | L&#39;API  Data Repair offre un meccanismo per eliminare o modificare alcuni dati Adobe  Analytics esistenti. [!UICONTROL Le richieste di ripristino] dei dati vengono effettuate inviando una definizione di processo all&#39;API [!UICONTROL di ripristino dei]dati, che include la suite di rapporti, l&#39;intervallo di date, le variabili e le azioni da applicare ai dati. All&#39;inizio della versione beta pubblica, l&#39;API  di ripristino dei dati supporterà l&#39;eliminazione di [!UICONTROL dati Activity Map] . Le funzioni aggiuntive verranno implementate in un secondo momento. Contatta l’Assistenza clienti per partecipare alla versione beta pubblica dell’API di ripristino dei dati. [Ulteriori informazioni...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
@@ -155,7 +155,7 @@ Data di rilascio: **16 luglio 2020**
 
 ### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
 
-Data di aggiornamento: **16 luglio 2020**
+Data di rilascio: **16 luglio 2020**
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- | ---------- |
