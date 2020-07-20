@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 156d25a099ea7bf1a0f8b7fff148dbfdd615f69e
 workflow-type: tm+mt
 source-wordcount: '4356'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Ultimo aggiornamento: **14 luglio 2020**
 * [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Aggiornato il 14 luglio 2020)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (aggiornato il 14 luglio 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -112,9 +112,9 @@ Le app seguenti utilizzano il nuovo dominio experience.adobe.com:
 
 Note sulla versione per [!DNL Experience Platform] e per i servizi dell’applicazione, tra cui [!DNL Experience Platform Launch,] [!UICONTROL Offerte], [!UICONTROL Persone], [!UICONTROL Places], [!UICONTROL Mobile Services] e bollettini di sicurezza.
 
-Latest release date: **June 10, 2020**
+Data ultima versione: **10 giugno 2020**
 
-Consultate [note](https://docs.adobe.com/content/help/it-IT/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md) sulla versione di Experience Platform per informazioni aggiornate su  Experience Platform.
+Per informazioni aggiornate su Experience Platform, consulta le [Note sulla versione di Experience Platform](https://docs.adobe.com/content/help/it-IT/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md).
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
@@ -132,7 +132,7 @@ Data di rilascio: **16 luglio 2020**
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Nuove funzioni di Media Analytics](#media-aa)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (Aggiornato il 13 luglio 2020)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 13 luglio 2020)
 * [Nuovi corsi ed esercitazioni di Adobe Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -141,7 +141,7 @@ Data di rilascio: **16 luglio 2020**
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-------|
 | Workspace: nuovi predefiniti per intervalli di date | 16 luglio 2020 | Sono stati aggiunti 4 nuovi intervalli di date (_Questa settimana, Questo mese, Questo trimestre, Quest’anno_, escluso oggi) per consentire agli utenti di scegliere un intervallo di date che non includa i dati relativi ai giorni parziali a partire dalla data odierna. |
-| Versione beta pubblica API di ripristino dati | 14 luglio 2020 | L&#39;API  Data Repair offre un meccanismo per eliminare o modificare alcuni dati Adobe  Analytics esistenti. [!UICONTROL Le richieste di ripristino] dei dati vengono effettuate inviando una definizione di processo all&#39;API [!UICONTROL di ripristino dei]dati, che include la suite di rapporti, l&#39;intervallo di date, le variabili e le azioni da applicare ai dati. Upon commencement of the public beta, the [!UICONTROL Data Repair API] will support deletion of [!UICONTROL Activity Map] data. Le funzioni aggiuntive verranno implementate in un secondo momento. Contatta l’Assistenza clienti per partecipare alla versione beta pubblica dell’API di ripristino dei dati. [Ulteriori informazioni...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
+| API Data Repair - Beta pubblica | 14 luglio 2020 | L’[!UICONTROL API Data Repair] offre un meccanismo per eliminare o modificare alcuni dati esistenti di Adobe Analytics. Le richieste di [!UICONTROL Data Repair] vengono effettuate inviando all’[!UICONTROL API Data Repair] una definizione di processo che include la suite di rapporti, l’intervallo di date, le variabili e le azioni da applicare ai dati. Al momento dell’introduzione della versione beta pubblica, l’[!UICONTROL API Data Repair] supporterà l’eliminazione dei dati [!UICONTROL Activity Map]. Successivamente verranno introdotte altre funzioni. Per partecipare alla versione beta pubblica dell’API Data Repair, contatta l’Assistenza clienti. [Ulteriori informazioni...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
@@ -171,7 +171,7 @@ Data di rilascio: **16 luglio 2020**
 * È stato risolto un problema in [!UICONTROL Avvisi intelligenti] che impediva il funzionamento del collegamento nell’e-mail per _ritirarsi dalla pianificazione_. (AN-223875)
 * È stato risolto un problema a causa del quale veniva visualizzata una valuta errata per una suite di rapporti virtuale. (AN-224781)
 * È stato risolto un problema relativo a errori di _dati mancanti_ nelle suite di rapporti virtuali. (AN-224782)
-* È stato corretto un problema in seguito al quale, suddividendo una classificazione di una dimensione per un’altra, venivano restituiti risultati vuoti se utilizzati con una metrica calcolata con allocazione partecipazione impostata. (AN-214089)
+* È stato corretto un problema a causa del quale, se si suddivideva una classificazione di una dimensione per un’altra, potevano essere restituiti risultati vuoti in presenza di una metrica calcolata per la quale era stata impostata l’allocazione di partecipazione. (AN-214089)
 
 #### Ulteriori correzioni di Adobe Analytics
 
@@ -181,7 +181,7 @@ AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
-| EOL di Adobe Data Connectors | 13 luglio 2020 | I Connettori dati Adobe sono dotati di tecnologia legacy non più disponibile o supportata. Abbiamo un nuovo standard nel programma [per i partner di](https://partners.adobe.com/exchangeprogram/experiencecloud) Adobe Exchange che dovrebbe essere adottato per tutte le integrazioni che desiderano continuare a essere offerte e supportate. La data ufficiale di fine del ciclo di vita deve ancora essere determinata, ma prevediamo che sarà nei prossimi 12-18 mesi (metà 2021 a fine 2021). [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.html) |
+| Fine del ciclo di vita dei connettori dati di Adobe | 13 luglio 2020 | I connettori dati di Adobe si basano su una tecnologia legacy, che non è più disponibile o supportata. Per continuare a offrire e supportare le integrazioni, si consiglia di adottare il nuovo programma standard [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud). La data ufficiale di fine del ciclo di vita è ancora da definire, ma è prevista nei prossimi 12-18 mesi, nella seconda metà del 2021. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/import/dataconnectors/data-connectors-eol.html) |
 | Mappatura delle suite di rapporti per organizzazioni IMS | Luglio 2020 | Lo strumento di mappatura delle suite di rapporti verrà terminato a novembre 2020. Questa funzione consente integrazioni quali la pubblicazione di segmenti Advertising Analytics e Experience Cloud in Adobe Analytics. Una suite di rapporti deve essere mappata su un’organizzazione IMS per abilitare questi e altri servizi. Le nuove suite di rapporti vengono mappate automaticamente al momento della creazione. Tuttavia, le suite di rapporti meno recenti devono essere mappate manualmente su un’organizzazione IMS. Per accertarti che tutte le suite di rapporti appartengano a un’organizzazione IMS, consulta la sezione su come [mappare le suite di rapporti su un’organizzazione](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html), nella guida utente dei servizi core. |
 | Migrazione a un dominio di prodotto unificato | Data di validità: 28 maggio 2020 | La migrazione a un dominio di prodotto unificato per Adobe Analytics, iniziata a gennaio 2020, è stata completata il 28 maggio 2020. Adobe Analytics si impegna a rimuovere dalla propria architettura tutti i riferimenti al dominio `omniture.com`, ma è importante inserire `omniture.com` nell’elenco Consentiti in quanto cookie di terze parti. A breve, quando verrà portata a termine la migrazione dell’architettura, riceverai una notifica tramite le note sulla versione e non sarà più necessario compiere questo passaggio. [Qui](https://helpx.adobe.com/it/analytics/kb/adobe-ip-addresses.html) puoi trovare un elenco completo degli indirizzi IP consigliati e dei domini che dovresti inserire nell’elenco dei consentiti.<br>Se l’organizzazione blocca i cookie di terze parti, contatta l’assistenza clienti per recuperare l’accesso ad Adobe Analytics. |
 | Nuova pagina di destinazione predefinita di Adobe Analytics | Data di validità: 18 giugno 2020 | Il 18 giugno 2020 la pagina di destinazione predefinita per Adobe Analytics passerà da [!UICONTROL Reports] a [!UICONTROL Workspace]. Questa modifica verrà applicata agli utenti che non hanno precedentemente impostato una pagina di destinazione personalizzata. |
@@ -189,7 +189,7 @@ AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-
 | Miglioramento della ridondanza per la disponibilità di [!UICONTROL Analysis Workspace] | 21 maggio 2020 | Per assicurare la disponibilità di [!UICONTROL Analysis Workspace], verrà aggiunta una rete per la distribuzione di contenuti (CDN) secondaria per migliorare la ridondanza. Gli URL seguenti devono essere aggiunti a eventuali elenchi di firewall di rete consentiti:<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | Modifica del metodo di calcolo di [!UICONTROL Entrate/Uscite] in [!UICONTROL Workspace] | 7 aprile 2020 | A partire da marzo 2020, in [!UICONTROL Analysis Workspace] è stato modificato il modo in cui il valore _None_ interagisce con [!UICONTROL Entrate/Uscite]. Poiché ora in [!UICONTROL Analysis Workspace] è possibile attivare e disattivare i valori _None_, viene applicato il valore _None_ dopo l’entrata o l’uscita, mentre per le eVar veniva applicato prima dell’entrata o dell’uscita. Ad esempio, si supponga che il primo risultato di una visita non presenti alcun valore per le eVar, ma il secondo sì. In [!UICONTROL Reports &amp; Analytics] il primo risultato verrà visualizzato come _non specificato_ per l’Entrata, ma in [!UICONTROL Analysis Workspace] verrà visualizzato come valore per il secondo risultato. |
 | Fine del ciclo vita di **[!UICONTROL Archivio dashboard]** | 27 marzo 2020 | L’impostazione **[!UICONTROL Visualizza archivio]** nella sezione **[!UICONTROL Gestione dashboard]** in [!UICONTROL Reports &amp; Analytics] non sarà più disponibile da ottobre 2020. |
-| EOL di  Analytics Legacy API | 9 gennaio 2020 | A partire da novembre 2020, i seguenti servizi appartenenti alle versioni precedenti delle API di Analytics termineranno il loro ciclo di vita e saranno chiusi. Le integrazioni esistenti create utilizzando questi servizi cesseranno di funzionare. <ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione una [FAQ per le versioni precedenti dell’API EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle tue domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
+| Fine del ciclo di vita delle API legacy di Analytics | 9 gennaio 2020 | A partire da novembre 2020, i seguenti servizi appartenenti alle versioni precedenti delle API di Analytics termineranno il loro ciclo di vita e saranno chiusi. Le integrazioni esistenti create utilizzando questi servizi cesseranno di funzionare. <ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione una [FAQ per le versioni precedenti dell’API EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle tue domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
 | San Jose FTP Broker in scadenza per Londra e Singapore | Luglio 2020 | Per i clienti di Londra e Singapore, non supporteremo più il brokering dei dati tra Londra o Singapore e il data center di San Jose [ftp.omniture.com](ftp://ftp.omniture.com/).<br/><ul><li>Per Londra, utilizzare [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>Per Singapore, utilizzare [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
 | Fine del ciclo di vita di Ad Hoc Analysis | 6 agosto 2018 | Adobe ha annunciato l’intenzione di terminare Ad Hoc Analysis. Non appena disponibile, verrà comunicata la data di fine del ciclo di vita. Per ulteriori informazioni, visita [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 
