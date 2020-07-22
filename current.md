@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bfcc23bd8eaf02956fd2dacf711ce774d6bddb85
+source-git-commit: 07dd75d1b05e0768cf41934eaf40b5460ca85696
 workflow-type: tm+mt
-source-wordcount: '4377'
+source-wordcount: '4388'
 ht-degree: 99%
 
 ---
@@ -27,13 +27,13 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti in [!DNL A
 
 Le date di rilascio del prodotto possono variare. Controlla spesso la disponibilità di aggiornamenti.
 
-Ultimo aggiornamento: **14 luglio 2020**
+Ultimo aggiornamento: **21 luglio 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (aggiornato il 14 luglio 2020)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (aggiornato il 21 luglio 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -128,11 +128,11 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 
 Data di rilascio: **16 luglio 2020**
 
-* [Nuove funzioni di Adobe Analytics](#aa-features)
+* [Nuove funzioni in Adobe  Analytics](#aa-features) (data di aggiornamento 21 luglio 2020)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Nuove funzioni di Media Analytics](#media-aa)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 13 luglio 2020)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
 * [Nuovi corsi ed esercitazioni di Adobe Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -140,7 +140,7 @@ Data di rilascio: **16 luglio 2020**
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-------|
-| CDA: Cuciture basate sul campo | 27 luglio 2020 | Un nuovo metodo per i dispositivi  Analytics che consente di utilizzare una variabile personalizzata per identificare i visitatori. |
+| CDA: Cuciture basate sul campo | 27 luglio 2020 | Un nuovo metodo per i dispositivi  Analytics che consente di utilizzare una variabile personalizzata per identificare i visitatori. &lt;!-->[Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html)&lt;--> |
 | Workspace: nuovi predefiniti per intervalli di date | 16 luglio 2020 | Sono stati aggiunti 4 nuovi intervalli di date (_Questa settimana, Questo mese, Questo trimestre, Quest’anno_, escluso oggi) per consentire agli utenti di scegliere un intervallo di date che non includa i dati relativi ai giorni parziali a partire dalla data odierna. |
 | API Data Repair - Beta pubblica | 14 luglio 2020 | L’[!UICONTROL API Data Repair] offre un meccanismo per eliminare o modificare alcuni dati esistenti di Adobe Analytics. Le richieste di [!UICONTROL Data Repair] vengono effettuate inviando all’[!UICONTROL API Data Repair] una definizione di processo che include la suite di rapporti, l’intervallo di date, le variabili e le azioni da applicare ai dati. Al momento dell’introduzione della versione beta pubblica, l’[!UICONTROL API Data Repair] supporterà l’eliminazione dei dati [!UICONTROL Activity Map]. Successivamente verranno introdotte altre funzioni. Per partecipare alla versione beta pubblica dell’API Data Repair, contatta l’Assistenza clienti. [Ulteriori informazioni...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
