@@ -13,7 +13,7 @@ ht-degree: 99%
 ---
 
 
-# Note sulla versione di Adobe Experience Cloud - luglio 2020
+# Note sulla versione di Adobe Experience Cloud - Luglio 2020
 
 ![Banner](/assets/experience-cloud-banner-3.png)
 
