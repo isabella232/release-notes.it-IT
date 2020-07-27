@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9f46f208d31ffea1d637bcffb02d869eb0f29974
+source-git-commit: 6f1be637b529833baf987c4727ec2d7e4980b779
 workflow-type: tm+mt
-source-wordcount: '4563'
+source-wordcount: '4561'
 ht-degree: 96%
 
 ---
@@ -136,7 +136,7 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 
 Data di rilascio: **16 luglio 2020**
 
-* [Nuove funzioni in Adobe  Analytics](#aa-features) (data di aggiornamento 21 luglio 2020)
+* [Nuove funzioni in Adobe Analytics](#aa-features) (data di aggiornamento 21 luglio 2020)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Nuove funzioni di Media Analytics](#media-aa)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
@@ -380,8 +380,6 @@ Per le note sulla versione, consulta:
 
 ### Aggiornamenti principali di Marketo Engage
 
-La documentazione per [!UICONTROL Marketo Sky] ora è disponibile all&#39;indirizzo [Qui](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
-
 Consulta le [note sulla versione](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720) di [!DNL Marketo] per informazioni aggiornate.
 
 ### Funzionalità in arrivo
@@ -401,5 +399,9 @@ Nel corso del trimestre verranno presentate le seguenti funzionalità:
 
 * **Parametro “_method” di Asset API:** dopo settembre 2020, gli endpoint di Asset API non accetteranno più `_method` per trasmettere i parametri di query nel corpo di un POST per aggirare le limitazioni relative alla lunghezza degli URI.
 * **Supporto in Internet Explorer:** a partire dalla versione di luglio del 31 luglio 2020, Internet Explorer non supporterà più l’interfaccia utente di Marketo Engage.
+
+>[!NOTE]
+>
+>La documentazione relativa all&#39;interfaccia [!UICONTROL Marketo Sky] è disponibile [qui](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
 
 Per leggere le note precedenti e complessive, consulta le [note sulla versione Marketo](https://docs.marketo.com/x/CgA6Ag).
