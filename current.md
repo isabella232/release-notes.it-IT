@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 07dd75d1b05e0768cf41934eaf40b5460ca85696
+source-git-commit: 9f46f208d31ffea1d637bcffb02d869eb0f29974
 workflow-type: tm+mt
-source-wordcount: '4388'
-ht-degree: 99%
+source-wordcount: '4563'
+ht-degree: 96%
 
 ---
 
@@ -30,12 +30,12 @@ Le date di rilascio del prodotto possono variare. Controlla spesso la disponibil
 Ultimo aggiornamento: **21 luglio 2020**
 
 * [Stato del sistema di Adobe](#status)
-* [Interfaccia di Experience Cloud](#ecloud)
+* [Interfaccia di Experience Cloud](#ecloud) (aggiornato il 27 luglio 2020)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (aggiornato il 21 luglio 2020)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem)
+* [Experience Manager](#aem) (aggiornato il 27 luglio 2020)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/it-IT/target/using/release-notes/target-release-notes.html)
@@ -66,6 +66,14 @@ Data di rilascio: **21 maggio 2020**
 ## ![Icona](/assets/ec_appicon_24.png) Interfaccia di Experience Cloud {#ecloud}
 
 Aggiornamenti generali all’interfaccia di Experience Cloud.
+
+### Nuova documentazione di Adobe Summit Lab
+
+Nuovi contenuti pubblicati dai laboratori Adobe Summit nel 2020.
+
+| Data di pubblicazione | Nome | Tipo | Descrizione |
+| -----------| ---------- | ---------- | ---------- |
+| 27 luglio 2020 | [Rilanciare le esperienze digitali con Adobe Document Cloud](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | Articolo | In questo laboratorio, fai un salto di produttività e creatività imparando a usare il formato digitale e a fare di più con i file PDF, per trasformare le esperienze di clienti e dipendenti. |
 
 **Menu dell’interfaccia aggiornato**
 
@@ -267,6 +275,8 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
+| 27 luglio 2020 | [Rilevamento dei pattern](https://docs.adobe.com/content/help/en/experience-manager-pattern-detection/table-of-contents/aso.html) | Riferimenti | Disponibile solo da `upgrade.log` durante un aggiornamento Experience Manager . |
+| 27 luglio 2020 | [Distribuzione software](https://docs.adobe.com/content/help/it-IT/experience-cloud/software-distribution/home.html) | Articolo | As of June 2020, the Experience Cloud solution Software Distribution replaces the download platforms [!UICONTROL PackageShare] for AEM and [!DNL Neolane] for [!DNL Campaign] and provides a more efficient experience to find and download your software. Grazie a un’interfaccia utente intuitiva, una ricerca semplificata e una velocità di download notevolmente migliorata, il download dei pacchetti software per i prodotti Experience Cloud è un’esperienza utente straordinaria. |
 | 25 giugno 2020 | [Guida introduttiva ai moduli adattivi](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Video | Queste esercitazioni descrivono come creare moduli adattivi con più schede. Scopri come usare le tabelle, il layout a soffietto e l’editor di regole per la creazione di regole aziendali. |
 | 25 giugno 2020 | [Creazione di un flusso di lavoro di revisione in AEM Forms](https://video.tv.adobe.com/v/35821/quality=9?captions=ita) | Video | Scopri come creare un flusso di lavoro per la revisione dei dati inviati tramite un modulo attivo. |
 | 23 giugno 2020 | [Profili di elaborazione](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/processing-profiles.html) | Video | I profili di elaborazione definiscono le rappresentazioni da creare per le risorse in AEM as a Cloud Service. |
@@ -370,7 +380,9 @@ Per le note sulla versione, consulta:
 
 ### Aggiornamenti principali di Marketo Engage
 
-Consulta le [note sulla versione](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) di [!DNL Marketo] per informazioni aggiornate.
+La documentazione per [!UICONTROL Marketo Sky] ora è disponibile all&#39;indirizzo [Qui](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
+
+Consulta le [note sulla versione](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720) di [!DNL Marketo] per informazioni aggiornate.
 
 ### Funzionalità in arrivo
 
