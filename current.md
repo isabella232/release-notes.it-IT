@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6f1be637b529833baf987c4727ec2d7e4980b779
+source-git-commit: b5109b2b7d98da696cbd397ab9358daf843c8e4b
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 96%
+source-wordcount: '4618'
+ht-degree: 95%
 
 ---
 
@@ -27,13 +27,13 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti in [!DNL A
 
 Le date di rilascio del prodotto possono variare. Controlla spesso la disponibilità di aggiornamenti.
 
-Ultimo aggiornamento: **21 luglio 2020**
+Ultimo aggiornamento: **29 luglio 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud) (aggiornato il 27 luglio 2020)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (aggiornato il 21 luglio 2020)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (aggiornato il 29 luglio 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (aggiornato il 27 luglio 2020)
 * [Campaign](#ac)
@@ -67,13 +67,13 @@ Data di rilascio: **21 maggio 2020**
 
 Aggiornamenti generali all’interfaccia di Experience Cloud.
 
-### Nuova documentazione di Adobe Summit Lab
+### Nuova documentazione del Adobe Summit Lab 
 
-Nuovi contenuti pubblicati dai laboratori Adobe Summit nel 2020.
+Nuovi contenuti pubblicati dai laboratori  Summit del Adobe nel 2020.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| 27 luglio 2020 | [Rilanciare le esperienze digitali con Adobe Document Cloud](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | Articolo | In questo laboratorio, fai un salto di produttività e creatività imparando a usare il formato digitale e a fare di più con i file PDF, per trasformare le esperienze di clienti e dipendenti. |
+| 27 luglio 2020 | [Esperienze digitali con Adobe Document Cloud](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | Articolo | In questo laboratorio, fai un salto di produttività e creatività imparando a usare il formato digitale e a fare di più con i file PDF, per trasformare le esperienze di clienti e dipendenti. |
 
 **Menu dell’interfaccia aggiornato**
 
@@ -136,8 +136,8 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 
 Data di rilascio: **16 luglio 2020**
 
-* [Nuove funzioni in Adobe Analytics](#aa-features) (data di aggiornamento 21 luglio 2020)
-* [Nuove funzioni in Customer Journey Analytics](#cust-journey)
+* [Nuove funzioni in  Adobe Analytics](#aa-features) (aggiornato il 21 luglio 2020)
+* [Nuove funzioni in Customer Journey Analytics](#cust-journey) (aggiornato il 29 luglio 2020)
 * [Nuove funzioni di Media Analytics](#media-aa)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
 * [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
@@ -148,7 +148,7 @@ Data di rilascio: **16 luglio 2020**
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-------|
-| Analisi cross-device: unione basata su campi | 27 luglio 2020 | Nuovo metodo per le analisi cross-device, con una variabile personalizzata che facilita l’identificazione dei visitatori. &lt;!-->[Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html)&lt;--> |
+| Analisi cross-device: unione basata su campi | 27 luglio 2020 | Nuovo metodo per le analisi cross-device, con una variabile personalizzata che facilita l’identificazione dei visitatori. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html) |
 | Workspace: nuovi predefiniti per intervalli di date | 16 luglio 2020 | Sono stati aggiunti 4 nuovi intervalli di date (_Questa settimana, Questo mese, Questo trimestre, Quest’anno_, escluso oggi) per consentire agli utenti di scegliere un intervallo di date che non includa i dati relativi ai giorni parziali a partire dalla data odierna. |
 | API Data Repair - Beta pubblica | 14 luglio 2020 | L’[!UICONTROL API Data Repair] offre un meccanismo per eliminare o modificare alcuni dati esistenti di Adobe Analytics. Le richieste di [!UICONTROL Data Repair] vengono effettuate inviando all’[!UICONTROL API Data Repair] una definizione di processo che include la suite di rapporti, l’intervallo di date, le variabili e le azioni da applicare ai dati. Al momento dell’introduzione della versione beta pubblica, l’[!UICONTROL API Data Repair] supporterà l’eliminazione dei dati [!UICONTROL Activity Map]. Successivamente verranno introdotte altre funzioni. Per partecipare alla versione beta pubblica dell’API Data Repair, contatta l’Assistenza clienti. [Ulteriori informazioni...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
@@ -156,7 +156,7 @@ Data di rilascio: **16 luglio 2020**
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-----|
-| Nessuna nuova funzionalità questo mese |  |  |
+| Opzione Mappa identità per ID persona | 26 giugno 2020 | Mappa identità è una struttura di dati mappa che consente di caricare coppie chiave-valore> come parte della creazione di una connessione nel Customer Journey Analytics. Le chiavi sono spazi dei nomi di identità e il valore è una struttura che contiene il valore di identità. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
 ### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
 
@@ -275,7 +275,7 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| 27 luglio 2020 | [Rilevamento dei pattern](https://docs.adobe.com/content/help/en/experience-manager-pattern-detection/table-of-contents/aso.html) | Riferimenti | Disponibile solo da `upgrade.log` durante un aggiornamento Experience Manager . |
+| 27 luglio 2020 | [Rilevamento dei pattern](https://docs.adobe.com/content/help/en/experience-manager-pattern-detection/table-of-contents/aso.html) | Riferimenti | Disponibile solo da `upgrade.log` durante un aggiornamento di un Experience Manager . |
 | 27 luglio 2020 | [Distribuzione software](https://docs.adobe.com/content/help/it-IT/experience-cloud/software-distribution/home.html) | Articolo | As of June 2020, the Experience Cloud solution Software Distribution replaces the download platforms [!UICONTROL PackageShare] for AEM and [!DNL Neolane] for [!DNL Campaign] and provides a more efficient experience to find and download your software. Grazie a un’interfaccia utente intuitiva, una ricerca semplificata e una velocità di download notevolmente migliorata, il download dei pacchetti software per i prodotti Experience Cloud è un’esperienza utente straordinaria. |
 | 25 giugno 2020 | [Guida introduttiva ai moduli adattivi](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Video | Queste esercitazioni descrivono come creare moduli adattivi con più schede. Scopri come usare le tabelle, il layout a soffietto e l’editor di regole per la creazione di regole aziendali. |
 | 25 giugno 2020 | [Creazione di un flusso di lavoro di revisione in AEM Forms](https://video.tv.adobe.com/v/35821/quality=9?captions=ita) | Video | Scopri come creare un flusso di lavoro per la revisione dei dati inviati tramite un modulo attivo. |
