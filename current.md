@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b5109b2b7d98da696cbd397ab9358daf843c8e4b
+source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
-source-wordcount: '4618'
+source-wordcount: '4597'
 ht-degree: 95%
 
 ---
@@ -275,7 +275,6 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| 27 luglio 2020 | [Rilevamento dei pattern](https://docs.adobe.com/content/help/en/experience-manager-pattern-detection/table-of-contents/aso.html) | Riferimenti | Disponibile solo da `upgrade.log` durante un aggiornamento di un Experience Manager . |
 | 27 luglio 2020 | [Distribuzione software](https://docs.adobe.com/content/help/it-IT/experience-cloud/software-distribution/home.html) | Articolo | As of June 2020, the Experience Cloud solution Software Distribution replaces the download platforms [!UICONTROL PackageShare] for AEM and [!DNL Neolane] for [!DNL Campaign] and provides a more efficient experience to find and download your software. Grazie a un’interfaccia utente intuitiva, una ricerca semplificata e una velocità di download notevolmente migliorata, il download dei pacchetti software per i prodotti Experience Cloud è un’esperienza utente straordinaria. |
 | 25 giugno 2020 | [Guida introduttiva ai moduli adattivi](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Video | Queste esercitazioni descrivono come creare moduli adattivi con più schede. Scopri come usare le tabelle, il layout a soffietto e l’editor di regole per la creazione di regole aziendali. |
 | 25 giugno 2020 | [Creazione di un flusso di lavoro di revisione in AEM Forms](https://video.tv.adobe.com/v/35821/quality=9?captions=ita) | Video | Scopri come creare un flusso di lavoro per la revisione dei dati inviati tramite un modulo attivo. |
