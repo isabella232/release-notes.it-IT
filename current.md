@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
 source-wordcount: '4597'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Ultimo aggiornamento: **29 luglio 2020**
 * [Interfaccia di Experience Cloud](#ecloud) (aggiornato il 27 luglio 2020)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)  (aggiornato il 29 luglio 2020)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (aggiornato il 29 luglio 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (aggiornato il 27 luglio 2020)
 * [Campaign](#ac)
@@ -67,13 +67,13 @@ Data di rilascio: **21 maggio 2020**
 
 Aggiornamenti generali all’interfaccia di Experience Cloud.
 
-### Nuova documentazione del Adobe Summit Lab 
+### Nuova documentazione dal laboratorio dell’Adobe Summit
 
-Nuovi contenuti pubblicati dai laboratori  Summit del Adobe nel 2020.
+Nuovi contenuti pubblicati dai laboratori dell’Adobe Summit nel 2020.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| 27 luglio 2020 | [Esperienze digitali con Adobe Document Cloud](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | Articolo | In questo laboratorio, fai un salto di produttività e creatività imparando a usare il formato digitale e a fare di più con i file PDF, per trasformare le esperienze di clienti e dipendenti. |
+| 27 luglio 2020 | [Dare inizio alle esperienze digitali con Adobe Document Cloud](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | Articolo | In questo laboratorio, dai una marcia in più alla tua produttività e creatività imparando a puntare sul digitale e a scoprire tutte le potenzialità del formato PDF per trasformare le esperienze di clienti e dipendenti. |
 
 **Menu dell’interfaccia aggiornato**
 
@@ -137,7 +137,7 @@ Usando Adobe Experience Platform, coordina i percorsi dei singoli clienti su vas
 Data di rilascio: **16 luglio 2020**
 
 * [Nuove funzioni di Adobe Analytics](#aa-features) (aggiornato il 21 luglio 2020)
-* [Nuove funzioni in Customer Journey Analytics](#cust-journey) (aggiornato il 29 luglio 2020)
+* [Nuove funzioni di Customer Journey Analytics](#cust-journey) (aggiornato il 29 luglio 2020)
 * [Nuove funzioni di Media Analytics](#media-aa)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
 * [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
@@ -156,7 +156,7 @@ Data di rilascio: **16 luglio 2020**
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-----|
-| Opzione Mappa identità per ID persona | 26 giugno 2020 | Mappa identità è una struttura di dati mappa che consente di caricare coppie chiave-valore> come parte della creazione di una connessione nel Customer Journey Analytics. Le chiavi sono spazi dei nomi di identità e il valore è una struttura che contiene il valore di identità. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| Opzione di Identity Map per l’ID persona | 26 giugno 2020 | Identity Map è una struttura di dati a mappa che consente di caricare coppie chiave -> valore in quanto parte della creazione di una connessione in Customer Journey Analytics. Le chiavi sono spazi dei nomi dell’identità e il valore è una struttura che contiene il valore dell’identità. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
 ### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
 
@@ -188,7 +188,7 @@ AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
-| Avviso | Data di aggiunta  o aggiornamento | Descrizione |
+| Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | -----------| ---------- | ---------- |
 | Fine del ciclo di vita dei connettori dati di Adobe | 13 luglio 2020 | I connettori dati di Adobe si basano su una tecnologia legacy, che non è più disponibile o supportata. Per continuare a offrire e supportare le integrazioni, si consiglia di adottare il nuovo programma standard [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud). La data ufficiale di fine del ciclo di vita è ancora da definire, ma è prevista nei prossimi 12-18 mesi, nella seconda metà del 2021. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/import/dataconnectors/data-connectors-eol.html) |
 | Mappatura delle suite di rapporti per organizzazioni IMS | Luglio 2020 | Lo strumento di mappatura delle suite di rapporti verrà terminato a novembre 2020. Questa funzione consente integrazioni quali la pubblicazione di segmenti Advertising Analytics e Experience Cloud in Adobe Analytics. Una suite di rapporti deve essere mappata su un’organizzazione IMS per abilitare questi e altri servizi. Le nuove suite di rapporti vengono mappate automaticamente al momento della creazione. Tuttavia, le suite di rapporti meno recenti devono essere mappate manualmente su un’organizzazione IMS. Per accertarti che tutte le suite di rapporti appartengano a un’organizzazione IMS, consulta la sezione su come [mappare le suite di rapporti su un’organizzazione](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html), nella guida utente dei servizi core. |
@@ -275,7 +275,7 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| 27 luglio 2020 | [Distribuzione software](https://docs.adobe.com/content/help/it-IT/experience-cloud/software-distribution/home.html) | Articolo | As of June 2020, the Experience Cloud solution Software Distribution replaces the download platforms [!UICONTROL PackageShare] for AEM and [!DNL Neolane] for [!DNL Campaign] and provides a more efficient experience to find and download your software. Grazie a un’interfaccia utente intuitiva, una ricerca semplificata e una velocità di download notevolmente migliorata, il download dei pacchetti software per i prodotti Experience Cloud è un’esperienza utente straordinaria. |
+| 27 luglio 2020 | [Distribuzione software](https://docs.adobe.com/content/help/it-IT/experience-cloud/software-distribution/home.html) | Articolo | A partire da giugno 2020, la soluzione Distribuzione software di Adobe Experience Cloud sostituisce le piattaforme di download [!UICONTROL Condivisione pacchetti] per AEM e [!DNL Neolane] per [!DNL Campaign] e consente di trovare e scaricare i software in modo più efficiente. Grazie a un’interfaccia utente intuitiva, una ricerca semplificata e una velocità di download notevolmente migliorata, il download dei pacchetti software per i prodotti Experience Cloud è un’esperienza utente straordinaria. |
 | 25 giugno 2020 | [Guida introduttiva ai moduli adattivi](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Video | Queste esercitazioni descrivono come creare moduli adattivi con più schede. Scopri come usare le tabelle, il layout a soffietto e l’editor di regole per la creazione di regole aziendali. |
 | 25 giugno 2020 | [Creazione di un flusso di lavoro di revisione in AEM Forms](https://video.tv.adobe.com/v/35821/quality=9?captions=ita) | Video | Scopri come creare un flusso di lavoro per la revisione dei dati inviati tramite un modulo attivo. |
 | 23 giugno 2020 | [Profili di elaborazione](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/processing-profiles.html) | Video | I profili di elaborazione definiscono le rappresentazioni da creare per le risorse in AEM as a Cloud Service. |
@@ -351,7 +351,7 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 
 * Adobe Campaign Standard: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/campaign-standard-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html) - [Video dimostrativi](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/overview.html) - [Piano delle versioni future](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-planning.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/campaign-classic-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html) - [Video dimostrativi](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/overview.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/documentation-updates.html)
-* Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html)  - Video introduttivi per [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) - Video introduttivi per [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![Icona](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -401,6 +401,6 @@ Nel corso del trimestre verranno presentate le seguenti funzionalità:
 
 >[!NOTE]
 >
->La documentazione relativa all&#39;interfaccia [!UICONTROL Marketo Sky] è disponibile [qui](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
+>La documentazione relativa all’interfaccia [!UICONTROL Marketo Sky] è disponibile [qui](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
 
 Per leggere le note precedenti e complessive, consulta le [note sulla versione Marketo](https://docs.marketo.com/x/CgA6Ag).
