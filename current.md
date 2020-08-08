@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4692634440160952dc46ee85c9dbdb77b9778fbf
+source-git-commit: c3d6d35f2a56d003514549150db7b060440389f9
 workflow-type: tm+mt
-source-wordcount: '6174'
+source-wordcount: '6287'
 ht-degree: 42%
 
 ---
@@ -228,6 +228,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
    * AEM Commerce è ora disponibile sul Cloud Service. Consulta [Guida introduttiva AEM Commerce come Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/getting-started.html)
    * I connettori per  miglioramenti di Adobe Target e Adobe Analytics  includono miglioramenti dell&#39;interfaccia utente, sostituzione dell&#39;interfaccia utente classica e integrazione  lancio Adobe. Consultate [Integrazione  Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) e [Integrazione  Adobe Target.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)
    * Asset Compute Service è un servizio scalabile ed estensibile per l’elaborazione delle risorse. Gli amministratori possono configurare  Experience Manager per richiamare il lavoratore personalizzato creato utilizzando il servizio Asset Compute Service. Gli sviluppatori possono utilizzare il servizio per creare lavoratori personalizzati specializzati in casi di utilizzo complessi. Questo servizio Web può generare miniature per diversi tipi di file, rendering di immagini di alta qualità da  formati di file di Adobe, codificare video (in futuro), estrarre metadati, estrarre testo completo come precursore per l’indicizzazione ed eseguire una risorsa tramite tutti i servizi Sensei disponibili. Consultate [Utilizzare i microservizi delle risorse e i profili di elaborazione.](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)
+   * [Il servizio](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) Asset Compute Service è disponibile per essere esteso per la creazione di applicazioni personalizzate. È un servizio scalabile ed estensibile di [!DNL Adobe Experience Cloud] elaborazione delle risorse digitali. Può trasformare immagini, video, documenti e altri formati di file in diverse rappresentazioni, come miniature, testo estratto e metadati, archivi e altro ancora. Gli sviluppatori possono creare applicazioni personalizzate (o personalizzate) per risolvere i casi di utilizzo personalizzati. È costruito con [Project Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) e funziona in [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)senza server.
    * Numerosi miglioramenti per i modelli di flussi di lavoro e per gli elementi multimediali dinamici in AEM come Cloud Service.
    * Release 2.11.0 of the [AEM Core Components](https://docs.adobe.com/content/help/it-IT/experience-manager-core-components/using/introduction.html) is now available as part of AEM Sites including the following:
       * Introduzione di un nuovo componente visualizzatore [PDF.](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)
@@ -241,6 +242,10 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
    * Vedi le note [complete sulla versione AEM come Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)
 
 ### Aiuto e documentazione
+
+* **AEM Assets**
+
+   * Sono stati aggiunti ulteriori suggerimenti [per la](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html) risoluzione dei problemi per &#39;app desktop Experience Manager.
 
 * **AEM Forms**
 
