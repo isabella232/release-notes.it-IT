@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1a9860da58454f3e23650b8cf98e20f2819ac3be
+source-git-commit: 8eec282ba5b97526aecf904b58819b446be35db0
 workflow-type: tm+mt
-source-wordcount: '6333'
+source-wordcount: '6337'
 ht-degree: 41%
 
 ---
@@ -31,13 +31,13 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti in [!DNL A
 
 Le date di rilascio del prodotto possono variare. Controlla spesso la disponibilità di aggiornamenti.
 
-Ultimo aggiornamento: **7 agosto 2020**
+Ultimo aggiornamento: **11 agosto 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) (aggiornato l’11 agosto 2020) e il [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -93,6 +93,8 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 * [AppMeasurement](#appm)
 
 ### Nuove funzioni di Adobe Analytics {#aa-features}
+
+(Aggiornato l’11 agosto 2020)
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-------|
