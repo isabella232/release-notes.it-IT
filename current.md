@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bc30808217e8734e639246602be45efd02d2dc60
+source-git-commit: 5fa62cfefa6118c72d3c997c198f9f5ad7123b6d
 workflow-type: tm+mt
-source-wordcount: '6402'
+source-wordcount: '6371'
 ht-degree: 41%
 
 ---
@@ -31,13 +31,13 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti in [!DNL A
 
 Le date di rilascio del prodotto possono variare. Controlla spesso la disponibilità di aggiornamenti.
 
-Ultimo aggiornamento: **11 agosto 2020**
+Ultimo aggiornamento: **13 agosto 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) (aggiornato l’11 agosto 2020) e il [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) (aggiornato il 13 agosto 2020) e [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -94,13 +94,12 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 
 ### Nuove funzioni di Adobe Analytics {#aa-features}
 
-(Aggiornato l’11 agosto 2020)
+(Aggiornato il 13 agosto 2020)
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | -----------| ---------- |-------|
-| Miglioramenti alla raccolta dati in Cina | 13 agosto 2020 | I miglioramenti includono: Supporto per  servizio ID Experience Cloud; supporto per SSL di prime parti; e supporto per l&#39;inoltro lato server. Per la documentazione, contattate il rappresentante commerciale  Adobe. |
 | [!UICONTROL Analisi]multi-dispositivo: Disponibilità in EMEA e APAC | 31 agosto 2020 | [Analisi](https://docs.adobe.com/content/help/en/analytics/components/cda/overview.html) cross-device e grafico privato saranno disponibili per i clienti nell&#39;area EMEA e in APAC. |
-| Miglioramento dell&#39;unione basata sul campo in Analytics  multi-dispositivo (disponibile in America ed EMEA) | 17 agosto 2020 | Questa implementazione semplificata per i nuovi clienti di Analytics  multi-dispositivo consente di eseguire l&#39;unione in base a un ID utente memorizzato in un campo Analytics (prop o  eVar) invece di utilizzare il grafico del dispositivo (co-op o privato). Questo miglioramento elimina il requisito di implementare ECID e rimuove il requisito di implementare la sincronizzazione ID ai fini di CDA. (per alcune altre funzioni è ancora necessaria la sincronizzazione di ECID e ID.) |
+| Miglioramento dell&#39;unione basata sul campo in Analytics  multi-dispositivo (disponibile in America ed EMEA) | 31 agosto 2020 | Questa implementazione semplificata per i nuovi clienti di Analytics  multi-dispositivo consente di eseguire l&#39;unione in base a un ID utente memorizzato in un campo Analytics (prop o  eVar) invece di utilizzare il grafico del dispositivo (co-op o privato). Questo miglioramento elimina il requisito di implementare ECID e rimuove il requisito di implementare la sincronizzazione ID ai fini di CDA. (per alcune altre funzioni è ancora necessaria la sincronizzazione di ECID e ID.) |
 | (Annuncio anticipato) Area di lavoro: Download di elementi da 50K per una singola dimensione | 17 settembre 2020 | Potrai scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Questo consente di accedere a più di 400 righe di dati all&#39;esterno di  Analysis Workspace. |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
