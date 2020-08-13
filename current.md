@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 287bdc8c8460e9700474bb0bf1e79631182945bb
+source-git-commit: bc30808217e8734e639246602be45efd02d2dc60
 workflow-type: tm+mt
 source-wordcount: '6402'
 ht-degree: 41%
@@ -101,7 +101,7 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 | Miglioramenti alla raccolta dati in Cina | 13 agosto 2020 | I miglioramenti includono: Supporto per  servizio ID Experience Cloud; supporto per SSL di prime parti; e supporto per l&#39;inoltro lato server. Per la documentazione, contattate il rappresentante commerciale  Adobe. |
 | [!UICONTROL Analisi]multi-dispositivo: Disponibilità in EMEA e APAC | 31 agosto 2020 | [Analisi](https://docs.adobe.com/content/help/en/analytics/components/cda/overview.html) cross-device e grafico privato saranno disponibili per i clienti nell&#39;area EMEA e in APAC. |
 | Miglioramento dell&#39;unione basata sul campo in Analytics  multi-dispositivo (disponibile in America ed EMEA) | 17 agosto 2020 | Questa implementazione semplificata per i nuovi clienti di Analytics  multi-dispositivo consente di eseguire l&#39;unione in base a un ID utente memorizzato in un campo Analytics (prop o  eVar) invece di utilizzare il grafico del dispositivo (co-op o privato). Questo miglioramento elimina il requisito di implementare ECID e rimuove il requisito di implementare la sincronizzazione ID ai fini di CDA. (per alcune altre funzioni è ancora necessaria la sincronizzazione di ECID e ID.) |
-| Area di lavoro: Download di elementi da 50K per una singola dimensione | 17 settembre 2020 | [Annuncio] anticipato Sarà possibile scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Questo consente di accedere a più di 400 righe di dati all&#39;esterno di  Analysis Workspace. |
+| (Annuncio anticipato) Area di lavoro: Download di elementi da 50K per una singola dimensione | 17 settembre 2020 | Potrai scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Questo consente di accedere a più di 400 righe di dati all&#39;esterno di  Analysis Workspace. |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
