@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8eec282ba5b97526aecf904b58819b446be35db0
+source-git-commit: 287bdc8c8460e9700474bb0bf1e79631182945bb
 workflow-type: tm+mt
-source-wordcount: '6337'
+source-wordcount: '6402'
 ht-degree: 41%
 
 ---
@@ -190,6 +190,7 @@ Data di rilascio: **13 agosto 2020**
 
 ### Nuove funzioni e correzioni in Adobe Audience Manager
 
+* Ora puoi utilizzare Destinazioni [basate su](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) Persone per eseguire il targeting degli utenti tramite [!DNL Google Customer Match]. Prima di poter utilizzare le Destinazioni [!UICONTROL basate sulle] persone per inviare i segmenti di pubblico di prime parti a una [!DNL Google Customer Match] destinazione, è obbligatorio [!DNL Google] aggiungerti al loro elenco consentiti . Per ulteriori informazioni, consulta la documentazione [Destinazioni](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) basate sulle persone. (PLAT-53962)
 * [Le audience](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) predittive ora supportano la selezione di una regola [!UICONTROL di unione] profilo per modello, durante la creazione del modello. (AAM-55178)
 * Le date di inizio e di fine della mappatura della destinazione sono ora visibili nella pagina di ciascun segmento. (AAM-40056)
 * È stato risolto un problema per il quale il tipo [!UICONTROL di] dispositivo di una caratteristica veniva automaticamente impostato su [!UICONTROL cross-Device] durante la creazione di una nuova caratteristica. (AAM-55368)
@@ -381,7 +382,7 @@ Note sulla versione di Adobe Advertising Cloud.
 | Funzione | Descrizione |
 | -----------| ---------- |
 | [!UICONTROL Portfolio] | I limiti di posizione a livello di Portfolio non sono più disponibili nelle impostazioni del portfolio. Eventuali limiti di posizione creati in precedenza venivano rimossi. |
-| [!UICONTROL Vincoli] | I vincoli e le condizioni di vincolo basate sulla posizione non sono più supportati:<br/><ul><li>I vincoli Pos minimi e Pos massimi non sono più disponibili e sono stati rimossi da tutti i vincoli Bid &amp; Position creati in precedenza e dai vincoli di Condivisione impression.</li><li>I vincoli Offerta e Posizione esistenti che includevano vincoli di posizione ma non vincoli di offerta sono stati messi in pausa. Sono ancora disponibili nell’interfaccia utente e nei rapporti.</li><li>I vincoli Offerta e Posizione sono stati rinominati Limiti Offerta.</li><li>Sono state rimosse tutte le condizioni basate sulla posizione (utilizzando le metriche Posizione media, Posizione media ponderata o Ultimi punti noti) in qualsiasi tipo di vincolo.</li></ul><br/>**Nota:**I dati di posizione continueranno a essere compilati purché siano disponibili dai motori di ricerca. Microsoft Ads andrà in pensione a settembre 2020. |  |
+| [!UICONTROL Vincoli] | I vincoli e le condizioni di vincolo basate sulla posizione non sono più supportati:<br/><ul><li>I vincoli Pos minimi e Pos massimi non sono più disponibili e sono stati rimossi da tutti i vincoli Bid &amp; Position creati in precedenza e dai vincoli di Condivisione impression.</li><li>I vincoli Offerta e Posizione esistenti che includevano vincoli di posizione ma non vincoli di offerta sono stati messi in pausa. Sono ancora disponibili nell’interfaccia utente e nei rapporti.</li><li>I vincoli Offerta e Posizione sono stati rinominati Limiti Offerta.</li><li>Sono state rimosse tutte le condizioni basate sulla posizione (utilizzando le metriche Posizione media, Posizione media ponderata o Ultimi punti noti) in qualsiasi tipo di vincolo.</li></ul><br/>**Nota:** I dati di posizione continueranno a essere compilati purché siano disponibili dai motori di ricerca. Microsoft Ads andrà in pensione a settembre 2020. |  |
 | [!UICONTROL Campagne] | (Campagne Google Ads) Advertising Cloud Search ora supporta i clienti di annunci pubblicitari in RSA (responsive Search ads). Precedentemente, erano supportati in tutti i tipi di annunci eccetto RSA. |
 
 ## ![Icona](/assets/magento.png) [!DNL Magento] {#magento}
