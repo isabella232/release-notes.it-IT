@@ -5,23 +5,19 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5fa62cfefa6118c72d3c997c198f9f5ad7123b6d
+source-git-commit: dc785dde4088570baa004f5296d134d16a503562
 workflow-type: tm+mt
-source-wordcount: '6371'
+source-wordcount: '6378'
 ht-degree: 41%
 
 ---
 
 
-# Accesso anticipato - Note sulla versione di Adobe Experience Cloud - Agosto 2020
+# Note sulla versione di Adobe Experience Cloud - Agosto 2020
 
 ![Banner](/assets/experience-cloud-banner-3.png)
 
 Questa pagina descrive nuove funzioni, correzioni e avvisi importanti in [!DNL Adobe Experience Cloud]. Inoltre mette in evidenza documentazione, corsi di formazione ed esercitazioni video farti per ottenere il massimo da Experience Cloud.
-
->[!IMPORTANT]
->
->Questa pagina contiene informazioni precedenti al rilascio ed è soggetta a modifiche prima del rilascio ufficiale.
 
 >[!NOTE]
 >
@@ -241,7 +237,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
    * Le pipeline di Cloud Manager ora supportano variabili e segreti impostati dal cliente. Consultate Variabili [della tubazione.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/getting-access/creating-aem-application-project.html#pipeline-variables)
    * [I registri possono essere inoltrati agli account](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/logging.html#splunk-logs)Splunk, consentendo alle organizzazioni di sfruttare i propri [!DNL Splunk] investimenti.
    * Potete assegnare [un indirizzo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address) IP di uscita statico e dedicato al traffico in uscita programmato nel codice Java, utile per alcune integrazioni.
-   * Cloud Readiness Analyzer v1.0.2 è stato rilasciato. Vedere [Installazione di CRA su AEM 6.1.](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html#installing-on-aem61)
+   * [!UICONTROL Cloud Readiness Analyzer] v1.0.2 è stato rilasciato. See detailed [Release Notes](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.html#cloud-readiness-analyzer) for more information. Per iniziare a utilizzare [!UICONTROL Cloud Readiness Analyzer], consulta [Utilizzo di Cloud Readiness Analyzer](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html).
    * Vedi le note [complete sulla versione AEM come Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)
 
 ### Aiuto e documentazione
