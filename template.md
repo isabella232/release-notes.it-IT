@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bd027ba7bbbfd6c8e510b48e4e0fff9168403da8
+source-git-commit: 949872e465b54e68051c62f61530591117f54a6a
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2526'
 ht-degree: 96%
 
 ---
@@ -99,7 +99,7 @@ Using Adobe [!UICONTROL Experience Platform,] orchestrate individual customer jo
 
 #### Additional resources for [!UICONTROL Journey Orchestration]
 
-[Documentazione](https://docs.adobe.com/content/help/it-IT/journeys/using/journey-orchestration-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/journeys/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[Documentazione](https://docs.adobe.com/content/help/it-IT/journeys/using/journey-orchestration-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/journeys/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/it-IT/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 
 ### [!UICONTROL Mobile Services e Mobile SDK] {#mobile}
 
@@ -131,7 +131,7 @@ Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](http
 ### Nuove funzioni di Adobe Analytics {#aa-features}
 
 | Funzione | Descrizione |
-| -----------| ---------- |  
+| ------- | ------- |
 | Funzione A | Testo |
 | Funzione B | Testo |
 | Funzione C | Testo |
@@ -139,7 +139,7 @@ Per la documentazione del prodotto, consulta l’[Aiuto di Adobe Analytics](http
 ### [!DNL Media Analytics] SDK per [!DNL iOS] &amp; [!DNL Android] (già SDK VHL) {#aa-va}
 
 | Funzione | Descrizione |
-| -----------| ---------- |  
+| ------- | ------- |
 | Funzione A | Testo |
 | Funzione B | Testo |
 | Funzione C | Testo |
@@ -151,7 +151,7 @@ Per informazioni aggiornate, consulta le [note sulla versione di Data Workbench]
 ### AppMeasurement {#appm}
 
 | Funzione | Descrizione |
-| -----------| ---------- |
+| ------- | ------- |
 | Funzione A | Testo |
 | Funzione B | Testo |
 | Funzione C | Testo |
@@ -170,7 +170,7 @@ Consulta la [cronologia delle versioni di AppMeasurement](https://docs.adobe.com
 * [!DNL Android]
 * [!DNL Flash-Flex]
 * [!DNL OSX]
-* [!DNL Windows Phone,][!DNL XBOX,][!DNL Silverlight,] (Componenti di progetto non curati) e [!DNL .NET] (Componenti VRS non curati)
+* [!DNL Windows Phone,] [!DNL XBOX,] [!DNL Silverlight,] e [!DNL .NET]
 * [!DNL BlackBerry]
 * Java
 * PHP
@@ -179,7 +179,7 @@ Consulta la [cronologia delle versioni di AppMeasurement](https://docs.adobe.com
 ## Audience Manager {#aam}
 
 | Funzione | Descrizione |
-| -----------| ---------- |  
+| ------- | ------- |
 | Funzione A | Testo |
 | Funzione B | Testo |
 | Funzione C | Testo |
@@ -235,7 +235,7 @@ I seguenti set di documentazione AEM sono stati migrati a una nuova piattaforma 
 ### [!DNL Livefyre] {#livefyre}
 
 | Funzione | Descrizione |
-| -----------| ---------- |  
+| ------- | ------- |
 | Funzione A | Testo |
 | Funzione B | Testo |
 | Funzione C | Testo |
@@ -250,7 +250,7 @@ I seguenti set di documentazione AEM sono stati migrati a una nuova piattaforma 
 ## Social {#soc}
 
 | Funzione | Descrizione |
-| -----------| ---------- |  
+| ------- | ------- |
 | Funzione A | Testo |
 | Funzione B | Testo |
 | Funzione C | Testo |
@@ -275,7 +275,7 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 ## Advertising Cloud {#adcloud}
 
 | Funzione | Descrizione |
-| -----------| ---------- |  
+| ------- | ------- |
 | Funzione A | Testo |
 | Funzione B | Testo |
 | Funzione C | Testo |
@@ -296,7 +296,7 @@ Per le note sulla versione, consulta:
 
 ## Marketo {#marketo}
 
-Marketo Engage è una soluzione completa per i responsabili della gestione dei lead e per gli esperti di marketing B2B che desiderano trasformare le esperienze dei clienti coinvolgendo in ogni fase di viaggi di acquisto complessi.
+Il Marketo Engage è una soluzione completa per i responsabili della gestione dei lead e per gli esperti di marketing B2B che desiderano trasformare le esperienze dei clienti coinvolgendo in ogni fase di complessi viaggi di acquisto.
 
 ### Aggiornamenti principali di Marketo Engagement
 
@@ -316,9 +316,10 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 Nel corso del trimestre verranno presentate le seguenti funzionalità:
 
 | Funzione | Descrizione |
-|------|---------|
-| [!DNL Bizible] | <ul><li>Nuova segmentazione basata sugli account</li><li>Possibilità di salvare filtri specifici per dashboard</li><li>Esportazione dashboard Bizible in formato PDF</li></ul> |
-| Sales Connect | Aggiornamenti/miglioramenti relativi a finestre di composizione e centri di comando |
+| ------- | ------- |
+| Funzione A | Testo |
+| Funzione B | Testo |
+| Funzione C | Testo |
 
 ### Annunci
 
@@ -336,7 +337,7 @@ Per leggere le note precedenti e complessive, consulta le [note sulla versione M
 Articoli e video di auto-aiuto nuovi e recenti. <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
 | Soluzione | Contenuto | Descrizione |
-|----------| -----------| ---------- |  
+| ---------- | ----------- | ---------- |
 | [!UICONTROL AEM Commerce] | Video: [creare più categorie e pagine di prodotti](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/04-style-cif-component.md) | Scopri come creare un semplice progetto CIF di Adobe Experience Manager (AEM) come punto di partenza per i progetti dei clienti che utilizzano i componenti CIF di base. Applica ai componenti il tema e lo stile CSS ed esamina un nuovo progetto AEM CIF generato dall’archetipo. Inoltre, scopri come sono organizzati CSS e JavaScript utilizzati dai componenti CIF di base. |
 | [!UICONTROL AEM Forms] | Articolo: [effettuare l’autenticazione in AEM Author tramite OKTA](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/single-sign-on-with-okta.html) | Scopri come configurare l’app sul portale OKTA e le impostazioni normalmente utilizzate nella registrazione di una nuova applicazione. |
 | [!UICONTROL AEM Commerce] | Tutorial: [personalizza componenti CIF di base](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/05-customize-cif-components.md) | Esamina diversi punti di estensione forniti dai componenti CIF di base e da AEM in generale. I componenti CIF di base forniscono un set standard di componenti Commerce che possono essere utilizzati per accelerare un progetto che integra soluzioni Adobe Experience Manager (AEM) e Magento. |
@@ -350,7 +351,7 @@ Articoli e video di auto-aiuto nuovi e recenti. <!--`https://jira.corp.adobe.com
 | [!DNL Adobe Campaign] - Connettore dati AEP | Video: [mappare risorse personalizzate](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-custom-resources.html) | Scopri come mappare diversi tipi di dati tra Adobe Campaign Standard e Adobe Experience Platform. |
 | [!DNL Adobe Campaign] - Connettore dati AEP | Video: [comprendere il connettore dati di Adobe Experience Platform](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | Scopri come rendere i tuoi dati disponibili su Adobe Experience Platform mappando i dati XTK (dati acquisiti in Campaign) su Experience Data Model (XDM) in Adobe Experience Platform. |
 | [!DNL Adobe Campaign] - Connettore dati AEP | Video: [mappare i dati della tabella dei valori iniziali](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-seed-table-data.html) | Scopri come mappare i dati dei valori iniziali e i profili di prova con Adobe Experience Platform. |
-| [!DNL Adobe Campaign]- Audience Destinations | Video: [modificare la dimensione di targeting di una distribuzione per un pubblico di Platform](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/changing-targeting-dimension.html) | Scopri come modificare la dimensione di targeting di una distribuzione per un pubblico di Platform al di fuori della tabella del profilo principale in Adobe Campaign Standard. |
+| [!DNL Adobe Campaign] - Audience Destinations | Video: [modificare la dimensione di targeting di una distribuzione per un pubblico di Platform](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/changing-targeting-dimension.html) | Scopri come modificare la dimensione di targeting di una distribuzione per un pubblico di Platform al di fuori della tabella del profilo principale in Adobe Campaign Standard. |
 | [!DNL Adobe Campaign] | Video: [gestione di big data su Snowflake](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | Sfrutta il connettore Snowflake in Adobe Campaign Classic. |
 | [!DNL Adobe Campaign] - Audience Destinations | Articolo: [panoramica di Audience Destinations (BETA)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) | Scopri come sfruttare dati di profilo centralizzati e consolidati da Adobe Experience Platform per campagne di marketing in Adobe Campaign Standard. |
 | [!DNL Adobe Target] - Mobile SDK | Tutorial: [personalizzare le esperienze dell’app con Adobe Target](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | Implementa Adobe Target nella tua app Android. Convalida la configurazione dell’SDK Mobile Services e implementa richieste [!DNL Target] come preacquisizione di contenuto, richieste di blocco e altro ancora. |
