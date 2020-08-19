@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d88e6054e3a1c93d7c867dd1ee6de0c67bc2eaf5
+source-git-commit: f62e9f844bf396cda7fc711808a0f532de75a52d
 workflow-type: tm+mt
-source-wordcount: '6454'
+source-wordcount: '6522'
 ht-degree: 94%
 
 ---
@@ -27,10 +27,10 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti in [!DNL A
 
 Le date di rilascio del prodotto possono variare. Controlla spesso la disponibilità di aggiornamenti.
 
-Ultimo aggiornamento: **13 agosto 2020**
+Ultimo aggiornamento: **19 agosto 2020**
 
 * [Stato del sistema di Adobe](#status)
-* [Interfaccia di Experience Cloud](#ecloud)
+* [Interfaccia di Experience Cloud](#ecloud) (updated **August 19, 2020**)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) (aggiornato il 13 agosto 2020) e [Customer Journey Analytics](#cust-journey)
@@ -52,6 +52,12 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 Per informazioni aggiornate sulla versione, vedi [21 maggio 2020](c-legacy-releases/2020/05212020.md#status).
 
 ## ![Icona ](/assets/ec_appicon_24.png){#ecloud}
+
+Aggiornato il **19 agosto 2020**
+
+| Funzione | Descrizione |
+| -----------| ---------- |
+| Strumenti di amministrazione - Miglioramenti a livello di funzionalità e prestazioni | La versione di agosto 2020 di [!UICONTROL Admin Tool] consente agli amministratori di sistema di visualizzare un elenco dei profili di prodotto e vedere o esportare una visualizzazione dettagliata di ciascun profilo di prodotto. Sono stati aggiunti miglioramenti delle prestazioni per il caricamento degli ultimi dati di accesso, risoluzione dei problemi di timeout. Consulta la guida [Admin Tool di Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) per ulteriori dettagli. |
 
 Consulta le [note sulla versione precedente](c-legacy-releases/2020/07162020.md#ecloud) di luglio per informazioni sugli aggiornamenti dell’interfaccia e sul dominio di prodotto unificato.
 
