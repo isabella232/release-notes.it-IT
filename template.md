@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d714bd852687c7121f44bc31e35fe1ccc0eef43a
+source-git-commit: 2a73b43fedf1c745f89640a11b7aa64244a78bc4
 workflow-type: tm+mt
 source-wordcount: '2526'
 ht-degree: 96%
@@ -369,4 +369,4 @@ Articoli e video di auto-aiuto nuovi e recenti. <!--`https://jira.corp.adobe.com
 | Adobe Analytics | Video: [attribuzione cross-channel nell’analisi del customer journey](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | Scopri come utilizzare le visualizzazioni per mostrare l’attribuzione (riconoscere il merito) in tutti i canali in [!UICONTROL Customer Journey Analytics]. |
 | Adobe Analytics | Articolo: [suggerimenti dei clienti per continuare il tuo percorso di apprendimento di Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | Scopri tre clienti Adobe che possono offrirti suggerimenti e consigli su come ottenere il massimo da Adobe Analytics. |
 | Adobe Analytics | Video: [creare visualizzazioni cross-channel nell’analisi del customer journey](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | Scopri come [!UICONTROL Customer Journey Analytics] ti consente di creare visualizzazioni che includono dati da più set di dati in più canali, inclusa l’unione dei dati per visitatore. |
-| Adobe Analytics | Video: [spostare le metriche calcolate da Adobe Analytics a Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Trova suggerimenti per ricreare le [!UICONTROLCmetriche calcolate] da Analytics in [!UICONTROL Customer Journey Analytics]. |
+| Adobe Analytics | Video: [spostare le metriche calcolate da Adobe Analytics a Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Find tips for re-creating your Analytics [!UICONTROL Calculated Metrics] in [!UICONTROL Customer Journey Analytics]. |
