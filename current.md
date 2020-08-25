@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9d5563a21cae0b1db1448f5f99ffbb1436257077
 workflow-type: tm+mt
 source-wordcount: '6627'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Le date di rilascio del prodotto possono variare. Controlla spesso la disponibil
 Ultimo aggiornamento: **21 agosto 2020**
 
 * [Stato del sistema di Adobe](#status)
-* [Interfaccia di Experience Cloud](#ecloud) (updated **August 19, 2020**)
+* [Interfaccia di Experience Cloud](#ecloud) (aggiornato il **19 agosto 2020**)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) (aggiornato il 21 agosto 2020) e [Customer Journey Analytics](#cust-journey)
@@ -39,8 +39,8 @@ Ultimo aggiornamento: **21 agosto 2020**
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](https://docs.adobe.com/content/help/it-IT/target/using/release-notes/target-release-notes.html)
-* [[!Magento DNL]](#magento)
-* [[!Marketo Engage DNL]](#marketo)
+* [[!DNL Magento]](#magento)
+* [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/it-IT/primetime/release-notes/home.html)
 
 Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.adobe.com/#home) per trovare documentazione tecnica e dei prodotti, corsi curati da Adobe, esercitazioni video, risposte rapide, approfondimenti sulla community e corsi di formazione condotti da istruttori.
@@ -57,7 +57,7 @@ Aggiornato il **19 agosto 2020**
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Strumenti di amministrazione - Miglioramenti a livello di funzionalità e prestazioni | La versione di agosto 2020 di [!UICONTROL Admin Tool] consente agli amministratori di sistema di visualizzare un elenco dei profili di prodotto e vedere o esportare una visualizzazione dettagliata di ciascun profilo di prodotto. Sono stati aggiunti miglioramenti delle prestazioni per il caricamento degli ultimi dati di accesso, risoluzione dei problemi di timeout. Consulta la guida [Admin Tool di Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) per ulteriori dettagli. |
+| Admin Tool - Miglioramenti a livello di funzionalità e prestazioni | La versione di agosto 2020 di [!UICONTROL Admin Tool] consente agli amministratori di sistema di visualizzare un elenco di profili di prodotto e di visualizzare o esportare una vista dettagliata di ciascun profilo di prodotto. Sono state migliorate le prestazioni per il caricamento degli ultimi dati di accesso e sono stati risolti alcuni problemi di timeout. Per ulteriori informazioni, consulta la guida di [Experience Cloud Admin Tool](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html). |
 
 Consulta le [note sulla versione precedente](c-legacy-releases/2020/07162020.md#ecloud) di luglio per informazioni sugli aggiornamenti dell’interfaccia e sul dominio di prodotto unificato.
 
