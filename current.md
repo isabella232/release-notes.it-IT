@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 97082d9f11c29deee363e000e0bb6db422d6fbe8
+source-git-commit: 7349731bb72163473efc26069df9f1d77f0f7c23
 workflow-type: tm+mt
-source-wordcount: '6639'
+source-wordcount: '6651'
 ht-degree: 98%
 
 ---
@@ -102,7 +102,7 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 | ----------- | ---------- | ------- |
 | [!UICONTROL Analisi multidispositivo]: disponibilità in EMEA e APAC | 31 agosto 2020 | [Analisi multidispositivo](https://docs.adobe.com/content/help/it-IT/analytics/components/cda/overview.html) e Private Graph saranno disponibili per i clienti EMEA e APAC. |
 | Miglioramento delle unioni basate sul campo in [!UICONTROL Analisi multidispositivo] (disponibile nelle Americhe e in EMEA) | 31 agosto 2020 | Questa implementazione semplificata per i nuovi clienti di [!UICONTROL Analisi multidispositivo] consente di eseguire unioni in base a un ID utente memorizzato in un campo Analytics (prop o eVar) invece di utilizzare i grafici dei dispositivi (co-op o privati). Questo miglioramento elimina il requisito di implementare l’ECID e la sincronizzazione ID ai fini del CDA. L’ECID e la sincronizzazione ID rimangono necessarie per altre funzioni. |
-| (Annuncio anticipato) Workspace: download di 50.000 elementi per una singola dimensione | 17 settembre 2020 | Potrai scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. |
+| (Annuncio anticipato) Workspace: download di 50.000 elementi per una singola dimensione | 17 settembre 2020 | Potrai scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
