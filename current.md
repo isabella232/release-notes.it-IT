@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b91db168aeb1b9f653061f0cd6e19ec8d36a8155
+source-git-commit: c6a071b2e8946d2b7fcfe20f835354ca6d552575
 workflow-type: tm+mt
-source-wordcount: '6673'
+source-wordcount: '6685'
 ht-degree: 96%
 
 ---
@@ -110,7 +110,7 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | ----------- | ---------- | ----- |
-| Area di lavoro: Miglioramenti della visualizzazione delle linee | 17 settembre 2020 | <ul><li>Potete visualizzare o nascondere l’asse x e l’asse y di qualsiasi visualizzazione della linea. Questa funzione può essere particolarmente utile quando le visualizzazioni di linea sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione di linea per evidenziare rapidamente picchi e valli in una metrica.</li><li>È possibile sovrapporre tendenze di regressione diverse su qualsiasi visualizzazione linea per visualizzare più facilmente la tendenza nei dati. Le opzioni includono Lineare, Logaritmica, Esponenziale, Potenza e Quadratico.</li></ul> |
+| Area di lavoro: Miglioramenti della visualizzazione delle linee | 17 settembre 2020 | <ul><li>Potete visualizzare o nascondere l’asse x e l’asse y di qualsiasi visualizzazione della linea. Questa funzione può essere particolarmente utile quando le visualizzazioni di linea sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione di linea per evidenziare rapidamente picchi e valli in una metrica.</li><li>È possibile sovrapporre tendenze di regressione diverse su qualsiasi visualizzazione linea per visualizzare più facilmente la tendenza nei dati. Le opzioni includono Lineare, Logaritmica, Esponenziale, Potenza e Quadratico.</li></ul>[Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 ### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
 
