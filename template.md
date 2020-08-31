@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2a73b43fedf1c745f89640a11b7aa64244a78bc4
+source-git-commit: 1ec71f66a34b17fb62831973cd46426ecc9f0d10
 workflow-type: tm+mt
-source-wordcount: '2526'
+source-wordcount: '2527'
 ht-degree: 96%
 
 ---
@@ -87,7 +87,7 @@ Note sulla versione [!DNL Experience Platform,] che includono [!DNL Experience P
 
 Funzioni e problemi risolti.
 
-Per la documentazione sul prodotto, consulta il servizio [Experience Cloud ID](https://marketing.adobe.com/resources/help/it_IT/mcvid/).
+Per la documentazione sul prodotto, consulta il servizio [Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html).
 
 ### [!UICONTROL Experience Platform Launch] {#launch}
 
@@ -116,7 +116,7 @@ Descrizione delle nuove funzioni. Utilizza titoli o tabelle.
 
 Per la documentazione sul prodotto, consulta [Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html).
 
-Per maggiori informazioni sugli SDK di Mobile, consulta [SDK 4.x per Android per le soluzioni Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/mobile/android/) e [SDK 4.x per iOS per le soluzioni Experience Cloud](https://docs.adobe.com/content/help/it-IT/mobile-services/ios/overview.html).
+Per maggiori informazioni sugli SDK di Mobile, consulta [SDK 4.x per Android per le soluzioni Experience Cloud](https://docs.adobe.com/content/help/it-IT/mobile-services/android/overview.html) e [SDK 4.x per iOS per le soluzioni Experience Cloud](https://docs.adobe.com/content/help/it-IT/mobile-services/ios/overview.html).
 
 ## Analytics {#analytics}
 
