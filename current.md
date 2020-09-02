@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c6a071b2e8946d2b7fcfe20f835354ca6d552575
+source-git-commit: bae18faf738a3750ceb63a3048750e77c1ebfa5c
 workflow-type: tm+mt
-source-wordcount: '6685'
-ht-degree: 96%
+source-wordcount: '6687'
+ht-degree: 95%
 
 ---
 
@@ -349,7 +349,7 @@ Informazioni sulla versione per Campaign Classic, Campaign Standard e Pannello d
 
 * Versione 20.2.1 - [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html#release-20-2-2-build-9180)
 
-### Nuovi corsi e tutorial su Campaign
+### Corsi ed esercitazioni per campagne nuove e aggiornate
 
 Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 
