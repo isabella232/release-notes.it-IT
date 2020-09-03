@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9e8ab72d5c5ac0db9cde3ca99013a42e33251aa0
 workflow-type: tm+mt
 source-wordcount: '6688'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -102,7 +102,7 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 | ----------- | ---------- | ------- |
 | [!UICONTROL Analisi multidispositivo]: disponibilità in EMEA e APAC | 31 agosto 2020 | [Analisi multidispositivo](https://docs.adobe.com/content/help/it-IT/analytics/components/cda/overview.html) e Private Graph saranno disponibili per i clienti EMEA e APAC. |
 | Miglioramento delle unioni basate sul campo in [!UICONTROL Analisi multidispositivo] (disponibile nelle Americhe e in EMEA) | 31 agosto 2020 | Questa implementazione semplificata per i nuovi clienti di [!UICONTROL Analisi multidispositivo] consente di eseguire unioni in base a un ID utente memorizzato in un campo Analytics (prop o eVar) invece di utilizzare i grafici dei dispositivi (co-op o privati). Questo miglioramento elimina il requisito di implementare l’ECID e la sincronizzazione ID ai fini del CDA. L’ECID e la sincronizzazione ID rimangono necessarie per altre funzioni. |
-| Area di lavoro: Download di elementi da 50K per una singola dimensione | 17 settembre 2020 | Potrai scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| Area di lavoro: Download di elementi da 50K per una singola dimensione | 17 settembre 2020 | Potrai scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
 | Area di lavoro: Miglioramenti della visualizzazione delle linee | 17 settembre 2020 | <ul><li>Potete visualizzare o nascondere l’asse x e l’asse y di qualsiasi visualizzazione della linea. Questa funzione può essere particolarmente utile quando le visualizzazioni di linea sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione di linea per evidenziare rapidamente picchi e valli in una metrica.</li><li>È possibile sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione di linea per vedere più facilmente la tendenza nei dati. Le opzioni includono Lineare, Logaritmica, Esponenziale, Potenza e Quadratico.</li></ul> [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 
@@ -388,7 +388,7 @@ Note sulla versione di Adobe Advertising Cloud.
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Previsione per Roku | La previsione è ora disponibile per i posizionamenti Roku. |
+| Previsione per Roku | La previsione è ora disponibile per i posizionamenti di annunci Roku. |
 | Pre-roll interattivo esteso per includere l’inventario VAST | Ciascun posizionamento e annuncio pre-roll interattivo può ora supportare inventario VPAID e VAST. **Nota:** se il KPI principale è la facilità di visualizzazione, continua a creare posizionamenti e annunci VPAID e VAST separati, perché per gli annunci VAST non sono disponibili impressioni visualizzabili. |
 
 ### Nuove funzioni di [!UICONTROL Advertising Cloud Search] {#adcloud-search}
