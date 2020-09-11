@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: fe8d77d0f66d63ede020bfdf8339981d702a76ed
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Note sulla versione di Experience Cloud {#experience-cloud}
+# Note sulla versione di Experience Cloud  {#experience-cloud}
 
 + [Note sulla versione](current.md)
 + Note sulle versioni precedenti {#previous}
