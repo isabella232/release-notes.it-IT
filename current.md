@@ -4,11 +4,11 @@ description: Note sulla versione di Adobe Experience Cloud
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: ht
-source-git-commit: d2be5336caa039c540df6076bef876dc1384cab2
-workflow-type: ht
-source-wordcount: '6913'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8077089a219abecb0c3522ae0768f25b9f249715
+workflow-type: tm+mt
+source-wordcount: '6970'
+ht-degree: 99%
 
 ---
 
@@ -27,13 +27,13 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti in [!DNL A
 
 Le date di rilascio del prodotto possono variare. Controlla spesso la disponibilità di aggiornamenti.
 
-Ultimo aggiornamento: **23 settembre 2020**
+Ultimo aggiornamento: **29 settembre 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Interfaccia di Experience Cloud](#ecloud) 
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) (aggiornato il 23 settembre 2020) e [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) (aggiornato il 29 settembre 2020) e [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -111,7 +111,7 @@ Nuovi video, esercitazioni e corsi pubblicati per [!UICONTROL Journey Orchestrat
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Nuove funzioni di Media Analytics](#media-aa)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 23 settembre 2020)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 29 settembre 2020)
 * [Corsi ed esercitazioni di Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -164,6 +164,7 @@ AN-215683; AN-216894; AN-226370; AN-227138; AN-227154; AN-227328; AN-227486; AN-
 
 | Avviso | Data di aggiunta   o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
+| Aggiunta dell&#39;intestazione HSTS a tutte le richieste HTTPS in arrivo | 29 settembre 2020 | Il 29 settembre 2020 è stata avviata l’aggiunta dell’intestazione HSTS a tutte le richieste in entrata che utilizzano HTTPS. Questo indica al browser/client di effettuare tutte le richieste future in HTTPS, una procedura considerata una procedura consigliata per la sicurezza. A questo punto, non verrà applicata per le richieste in entrata che utilizzano HTTP. |
 | Modifica dell’impostazione dei cookie ECID | 22 settembre 2020 | Un aggiornamento delle impostazioni di privacy per Chrome versione 80 interessa la capacità di Adobe Analytics di tenere traccia di alcuni utenti che visualizzano pagine Google AMP. In particolare, impedisce il tracciamento tra domini diversi degli utenti che visualizzano le pagine AMP in hosting da Google e può causare un numero eccessivo di visitatori univoci. Con questa correzione, gli utenti possono risolvere tale problema modificando le impostazioni per i cookie ECID. Al momento, Analytics imposta i cookie ECID con l’impostazione `SameSite = Lax` che, prima della versione 80 di Chrome, consentiva il tracciamento tra domini diversi. Questo non avviene più. La modifica introdotta consente agli utenti di configurare l’impostazione SameSite per i cookie ECID su `None`. Tieni presente che, benché questo consenta di condividere il cookie di Analytics in più situazioni, i cookie di Analytics non contengono dati sensibili. Inoltre, quando si sceglie questa impostazione, i cookie devono essere impostati su `Secure` in modo che i dati possano essere trasmessi solo tramite connessioni HTTPS. Se desideri apportare questa modifica, chiedi a un utente supportato di aprire un ticket presso l’Assistenza clienti. |
 | Migrazione del dominio da `omniture.com` a `adobe.com` | 21 agosto 2020 | Il 13 agosto 2020, l’architettura front-end di Adobe Analytics è stata migrata dal dominio `omniture.com|http://omniture.com/` al dominio `adobe.com|http://adobe.com/`. Questa modifica dovrebbe attenuare i problemi relativi ai cookie di terze parti derivanti dal cambio iniziale del dominio unificato del prodotto del 28 maggio 2020. In seguito a questo aggiornamento, il browser potrebbe richiedere agli utenti di dichiarare attendibile il nuovo dominio an `.adobe.com|http://an.adobe.com/` o `experience.adobe.com|http://experience.adobe.com/`. |
 | Aggiornamento sulla compatibilità con Java 8 di Ad Hoc Analysis | 21 agosto 2020 | Ad Hoc Analysis non è attualmente compatibile con Java 8 versioni 1.8.0_261 e successive. Per evitare problemi nell’accesso a questo strumento prima del raggiungimento della [data di fine del ciclo di vita](https://spark.adobe.com/page/S9Bhp66VJ2fEn/), si consiglia di mantenere una versione di Java 8 precedente alla versione 1.8.0_261. |
