@@ -4,11 +4,11 @@ description: Note sulla versione di Adobe Experience Cloud
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8077089a219abecb0c3522ae0768f25b9f249715
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6970'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Le date di rilascio del prodotto possono variare. Controlla spesso la disponibil
 Ultimo aggiornamento: **29 settembre 2020**
 
 * [Stato del sistema di Adobe](#status)
-* [Interfaccia di Experience Cloud](#ecloud) 
+* [Interfaccia di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) (aggiornato il 29 settembre 2020) e [Customer Journey Analytics](#cust-journey)
@@ -49,7 +49,7 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 
 [!UICONTROL Stato del sistema di Adobe] fornisce informazioni dettagliate, aggiornamenti sullo stato e notifiche e-mail relative agli eventi di sospensione, interruzione e manutenzione di prodotti e servizi cloud di Adobe. Consulta [status.adobe.com](https://status.adobe.com/).
 
-Consulta [Stato di Adobe - 21 maggio 2020](https://docs-stg.corp.adobe.com/content/help/en/release-notes/experience-cloud/previous/2020/05212020.html#status) per informazioni sulla versione più recente.
+Consulta [Stato di Adobe - 21 maggio 2020](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/previous/2020/05212020.html#status) per informazioni sulla versione più recente.
 
 ## ![Icona](/assets/ec_appicon_24.png) Interfaccia di Experience Cloud {#ecloud}
 
@@ -83,7 +83,7 @@ Nuovi video, esercitazioni o corsi pubblicati per Experience Platform e Services
 | 17 agosto 2020 | [Introduzione al corso Guida introduttiva ad Adobe Experience Platform per data engineer](https://video.tv.adobe.com/v/39478?captions=ita) | Video | Un video introduttivo per il corso [Guida introduttiva ad Adobe Experience Platform per data engineer](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.2). |
 | 17 agosto 2020 | [Guida introduttiva ad Adobe Experience Platform per data engineer](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.2) | Corso | Scopri come eseguire le mansioni principali in quanto data engineer in Adobe Experience Platform. Questo corso introduttivo utilizza video ed esercitazioni pratiche per insegnarti a inserire dati batch, inserire dati in streaming con SDK web, eseguire query e molto altro. |
 | 17 agosto 2020 | [Introduzione al corso Guida introduttiva ad Adobe Experience Platform per architetti di dati](https://video.tv.adobe.com/v/39477?captions=ita) | Video | Questo video offre una panoramica del corso [Guida introduttiva ad Adobe Experience Platform per architetti di dati](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1). |
-| 17 agosto 2020 | [Guida introduttiva ad Adobe Experience Platform per architetti di dati](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1) | Video | Scopri come eseguire le mansioni principali in quanto architetto di dati in Adobe Experience Platform. Questo corso introduttivo utilizza video ed esercitazioni pratiche per insegnarti a modellare i dati in uno schema XDM, etichettare le identità per unire i dati in profili cliente in tempo reale, creare segmenti e molto altro. |
+| 17 agosto 2020 | [Guida introduttiva ad Adobe Experience Platform per architetti di dati](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1) | Video | Scopri come eseguire le mansioni principali in quanto architetto di dati in Adobe Experience Platform.  Questo corso introduttivo utilizza video ed esercitazioni pratiche per insegnarti a modellare i dati in uno schema XDM, etichettare le identità per unire i dati in profili cliente in tempo reale, creare segmenti e molto altro. |
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
@@ -162,9 +162,9 @@ AN-215683; AN-216894; AN-226370; AN-227138; AN-227154; AN-227328; AN-227486; AN-
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
-| Avviso | Data di aggiunta   o aggiornamento | Descrizione |
+| Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
-| Aggiunta dell&#39;intestazione HSTS a tutte le richieste HTTPS in arrivo | 29 settembre 2020 | Il 29 settembre 2020 è stata avviata l’aggiunta dell’intestazione HSTS a tutte le richieste in entrata che utilizzano HTTPS. Questo indica al browser/client di effettuare tutte le richieste future in HTTPS, una procedura considerata una procedura consigliata per la sicurezza. A questo punto, non verrà applicata per le richieste in entrata che utilizzano HTTP. |
+| Aggiunta dell’intestazione HSTS a tutte le richieste HTTPS in arrivo | 29 settembre 2020 | Il 29 settembre 2020 è stata avviata l’aggiunta dell’intestazione HSTS a tutte le richieste in entrata che utilizzano HTTPS. Tale intestazione indica al browser/client di effettuare tutte le richieste future in HTTPS, come da best practice per la sicurezza. Al momento, questo non viene applicato alle richieste in entrata che utilizzano HTTP. |
 | Modifica dell’impostazione dei cookie ECID | 22 settembre 2020 | Un aggiornamento delle impostazioni di privacy per Chrome versione 80 interessa la capacità di Adobe Analytics di tenere traccia di alcuni utenti che visualizzano pagine Google AMP. In particolare, impedisce il tracciamento tra domini diversi degli utenti che visualizzano le pagine AMP in hosting da Google e può causare un numero eccessivo di visitatori univoci. Con questa correzione, gli utenti possono risolvere tale problema modificando le impostazioni per i cookie ECID. Al momento, Analytics imposta i cookie ECID con l’impostazione `SameSite = Lax` che, prima della versione 80 di Chrome, consentiva il tracciamento tra domini diversi. Questo non avviene più. La modifica introdotta consente agli utenti di configurare l’impostazione SameSite per i cookie ECID su `None`. Tieni presente che, benché questo consenta di condividere il cookie di Analytics in più situazioni, i cookie di Analytics non contengono dati sensibili. Inoltre, quando si sceglie questa impostazione, i cookie devono essere impostati su `Secure` in modo che i dati possano essere trasmessi solo tramite connessioni HTTPS. Se desideri apportare questa modifica, chiedi a un utente supportato di aprire un ticket presso l’Assistenza clienti. |
 | Migrazione del dominio da `omniture.com` a `adobe.com` | 21 agosto 2020 | Il 13 agosto 2020, l’architettura front-end di Adobe Analytics è stata migrata dal dominio `omniture.com|http://omniture.com/` al dominio `adobe.com|http://adobe.com/`. Questa modifica dovrebbe attenuare i problemi relativi ai cookie di terze parti derivanti dal cambio iniziale del dominio unificato del prodotto del 28 maggio 2020. In seguito a questo aggiornamento, il browser potrebbe richiedere agli utenti di dichiarare attendibile il nuovo dominio an `.adobe.com|http://an.adobe.com/` o `experience.adobe.com|http://experience.adobe.com/`. |
 | Aggiornamento sulla compatibilità con Java 8 di Ad Hoc Analysis | 21 agosto 2020 | Ad Hoc Analysis non è attualmente compatibile con Java 8 versioni 1.8.0_261 e successive. Per evitare problemi nell’accesso a questo strumento prima del raggiungimento della [data di fine del ciclo di vita](https://spark.adobe.com/page/S9Bhp66VJ2fEn/), si consiglia di mantenere una versione di Java 8 precedente alla versione 1.8.0_261. |
@@ -344,8 +344,8 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | 17 agosto 2020 | [Configurazione di AEM Assets per gli amministratori](https://video.tv.adobe.com/v/37647?captions=ita) | Video | In questo video, gli amministratori possono imparare a configurare [!UICONTROL AEM Assets]. |
 | 12 agosto 2020 | [Sviluppo locale con SDK di AEM as a Cloud Service](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/commerce/develop.html) | Video | Scopri come impostare un ambiente di sviluppo locale per [!UICONTROL AEM Commerce] e l’SDK di [!UICONTROL AEM as a Cloud Service]. |
 | 17 agosto 2020 | [Precompilazione dei moduli adattivi utilizzando il modello di dati del modulo](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.forms) | Corso | È possibile precompilare i campi di un modulo adattivo utilizzando dati esistenti. In questo corso, scopri come precompilare i campi utilizzando l’attributo di richiesta del modello di dati del modulo. |
-| 17 agosto 2020 | [Profili di prodotto di Adobe IMS](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/adobe-ims-product-profiles.html) | Video |  I profili di prodotto di Adobe IMS consentono agli utenti di accedere a un servizio AEM Autore e forniscono una linea di base di accesso, a seconda del profilo di prodotto a cui vengono aggiunti. |
-| 17 agosto 2020 | [Gruppi di utenti di Adobe IMS](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/adobe-ims-user-groups.html) | Video |  I gruppi di utenti di Adobe IMS stabiliscono set logici di utenti esposti ad AEM, in cui possono essere utilizzati per definire le autorizzazioni ottimizzate per gli utenti AEM. |
+| 17 agosto 2020 | [Profili di prodotto di Adobe IMS](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/adobe-ims-product-profiles.html) | Video | I profili di prodotto di Adobe IMS consentono agli utenti di accedere a un servizio AEM Autore e forniscono una linea di base di accesso, a seconda del profilo di prodotto a cui vengono aggiunti. |
+| 17 agosto 2020 | [Gruppi di utenti di Adobe IMS](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/adobe-ims-user-groups.html) | Video | I gruppi di utenti di Adobe IMS stabiliscono set logici di utenti esposti ad AEM, in cui possono essere utilizzati per definire le autorizzazioni ottimizzate per gli utenti AEM. |
 | 17 agosto 2020 | [Utenti Adobe IMS](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/adobe-ims-users.html) | Video | Scopri gli utenti di Adobe IMS, come accedervi e gestirli in Admin Console e come utilizzarli per accedere ad AEM as a Cloud Service. |
 | 17 agosto 2020 | [Guida introduttiva ai moduli HTML5 per gli sviluppatori](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.forms) | Corso | I moduli HTML5 offrono la possibilità di eseguire il rendering dei modelli di moduli XFA in formato HTML5. Questa funzionalità consente di eseguire il rendering dei moduli su dispositivi mobile e browser desktop su cui non sono supportati i PDF basati su XFA. |
 
@@ -403,7 +403,7 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 
 * Adobe Campaign Standard: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/campaign-standard-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html) - [Video dimostrativi](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/overview.html) - [Piano delle versioni future](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-planning.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/campaign-classic-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html) - [Video dimostrativi](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/overview.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/documentation-updates.html)
-* Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html)   - Video introduttivi per [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) - Video introduttivi per [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![Icona](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
