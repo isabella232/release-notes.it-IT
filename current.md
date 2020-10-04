@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5790dfcacc451a044bc7d2f8431d759598643a9f
+source-git-commit: 2ed7bd9c020cac5cf282aafd0c3146b8e0661dce
 workflow-type: tm+mt
-source-wordcount: '6533'
+source-wordcount: '6530'
 ht-degree: 42%
 
 ---
@@ -298,13 +298,13 @@ La documentazione Editor Rich Text è stata aggiornata per elencare tutti [i pro
 
 * Se gli utenti hanno modificato [Apache Jackrabbit Oak TokenConfiguration](https://helpx.adobe.com/experience-manager/kb/How-to-set-token-session-expiration-AEM.html) per impostare la configurazione di timeout in modo che sia inferiore al tempo necessario per il caricamento di una risorsa, l’utente può incontrare la situazione di timeout sessione.Pertanto, gli utenti devono cambiare la configurazione `chunkUploadMinFileSize` e `chunksize`, in modo che ogni richiesta di blocco aggiorni la sessione. Per ulteriori informazioni, consultate [caricare le risorse](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#uploading-assets).
 
-* Le risorse possono essere [spostate in cartelle di pari livello tramite un’operazione](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) di trascinamento, a parte l’operazione di [!UICONTROL spostamento (m)] che apre la procedura guidata [!UICONTROL Sposta risorse] .
+* Le risorse possono essere [spostate in cartelle di pari livello tramite un’operazione](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) di trascinamento, a parte l’operazione [!UICONTROL Sposta(m)] che apre la procedura guidata [!UICONTROL Sposta risorse] .
 
 * Per informazioni approfondite sulle risorse, usa [lancio](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)Adobe. [L&#39;integrazione](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) di Gestione dinamica dei tag viene richiamata come metodo obsoleto nei documenti.
 
 **[!DNL Adobe Experience Manager]app desktop**
 
-* Gli utenti che accedono all&#39;app desktop dopo la disconnessione o il primo accesso devono fornire l&#39;URL del [!DNL Experience Manager] server nel formato https://[aem-server-url]:[port]/ e quindi selezionare l&#39;opzione [!UICONTROL Connect] , per evitare l&#39;errore &quot;L&#39;applicazione ha rilevato un errore sconosciuto&quot;. Per ulteriori informazioni, consultate [Utilizzo dell&#39;app](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html)desktop Adobe Experience Manager.
+* Gli utenti che accedono all&#39;app desktop dopo la disconnessione o il primo accesso devono fornire l&#39;URL del [!DNL Experience Manager] server nel formato `https://[aem-server-url]:[port]/` e quindi selezionare l&#39;opzione [!UICONTROL Connect] , per evitare l&#39;errore &quot;L&#39;applicazione ha rilevato un errore sconosciuto&quot;. Per ulteriori informazioni, consultate [Utilizzo dell&#39;app](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html)desktop Adobe Experience Manager.
 
 ### Community
 
