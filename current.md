@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e6add243b6c74b59f138543c460d55817bddf761
+source-git-commit: 5790dfcacc451a044bc7d2f8431d759598643a9f
 workflow-type: tm+mt
-source-wordcount: '6448'
-ht-degree: 43%
+source-wordcount: '6533'
+ht-degree: 42%
 
 ---
 
@@ -282,7 +282,13 @@ Consulta le [Note sulla versione di AEM as a Cloud Service.](https://docs.adobe.
 
 ### Aiuto e documentazione
 
+**[!DNL Experience Manager]Siti**
+
+La documentazione Editor Rich Text è stata aggiornata per elencare tutti [i protocolli supportati per i collegamenti nell’editor Rich Text](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles).
+
 **[!DNL Experience Manager]Risorse**
+
+* È disponibile un nuovo contenuto della guida [che spiega  accesso](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/accessibility.html) ad AEM Assets per tutti gli utenti.
 
 * **[Il parametro](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/search-assets.html#assetpicker)** Viewmode viene aggiunto al selettore delle risorse (selettore risorse) per aprire il selettore delle risorse in modalità di ricerca. Per aprire il selettore delle risorse in modalità di ricerca e utilizzarlo con `assettype` e `mimetype`, l’utente deve aggiungere un suffisso al `viewmode=search` parametro nell’URL `https://[aem-server]:[port]/aem/assetpicker.html`. Ad esempio, `https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`.
 
@@ -293,6 +299,8 @@ Consulta le [Note sulla versione di AEM as a Cloud Service.](https://docs.adobe.
 * Se gli utenti hanno modificato [Apache Jackrabbit Oak TokenConfiguration](https://helpx.adobe.com/experience-manager/kb/How-to-set-token-session-expiration-AEM.html) per impostare la configurazione di timeout in modo che sia inferiore al tempo necessario per il caricamento di una risorsa, l’utente può incontrare la situazione di timeout sessione.Pertanto, gli utenti devono cambiare la configurazione `chunkUploadMinFileSize` e `chunksize`, in modo che ogni richiesta di blocco aggiorni la sessione. Per ulteriori informazioni, consultate [caricare le risorse](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#uploading-assets).
 
 * Le risorse possono essere [spostate in cartelle di pari livello tramite un’operazione](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) di trascinamento, a parte l’operazione di [!UICONTROL spostamento (m)] che apre la procedura guidata [!UICONTROL Sposta risorse] .
+
+* Per informazioni approfondite sulle risorse, usa [lancio](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)Adobe. [L&#39;integrazione](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) di Gestione dinamica dei tag viene richiamata come metodo obsoleto nei documenti.
 
 **[!DNL Adobe Experience Manager]app desktop**
 
