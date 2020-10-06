@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4f7fd84dcf6c1edcee352fd1c7592d1a0f36ed36
+source-git-commit: 8d32193d5e42d33f9ca087154da628fa83f607b4
 workflow-type: tm+mt
-source-wordcount: '6619'
+source-wordcount: '6611'
 ht-degree: 44%
 
 ---
@@ -52,7 +52,7 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 
 >[!NOTE]
 >
-> documentazione di Experience Cloud si sta spostando su  Experience League. Nel mese di ottobre, tutte le note sulla versione, gli articoli, i video e le esercitazioni verranno spostati dalla posizione corrente `docs.adobe.com` e saranno disponibili come parte di  Experience League. Questa operazione garantisce che tutti i contenuti di apprendimento, supporto autonomo, abilitazione e community vengano serviti da un&#39;unica posizione:  Experience League. Quando si verifica questa modifica, non è necessario eseguire alcuna operazione, in quanto tutti i collegamenti verranno reindirizzati alla nuova posizione. Le note sulla versione verranno aggiornate all’inizio del ritaglio.
+> documentazione di Experience Cloud si sta spostando su  Experience League. Nel mese di ottobre, tutte le note sulla versione, gli articoli, i video e le esercitazioni verranno spostati dalla posizione corrente `docs.adobe.com` a  Experience League. Questa operazione garantisce che tutti i contenuti di apprendimento, supporto autonomo, abilitazione e community vengano serviti da un&#39;unica posizione. Quando si verifica questa modifica, non è necessario eseguire alcuna operazione, in quanto tutti i collegamenti verranno reindirizzati a  Experience League. Le note sulla versione verranno aggiornate all’inizio del ritaglio.
 
 ## ![Icona](/assets/adobe.png) Stato del sistema di Adobe {#status}
 
@@ -346,7 +346,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | 21 settembre 2020 | [Configurare un ambiente di sviluppo locale](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/development-environment.html) | Articolo | Lo sviluppo di Asset Compute Workers, che sono applicazioni JavaScript Node.js, richiede strumenti di sviluppo specifici che differiscono da quelli tradizionali AEM sviluppo, che vanno da Node.js e vari moduli npm a Docker Desktop e Microsoft Visual Studio Code. |
 | 21 settembre 2020 | [Configurare account e servizi](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/accounts-and-services.html) | Articolo | Lo sviluppo di Asset Compute Workers richiede l&#39;accesso ad account e servizi, tra cui AEM come Cloud Service,  Adobe Project Firefly e l&#39;archiviazione cloud forniti da Microsoft o  Amazon. |
 | 14 settembre 2020 | [Utilizzo del livello dati client del Adobe  con AEM componenti core](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Video e articolo | Il  Adobe Client Data Layer introduce un metodo standard per raccogliere e archiviare dati su un&#39;esperienza visitatore in una pagina Web e semplificare l&#39;accesso a tali dati. Il livello dati client del Adobe  è agnostico della piattaforma, ma è completamente integrato nei componenti core per l&#39;utilizzo con AEM. |
-| 28 settembre 2020 | [Utilizzo del livello dati client del Adobe  con AEM componenti core](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Video | Scoprite in che modo il livello Dati client Adobe basato sugli eventi espone i dati provenienti  componenti core di AEM Sites. Utilizzando  Adobe Client Data Layer, soluzioni di gestione tag come il Experience Platform Launch possono trasmettere dati di siti Web ad applicazioni come Analytics e Target. |
+| 28 settembre 2020 | [Utilizzo del livello dati client del Adobe  con AEM componenti core](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Video | Scoprite in che modo il livello Dati client Adobe basato sugli eventi espone i dati provenienti  componenti core di AEM Sites. Utilizzando  Adobe Client Data Layer, soluzioni di gestione dei tag come il Experience Platform Launch possono trasmettere dati di siti Web ad applicazioni come Analytics e Target. |
 | 21 settembre 2020 | [Estensibilità dei microservizi di calcolo delle risorse](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/overview.html) | Video | Esercitazione che illustra la creazione di un utente di micro servizio di risorse personalizzato per AEM come Cloud Service. |
 | 21 settembre 2020 | [Estensibilità dei microservizi di calcolo delle risorse](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/overview.html) | Video | AEM come Cloud Service  i microservizi Asset Compute supportano lo sviluppo e la distribuzione di lavoratori personalizzati che vengono utilizzati per leggere e manipolare i dati binari delle risorse memorizzate in AEM, più comunemente, per creare rappresentazioni delle risorse personalizzate. |
 | 23 settembre 2020 | [Raccolta di dati di pagina con  Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html) | Articolo | Scoprite come utilizzare le funzionalità integrate del livello dati client  Adobe con AEM componenti core per raccogliere i dati su una pagina in  Adobe Experience Manager Sites. |
