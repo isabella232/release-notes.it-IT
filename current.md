@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1e425034bd7ac32833d74b826562f9761b2c05d5
+source-git-commit: 0eba5dbf803e9eefd45065b942fe49258c4c1d32
 workflow-type: tm+mt
-source-wordcount: '6775'
-ht-degree: 43%
+source-wordcount: '6846'
+ht-degree: 42%
 
 ---
 
@@ -31,13 +31,13 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti in [!DNL A
 
 Le date di rilascio del prodotto possono variare. Controlla spesso la disponibilità di aggiornamenti.
 
-Ultimo aggiornamento: **2 ottobre 2020**
+Ultimo aggiornamento: **7 ottobre 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Servizi di Experience Cloud  e amministrazione](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (aggiornato il 2 ottobre 2020)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (aggiornato il 7 ottobre 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -113,7 +113,7 @@ Rilascio di settembre - Consultate [Note sulla versione, ad Journey Orchestratio
 Data di rilascio: **8 ottobre 2020**
 
 * [Nuove funzioni di Adobe Analytics](#aa-features)
-* [Nuove funzioni in Customer Journey Analytics](#cust-journey)
+* [Nuove funzioni in Customer Journey Analytics](#cust-journey) (aggiornato il 7 ottobre 2020)
 * [Nuove funzioni di Media Analytics](#media-aa)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
 * [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
@@ -142,6 +142,7 @@ Data di rilascio: **8 ottobre 2020**
 |  pagina Guida di Analysis Workspace Performance | 22 ottobre 2020 | La pagina della guida  prestazioni di Analysis Workspace mostra i diversi fattori che influiscono sulle prestazioni del progetto e i collegamenti ai suggerimenti per l&#39;ottimizzazione. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL Visualizzazione linee] : Spostamento dell&#39;opzione della linea di tendenza media | 8 ottobre 2020 | La media mobile è stata aggiunta alle impostazioni della linea di tendenza della visualizzazione Linea. Una media mobile calcola la media per un periodo precedente specificato e la utilizza come punto di dati della linea di tendenza, quindi passa al periodo successivo. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Rimozione della limitazione del backfill | 19 ottobre 2020 | In precedenza era possibile eseguire il backfill di un massimo di 2,5 miliardi di righe durante la creazione di una connessione. Stiamo rimuovendo il limite di backfill e consentendo di eseguire il backfill fino a 13 mesi di dati, indipendentemente dalle dimensioni. |
+| Cuciture basate su campo CJA | 30 ottobre 2020 | La cucitura basata su campo CJA consente ai clienti di ri-chiave di un set di dati di un evento Adobe Analytics (o di altro tipo)  in un lago di dati Adobe Experience Platform da uno spazio dei nomi ID a un altro. In genere, ciò significa ridigitare il set di dati dell&#39;evento da un ID basato su cookie a un ID basato su una persona. In questo modo, il set di dati ri-keyed può essere combinato con altri dati basati su persone in una connessione CJA, consentendo così l&#39;analisi cross-device/cross-channel in  Analysis Workspace. |
 
 ### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
 
@@ -348,7 +349,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | 21 settembre 2020 | [Configurare un ambiente di sviluppo locale](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/development-environment.html) | Articolo | Lo sviluppo di Asset Compute Workers, che sono applicazioni JavaScript Node.js, richiede strumenti di sviluppo specifici che differiscono da quelli tradizionali AEM sviluppo, che vanno da Node.js e vari moduli npm a Docker Desktop e Microsoft Visual Studio Code. |
 | 21 settembre 2020 | [Configurare account e servizi](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/accounts-and-services.html) | Articolo | Lo sviluppo di Asset Compute Workers richiede l&#39;accesso ad account e servizi, tra cui AEM come Cloud Service,  Adobe Project Firefly e l&#39;archiviazione cloud forniti da Microsoft o  Amazon. |
 | 14 settembre 2020 | [Utilizzo del livello dati client del Adobe  con AEM componenti core](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Video e articolo | Il  Adobe Client Data Layer introduce un metodo standard per raccogliere e archiviare dati su un&#39;esperienza visitatore in una pagina Web e semplificare l&#39;accesso a tali dati. Il livello dati client del Adobe  è agnostico della piattaforma, ma è completamente integrato nei componenti core per l&#39;utilizzo con AEM. |
-| 28 settembre 2020 | [Utilizzo del livello dati client del Adobe  con AEM componenti core](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Video | Scoprite in che modo il livello Dati client Adobe basato sugli eventi espone i dati provenienti  componenti core di AEM Sites. Utilizzando  Adobe Client Data Layer, soluzioni di gestione tag come il Experience Platform Launch possono trasmettere dati di siti Web ad applicazioni come Analytics e Target. |
+| 28 settembre 2020 | [Utilizzo del livello dati client del Adobe  con AEM componenti core](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Video | Scoprite in che modo il livello Dati client Adobe basato sugli eventi espone i dati provenienti  componenti core di AEM Sites. Utilizzando  Adobe Client Data Layer, soluzioni di gestione dei tag come il Experience Platform Launch possono trasmettere dati di siti Web ad applicazioni come Analytics e Target. |
 | 21 settembre 2020 | [Estensibilità dei microservizi di calcolo delle risorse](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/overview.html) | Video | Esercitazione che illustra la creazione di un utente di micro servizio di risorse personalizzato per AEM come Cloud Service. |
 | 21 settembre 2020 | [Estensibilità dei microservizi di calcolo delle risorse](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/overview.html) | Video | AEM come Cloud Service  i microservizi Asset Compute supportano lo sviluppo e la distribuzione di lavoratori personalizzati che vengono utilizzati per leggere e manipolare i dati binari delle risorse memorizzate in AEM, più comunemente, per creare rappresentazioni delle risorse personalizzate. |
 | 23 settembre 2020 | [Raccolta di dati di pagina con  Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html) | Articolo | Scoprite come utilizzare le funzionalità integrate del livello dati client  Adobe con AEM componenti core per raccogliere i dati su una pagina in  Adobe Experience Manager Sites. |
