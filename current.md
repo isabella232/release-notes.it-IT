@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0eba5dbf803e9eefd45065b942fe49258c4c1d32
+source-git-commit: 390f9884c84130f67cb494b6e30b473e122840d9
 workflow-type: tm+mt
-source-wordcount: '6846'
+source-wordcount: '6860'
 ht-degree: 42%
 
 ---
@@ -360,6 +360,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 
 Nelle pagine seguenti trovi tutte le note sulla versione di Experience Manager:
 
+* [Aggiornamenti e roadmap  rilascio Experience Manager](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
 * [Informazioni sulla versione di AEM as a Cloud Service](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/release-notes/home.html)
 * [Note sulla versione di AEM Cloud Manager](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 * [Note sulla versione del Servizio di conversione automatica dei moduli](https://docs.adobe.com/content/help/it-IT/aem-forms-automated-conversion-service/using/release-notes.html)
