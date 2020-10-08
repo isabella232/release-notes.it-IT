@@ -5,15 +5,15 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 390f9884c84130f67cb494b6e30b473e122840d9
+source-git-commit: 40d088f169d1b0849a65ccfb42f3af8749005684
 workflow-type: tm+mt
-source-wordcount: '6860'
+source-wordcount: '6879'
 ht-degree: 42%
 
 ---
 
 
-# Accesso anticipato - Note sulla versione di Adobe Experience Cloud - ottobre 2020
+# Note sulla versione di Adobe Experience Cloud - ottobre 2020
 
 ![Banner](/assets/experience-cloud-banner-3.png)
 
@@ -21,23 +21,19 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti in [!DNL A
 
 >[!IMPORTANT]
 >
->Questa pagina contiene informazioni precedenti al rilascio ed è soggetta a modifiche prima del rilascio ufficiale.
+>Questa pagina può contenere contenuti pre-release per alcuni prodotti ed è soggetta a modifiche prima delle date di rilascio. Controlla spesso la disponibilità di aggiornamenti.
 
 >[!NOTE]
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) (Aggiornamento prioritario sui prodotti Adobe) per ricevere le notifiche via e-mail sulle nuove versioni.
 
-**Data di rilascio: 8 ottobre 2020**
-
-Le date di rilascio del prodotto possono variare. Controlla spesso la disponibilità di aggiornamenti.
-
-Ultimo aggiornamento: **7 ottobre 2020**
+Ultimo aggiornamento: **8 ottobre 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Servizi di Experience Cloud  e amministrazione](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (aggiornato il 7 ottobre 2020)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -74,7 +70,7 @@ Per informazioni sull’ultima versione, consultate Note [cumulative sulle versi
 
 Note sulla versione per il [!DNL Experience Platform]sito.
 
-Data di rilascio: **9 settembre 2020**
+Rilasciato: **9 settembre 2020**
 
 Consultate [Experience Platform note](https://docs.adobe.com/content/help/it-IT/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md) sulla versione per informazioni sugli aggiornamenti:
 
@@ -110,7 +106,7 @@ Rilascio di settembre - Consultate [Note sulla versione, ad Journey Orchestratio
 
 ## ![Icona](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-Data di rilascio: **8 ottobre 2020**
+Data di rilascio: Fine 8 **ottobre 2020**
 
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey) (aggiornato il 7 ottobre 2020)
@@ -208,7 +204,7 @@ Nuovi corsi, esercitazioni e articoli in [!DNL Analytics] e [!UICONTROL Customer
 
 Nuove funzioni, correzioni, documentazione ed esercitazioni in Audience Manager.
 
-Data di rilascio: **8 ottobre 2020**
+Data di rilascio: Fine 8 **ottobre 2020**
 
 ### Nuove funzioni e correzioni in Adobe Audience Manager
 
@@ -234,6 +230,10 @@ Nuovi video, esercitazioni o corsi pubblicati per Audience Manager.
 ## ![Icona](/assets/aem.png) Adobe Experience Manager {#aem}
 
 Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AEM). Ai clienti con distribuzioni locali, Adobe consiglia di implementare le ultime patch in modo da garantire stabilità, sicurezza e prestazioni migliori.
+
+>[!NOTE]
+>
+> Adobe consiglia di visitare [Experience Manager aggiornamenti del rilascio e roadmap](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html) spesso per rimanere aggiornati sulle informazioni sul rilascio.
 
 ### Rilasci di prodotti
 
@@ -435,7 +435,7 @@ Note sulla versione di Adobe Advertising Cloud.
 
 ### Nuove funzioni di [!UICONTROL Advertising Cloud Search] {#adcloud-search}
 
-Release dell’**8 agosto**
+Data di rilascio: **8 agosto 2020**
 
 | Funzione | Descrizione |
 | ----------- | ---------- |
