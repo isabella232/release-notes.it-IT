@@ -7,13 +7,13 @@ author: mfrei
 translation-type: tm+mt
 source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
 workflow-type: tm+mt
-source-wordcount: '6879'
-ht-degree: 92%
+source-wordcount: '6870'
+ht-degree: 99%
 
 ---
 
 
-# Note sulla versione di Adobe Experience Cloud - ottobre 2020
+# Note sulla versione di Adobe Experience Cloud - Ottobre 2020
 
 ![Banner](/assets/experience-cloud-banner-3.png)
 
@@ -21,7 +21,7 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti in [!DNL A
 
 >[!IMPORTANT]
 >
->Questa pagina può contenere contenuti pre-release per alcuni prodotti ed è soggetta a modifiche prima delle date di rilascio. Controlla spesso la disponibilità di aggiornamenti.
+>Questa pagina può contenere contenuti pre-release per alcuni prodotti ed è soggetta a modifiche prima delle date di rilascio. Consultala spesso per informazioni sempre aggiornate.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 
 >[!NOTE]
 >
-> documentazione di Experience Cloud si sta spostando su  Experience League. Nel mese di ottobre, tutte le note sulla versione, gli articoli, i video e le esercitazioni verranno spostati dalla posizione corrente `docs.adobe.com` a  Experience League. Questa operazione garantisce che tutti i contenuti di apprendimento, supporto autonomo, abilitazione e community vengano serviti da un&#39;unica posizione. Quando si verifica questa modifica, non è necessario eseguire alcuna operazione, in quanto tutti i collegamenti verranno reindirizzati a  Experience League. Le note sulla versione verranno aggiornate all’inizio del ritaglio.
+>È in corso il trasferimento della documentazione di Experience Cloud a Experience League. Nel mese di ottobre, tutte le note sulla versione, gli articoli, i video e i tutorial verranno trasferiti dalla posizione attuale (`docs.adobe.com`) a Experience League. In tal modo tutti i contenuti di apprendimento, supporto autonomo e community saranno disponibili da un unico luogo. Questa modifica non comporta alcun intervento da parte tua, in quanto tutti i link verranno reindirizzati a Experience League. Le note sulla versione verranno aggiornate all’inizio di tale passaggio.
 
 ## ![Icona](/assets/adobe.png) Stato del sistema di Adobe {#status}
 
@@ -64,7 +64,7 @@ Gli argomenti trattati nella documentazione per l’[amministrazione e i servizi
 
 Non aggiornato in settembre.
 
-Per informazioni sull’ultima versione, consultate Note [cumulative sulle versioni per  servizi](https://docs.adobe.com/content/help/it-IT/core-services/interface/release-notes/release-notes.html) di Experience Cloud.
+Per informazioni sull’ultima versione, consulta [Note cumulative sulle versioni dei servizi Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/release-notes/release-notes.html).
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -106,7 +106,7 @@ Versione di settembre - Consulta le [note sulla versione di Journey Orchestratio
 
 ## ![Icona](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-Data di rilascio: Fine 8 **ottobre 2020**
+Data di rilascio: fine di **8 ottobre 2020**
 
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey) (aggiornato il 7 ottobre 2020)
@@ -120,7 +120,7 @@ Data di rilascio: Fine 8 **ottobre 2020**
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | ----------- | ---------- | ------- |
-|  documentazione Adobe Analytics | Ottobre 2020 |  documentazione Adobe Analytics sta passando a  Experience League. Nel mese di ottobre, tutti gli articoli, i video, le note sulla versione e le esercitazioni verranno spostati dalla posizione corrente `docs.adobe.com` alla `experienceleague.adobe.com`. Questa operazione garantisce che tutti i contenuti di apprendimento, supporto autonomo, abilitazione e community vengano serviti da un&#39;unica posizione. Quando si verifica questa modifica, non è necessario eseguire alcuna operazione, in quanto tutti i collegamenti verranno reindirizzati a  Experience League. Le note sulla versione verranno aggiornate all’inizio del ritaglio. |
+| Documentazione di Adobe Analytics | Ottobre 2020 | È in corso il trasferimento della documentazione di Adobe Analytics a Experience League. Nel mese di ottobre, tutte le note sulla versione, gli articoli, i video e i tutorial verranno trasferiti dalla posizione attuale (`docs.adobe.com`) a `experienceleague.adobe.com`. In tal modo tutti i contenuti di apprendimento, supporto autonomo e community saranno disponibili da un unico luogo. Questa modifica non comporta alcun intervento da parte tua, in quanto tutti i link verranno reindirizzati a Experience League. Le note sulla versione verranno aggiornate all’inizio di tale passaggio. |
 | [!UICONTROL Workspace]: possibilità di scaricare 50.000 elementi per una singola dimensione | 17 settembre 2020 | Potrai scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) |
 | [!UICONTROL Workspace]: miglioramenti alla visualizzazione [!UICONTROL Linee] | 17 settembre 2020 | <ul><li>Puoi mostrare o nascondere l’asse x e l’asse y di qualsiasi visualizzazione [!UICONTROL Linee]. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni delle [!UICONTROL linee] sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle [!UICONTROL linee] per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle [!UICONTROL linee] per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Lineare], [!UICONTROL Logaritmica], [!UICONTROL Esponenziale], [!UICONTROL Potenza] e [!UICONTROL Quadratica].</li></ul> [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | [!UICONTROL Workspace]: pagina della guida sulle prestazioni | 22 ottobre 2020 | La pagina della guida sulle prestazioni di Analysis Workspace presenta i diversi fattori che influiscono sulle prestazioni del progetto e fornisce collegamenti verso suggerimenti su come ottimizzarle. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -132,13 +132,13 @@ Data di rilascio: Fine 8 **ottobre 2020**
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | ----------- | ---------- | ----- |
-| Customer Journey Analytics documentazione | Ottobre 2020 | La documentazione relativa all&#39;Customer Journey Analytics è in fase di spostamento  Experience League. Nel mese di ottobre, tutti gli articoli, i video, le note sulla versione e le esercitazioni verranno spostati dalla posizione corrente `docs.adobe.com` alla `experienceleague.adobe.com`. Questa operazione garantisce che tutti i contenuti di apprendimento, supporto autonomo, abilitazione e community vengano serviti da un&#39;unica posizione. Quando si verifica questa modifica, non è necessario eseguire alcuna operazione, in quanto tutti i collegamenti verranno reindirizzati a  Experience League. Le note sulla versione verranno aggiornate all’inizio del ritaglio. |
-| [!UICONTROL Workspace]: possibilità di scaricare 50.000 elementi per una singola dimensione | 17 settembre 2020 | Potrai scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/download-send.html) |
+| Documentazione di Customer Journey Analytics   | Ottobre 2020 | È in corso il trasferimento della documentazione di Customer Journey Analytics a Experience League. Nel mese di ottobre, tutte le note sulla versione, gli articoli, i video e i tutorial verranno trasferiti dalla posizione attuale (`docs.adobe.com`) a `experienceleague.adobe.com`. In tal modo tutti i contenuti di apprendimento, supporto autonomo e community saranno disponibili da un unico luogo. Questa modifica non comporta alcun intervento da parte tua, in quanto tutti i link verranno reindirizzati a Experience League. Le note sulla versione verranno aggiornate all’inizio di tale passaggio. |
+| [!UICONTROL Workspace]: possibilità di scaricare 50.000 elementi per una singola dimensione | 17 settembre 2020 | Potrai scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-workspace/curate-share/download-send.html) |
 | [!UICONTROL Workspace]: miglioramenti alla visualizzazione [!UICONTROL Linee] | 17 settembre 2020 | <ul><li>Puoi mostrare o nascondere l’asse x e l’asse y di qualsiasi visualizzazione [!UICONTROL Linee]. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni delle [!UICONTROL linee] sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle [!UICONTROL linee] per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle [!UICONTROL linee] per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Lineare], [!UICONTROL Logaritmica], [!UICONTROL Esponenziale], [!UICONTROL Potenza] e [!UICONTROL Quadratica].</li></ul> [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-workspace/visualizations/line.html) |
 | Pagina della guida sulle prestazioni Analysis Workspace | 22 ottobre 2020 | La pagina della guida sulle prestazioni di Analysis Workspace presenta i diversi fattori che influiscono sulle prestazioni del progetto e fornisce collegamenti verso suggerimenti su come ottimizzarle. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | Visualizzazione [!UICONTROL Linee]: opzione Media mobile per la linea di tendenza | 8 ottobre 2020 | Alle impostazioni per la visualizzazione della linea di tendenza è stata l’aggiunta l’opzione Media mobile. Una media mobile calcola la media per uno specifico periodo precedente e la utilizza come punto di dati della linea di tendenza, quindi passa al periodo successivo. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Rimozione della limitazione sulla retrocompilazione | 19 ottobre 2020 | In precedenza era possibile retrocompilare un massimo di 2,5 miliardi di righe durante la creazione di una connessione. È in corso la rimozione di tale limite, per consentire di eseguire la retrocompilazione fino a 13 mesi di dati, indipendentemente dalle dimensioni di tali dati. |
-| Cuciture basate su campo CJA | 30 ottobre 2020 | La cucitura basata su campo CJA consente ai clienti di ri-chiave di un set di dati di un evento Adobe Analytics (o di altro tipo)  in un lago di dati Adobe Experience Platform da uno spazio dei nomi ID a un altro. In genere, ciò significa ridigitare il set di dati dell&#39;evento da un ID basato su cookie a un ID basato su una persona. In questo modo, il set di dati ri-keyed può essere combinato con altri dati basati su persone in una connessione CJA, consentendo così l&#39;analisi cross-device/cross-channel in  Analysis Workspace. |
+| Customer Journey Analytics - Unione basata su campi | 30 ottobre 2020 | L’unione basata sui campi di Customer Journey Analytics consente ai clienti di reimpostare un set di dati di un evento Adobe Analytics (o di altro tipo) in un data lake di Adobe Experience Platform da un ID di spazio dei nomi a un altro. In genere, significa reimpostare il set di dati dell’evento da un ID basato su cookie a un ID basato su persona. In questo modo, il set di dati reimpostato può essere combinato con altri dati basati su persona in una connessione Customer Journey Analytics, consentendo così l’analisi cross-device/cross-channel in Analysis Workspace. |
 
 ### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
 
@@ -204,7 +204,7 @@ Nuovi corsi, esercitazioni e articoli in [!DNL Analytics] e [!UICONTROL Customer
 
 Nuove funzioni, correzioni, documentazione ed esercitazioni in Audience Manager.
 
-Data di rilascio: Fine 8 **ottobre 2020**
+Data di rilascio: fine di **8 ottobre 2020**
 
 ### Nuove funzioni e correzioni in Adobe Audience Manager
 
@@ -233,7 +233,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Adobe Experience Manager (AE
 
 >[!NOTE]
 >
-> Adobe consiglia di visitare [Experience Manager aggiornamenti del rilascio e roadmap](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html) spesso per rimanere aggiornati sulle informazioni sul rilascio.
+>Per informazioni sempre aggiornate, Adobe consiglia di visitare spesso la pagina [Aggiornamenti e roadmap delle versioni di Experience Manager](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html).
 
 ### Rilasci di prodotti
 
@@ -291,13 +291,13 @@ Consulta le [Note sulla versione di AEM as a Cloud Service](https://docs.adobe.c
 
 ### Aiuto e documentazione
 
-**[!DNL Experience Manager]Siti**
+**[!DNL Experience Manager] Sites**
 
-La documentazione Editor Rich Text è stata aggiornata per elencare tutti [i protocolli supportati per i collegamenti nell’editor Rich Text](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles).
+La documentazione dell’editor Rich Text è stata aggiornata con un elenco di tutti i [protocolli supportati per i link nell’editor Rich Text](https://docs.adobe.com/content/help/it-IT/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles).
 
 **[!DNL Experience Manager] Assets**
 
-* È disponibile un nuovo contenuto della guida [che spiega  accesso](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/accessibility.html) ad AEM Assets per tutti gli utenti.
+* Sono disponibili nuovi contenuti della guida sull’[accessibilità di AEM Assets](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/assets/accessibility.html) per tutti gli utenti.
 
 * Al selettore delle risorse è stato aggiunto il **[parametro Viewmode](https://docs.adobe.com/content/help/it-IT/experience-manager-65/assets/using/search-assets.html#assetpicker)** che ne consente l’apertura in modalità di ricerca. Per aprire il selettore delle risorse in modalità di ricerca e utilizzarlo con `assettype` e `mimetype`, l’utente deve aggiungere il parametro `viewmode=search` come suffisso all’URL `https://[aem-server]:[port]/aem/assetpicker.html`. Ad esempio, `https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`.
 
@@ -309,11 +309,11 @@ La documentazione Editor Rich Text è stata aggiornata per elencare tutti [i pro
 
 * È possibile [spostare le risorse in cartelle di pari livello anche tramite trascinamento](https://docs.adobe.com/content/help/it-IT/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets), oltre all’uso del comando [!UICONTROL Sposta (m)] che apre la procedura guidata [!UICONTROL Sposta risorse].
 
-* Per informazioni approfondite sulle risorse, usa [lancio](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)Adobe. [L&#39;integrazione](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) di Gestione dinamica dei tag viene richiamata come metodo obsoleto nei documenti.
+* Per informazioni approfondite sulle risorse, usa [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). Nella documentazione, l’[integrazione di Dynamic Tag Manager](https://docs.adobe.com/content/help/it-IT/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) viene ora descritta come metodo obsoleto.
 
-**[!DNL Adobe Experience Manager] - App desktop**
+App desktop **[!DNL Adobe Experience Manager]**
 
-* Users logging in to desktop app after logging out or logging in for the first time should provide their [!DNL Experience Manager] server URL in the format `https://[aem-server-url]:[port]/` and then select [!UICONTROL Connect] option, to avoid the error &quot;The application encountered an unknown error&quot;. Per ulteriori informazioni, consulta [Utilizzare l’app desktop Adobe Experience Manager](https://docs.adobe.com/content/help/it-IT/experience-manager-desktop-app/using/using.html).
+* Gli utenti che accedono all’app desktop dopo che hanno eseguito l’accesso o la disconnessione per la prima volta, devono fornire l’URL del server [!DNL Experience Manager] in formato `https://[aem-server-url]:[port]/` e quindi selezionare l’opzione [!UICONTROL Connetti], al fine di evitare un errore di tipo “L’applicazione ha rilevato un errore sconosciuto”. Per ulteriori informazioni, consulta [Utilizzare l’app desktop Adobe Experience Manager](https://docs.adobe.com/content/help/it-IT/experience-manager-desktop-app/using/using.html).
 
 ### Community
 
@@ -360,7 +360,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 
 Nelle pagine seguenti trovi tutte le note sulla versione di Experience Manager:
 
-* [Aggiornamenti e roadmap  rilascio Experience Manager](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
+* [Aggiornamenti e roadmap delle versioni di Experience Manager](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
 * [Informazioni sulla versione di AEM as a Cloud Service](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-service/release-notes/home.html)
 * [Note sulla versione di AEM Cloud Manager](https://docs.adobe.com/content/help/it-IT/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 * [Note sulla versione del Servizio di conversione automatica dei moduli](https://docs.adobe.com/content/help/it-IT/aem-forms-automated-conversion-service/using/release-notes.html)
@@ -409,7 +409,7 @@ Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 | ----------- | ----------- | ---------- | ---------- |
 | 22 settembre 2020 | [Journey AI - Ottimizzazione predittiva dell’ora di invio - Video](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Scopri quali flussi di lavoro sono necessari per sincronizzare i dati tra Adobe Campaign e il modello Journey AI. Scopri come visualizzare i punteggi dell’ora di invio a livello di singolo profilo e come eseguire le consegne e-mail utilizzando una formula basata sull’ora di invio. |
 | 22 settembre 2020 | [Journey AI - Punteggio predittivo del coinvolgimento - Video](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | Scopri come visualizzare il punteggio di coinvolgimento a livello di singolo profilo, utilizzare i punteggi per il targeting degli utenti coinvolti e la rimozione di quelli che ricevono troppe comunicazioni, e come creare regole di tipologia per gestire il rischio di affaticamento da eccessive comunicazioni. |
-| 22 settembre 2020 | [Aggiunta di un gruppo di controllo a una distribuzione - Video](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | Scopri come definire un gruppo di controllo per la distribuzione e come estrarre i profili assegnati al gruppo di controllo dopo l’invio. |
+| 22 settembre 2020 | [Aggiunta di un gruppo di controllo a una consegna - Video](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | Scopri come definire un gruppo di controllo per la distribuzione e come estrarre i profili assegnati al gruppo di controllo dopo l’invio. |
 | 11 settembre 2020 | [Delega dei sottodomini](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | Il Pannello di controllo di Adobe Campaign consente di delegare completamente un sottodominio ad Adobe Campaign. |
 | 3 settembre 2020 | [Aggiunta di indirizzi IP agli elenchi di indirizzi consentiti](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | Il Pannello di controllo consente di impostare nuove connessioni alle istanze inserendo intervalli di indirizzi IP nell’elenco Consentiti. Per impostazione predefinita non è possibile accedere a un’istanza Adobe Campaign Classic da più indirizzi IP. |
 | 3 settembre 2020 | [Pannello di controllo - Aggiunta di autorizzazioni URL](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | Il Pannello di controllo consente di impostare nuove connessioni alle istanze inserendo intervalli di indirizzi IP nell’elenco Consentiti. Per impostazione predefinita non è possibile accedere a un’istanza Adobe Campaign Classic da più indirizzi IP. |
