@@ -3,11 +3,11 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Note sulla versione di Adobe Experience Cloud
 breadcrumb-title: Note sulla versione
-user-guide-description: Scopri le nuove funzioni, correzioni e gli avvisi importanti di Adobe Experience Cloud.
+user-guide-description: Scopri le nuove funzioni, le correzioni e gli avvisi importanti di Adobe Experience Cloud.
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f043f2e12fdb7fa72fa20e00198234a04a1367de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
 ht-degree: 100%
 
