@@ -1,9 +1,16 @@
 ---
-source-git-commit: d97a18edd04952f15a93be3197cf707c3de729d0
+source-git-commit: f15603c29aa5f6df6eb7dc630ca72cc4e8292caa
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '529'
+ht-degree: 80%
 
 ---
 # Contribuire agli articoli
+
+| EXL-PR | EXL | Anteprima | Attiva | Data di pubblicazione | Aiuto |
+|--- |--- |--- |--- |--- |--- |
+| [![Stato build](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_pr-exl/lastBuild/) | [![Stato build](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_exl/lastBuild/lastBuild) | [URL anteprima](https://experienceleague.corp.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL dal vivo](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) | [Guida all’authoring](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Apprezziamo i contributi dalla community e da dipendenti Adobe esterni ai team di documentazione.
 
@@ -20,7 +27,7 @@ Il modo in cui contribuisci dipende da chi sei e dal tipo di modifiche con le qu
 
 ### Modifiche minori
 
-Se contribuisci con piccoli aggiornamenti, visita l’articolo e fai clic sul collegamento **Modifica** nell’articolo, per passare alla sorgente dell’articolo su GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Guida collaboratore per i documenti di Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) generale.
+Se contribuisci con piccoli aggiornamenti, consulta l’articolo e fai clic sul collegamento **Modifica** nell’articolo, per passare alla sorgente dell’articolo su GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Guida collaboratore per i documenti di Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) generale.
 
 Le correzioni o i chiarimenti minori inviati per la documentazione e gli esempi di codice in questo archivio sono coperti dalle condizioni d’uso di Adobe.
 
