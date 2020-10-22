@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 15322b62554e6ef8b5100ee43a231f59b3dd20a7
+source-git-commit: e3cd66e2ec665be1583b0a3ee3aaba05462c8407
 workflow-type: tm+mt
 source-wordcount: '6828'
 ht-degree: 97%
@@ -445,7 +445,6 @@ Data di rilascio: 17 ottobre 2020
 | Campagne basate su ricerche | Nella vista [!UICONTROL Account] , la colonna [!UICONTROL Accesso] ora indica quando non è [!DNL Advertising Cloud Search] possibile accedere a un account del motore di ricerca abilitato. Per visualizzare la causa dell&#39;errore, tenere premuto il cursore sull&#39;icona dell&#39;avviso. |
 | [!UICONTROL Avvisi personalizzati] | La versione beta [!UICONTROL degli] avvisi precedente è ora denominata Avvisi personalizzati. |
 |  | Negli avvisi personalizzati, il flusso di lavoro per identificare quando le metriche per l&#39;intervallo di date specificato sono aumentate o diminuite dalle metriche per il periodo precedente è stato semplificato e spostato nella scheda [!UICONTROL Filtri] . |
-
 
 ## ![Icona](/assets/magento.png) [!DNL Magento] {#magento}
 
