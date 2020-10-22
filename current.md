@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e3cd66e2ec665be1583b0a3ee3aaba05462c8407
+source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
 workflow-type: tm+mt
-source-wordcount: '6828'
-ht-degree: 97%
+source-wordcount: '6918'
+ht-degree: 96%
 
 ---
 
@@ -204,9 +204,15 @@ Nuovi corsi, esercitazioni e articoli in [!DNL Analytics] e [!UICONTROL Customer
 
 Nuove funzioni, correzioni, documentazione ed esercitazioni in Audience Manager.
 
-Data di rilascio: fine di **8 ottobre 2020**
+Aggiornato **22 ottobre 2020**
 
-### Nuove funzioni e correzioni in Adobe Audience Manager
+### Nuove funzioni, miglioramenti e correzioni in Audience Manager {#aam-features}
+
+| Funzione | Data di aggiunta o aggiornamento | Descrizione |
+|----|----|----|
+| [Predictive Audiences](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 21º ottobre 2020 | <ul><li>**Clonazione** predittiva del modello di pubblico: Ora puoi duplicare modelli esistenti e modificarne la configurazione in base alle tue esigenze. Leggi [Clonazione e modifica di modelli](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) di audience predittivi per ulteriori informazioni.</li><li>**Classificazione** Predictive Dei Batch Di Tipi Di Pubblico: Oltre a classificare i visitatori in persone distinte in tempo reale, Predictive Audiences ora supporta la classificazione in batch, aiutando a classificare gli utenti caricati e ad attivarli in destinazioni batch.</li></ul> |
+
+### Correzioni e miglioramenti {#aam-fixes-and-improvements}
 
 * È stato risolto un problema relativo all’API REST di Audience Manager, a causa del quale l’endpoint delle caratteristiche non restituiva metriche relative a dispositivi diversi durante il filtraggio delle caratteristiche nella richiesta. (AAM-55878)
 * È stato risolto un problema relativo alla destinazioni people-based a causa del quale, per le integrazioni Facebook, le e-mail di promemoria per la scadenza dei token di accesso non venivano inviate ai destinatari corretti. (AAM-56215)
