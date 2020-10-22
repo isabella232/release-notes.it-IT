@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
+source-git-commit: 15322b62554e6ef8b5100ee43a231f59b3dd20a7
 workflow-type: tm+mt
-source-wordcount: '6870'
-ht-degree: 100%
+source-wordcount: '6828'
+ht-degree: 97%
 
 ---
 
@@ -427,21 +427,25 @@ Note sulla versione di Adobe Advertising Cloud.
 * [Nuove funzioni in Advertising Cloud DSP](#adcloud-dsp)
 * [Nuove funzioni in Advertising Cloud Search](#adcloud-search)
 
-### Nuove funzioni in [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
+### Nuove funzioni in [!DNL Advertising Cloud DSP] {#adcloud-dsp}
+
+Data di rilascio: 15 ottobre 2020
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Pre-roll interattivo esteso per includere l’inventario VAST | Ciascun posizionamento e annuncio pre-roll interattivo può ora supportare inventario VPAID e VAST. **Nota:** se il KPI principale è la facilità di visualizzazione, continua a creare posizionamenti e annunci VPAID e VAST separati, perché per gli annunci VAST non sono disponibili impressioni visualizzabili. |
+| Inventario privato | Tutti gli utenti possono ora impostare e modificare i dettagli dell&#39;ID dell&#39;offerta utilizzando un nuovo modulo ID dell&#39;offerta, una versione semplificata del modulo legacy [!UICONTROL Smart Ad Serving] . Per impostare i dettagli del nuovo ID dell&#39;offerta, vai a **[!UICONTROL Inventory > Deals]**, fai clic su **[!UICONTROL Create]**(Crea **[!UICONTROL ), quindi fai clic su]** Deal ID Beta. |
+| Previsione del posizionamento | Per i posizionamenti con il posizionamento a livello di posizionamento, la sezione [!UICONTROL Previsione] delle impostazioni di posizionamento include una nuova sezione [!UICONTROL Massimali] stimati, che indica la capacità disponibile con la configurazione di targeting corrente. |
 
-### Nuove funzioni di [!UICONTROL Advertising Cloud Search] {#adcloud-search}
+### Nuove funzioni in [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Data di rilascio: **8 agosto 2020**
+Data di rilascio: 17 ottobre 2020
 
 | Funzione | Descrizione |
-| ----------- | ---------- |
-| [!UICONTROL Portfolio] | I limiti di posizione a livello di portfolio non sono più disponibili nelle impostazioni del portfolio. Eventuali limiti di posizione creati in precedenza sono stati rimossi. |
-| [!UICONTROL Vincoli] | I vincoli basati sulla posizione e le condizioni dei vincoli non sono più supportati: <br/> <ul><li>I vincoli di [!UICONTROL posizione minima] e [!UICONTROL massima] non sono più disponibili e sono stati rimossi da tutti i vincoli di [!UICONTROL offerta e posizione] e dai vincoli di [!UICONTROL condivisione di impression] creati in precedenza.</li><li>I vincoli di [!UICONTROL offerta e posizione] esistenti che includevano vincoli di posizione ma non di offerta sono stati messi in pausa. Sono ancora disponibili nell’interfaccia utente e nei rapporti.</li><li>I vincoli di [!UICONTROL offerta e posizione] sono stati rinominati vincoli di [!UICONTROL offerta].</li><li>Sono state rimosse tutte le condizioni basate sulla posizione (utilizzando le metriche [!UICONTROL Posizione media], [!UICONTROL Posizione media ponderata] o [!UICONTROL Ultima posizione nota]) in qualsiasi tipo di vincolo.</li></ul> <br/> **Nota:** i dati di posizione continueranno a essere compilati finché saranno accessibili dai motori di ricerca. Microsoft Ads ritirerà la posizione a settembre 2020. |
-| [!UICONTROL Campagne] | (Campagne Google Ads) Advertising Cloud Search ora supporta le personalizzazioni degli annunci negli annunci adattabili della rete di ricerca (RSA). In precedenza erano supportate in tutti i tipi di annunci eccetto gli RSA. |
+| -----------| ---------- |
+| Campagne basate su ricerche | Nella vista [!UICONTROL Account] , la colonna [!UICONTROL Accesso] ora indica quando non è [!DNL Advertising Cloud Search] possibile accedere a un account del motore di ricerca abilitato. Per visualizzare la causa dell&#39;errore, tenere premuto il cursore sull&#39;icona dell&#39;avviso. |
+| [!UICONTROL Avvisi personalizzati] | La versione beta [!UICONTROL degli] avvisi precedente è ora denominata Avvisi personalizzati. |
+|  | Negli avvisi personalizzati, il flusso di lavoro per identificare quando le metriche per l&#39;intervallo di date specificato sono aumentate o diminuite dalle metriche per il periodo precedente è stato semplificato e spostato nella scheda [!UICONTROL Filtri] . |
+
 
 ## ![Icona](/assets/magento.png) [!DNL Magento] {#magento}
 
