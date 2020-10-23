@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
+source-git-commit: c1750aa7321e0eb6b929119f5c22101772af5a68
 workflow-type: tm+mt
-source-wordcount: '6918'
-ht-degree: 96%
+source-wordcount: '7000'
+ht-degree: 95%
 
 ---
 
@@ -204,13 +204,14 @@ Nuovi corsi, esercitazioni e articoli in [!DNL Analytics] e [!UICONTROL Customer
 
 Nuove funzioni, correzioni, documentazione ed esercitazioni in Audience Manager.
 
-Aggiornato **22 ottobre 2020**
+Aggiornato **23 ottobre 2020**
 
 ### Nuove funzioni, miglioramenti e correzioni in Audience Manager {#aam-features}
 
 | Funzione | Data di aggiunta o aggiornamento | Descrizione |
 |----|----|----|
 | [Predictive Audiences](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 21º ottobre 2020 | <ul><li>**Clonazione** predittiva del modello di pubblico: Ora puoi duplicare modelli esistenti e modificarne la configurazione in base alle tue esigenze. Leggi [Clonazione e modifica di modelli](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) di audience predittivi per ulteriori informazioni.</li><li>**Classificazione** Predictive Dei Batch Di Tipi Di Pubblico: Oltre a classificare i visitatori in persone distinte in tempo reale, Predictive Audiences ora supporta la classificazione in batch, aiutando a classificare gli utenti caricati e ad attivarli in destinazioni batch.</li></ul> |
+| [Sovrapposizione di rapporti](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 23º ottobre 2020 | Abbiamo aggiornato la metodologia utilizzata per calcolare i report di sovrapposizione ([Trait-to-Trait](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html), [Segment-to-Trait](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html), [Segment-to-Segment](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html)). Il calcolo Rapporti di sovrapposizione ora si basa su univoche di reporting e firme MinHash (anziché su [1/54 di campionamento](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio)dei dati). |
 
 ### Correzioni e miglioramenti {#aam-fixes-and-improvements}
 
