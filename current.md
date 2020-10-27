@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dba5bf9afced03536adb857f879bd1df349ebbbc
+source-git-commit: 3b533d52ae98c930c3e9af7470825d659ec9b0fe
 workflow-type: tm+mt
-source-wordcount: '6960'
-ht-degree: 69%
+source-wordcount: '7024'
+ht-degree: 68%
 
 ---
 
@@ -338,6 +338,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
+| 27º ottobre 2020 | [Introduzione a AEM Document Security Extension for Microsoft Office](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | Articolo | Adobe Experience Manager Document Security Extension for Microsoft Office garantisce che solo le persone autorizzate utilizzino i file Word, Excel e PowerPoint contenenti materiale protetto da diritti di proprietà intellettuale. Document Security Extension for Microsoft Office vi consente di applicare ai file impostazioni predefinite per la salvaguardia della riservatezza. |
 | 7º ottobre 2020 | [Visualizzare le metriche delle pagine in  Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | Articolo | Scopri come mappare i dati acquisiti da un sito Adobe Experience Manager a metriche e dimensioni  suite di rapporti Adobe Analytics. |
 | 8º ottobre 2020 | [Personalizzazione di esperienze con pagine Web complete](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-web-page.html) | Video | Scoprite come creare un&#39;attività per reindirizzare le pagine del sito ospitate su AEM a una nuova pagina utilizzando  Adobe Target. |
 | 8º ottobre 2020 | [Personalizzazione mediante Visual Experience Composer (Compositore esperienza visivo)](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-using-vec.html) | Video | Scoprite come creare un&#39;attività A/B Test Target utilizzando Visual Experience Composer (VEC). |
