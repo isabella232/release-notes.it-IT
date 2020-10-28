@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 08f91c514f5ab3cef7b7a1b862260090892e8144
+source-git-commit: f16817c423635f6996dd729fe9e07e7d7e63fd06
 workflow-type: tm+mt
-source-wordcount: '7148'
-ht-degree: 69%
+source-wordcount: '7324'
+ht-degree: 67%
 
 ---
 
@@ -203,6 +203,10 @@ Nuovi video, esercitazioni o corsi pubblicati per Audience Manager.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
+| 28º ottobre 2020 | [Informazioni sui numeri nel grafico delle caratteristiche](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | Video | Ottenete alcuni suggerimenti per comprendere i numeri riportati per le caratteristiche nella schermata di informazioni sulle caratteristiche. |
+| 23º ottobre 2020 | [Pianificazione della creazione delle caratteristiche dai dati di Analytics](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | Video | Scopri alcuni suggerimenti e trucchi per aiutarti quando stai pensando di utilizzare  dati Adobe Analytics nelle tue caratteristiche in  Audience Manager. |
+| 23º ottobre 2020 | [Scelta di un&#39;origine dati durante la creazione di caratteristiche](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | Video | Uno dei campi importanti da compilare per la creazione di caratteristiche è il campo Origine dati. Ottenete suggerimenti sulla scelta dell&#39;origine dati giusta per le caratteristiche basate su regole e integrate. |
+| 14 settembre 2020 | [Utilizzo della vista Codice per creare e modificare caratteristiche](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-to-create-and-edit-traits.html?lang=en#build-and-manage-audiences) | Video | Scoprite come utilizzare la vista codice per creare nuove caratteristiche o modificare caratteristiche esistenti. La vista codice è un’alternativa al Generatore di espressioni quando si imposta l’espressione di caratteristica. |
 | 10º ottobre 2020 | [Comprendere i tipi di pubblico predittivi](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html) | Video | In questo video, discuteremo di cosa sono  pubblico predittivo del Audience Manager, presenteremo i dettagli sul loro funzionamento e indicheremo i casi di utilizzo. |
 
 ## ![Icona](/assets/aem.png) Adobe Experience Manager {#aem}
