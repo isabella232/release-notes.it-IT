@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ac62e2402e3d41cbcea6670b8e482bc295b9a14
+source-git-commit: 2626d0f793d4d7d59dc08527443bca66a3dbdd03
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1350'
 ht-degree: 91%
 
 ---
@@ -70,8 +70,6 @@ Funzioni e problemi risolti.
 
 Per la documentazione del prodotto, consulta [Gestione di utenti e prodotti](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-## [!UICONTROL Experience Platform] {#platform}
-
 ## ![Icona](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 Note sulla versione [!DNL Experience Platform,] che includono [!DNL Experience Platform Launch,] [!UICONTROL Journey Orchestration], [!UICONTROL Offerte], [!UICONTROL Persone], [!UICONTROL Places], [!UICONTROL Mobile Services] e bollettini sulla sicurezza.
@@ -99,7 +97,7 @@ Using Adobe [!UICONTROL Experience Platform,] orchestrate individual customer jo
 
 #### Additional resources for [!UICONTROL Journey Orchestration]
 
-[Documentazione](https://docs.adobe.com/content/help/it-IT/journeys/using/journey-orchestration-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/journeys/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/it-IT/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
+[Documentazione](https://docs.adobe.com/content/help/it-IT/journeys/using/journey-orchestration-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/journeys/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/it-IT/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### [!UICONTROL Mobile Services e Mobile SDK] {#mobile}
 
