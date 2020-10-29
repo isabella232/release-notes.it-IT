@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b21c2213d13cf58dded026bce77abd58ee038f1f
+source-git-commit: 48d79544adc9225c086b7574d522622df084623b
 workflow-type: tm+mt
-source-wordcount: '7670'
-ht-degree: 63%
+source-wordcount: '7634'
+ht-degree: 64%
 
 ---
 
@@ -127,7 +127,6 @@ Data di rilascio: **29 ottobre 2020**
 | Visualizzazione [!UICONTROL Linee]: opzione Media mobile per la linea di tendenza | 8 ottobre 2020 | Alle impostazioni per la visualizzazione della linea di tendenza è stata l’aggiunta l’opzione Media mobile. Una media mobile calcola la media per uno specifico periodo precedente e la utilizza come punto di dati della linea di tendenza, quindi passa al periodo successivo. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Rimozione della limitazione sulla retrocompilazione | 19 ottobre 2020 | Al fine di fornire un&#39;esperienza migliore di CJA, abbiamo rimosso la limitazione del backfill (importazione dati storici). Precedentemente, era possibile eseguire il backfill di un massimo di 2,5 miliardi di righe autonomamente e richiedere il coinvolgimento tecnico. Ora, potete eseguire il backfill dei dati da soli, senza alcun limite. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Pagina della guida sulle prestazioni Analysis Workspace | 22 ottobre 2020 | La pagina della guida sulle prestazioni di Analysis Workspace presenta i diversi fattori che influiscono sulle prestazioni del progetto e fornisce collegamenti verso suggerimenti su come ottimizzarle. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
-| Componenti > Preferenze utente aggiunte a CJA Workspace | 29 ottobre 2020 | La pagina Componenti > Preferenze utente consente di gestire  impostazioni Analysis Workspace (e relativi componenti) per l’utente. Attualmente, sono inclusi il separatore delle migliaia e il delimitatore CSV. |
 | IQ viaggio: Analisi tra canali | 30 ottobre 2020 | IQ viaggio: Analytics tra canali consente ai clienti di ri-chiave di un set di dati evento Adobe Analytics (o di altro tipo)  in un lago di dati Adobe Experience Platform da uno spazio dei nomi ID a un altro. In genere, significa reimpostare il set di dati dell’evento da un ID basato su cookie a un ID basato su persona. In questo modo, il set di dati reimpostato può essere combinato con altri dati basati su persona in una connessione Customer Journey Analytics, consentendo così l’analisi cross-device/cross-channel in Analysis Workspace. |
 
 ### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
