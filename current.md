@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 48d79544adc9225c086b7574d522622df084623b
+source-git-commit: a30288a93dd262f9f9d770242a2bf4fda7812265
 workflow-type: tm+mt
-source-wordcount: '7634'
-ht-degree: 64%
+source-wordcount: '7669'
+ht-degree: 63%
 
 ---
 
@@ -68,6 +68,8 @@ Per informazioni sull’ultima versione, consulta [Note cumulative sulle version
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
+Include informazioni sull’aggiornamento della versione per  Experience Platform e Experience Platform Launch,
+
 Rilasciato: **14 ottobre 2020**
 
 Consulta le [note sulla versione di Experience Platform](https://docs.adobe.com/content/help/it-IT/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md) per informazioni sugli aggiornamenti apportati a:
@@ -76,6 +78,10 @@ Consulta le [note sulla versione di Experience Platform](https://docs.adobe.com/
 * Profilo cliente in tempo reale
 * Servizio di segmentazione
 * Origini
+
+### Experience Platform Launch
+
+Per informazioni sul lancio della piattaforma, consultate Note [sulla versione di](https://docs.adobe.com/content/help/it-IT/launch/using/intro/release-notes/current.html) Experience Platform Launch.
 
 ### Esercitazioni e corsi di Experience Platform e Services
 
