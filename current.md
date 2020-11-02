@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a30288a93dd262f9f9d770242a2bf4fda7812265
+source-git-commit: 1dec5a72cc3a6c3592544ab198516f6253f5c50a
 workflow-type: tm+mt
-source-wordcount: '7669'
-ht-degree: 63%
+source-wordcount: '7635'
+ht-degree: 64%
 
 ---
 
@@ -210,7 +210,6 @@ Nuovi video, esercitazioni o corsi pubblicati per Audience Manager.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| 29º ottobre 2020 | [Informazioni sui numeri nel grafico delle caratteristiche](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | Video | Ottenete alcuni suggerimenti per comprendere i numeri riportati per le caratteristiche nella schermata di informazioni sulle caratteristiche. |
 | 28º ottobre 2020 | [Informazioni sui numeri nel grafico delle caratteristiche](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | Video | Ottenete alcuni suggerimenti per comprendere i numeri riportati per le caratteristiche nella schermata di informazioni sulle caratteristiche. |
 | 23º ottobre 2020 | [Pianificazione della creazione delle caratteristiche dai dati di Analytics](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | Video | Scopri alcuni suggerimenti e trucchi per aiutarti quando stai pensando di utilizzare  dati Adobe Analytics nelle tue caratteristiche in  Audience Manager. |
 | 23º ottobre 2020 | [Scelta di un&#39;origine dati durante la creazione di caratteristiche](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | Video | Uno dei campi importanti da compilare per la creazione di caratteristiche è il campo Origine dati. Ottenete suggerimenti sulla scelta dell&#39;origine dati giusta per le caratteristiche basate su regole e integrate. |
