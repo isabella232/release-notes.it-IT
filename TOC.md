@@ -5,16 +5,16 @@ user-guide-title: Note sulla versione di Adobe Experience Cloud
 breadcrumb-title: Note sulla versione
 user-guide-description: Scopri le nuove funzioni, le correzioni e gli avvisi importanti di Adobe Experience Cloud.
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b8a7c0da3f98d1f7d37713c85ba31dade69c08b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
 ht-degree: 100%
 
 ---
 
 
-# Note sulla versione di Experience Cloud  {#experience-cloud}
+# Note sulla versione di Experience Cloud {#experience-cloud}
 
 + [Note sulla versione](current.md)
 + Note sulle versioni precedenti {#previous}
