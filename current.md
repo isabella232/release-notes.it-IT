@@ -27,13 +27,13 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti relativi a
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) (Aggiornamento prioritario sui prodotti Adobe) per ricevere le notifiche via e-mail sulle nuove versioni.
 
-Ultimo aggiornamento:**2 dicembre 2020**
+Ultimo aggiornamento: **2 dicembre 2020**
 
 * [Stato del sistema di Adobe](#status)
 * [Servizi e amministrazione di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Aggiornato il 2 **dicembre 2020**)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Aggiornato il **2 dicembre 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Aggiornato il **28 ottobre 2020**)
 * [Campaign](#ac)
@@ -68,7 +68,7 @@ Per informazioni sull’ultima versione, consulta [Note cumulative sulle version
 
 ### Esercitazioni  Experience Cloud
 
-Aggiornato: **2 dicembre 2020**
+Updated: **December 2, 2020**
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
@@ -98,7 +98,7 @@ Per informazioni su Experience Platform Launch, consulta le [Note sulla versione
 
 Nuovi video, esercitazioni o corsi pubblicati per Experience Platform e Services.
 
-Aggiornato: **2 dicembre 2020**
+Updated: **December 2, 2020**
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
@@ -225,7 +225,7 @@ Data di rilascio: fine di **8 ottobre 2020**
 
 Nuovi video, esercitazioni o corsi pubblicati per Audience Manager.
 
-Aggiornato il 2 **dicembre 2020**
+Aggiornato il **2 dicembre 2020**
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
@@ -374,7 +374,7 @@ Inoltre, l&#39;archivio include altri articoli importanti, come [Definizioni del
 
 ### Nuovi corsi ed esercitazioni di Experience Manager
 
-Aggiornato: **2 dicembre 2020**
+Updated: **December 2, 2020**
 
 Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 
@@ -484,7 +484,7 @@ Informazioni sulla versione per Campaign Classic, Campaign Standard e Pannello d
 
 Nuovi video, tutorial o corsi pubblicati nell’ultimo mese.
 
-Aggiornato il 2 **dicembre 2020**
+Aggiornato il **2 dicembre 2020**
 
 | Data di pubblicazione | Nome | Soluzione | Descrizione |
 | ----------- | ----------- | ---------- | ---------- |
@@ -544,7 +544,7 @@ Data di rilascio: **17 ottobre 2020**
 
 ###  esercitazioni e corsi Ad Cloud
 
-Aggiornato: **2 dicembre 2020**
+Updated: **December 2, 2020**
 
 | Data di pubblicazione | Nome | Soluzione | Descrizione |
 | ----------- | ----------- | ---------- | ---------- |
