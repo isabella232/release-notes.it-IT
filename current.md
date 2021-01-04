@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2f04d1dd4487a4e169360c0b23cdbef257121794
+source-git-commit: ec98405c2e3d4a712d42487917029dae7aa454f3
 workflow-type: tm+mt
-source-wordcount: '9815'
-ht-degree: 100%
+source-wordcount: '9816'
+ht-degree: 99%
 
 ---
 
@@ -144,7 +144,7 @@ Data di rilascio: **29 ottobre 2020**
 | Rimozione della limitazione sulla retrocompilazione | 19 ottobre 2020 | Per fornire un’esperienza Customer Journey Analytics migliore, è stato rimosso il limite di retrocompilazione (importazione di dati storici). In precedenza era possibile retrocompilare in autonomia un massimo di 2,5 miliardi di righe, e richiedere l’intervento degli ingegneri per superare questo limite. Ora non esiste più alcun limite ai dati che è possibile retrocompilare da soli. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Pagina della guida sulle prestazioni di Analysis Workspace | 22 ottobre 2020 | La pagina della guida sulle prestazioni di Analysis Workspace presenta i diversi fattori che influiscono sulle prestazioni del progetto e fornisce collegamenti verso suggerimenti su come ottimizzarle. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | Metriche e dimensioni per [!UICONTROL Tempo trascorso] | 30 ottobre 2020 | Le metriche e le dimensioni per [!UICONTROL Tempo trascorso] consentono di vedere quanto tempo i consumatori trascorrono in varie aree del percorso del cliente, fornendo un quadro più completo del coinvolgimento e dei colli di bottiglia nei vari canali. |
-| Dimensioni [!UICONTROL Dispositivo] e [!UICONTROL Geografia] | 30 ottobre 2020 | Le dimensioni [!UICONTROL Dispositivo] e [!UICONTROL Geografia] sono ora disponibili per impostazione predefinita come parte del progetto “Global Lookup support” nel connettore [Adobe Analytics Source](https://docs.adobe.com/content/help/it-IT/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html). Questa aggiunta fortemente richiesta aumenta la [parità tra Adobe Analytics e Customer Journey Analytics](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-overview/cja-aa.html). |
+| Dimensioni [!UICONTROL Dispositivo] e [!UICONTROL Geografia] | 30 ottobre 2020 | [!UICONTROL Per impostazione predefinita, ] Device e   Geographydimensioni sono ora disponibili come parte del progetto  [Global ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#cja-usecases) Searchupsupport nel connettore Adobe Analytics Source . Questa aggiunta fortemente richiesta aumenta la [parità tra Adobe Analytics e Customer Journey Analytics](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-overview/cja-aa.html). |
 | Journey IQ: analisi cross-channel | 11 gennaio 2021 | Journey IQ: analisi cross-channel consente ai clienti di reimpostare un set di dati di un evento Adobe Analytics (o di altro tipo) in un data lake di Adobe Experience Platform da un ID di spazio dei nomi a un altro. In genere, significa reimpostare il set di dati dell’evento da un ID basato su cookie a un ID basato su persona. In questo modo, il set di dati reimpostato può essere combinato con altri dati basati su persona in una connessione Customer Journey Analytics, consentendo così l’analisi cross-device/cross-channel in Analysis Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it-IT#cja-connections) |
 
 ### Nuove funzioni di [!UICONTROL Media Analytics] {#media-aa}
