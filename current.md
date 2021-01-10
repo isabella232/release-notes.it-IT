@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1beba26ad3096758512a7efbf5454012b686f007
+source-git-commit: 4f4eac5843bd39369950c543749455580b1cb964
 workflow-type: tm+mt
 source-wordcount: '6184'
 ht-degree: 44%
@@ -132,10 +132,8 @@ Data di rilascio: **14 gennaio 2021**
 
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
-<!-- * [New features in Media Analytics](#media-aa) -->
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
 * [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
-<!-- * [Analytics courses and tutorials](#tutorials-analytics) -->
 * [AppMeasurement](#appm)
 
 ### Nuove funzioni di Adobe Analytics {#aa-features}
@@ -313,7 +311,7 @@ Consultate la [documentazione su registrazione, login e profilo utente](https://
 
 ### Nuovi corsi ed esercitazioni di Experience Manager
 
-Aggiornato il **2 dicembre 2020**
+Aggiornato: **10 gennaio 2021**
 
 Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 
