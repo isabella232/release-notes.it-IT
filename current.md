@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 783d8abc85c468f18d599d5ff5782dd01cb07e78
+source-git-commit: 40f7861366595738d6ba7b7ebcbbba514b2c98c7
 workflow-type: tm+mt
-source-wordcount: '6428'
+source-wordcount: '6518'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ Ultimo aggiornamento: **12 gennaio 2021**
 * [Servizi e amministrazione di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Data di rilascio: **14 gennaio 2021**)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Aggiornato: **12 gennaio 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac) (aggiornato il 12  **gennaio 2021**)
@@ -141,8 +141,9 @@ Data di rilascio: **14 gennaio 2021**
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | ----------- | ---------- | ------- |
-| Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
-|  Analysis Workspace - URL immagine | 14 gennaio 2021 | È possibile aggiungere immagini ai progetti [!UICONTROL Workspace] facendo riferimento a un URL immagine pubblico. |
+| Analysis Workspace - URL immagine | 14 gennaio 2021 | È possibile aggiungere immagini ai progetti [!UICONTROL Workspace] facendo riferimento a un URL immagine pubblico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=en#analysis-workspace) |
+|  Analysis Workspace - Gestione delle impostazioni e delle sorgenti combinate | 14 gennaio 2021 | Il gestore dell’origine dati (punto) e il gestore delle impostazioni (ingranaggio) per le visualizzazioni sono stati combinati in un’unica finestra di dialogo, in modo da poter gestire facilmente l’origine e le impostazioni dalla stessa posizione. |
+|  Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
@@ -150,8 +151,9 @@ Data di rilascio: **14 gennaio 2021**
 | ----------- | ---------- | ----- |
 | Dimensioni [!UICONTROL Dispositivo] e [!UICONTROL Geografia] | 30 ottobre 2020 | Queste dimensioni sono ora disponibili per impostazione predefinita nell&#39;ambito del progetto di supporto [Ricerca globale](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#use-global-lookups-with-adobe-data-connector-datasets) nel  Adobe Analytics [!UICONTROL Source Connector]. Questa aggiunta fortemente richiesta aumenta la [parità tra Adobe Analytics e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en#cja-overview). |
 | IQ percorso: [!UICONTROL Analisi tra canali] | 11 gennaio 2021 | IQ percorso: [!UICONTROL Cross-Channel Analytics] consente di eseguire la chiave di un set di dati evento Adobe Analytics (o di altro tipo)  in  data Lake del Experience Platform da uno spazio dei nomi ID a un altro. In genere, significa reimpostare il set di dati dell’evento da un ID basato su cookie a un ID basato su persona. In questo modo, il set di dati ri-keyed può essere combinato con altri dati basati su persone in una connessione CJA, consentendo così l&#39;analisi cross-device e cross-channel in  Analysis Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it-IT#cja-connections) |
-|  Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
 |  Analysis Workspace - URL immagine | 14 gennaio 2021 | È possibile aggiungere immagini ai progetti Workspace facendo riferimento a un URL di immagine pubblico. |
+|  Analysis Workspace - Gestione delle impostazioni e delle sorgenti combinate | 14 gennaio 2021 | Il gestore dell’origine dati (punto) e il gestore delle impostazioni (ingranaggio) per le visualizzazioni sono stati combinati in un’unica finestra di dialogo, in modo da poter gestire facilmente l’origine e le impostazioni dalla stessa posizione. |
+|  Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
 
 ### Problemi risolti in Adobe Analytics {#aa-fixes}
 
