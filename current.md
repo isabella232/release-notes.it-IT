@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d5d885d83774f8160e77ec34ddc4cfa92b7f10f4
+source-git-commit: 783d8abc85c468f18d599d5ff5782dd01cb07e78
 workflow-type: tm+mt
-source-wordcount: '6414'
+source-wordcount: '6428'
 ht-degree: 42%
 
 ---
@@ -23,7 +23,7 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti relativi a
 >
 >Iscriviti al [ Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) mensile per ricevere le notifiche e-mail sugli aggiornamenti a questa pagina. Questa pagina viene mantenuta per tutto il mese, quindi controllate regolarmente per  Adobe prodotti aziendali e  aggiornamenti della documentazione Experience League.
 
-Ultimo aggiornamento: **11 gennaio 2020**
+Ultimo aggiornamento: **12 gennaio 2021**
 
 * [ Stato](#status)  del sistema di Adobe (non aggiornato)
 * [Servizi e amministrazione di Experience Cloud](#ecloud)
@@ -32,7 +32,7 @@ Ultimo aggiornamento: **11 gennaio 2020**
 * [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Data di rilascio: **14 gennaio 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac)
+* [Campaign](#ac) (aggiornato il 12  **gennaio 2021**)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
@@ -109,7 +109,7 @@ Aggiornato: **6 gennaio 2021**
 | 26 ottobre 2020 (aggiornato) | [Introduzione a Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | Video | Questo video offre una panoramica di [!UICONTROL Offer Decisioning], un servizio applicativo basato su Adobe Experience Platform. Il video illustra le problematiche aziendali che è possibile risolvere con [!UICONTROL Offer Decisioning], le sue funzionalità chiave, la sua architettura di base e i principali casi di utilizzo. |
 | 26 ottobre 2020 (aggiornato) | [Assegna dati utilizzando il connettore di origine CRM Salesforce](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-salesforce-crm.html) | Video | Il connettore di origine di Salesforce CRM consente di inserire facilmente in batch i dati da Salesforce CRM nel Real-time Customer Profile e Experience Data Lake di Adobe Experience Platform, in modo semplice e scalabile. |
 | 13 ottobre 2020 (aggiornato) | [Assegna dati utilizzando il connettore di origine CRM Salesforce](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) | Video | Il connettore di origine di Salesforce CRM consente di inserire facilmente in batch i dati da Salesforce CRM nel Real-time Customer Profile e Experience Data Lake di Adobe Experience Platform, in modo semplice e scalabile. |
-| 23 ottobre 2020 (aggiornato) | [Importare i dati nel profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) | Video | Il profilo cliente in tempo reale consente la personalizzazione tra canali su larga scala in ogni fase del percorso del cliente. |
+| 23 ottobre 2020 (aggiornato) | [Importare i dati nel profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) | Video | Il profilo cliente in tempo reale consente la personalizzazione tra canali su scala in ogni fase del percorso cliente. |
 | 13 ottobre 2020 (aggiornato) | [Configurare Attribution AI](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intelligent-services/configure-attribution-ai.html) | Video | Scopri come creare un’istanza di Attribution AI per comprendere l’impatto dei canali e delle campagne marketing. |
 | 13 ottobre 2020 (aggiornato) | [Configurare Customer AI](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intelligent-services/configure-customer-ai.html) | Video | Scopri come creare un’istanza di Customer AI per prevedere il comportamento dei clienti. |
 
@@ -149,7 +149,7 @@ Data di rilascio: **14 gennaio 2021**
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | ----------- | ---------- | ----- |
 | Dimensioni [!UICONTROL Dispositivo] e [!UICONTROL Geografia] | 30 ottobre 2020 | Queste dimensioni sono ora disponibili per impostazione predefinita nell&#39;ambito del progetto di supporto [Ricerca globale](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#use-global-lookups-with-adobe-data-connector-datasets) nel  Adobe Analytics [!UICONTROL Source Connector]. Questa aggiunta fortemente richiesta aumenta la [parità tra Adobe Analytics e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en#cja-overview). |
-| IQ viaggio: [!UICONTROL Analisi tra canali] | 11 gennaio 2021 | IQ viaggio: [!UICONTROL Cross-Channel Analytics] consente di eseguire la chiave di un set di dati evento Adobe Analytics (o di altro tipo)  in  data Lake del Experience Platform da uno spazio dei nomi ID a un altro. In genere, significa reimpostare il set di dati dell’evento da un ID basato su cookie a un ID basato su persona. In questo modo, il set di dati ri-keyed può essere combinato con altri dati basati su persone in una connessione CJA, consentendo così l&#39;analisi cross-device e cross-channel in  Analysis Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it-IT#cja-connections) |
+| IQ percorso: [!UICONTROL Analisi tra canali] | 11 gennaio 2021 | IQ percorso: [!UICONTROL Cross-Channel Analytics] consente di eseguire la chiave di un set di dati evento Adobe Analytics (o di altro tipo)  in  data Lake del Experience Platform da uno spazio dei nomi ID a un altro. In genere, significa reimpostare il set di dati dell’evento da un ID basato su cookie a un ID basato su persona. In questo modo, il set di dati ri-keyed può essere combinato con altri dati basati su persone in una connessione CJA, consentendo così l&#39;analisi cross-device e cross-channel in  Analysis Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it-IT#cja-connections) |
 |  Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
 |  Analysis Workspace - URL immagine | 14 gennaio 2021 | È possibile aggiungere immagini ai progetti Workspace facendo riferimento a un URL di immagine pubblico. |
 
@@ -374,7 +374,7 @@ Informazioni sulla versione per Campaign Classic, Campaign Standard e Pannello d
 
 #### Campaign Classic
 
-<!-- [Incident Response Bulletin](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (January 12) -->
+[Bollettino](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)  sulla risposta all&#39;incidente (aggiornato:  **(12 gennaio 2021**)
 
 * Versione 20.3.3 - [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
 * Versione 20.3.1 - [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
