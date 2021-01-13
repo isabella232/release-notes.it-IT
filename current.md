@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 40f7861366595738d6ba7b7ebcbbba514b2c98c7
+source-git-commit: 173c6f89606fb3a5fde4db91f66900476293f6b5
 workflow-type: tm+mt
-source-wordcount: '6518'
-ht-degree: 42%
+source-wordcount: '6601'
+ht-degree: 41%
 
 ---
 
@@ -23,11 +23,11 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti relativi a
 >
 >Iscriviti al [ Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) mensile per ricevere le notifiche e-mail sugli aggiornamenti a questa pagina. Questa pagina viene mantenuta per tutto il mese, quindi controllate regolarmente per  Adobe prodotti aziendali e  aggiornamenti della documentazione Experience League.
 
-Ultimo aggiornamento: **12 gennaio 2021**
+Ultimo aggiornamento: **13 gennaio 2021**
 
 * [ Stato](#status)  del sistema di Adobe (non aggiornato)
 * [Servizi e amministrazione di Experience Cloud](#ecloud)
-* [Experience Platform](#platform)
+* [Experience Platform](#platform)  (aggiornato il 13  **gennaio 2021**)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Aggiornato: **12 gennaio 2021**)
 * [Audience Manager](#aam)
@@ -55,7 +55,10 @@ Per informazioni sulla versione più recente, consulta [Stato del sistema di Ado
 
 Nessun aggiornamento in questo mese.
 
-Per informazioni sull’ultima versione, consulta [Note cumulative sulle versioni dei servizi Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/release-notes/release-notes.html).
+**Vedi anche**
+
+* [Note cumulative sulla versione per  ](https://docs.adobe.com/content/help/it-IT/core-services/interface/release-notes/release-notes.html) i servizi di Experience Cloud per le informazioni sulla versione più recente.
+* [ Experience Cloud ID ](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) Servicerelease note
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -75,7 +78,14 @@ Per gli aggiornamenti più recenti relativi a:[](https://experienceleague.adobe.
 
 ### Experience Platform Launch
 
-Per informazioni su Experience Platform Launch, consulta le [Note sulla versione di Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html).
+Data di rilascio: **13 gennaio 2021**
+
+**[!UICONTROL Lato] server di avvio:** inviare dati a livello di evento ad AEP Edge Network, quindi utilizzare Launch Server Side per trasformare, arricchire e inviare tali dati a un endpoint non  Adobe utilizzando  server del Adobe, non il client, con latenza ridotta. [Altro...](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+
+**Vedi anche**
+
+* [Note sulla versione del Experience Platform Launch ](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html) per informazioni sull’Experience Platform Launch.
+* [Note sulla versione  Experience Cloud ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html) Estensione del servizio ID
 
 ### Adobe Mobile
 
@@ -299,8 +309,7 @@ I nuovi aggiornamenti della documentazione relativa alle funzioni sono disponibi
 
 * **Foundation**
 
-   * Flussi di lavoro - È stato aggiunto il supporto per la ricerca di istanze di flussi di lavoro basate su [!UICONTROL Titolo flusso di lavoro], [!UICONTROL Modello flusso di lavoro], [!UICONTROL Stato], [!UICONTROL Iniziatore], [!UICONTROL Percorso payload] e [!UICONTROL Data inizio&lt;a1/>.
-]
+   * Flussi di lavoro - È stato aggiunto il supporto per la ricerca di istanze di flussi di lavoro basate su [!UICONTROL Titolo flusso di lavoro], [!UICONTROL Modello flusso di lavoro], [!UICONTROL Stato], [!UICONTROL Iniziatore], [!UICONTROL Percorso payload] e [!UICONTROL Data inizio].
 Vedere [Istanze del flusso di lavoro di ricerca](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html#administering).
    * Sincronizzazione dei dati dell&#39;utente con livello di pubblicazione: i dati utente, inclusi gli attributi di profilo e le appartenenze al gruppo, possono essere memorizzati nel livello di pubblicazione.
 Consultate la [documentazione su registrazione, login e profilo utente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html#authoring).
