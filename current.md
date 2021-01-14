@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 026ae3842b9683ac8c55658964969d5deca75340
+source-git-commit: 579b634c53f1a04a5c75f66e31de0dde5e5d1352
 workflow-type: tm+mt
-source-wordcount: '6618'
-ht-degree: 41%
+source-wordcount: '6788'
+ht-degree: 40%
 
 ---
 
@@ -32,7 +32,7 @@ Ultimo aggiornamento: **14 gennaio 2021**
 * [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Aggiornato: **12 gennaio 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac) (aggiornato il 12  **gennaio 2021**)
+* [Campaign](#ac) (aggiornato il 14  **gennaio 2021**)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
@@ -417,7 +417,13 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | Data di pubblicazione | Nome | Soluzione | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
 | 23 dicembre 2020 | [Configurazione del contenuto dinamico](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/configuring-dynamic-content.html#sending-messages) | Campaign Classic | (Video) Comprendere i diversi tipi di contenuto dinamico e imparare a creare e applicare blocchi di personalizzazione e istruzioni condizionali a una distribuzione. |
-| 9 dicembre 2020 | [Pannello di controllo - Gestione record di Google TXT](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates) | Campaign Standard | (Video) Scopri come aggiungere record di verifica del sito Google TXT a tutti i sottodomini utilizzati per inviare e-mail agli indirizzi GMAIL con [!UICONTROL Pannello di controllo Campaign campagna]. |
+| 23 dicembre 2020 | [Configurazione e gestione dei servizi di iscrizione](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/configuring-and-managing-subscription-services.html) | Campaign Classic | (Video) Scoprite come impostare e gestire iscrizioni e sottoscrittori di destinazione. |
+| 22 dicembre 2020 | [Accesso ai report incorporati](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/reporting/accessing-built-in-reports.html) | Campaign Classic | (Video)  Comprendere  reporting e analisi integrati in Campaign Classic e come generare un rapporto sulla distribuzione. |
+| 22 dicembre 2020 | [Risoluzione dei problemi di consegna delle e-mail](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/troubleshooting-email-delivery-issues.html) | Campaign Classic | (Video) Scoprite come risolvere i problemi di distribuzione. |
+| 18 dicembre 2020 | [Creazione di consegne per posta diretta](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/sending-messages/direct-mail/creating-direct-mail-deliveries.html) | Campaign Classic | (Video) Scoprite come creare una consegna diretta per e-mail e utilizzare gli indirizzi iniziali in una campagna. |
+| 18 dicembre 2020 | [Gestione delle approvazioni in una campagna  ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/managing-approvals.html) | Campaign Classic | (Video) Scopri come impostare le approvazioni e una campagna e come distinguere tra consegna e approvazione dei flussi di lavoro. |
+| 18 dicembre 2020 | [Esecuzione di una campagna](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/executing-a-campaign.html) | Campaign Classic | (Video) Scoprite come eseguire una campagna, esaminare la consegna di un&#39;e-mail e le proprietà di consegna. |
+| 15 dicembre 2020 | [Estensione dello schema Iscrizione app per personalizzare le notifiche push](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html) | Campaign Classic | (Video) Scopri come estendere lo schema di iscrizione all&#39;app per memorizzare i valori di personalizzazione che Campaign riceve da un&#39;app mobile. |
 
 ## ![Icona](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
