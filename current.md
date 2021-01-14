@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d6693c587c6622105b13410dad58ad28232388cc
+source-git-commit: 026ae3842b9683ac8c55658964969d5deca75340
 workflow-type: tm+mt
 source-wordcount: '6618'
 ht-degree: 41%
@@ -93,7 +93,7 @@ Aggiornato il **14 gennaio 2021**
 
 iOS versione 4.21.1
 
-* Generale - È stato risolto un problema che poteva causare un&#39;eccezione minima durante la chiusura dell&#39;app.
+* Generale - È stato risolto un problema che poteva causare eccezioni SQLite durante la chiusura dell&#39;app.
 
 iOS versione 4.21.0
 
