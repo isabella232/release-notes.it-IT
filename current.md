@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6d3d54f4926936ced5c9025e563cdfeec59f4a1f
+source-git-commit: 05cf9f34a835a5d51013789909508c353827315e
 workflow-type: tm+mt
-source-wordcount: '6796'
-ht-degree: 99%
+source-wordcount: '6770'
+ht-degree: 97%
 
 ---
 
@@ -438,22 +438,20 @@ Ultimo aggiornamento: **28 ottobre 2020**
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Nuova guida | (Data di rilascio: 28 ottobre) La guida precedente è stata sostituita da pagine aggiornate, disponibili dal collegamento Aiuto nel menu DSP principale e sempre accessibili all’indirizzo [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=it-IT](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=it-IT) |
-| Campagne | (Data di rilascio: 28 ottobre) Le precedenti viste Campagne (beta) ora sono diventate le viste Campagne predefinite che forniscono dati più rapidamente, flussi di lavoro semplificati e viste personalizzate. |
+| Nuova guida | (rilascio del 28 ottobre) La guida precedente è stata sostituita da pagine aggiornate, disponibili dal collegamento Guida nel menu principale DSP e sempre disponibili da [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=it-IT) |
+| Campagne | (rilascio del 28 ottobre) Le precedenti viste Campagne Beta ora sono le viste Campagne predefinite, per approfondimenti più rapidi, flussi di lavoro semplificati e viste personalizzate. |
 | Inventario privato | (Data di rilascio: 15 ottobre) Ora tutti gli utenti possono impostare e modificare i dettagli dell’ID offerta utilizzando un nuovo modulo ID offerta, una versione semplificata del modulo legacy [!UICONTROL Smart Ad Serving]. Per impostare i dettagli del nuovo ID offerta, vai a **[!UICONTROL Inventario > Offerte]**, fai clic su **[!UICONTROL Crea]**, quindi fai clic su **[!UICONTROL ID offerta beta]**. |
 | Previsione del posizionamento | (Data di rilascio: 15 ottobre) Per i posizionamenti con velocità a livello di posizionamento, la sezione [!UICONTROL Previsione] delle impostazioni di posizionamento include la nuova sezione [!UICONTROL Massimi stimati], che indica la capacità disponibile con la configurazione di targeting corrente. |
 
 ### Nuove funzioni in [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Ultimo aggiornamento: **17 ottobre 2020**
+Ultimo aggiornamento: **22 gennaio 2021, per la release del 23 gennaio**
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| [!UICONTROL Ricerca campagne] | Nella vista [!UICONTROL Account], la colonna [!UICONTROL Accesso] ora indica quando [!DNL Advertising Cloud Search] non è in grado di accedere a un account del motore di ricerca abilitato. Per visualizzare la causa dell’errore, sposta il cursore sull’icona di avviso. |
-| [!UICONTROL Avvisi personalizzati] | La funzione precedentemente nota come [!UICONTROL Avvisi beta] è stata rinominata [!UICONTROL Avvisi personalizzati]. |
-| [!UICONTROL Avvisi personalizzati] | Negli avvisi personalizzati, il flusso di lavoro per identificare quando le metriche per l’intervallo di date specificato sono aumentate o diminuite rispetto alle metriche per il periodo precedente è stato semplificato e spostato nella scheda [!UICONTROL Filtri]. |
+| [!UICONTROL Ricerca campagne]<br> Rapporti | Advertising Cloud Search non segnala più nuovi dati di posizione media per le campagne pubblicitarie Microsoft. La colonna Posizione media mostra valori pari a zero (0) per le date che iniziano il 23 gennaio. Questo è in preparazione per la rimozione da parte di Microsoft dei dati di posizione media nel gennaio 2021.<br>I dati sulla posizione media raccolti fino al 22 gennaio sono ancora disponibili nei rapporti. |
 
-### Tutorial e corsi di Ad Cloud
+###  esercitazioni e corsi Advertising Cloud
 
 Aggiornato il **2 dicembre 2020**
 
