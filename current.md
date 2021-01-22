@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 05cf9f34a835a5d51013789909508c353827315e
+source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
 workflow-type: tm+mt
-source-wordcount: '6770'
+source-wordcount: '6772'
 ht-degree: 97%
 
 ---
@@ -23,20 +23,20 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti relativi a
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. Questa pagina viene aggiornata nell&#39;arco di tutto il mese, quindi controlla regolarmente se ci sono aggiornamenti sui prodotti aziendali Adobe e sulla documentazione Experience League.
 
-Ultimo aggiornamento: **14 gennaio 2021**
+Ultimo aggiornamento: **22 gennaio 2021**
 
 * [Stato del sistema Adobe](#status) (non aggiornato)
 * [Servizi e amministrazione di Experience Cloud](#ecloud)
-* [Experience Platform](#platform) (aggiornato il **14 gennaio 2021**)
+* [Experience Platform](#platform) (aggiornato il 14 gennaio 2021)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Aggiornato il **20 gennaio 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac) (aggiornato il **14 gennaio 2021**)
-* [Advertising Cloud](#adcloud)
+* [Campaign](#ac) (aggiornato il 14 gennaio 2021)
+* [ Advertising Cloud](#adcloud) (aggiornato il 22  **gennaio 2021**)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
-* [[!DNL Marketo Engage]](#marketo) (Aggiornato il **11 gennaio 2021**)
+* [[!DNL Marketo Engage]](#marketo) (Aggiornato il 11 gennaio 2021)
 * [Document Cloud](#doc-cloud)
 
 Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.adobe.com/?lang=it-IT#home) per trovare documentazione tecnica e dei prodotti, corsi curati da Adobe, esercitazioni video, risposte rapide, approfondimenti sulla community e corsi di formazione condotti da istruttori. Il contenuto è stato spostato in questa posizione da `docs.adobe.com`. Aggiornare di conseguenza i segnalibri.
