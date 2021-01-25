@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
+source-git-commit: 9f09b05b1764f65ec18f108b1e45942e58ce89fb
 workflow-type: tm+mt
 source-wordcount: '6772'
 ht-degree: 97%
@@ -29,7 +29,7 @@ Ultimo aggiornamento: **22 gennaio 2021**
 * [Servizi e amministrazione di Experience Cloud](#ecloud)
 * [Experience Platform](#platform) (aggiornato il 14 gennaio 2021)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Aggiornato il **20 gennaio 2021**)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Aggiornato il **25 gennaio 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac) (aggiornato il 14 gennaio 2021)
@@ -159,7 +159,7 @@ Data di rilascio: **14 gennaio 2021**
 | ----------- | ---------- | ------- |
 | Analysis Workspace - URL immagine | 14 gennaio 2021 | È possibile aggiungere immagini ai progetti [!UICONTROL Workspace] facendo riferimento a un URL immagine pubblico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=it-IT#analysis-workspace) |
 | Analysis Workspace: gestione unica per impostazioni e origini | 14 gennaio 2021 | Le funzioni di gestione delle origini dati (punto) e delle impostazioni (ingranaggio) per le viste sono state unite in una sola finestra di dialogo, per gestire facilmente l’origine dati e le impostazioni dalla stessa posizione. |
-| Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
+| Analysis Workspace - Selezione di componenti | 16 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
@@ -169,7 +169,7 @@ Data di rilascio: **14 gennaio 2021**
 | Journey IQ: [!UICONTROL Cross-Channel Analytics] | 11 gennaio 2021 | Journey IQ: [!UICONTROL Cross-Channel Analytics] consente di riconfigurare un set di dati di un evento Adobe Analytics (o di altro tipo) in un data lake di Experience Platform da un ID di spazio dei nomi a un altro. In genere, significa reimpostare il set di dati dell’evento da un ID basato su cookie a un ID basato su persona. In questo modo, il set di dati riconfigurato può essere combinato con altri dati basati su persona in una connessione Customer Journey Analytics, consentendo così l’analisi cross-device e cross-channel in Analysis Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it-IT#cja-connections) |
 | Analysis Workspace - URL immagine | 14 gennaio 2021 | È possibile aggiungere immagini ai progetti Workspace facendo riferimento a un URL di immagine pubblico. |
 | Analysis Workspace: gestione unica per impostazioni e origini | 14 gennaio 2021 | Le funzioni di gestione delle origini dati (punto) e delle impostazioni (ingranaggio) per le viste sono state unite in una sola finestra di dialogo, per gestire facilmente l’origine dati e le impostazioni dalla stessa posizione. |
-| Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
+| Analysis Workspace - Selezione di componenti | 16 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
 
 ### Problemi risolti in Adobe Analytics {#aa-fixes}
 
