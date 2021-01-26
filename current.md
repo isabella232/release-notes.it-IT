@@ -151,7 +151,7 @@ Data di rilascio: **14 gennaio 2021**
 * [Nuove funzioni in  Adobe Analytics](#aa-features) (aggiornato il 25 gennaio 2021)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey) (aggiornato il 25 gennaio 2021)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (Aggiornato il 20 gennaio 2021)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices)  (Aggiornato il 20 gennaio 2021)
 * [AppMeasurement](#appm)
 * [Report Builder](#arb)
 
@@ -202,7 +202,7 @@ AN-204659; AN-221726; AN-230949; AN-231984; AN-232835; AN-233989; AN-235593; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
-| Fine del ciclo di vita di Ad Hoc Analysis | 21 gennaio 2021 | Il 1 marzo 2021,  Ad Hoc Analysis raggiungerà la fine del ciclo di vita. In quel momento, tutti i progetti e i programmi che sfruttano questo prodotto smetteranno di funzionare. Per ulteriori informazioni, visita [Discover Workspace](https://adobe.ly/discoverworkspace). |
+| Fine del ciclo di vita di Ad Hoc Analysis | 21 gennaio 2021 | Il 1° marzo 2021, Ad Hoc Analysis raggiungerà la fine del ciclo di vita. Da tale data, tutti i progetti e i programmi che sfruttano questo prodotto smetteranno di funzionare. Per ulteriori informazioni, visita [Discover Workspace](https://adobe.ly/discoverworkspace). |
 | Aggiornamento [!UICONTROL Report Builder] obbligatorio | 8 gennaio 2021 | Entro il 30 aprile 2021, tutti gli utenti di [!UICONTROL Report Builder] devono aggiornare il componente aggiuntivo [!UICONTROL Report Builder] alla versione 5.6.47 o successiva. Questa versione include un aggiornamento critico del processo di accesso. Gli utenti che non eseguono l’aggiornamento alla versione 5.6.47 o successiva non potranno accedere dopo il 30 aprile 2021. [!UICONTROL Report Builder] versione 5.6.47 e successive supporta solo il login a Experience Cloud e non supporta metodi di accesso legacy, ad esempio SiteCatalyst Single Sign-on o l’accesso standard. Per ulteriori informazioni, consulta [Accesso di Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=it-IT#section_6D54B8ADAE7F416BB83F5082B3771CFA). |
 | Fine del ciclo di vita per tre servizi API di Analytics | 6 gennaio 2021 | Il 30 aprile 2021, i seguenti servizi API legacy di Analytics sono destinati a raggiungere la data di fine del ciclo di vita e verranno chiusi. In tale data tutte le integrazioni correnti create utilizzando questi servizi cesseranno di funzionare.<ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione delle [Domande frequenti sulla fine del ciclo di vita delle API legacy](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) e/o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
 | Aggiunta dell’intestazione HSTS a tutte le richieste HTTPS in arrivo | 29 settembre 2020 | Il 29 settembre 2020 è stata avviata l’aggiunta dell’intestazione HSTS a tutte le richieste in entrata che utilizzano HTTPS. Tale intestazione indica al browser/client di effettuare tutte le richieste future in HTTPS, come da best practice per la sicurezza. Al momento, questo non viene applicato alle richieste in entrata che utilizzano HTTP. |
@@ -215,7 +215,7 @@ AN-204659; AN-221726; AN-230949; AN-231984; AN-232835; AN-233989; AN-235593; AN-
 
 Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, fare riferimento alle [note sulla versione di AppMeasurement per JavaScript](https://docs.adobe.com/content/help/it-IT/analytics/implementation/appmeasurement-updates.html).
 
-### Report Builder  {#arb}
+### Report Builder {#arb}
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | ----------- | ---------- | ----- |
@@ -346,7 +346,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | -----------| ---------- | ---------- | ---------- |
 | 7 dicembre 2020 | [Modellazione dati avanzata con riferimenti ai frammenti](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/fragment-references.html?lang=it-T) | Articolo | Introduzione ad Adobe Experience Manager (AEM) e GraphQL. Scopri come utilizzare la funzione [!UICONTROL Riferimento a un frammento] per la modellazione dati avanzata e per creare una relazione tra due diversi [!UICONTROL Frammenti di contenuto]. Scopri come modificare una query GraphQL per includere un campo da un modello di riferimento. |
 | 7 dicembre 2020 | [Effettua query in AEM utilizzando GraphQL da un’app esterna](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/explore-graphql-api.html?lang=it-IT) | Articolo | Introduzione ad Adobe Experience Manager (AEM) e GraphQL. Esplora le API GraphQL di AEM con un&#39;app di esempio WKND GraphQL React. Scopri come questa app esterna effettua chiamate GraphQL ad AEM per alimentare la propria esperienza. Scopri come eseguire le operazioni di base per la gestione degli errori. |
-| 7 dicembre 2020 | [Esplorare le API GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/explore-graphql-api.html) | Articolo | Introduzione ad Adobe Experience Manager (AEM) e GraphQL. Esplora le API GraphQL di AEM utilizzando l’IDE GraphiQL integrato. Scopri come AEM genera automaticamente uno schema GraphQL basato su un modello di frammento di contenuto. Sperimenta la creazione di query di base utilizzando la sintassi GraphQL. |
+| 7 dicembre 2020 | [Esplorare le API GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/explore-graphql-api.html) | Articolo | Introduzione ad Adobe Experience Manager (AEM) e GraphQL. Esplora le API GraphQL di AEM utilizzando l’IDE GraphQL integrato. Scopri come AEM genera automaticamente uno schema GraphQL basato su un modello di frammento di contenuto. Sperimenta la creazione di query di base utilizzando la sintassi GraphQL. |
 | Dicembre 2020 | [Creazione di frammenti di contenuto](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/author-content-fragments.html?lang=it-IT) | Articolo | Introduzione ad Adobe Experience Manager (AEM) e GraphQL. Crea e modifica un nuovo frammento di contenuto basato su un [!UICONTROL Modello di frammento di contenuto]. Scopri come creare varianti di [!UICONTROL Frammenti di contenuto]. |
 | 7 dicembre 2020 | [Definizione di modelli di frammenti di contenuto](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/content-fragment-models.html?lang=it-IT) | Articolo | Introduzione ad Adobe Experience Manager (AEM) e GraphQL. Scopri come modellare il contenuto e creare uno schema con i modelli di frammenti di contenuto in AEM. Rivedi i modelli esistenti e crea un nuovo modello. Scopri i diversi tipi di dati utilizzabili per definire uno schema. |
 | 9 dicembre 2020 | [Compatibilità API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/developer-reference-material-apis.html?lang=it-IT) | Articolo | Crea un semplice articolo che comunichi chiaramente quali API AEM (npm, Java, HTTP) possono essere utilizzate per varie operazioni di [!UICONTROL Assets]. |
@@ -393,7 +393,7 @@ Informazioni sulla versione per Campaign Classic, Campaign Standard e Pannello d
 
 #### Campaign Classic
 
-[Bollettino sulla risposta ai problemi](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (aggiornato il **12 gennaio 2021**)
+[Bollettino sulla risposta ai problemi](https://helpx.adobe.com/it/security/products/campaign/apsb21-04.html) (aggiornato il **12 gennaio 2021**)
 
 * Versione 20.3.3 - [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it-IT#release-notes)
 * Versione 20.3.1 - [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
