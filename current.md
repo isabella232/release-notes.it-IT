@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7f58dcf4014b96f0aa651b16b90427a2a81ba374
+source-git-commit: e396ac53948a2ea163b09f0545de994c0d7ef001
 workflow-type: tm+mt
-source-wordcount: '6802'
-ht-degree: 100%
+source-wordcount: '6831'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Questa pagina descrive nuove funzioni, correzioni e avvisi importanti relativi a
 Ultimo aggiornamento: **25 gennaio 2021**
 
 * [Stato del sistema Adobe](#status) (non aggiornato)
-* [Servizi e amministrazione di Experience Cloud](#ecloud)
+* [Servizi e amministrazione di Experience Cloud](#ecloud) (Aggiornato il **10 febbraio 2021**)
 * [Experience Platform](#platform) (aggiornato il **25 gennaio 2021**)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Aggiornato il **25 gennaio 2021**)
@@ -53,7 +53,11 @@ Per informazioni sulla versione più recente, consulta [Stato del sistema di Ado
 
 La documentazione per [l’amministrazione e i servizi di Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/experience-cloud.html) include Attributi del cliente, Libreria dei tipi di pubblico (servizio [!UICONTROL Persone]), Activation, gestione di utenti e prodotti e cookie di Experience Cloud.
 
-**Vedi anche**
+**4 febbraio 2021**
+
+* Un aggiornamento a  Experience Cloud rimuove la schermata iniziale di introduzione  Experience Cloud di login. A partire dal 4 febbraio, verrete inviati direttamente da `https://experience.adobe.com/login` alla schermata di accesso del Adobe .
+
+**Risorse aggiuntive**
 
 * [Note cumulative sulla versione dei servizi Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/release-notes/release-notes.html), per informazioni sull’ultima versione
 * Note sulla versione di [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=it)
