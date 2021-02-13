@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0eb54f4401d6aad7194527c39cd6c387eade22a1
+source-git-commit: ef6eb673a8a62d657b56ef09e694202874742459
 workflow-type: tm+mt
 source-wordcount: '6357'
 ht-degree: 32%
@@ -27,7 +27,7 @@ ht-degree: 32%
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. Questa pagina viene mantenuta per tutto il mese, quindi controllate regolarmente se sono disponibili aggiornamenti  prodotto enterprise di Adobe e  documentazione Experience League.
 
-Ultimo aggiornamento: **11 febbraio 2021**
+Ultimo aggiornamento: **12 febbraio 2021**
 
 * [Stato del sistema Adobe](#status) (non aggiornato)
 * [Servizi e amministrazione di Experience Cloud](#ecloud)
@@ -249,7 +249,7 @@ Nuove funzioni, correzioni e aggiornamenti di Experience Manager. Ai clienti con
 
          * Product Experience Management: Nuova scheda delle proprietà &quot;Commerce&quot; per risorse e frammenti esperienza. Questa scheda consente di collegare prodotti/categorie a risorse e frammenti esperienza. La scheda mostra anche i dati in tempo reale per prodotti/categorie collegati e un collegamento per visualizzare i dettagli nella console del prodotto.
          * Sito di riferimento CIF Venia rilasciato - 2021.02.02 che include l&#39;ultima versione CIF Core Components v1.7.0. Per ulteriori informazioni, fare riferimento a [CIF Venia Reference Site](https://github.com/adobe/aem-cif-guides-venia/releases/tag/venia-2021.02.02).
-         * Componenti CIF di base rilasciati v1.7.0. Per ulteriori informazioni, consultare [CIF Core Components](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.7.0).
+         * Componenti CIF di base rilasciati v1.7.0. Per ulteriori informazioni, fare riferimento a [CIF Core Components](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.7.0).
       * **SDK Build Analytics**
 
          L’Experience Manager  come Cloud Service plug-in SDK Build Analyzer Maven rileva i problemi in un progetto maven, comprese le dipendenze mancanti. Questo offre agli sviluppatori l&#39;opportunità di individuare i problemi durante lo sviluppo locale, ben prima di distribuirli in ambienti Cloud con Cloud Manager.
@@ -316,7 +316,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | 4 febbraio 2021 | [Struttura del progetto](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/project-structure.html) | Video | Esplorate le best practice per strutturare un progetto  Experience Manager Maven per AEM come Cloud Service. |
 | 4 febbraio 2021 | [Migrazione delle configurazioni del dispatcher](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/dispatcher-configuration.html) | Video | Panoramica delle differenze nelle configurazioni del dispatcher, nonché suggerimenti e trucchi per la migrazione del dispatcher da Adobe Managed Services (AMS) a  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Introduzione a AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/aem-sdk.html) | Video | Utilizzo e configurazione dell’SDK per  Experience Manager come Cloud Service. |
-| 2 febbraio 2021 | [Che cos&#39;è AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html) | Video | Esplorate  Experience Manager come Cloud Service e come si differenzia dall&#39;altra versione di Adobe Experience Manager. |
+| 2 febbraio 2021 | [Che cos&#39;è AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html) | Video | Esplorate  Experience Manager come Cloud Service e come è diverso dall&#39;altra versione di Adobe Experience Manager. |
 | 2 febbraio 2021 | [Ruolo di Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/cloud-manager.html) | Video | Scopri lo scopo di [!UICONTROL Cloud Manager] e come funziona con  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Evoluzione del AEM come Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/evolution.html) | Video | Esplora la cronologia di  Experience Manager e le differenze tra il Experience Manager  locale, il AEM dei servizi gestiti Adobe e  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Architettura di AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/architecture.html) | Video | Esplorate l&#39;architettura sottostante e importanti pezzi di  Experience Manager come un Cloud Service. Approfondisci Cloud Manager e le API. |
