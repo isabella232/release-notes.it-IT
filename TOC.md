@@ -3,21 +3,23 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Note sulla versione di Adobe Experience Cloud
 breadcrumb-title: Note sulla versione
-user-guide-description: Scopri le nuove funzioni, le correzioni e gli avvisi importanti di Adobe Experience Cloud.
+user-guide-description: Scopri le nuove funzioni, le correzioni e gli avvisi importanti in Adobe Experience Cloud e  Experience Platform.
 user-guide-url: https://www.adobe.com
-translation-type: ht
-source-git-commit: 1beba26ad3096758512a7efbf5454012b686f007
-workflow-type: ht
-source-wordcount: '58'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 948a979db842dfb8b7f328d7ad3e34017b5a360d
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 62%
 
 ---
 
 
-# Note sulla versione di Experience Cloud {#experience-cloud}
+# Novità in Adobe Experience Cloud {#experience-cloud}
 
-+ [Note sulla versione](current.md)
++ [Note sulla versione corrente](current.md)
 + Note sulle versioni precedenti {#previous}
+   + 2021{#2021}
+      + [Gennaio 2021](c-legacy-releases/2021/01142021.md)
    + 2020 {#2020}
       + [Novembre 2020](c-legacy-releases/2020/10292020.md)
       + [Ottobre 2020](c-legacy-releases/2020/10082020.md)
@@ -42,6 +44,6 @@ ht-degree: 100%
       + [Marzo 2019](c-legacy-releases/2019/03072019.md)
       + [Febbraio 2019](c-legacy-releases/2019/02072019.md)
       + [Gennaio 2019](c-legacy-releases/2019/01172019.md)
-   + 2018 e versioni precedenti {#legacy-rns}
-      + 2018 e versioni precedenti {#2018-earlier}
+   + 2018 e versioni precedenti{#legacy-rns}
+      + 2018 e versioni precedenti{#2018-earlier}
          + [2014 e versioni precedenti](c-legacy-releases/2018-earlier.md)
