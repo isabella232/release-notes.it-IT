@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 10f5e323e30ed0c4c8b3b5b2e2236674b2ab6c69
 workflow-type: tm+mt
 source-wordcount: '6355'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -60,7 +60,7 @@ La documentazione per [l’amministrazione e i servizi di Experience Cloud](http
 
 **4 febbraio 2021**
 
-* **Aggiornamento dell&#39;accesso:** un aggiornamento a  Experience Cloud rimuove la schermata iniziale  Experience Cloud di accesso. A partire dal 4 febbraio, verrete inviati direttamente da `https://experience.adobe.com/login` alla schermata di accesso del Adobe .
+* **Aggiornamento dell&#39;accesso:** un aggiornamento a  Experience Cloud rimuove la schermata iniziale  Experience Cloud di accesso. A partire dal 4 febbraio, verrai indirizzato direttamente da `https://experience.adobe.com/login` alla schermata di accesso di Adobe.
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -316,7 +316,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | 4 febbraio 2021 | [Struttura del progetto](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/project-structure.html) | Video | Esplorate le best practice per strutturare un progetto  Experience Manager Maven per AEM come Cloud Service. |
 | 4 febbraio 2021 | [Migrazione delle configurazioni del dispatcher](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/dispatcher-configuration.html) | Video | Panoramica delle differenze nelle configurazioni del dispatcher, nonché suggerimenti e trucchi per la migrazione del dispatcher da Adobe Managed Services (AMS) a  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Introduzione a AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/aem-sdk.html) | Video | Utilizzo e configurazione dell’SDK per  Experience Manager come Cloud Service. |
-| 2 febbraio 2021 | [Che cos&#39;è AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html) | Video | Esplorate  Experience Manager come Cloud Service e come è diverso dall&#39;altra versione di Adobe Experience Manager. |
+| 2 febbraio 2021 | [Che cos&#39;è AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html) | Video | Esplorate  Experience Manager come Cloud Service e come si differenzia dall&#39;altra versione di Adobe Experience Manager. |
 | 2 febbraio 2021 | [Ruolo di Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/cloud-manager.html) | Video | Scopri lo scopo di [!UICONTROL Cloud Manager] e come funziona con  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Evoluzione del AEM come Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/evolution.html) | Video | Esplora la cronologia di  Experience Manager e le differenze tra il Experience Manager  locale, il AEM dei servizi gestiti Adobe e  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Architettura di AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/architecture.html) | Video | Esplorate l&#39;architettura sottostante e importanti pezzi di  Experience Manager come un Cloud Service. Approfondisci Cloud Manager e le API. |
