@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 150911084be7da0d1f3c887d76a7b897ac94a173
+source-git-commit: d24a0044604b068dd1a8b4a19084d982ed9f22ac
 workflow-type: tm+mt
-source-wordcount: '6355'
+source-wordcount: '6309'
 ht-degree: 33%
 
 ---
@@ -120,14 +120,14 @@ Data di rilascio: **18 febbraio 2021**
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | ----------- | ---------- | ------- |
-| Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. Per un’esercitazione video, consultate [Pannello visualizzatori simultanei  Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace). |
+| Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
 | Selezione della lingua delle dashboard di Analytics | 14 gennaio 2021 | Ora puoi selezionare una lingua nel dashboard di Analytics. |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | ----------- | ---------- | ----- |
-| Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. Per un’esercitazione video, consultate [Pannello visualizzatori simultanei  Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace). |
+| Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
 | API CJA | 18 febbraio 2021 | Le API CJA sono ora disponibili. Queste API consentono di modificare i componenti a livello di programmazione e recuperare i rapporti. Per ulteriori informazioni, consulta la documentazione sulle API CJA (collegamento da seguire). |
 
 ### Problemi risolti in Adobe Analytics {#aa-fixes}
@@ -249,7 +249,7 @@ Nuove funzioni, correzioni e aggiornamenti di Experience Manager. Ai clienti con
 
          * Product Experience Management: Nuova scheda delle proprietà &quot;Commerce&quot; per risorse e frammenti esperienza. Questa scheda consente di collegare prodotti/categorie a risorse e frammenti esperienza. La scheda mostra anche i dati in tempo reale per prodotti/categorie collegati e un collegamento per visualizzare i dettagli nella console del prodotto.
          * Sito di riferimento CIF Venia rilasciato - 2021.02.02 che include l&#39;ultima versione CIF Core Components v1.7.0. Per ulteriori informazioni, fare riferimento a [CIF Venia Reference Site](https://github.com/adobe/aem-cif-guides-venia/releases/tag/venia-2021.02.02).
-         * Componenti CIF di base rilasciati v1.7.0. Per ulteriori informazioni, fare riferimento a [CIF Core Components](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.7.0).
+         * Componenti CIF di base rilasciati v1.7.0. Per ulteriori informazioni, consultare [CIF Core Components](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.7.0).
       * **SDK Build Analytics**
 
          L’Experience Manager  come Cloud Service plug-in SDK Build Analyzer Maven rileva i problemi in un progetto maven, comprese le dipendenze mancanti. Questo offre agli sviluppatori l&#39;opportunità di individuare i problemi durante lo sviluppo locale, ben prima di distribuirli in ambienti Cloud con Cloud Manager.
