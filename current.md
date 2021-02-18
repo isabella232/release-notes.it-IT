@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6c462c5b447ac45ff9507a6242fec2aef478344a
+source-git-commit: 1ed740f01fa639793c4694d206c07728f523a4a5
 workflow-type: tm+mt
-source-wordcount: '6309'
+source-wordcount: '6310'
 ht-degree: 33%
 
 ---
@@ -128,7 +128,7 @@ Data di rilascio: **18 febbraio 2021**
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | ----------- | ---------- | ----- |
 | Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
-| API CJA | 18 febbraio 2021 | Le API CJA sono ora disponibili. Queste API consentono di modificare i componenti a livello di programmazione e recuperare i rapporti. Per ulteriori informazioni, consulta la documentazione sulle API CJA (collegamento da seguire). |
+| API CJA | 18 febbraio 2021 | Le API CJA sono ora disponibili. Queste API consentono di modificare i componenti a livello di programmazione e recuperare i rapporti. Per ulteriori informazioni, consulta la [documentazione relativa alle API CJA](https://adobe.io/cja-apis/docs). |
 
 ### Problemi risolti in Adobe Analytics {#aa-fixes}
 
