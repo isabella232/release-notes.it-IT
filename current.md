@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1ed740f01fa639793c4694d206c07728f523a4a5
+source-git-commit: b785653a7f35f188c17f2ed05ec7a8b143c192b4
 workflow-type: tm+mt
-source-wordcount: '6310'
-ht-degree: 33%
+source-wordcount: '6381'
+ht-degree: 32%
 
 ---
 
@@ -33,7 +33,8 @@ Ultimo aggiornamento: **12 febbraio 2021**
 * [Servizi e amministrazione di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)`
+* [](#analytics) **AnalyticsAggiornato il 19 febbraio 2021**
+* [Customer Journey Analytics](#cust-journey)`
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -112,7 +113,7 @@ Data di rilascio: **18 febbraio 2021**
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) **Aggiornato il 19 febbraio 2021**
 * [Corsi ed esercitazioni di Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -152,6 +153,7 @@ AN-224987; AN-229009; AN-239750; AN-239765; AN-241620; AN-242996; AN-243577; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
+| Opzioni della pagina di destinazione Reporting e analisi | 19 febbraio 2021 | Il 25 marzo 2021 verranno rimosse le opzioni per impostare nuove dashboard di Reporting e analisi o altro contenuto come pagina di destinazione  Adobe Analytics. Se in precedenza hai impostato una pagina Reporting e analisi come pagina di destinazione personalizzata, continuerà a funzionare fino a quando la pagina di destinazione non viene modificata in [!UICONTROL Preferenze utente]. A partire dal 25 marzo 2021, non sarà più possibile definire nuove pagine di destinazione personalizzate per Reporting e analisi. |
 | Fine del ciclo di vita di Ad Hoc Analysis | Gen. 2021 | [!UICONTROL Ad Hoc ] Analytics raggiunge la data di fine del ciclo di vita il 1 marzo 2021. Per ulteriori informazioni, visita [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Fine del ciclo di vita per tre servizi API di Analytics | 6 gennaio 2021 | Il 30 aprile 2021, i seguenti servizi API legacy di Analytics sono destinati a raggiungere la data di fine del ciclo di vita e verranno chiusi. In tale data tutte le integrazioni correnti create utilizzando questi servizi cesseranno di funzionare.<ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione delle [Domande frequenti sulla fine del ciclo di vita delle API legacy](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
 | Fine del ciclo di vita di Adobe Data Connectors | 13 luglio 2020 | Adobe [!UICONTROL Data Connectors] si basano su una tecnologia legacy, che non è più disponibile o supportata. Un nuovo standard è disponibile nel [ Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud). Potete utilizzare lo standard per continuare a offrire e supportare qualsiasi integrazione. La data ufficiale di fine del ciclo di vita è il 1 agosto 2021. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/import/dataconnectors/data-connectors-eol.html) |
@@ -249,7 +251,7 @@ Nuove funzioni, correzioni e aggiornamenti di Experience Manager. Ai clienti con
 
          * Product Experience Management: Nuova scheda delle proprietà &quot;Commerce&quot; per risorse e frammenti esperienza. Questa scheda consente di collegare prodotti/categorie a risorse e frammenti esperienza. La scheda mostra anche i dati in tempo reale per prodotti/categorie collegati e un collegamento per visualizzare i dettagli nella console del prodotto.
          * Sito di riferimento CIF Venia rilasciato - 2021.02.02 che include l&#39;ultima versione CIF Core Components v1.7.0. Per ulteriori informazioni, fare riferimento a [CIF Venia Reference Site](https://github.com/adobe/aem-cif-guides-venia/releases/tag/venia-2021.02.02).
-         * Componenti CIF di base rilasciati v1.7.0. Per ulteriori informazioni, consultare [CIF Core Components](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.7.0).
+         * Componenti CIF di base rilasciati v1.7.0. Per ulteriori informazioni, fare riferimento a [CIF Core Components](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.7.0).
       * **SDK Build Analytics**
 
          L’Experience Manager  come Cloud Service plug-in SDK Build Analyzer Maven rileva i problemi in un progetto maven, comprese le dipendenze mancanti. Questo offre agli sviluppatori l&#39;opportunità di individuare i problemi durante lo sviluppo locale, ben prima di distribuirli in ambienti Cloud con Cloud Manager.
@@ -316,7 +318,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | 4 febbraio 2021 | [Struttura del progetto](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/project-structure.html) | Video | Esplorate le best practice per strutturare un progetto  Experience Manager Maven per AEM come Cloud Service. |
 | 4 febbraio 2021 | [Migrazione delle configurazioni del dispatcher](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/dispatcher-configuration.html) | Video | Panoramica delle differenze nelle configurazioni del dispatcher, nonché suggerimenti e trucchi per la migrazione del dispatcher da Adobe Managed Services (AMS) a  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Introduzione a AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/aem-sdk.html) | Video | Utilizzo e configurazione dell’SDK per  Experience Manager come Cloud Service. |
-| 2 febbraio 2021 | [Che cos&#39;è AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html) | Video | Esplorate  Experience Manager come Cloud Service e come si differenzia dall&#39;altra versione di Adobe Experience Manager. |
+| 2 febbraio 2021 | [Che cos&#39;è AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html) | Video | Esplorate  Experience Manager come Cloud Service e come è diverso dall&#39;altra versione di Adobe Experience Manager. |
 | 2 febbraio 2021 | [Ruolo di Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/cloud-manager.html) | Video | Scopri lo scopo di [!UICONTROL Cloud Manager] e come funziona con  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Evoluzione del AEM come Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/evolution.html) | Video | Esplora la cronologia di  Experience Manager e le differenze tra il Experience Manager  locale, il AEM dei servizi gestiti Adobe e  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Architettura di AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/architecture.html) | Video | Esplorate l&#39;architettura sottostante e importanti pezzi di  Experience Manager come un Cloud Service. Approfondisci Cloud Manager e le API. |
