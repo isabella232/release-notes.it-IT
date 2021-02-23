@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b785653a7f35f188c17f2ed05ec7a8b143c192b4
+source-git-commit: 803595c63ab6db90fb17c9998c623c03e834aaa0
 workflow-type: tm+mt
-source-wordcount: '6381'
+source-wordcount: '6384'
 ht-degree: 32%
 
 ---
@@ -81,7 +81,7 @@ Nuovi video, esercitazioni o corsi pubblicati per Experience Platform e Services
 | 3 febbraio 2021 | [Panoramica sull’inserimento di dati batch](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | Video | Panoramica dell’inserimento di dati batch in Adobe Experience Platform. Scoprite come assimilare i dati batch utilizzando l&#39;API. |
 | 3 febbraio 2021 | [Attivare i dati per applicazioni non  Adobe](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/activate-data-to-non-adobe-applications.html) | Video | Scopri come  CDP in tempo reale del Adobe ti aiuta a creare vere strategie di personalizzazione con i tuoi tipi di pubblico. Inoltre, scoprite come si ripiega nelle applicazioni esistenti per l&#39;ecosistema e i Adobi non  da Microsoft, Google e Facebook. |
 | 21 gennaio 2021 | [Introduzione al corso per iniziare a utilizzare i servizi intelligenti per gli addetti al marketing](https://video.tv.adobe.com/v/330805?quality=12&learn=on) | Video | Introduzione al corso Guida introduttiva ai servizi intelligenti per gli esperti di marketing. |
-| 13 gennaio 2021 | [Introduzione a  Offer Decisioning per gli addetti al marketing](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | Video | Introduzione al corso Guida introduttiva  Offer Decisioning per gli esperti di marketing. |
+| 13 gennaio 2021 | [Introduzione al Offer Decisioning Guida introduttiva  per gli addetti al marketing](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | Video | Introduzione al corso Guida introduttiva  Offer Decisioning per gli esperti di marketing. |
 | 31 gennaio 2021 | [Modelli di formazione, valutazione e produzione con il modello di generatore di ricette](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/train-score-and-productize-models.html) | Video | Scoprite come utilizzare il modello aggiornato di generatore di ricette per creare una ricetta utilizzando lo schema di vendita al dettaglio e i set di dati. |
 | 31 gennaio 2021 | [Carica dati nei notebook JupyterLab](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html) | Video | Scopri JupyterLab in Data Science Workspace. |
 | 12 gennaio 2021 | [Crea criteri di unione](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) | Video | Scopri come creare criteri di unione in Adobe Experience Platform. |
@@ -122,7 +122,7 @@ Data di rilascio: **18 febbraio 2021**
 | Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
 | ----------- | ---------- | ------- |
 | Analysis Workspace - Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
-| Selezione della lingua delle dashboard di Analytics | 14 gennaio 2021 | Ora puoi selezionare una lingua nel dashboard di Analytics. |
+| Selezione della lingua delle dashboard di Analytics | 14 gennaio 2021 | Andate a **[!UICONTROL Impostazioni]** > **[!UICONTROL Preferenze]** > **[!UICONTROL Lingua]** per selezionare una lingua nel dashboard di Analytics. |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
@@ -171,7 +171,7 @@ Nuovi corsi, esercitazioni e articoli in [!DNL Analytics] e [!UICONTROL Customer
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
 | 8 febbraio 2021 | [Aggiunta di linee di tendenza alle visualizzazioni linee](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/adding-trendlines-to-line-visualizations.html?lang=en) | Video | In Impostazioni visualizzazione, puoi scegliere di aggiungere una regressione o spostare una linea di tendenza media alla serie di linee. Questa funzione consente di rappresentare un pattern più chiaro nei dati. |
-| 8 febbraio 2021 | [Aggiunta di plug-in di implementazione nel lancio della piattaforma](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | Video | I plug-in di implementazione sono parti di codice JavaScript che puoi aggiungere all’implementazione di Analytics per tenere traccia di dati aggiuntivi e personalizzati. In questo video, scopri come e dove aggiungere il codice in Launch piattaforma. |
+| 8 febbraio 2021 | [Aggiunta di plug-in di implementazione nel Platform Launch](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | Video | I plug-in di implementazione sono parti di codice JavaScript che puoi aggiungere all’implementazione di Analytics per tenere traccia di dati aggiuntivi e personalizzati. Questo video illustra come e dove aggiungere il codice nell’Platform Launch. |
 | 6 gennaio 2021 | [Pannello Visualizzatori simultanei  Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace) | Video | Comprendere dove si è verificato il picco di concorrenza o dove si sono verificate perdite. Ottenete informazioni approfondite sulla qualità dei contenuti e sul livello di coinvolgimento dei visualizzatori e aiutate nella risoluzione dei problemi o nella pianificazione di volumi e dimensioni. |
 
 ### Risorse dell’Aiuto di Analytics
