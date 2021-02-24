@@ -1,13 +1,13 @@
 ---
 title: Note sulla versione per  Experience Cloud e  Experience Platform
-description: Scopri le ultime note sulla versione, le nuove funzioni e la nuova documentazione per  Experience Cloud e  Experience Platform. Trova nuova guida ed esercitazioni sull’Creative Cloud per Enterprise e Document Cloud.
+description: Scopri le note sulla versione più recente, le nuove funzioni e la nuova documentazione per Experience Cloud ed Experience Platform. Trova nuove guide e tutorial su Creative Cloud for Enterprise e Document Cloud.
 doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 803595c63ab6db90fb17c9998c623c03e834aaa0
+source-git-commit: c7220fd5298c74ac555ba9d1799194d794b81271
 workflow-type: tm+mt
-source-wordcount: '6384'
+source-wordcount: '6403'
 ht-degree: 32%
 
 ---
@@ -81,7 +81,7 @@ Nuovi video, esercitazioni o corsi pubblicati per Experience Platform e Services
 | 3 febbraio 2021 | [Panoramica sull’inserimento di dati batch](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | Video | Panoramica dell’inserimento di dati batch in Adobe Experience Platform. Scoprite come assimilare i dati batch utilizzando l&#39;API. |
 | 3 febbraio 2021 | [Attivare i dati per applicazioni non  Adobe](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/activate-data-to-non-adobe-applications.html) | Video | Scopri come  CDP in tempo reale del Adobe ti aiuta a creare vere strategie di personalizzazione con i tuoi tipi di pubblico. Inoltre, scoprite come si ripiega nelle applicazioni esistenti per l&#39;ecosistema e i Adobi non  da Microsoft, Google e Facebook. |
 | 21 gennaio 2021 | [Introduzione al corso per iniziare a utilizzare i servizi intelligenti per gli addetti al marketing](https://video.tv.adobe.com/v/330805?quality=12&learn=on) | Video | Introduzione al corso Guida introduttiva ai servizi intelligenti per gli esperti di marketing. |
-| 13 gennaio 2021 | [Introduzione al Offer Decisioning Guida introduttiva  per gli addetti al marketing](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | Video | Introduzione al corso Guida introduttiva  Offer Decisioning per gli esperti di marketing. |
+| 13 gennaio 2021 | [Introduzione al Offer decisioning Guida introduttiva  per gli addetti al marketing](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | Video | Introduzione al corso Guida introduttiva  Offer decisioning per gli esperti di marketing. |
 | 31 gennaio 2021 | [Modelli di formazione, valutazione e produzione con il modello di generatore di ricette](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/train-score-and-productize-models.html) | Video | Scoprite come utilizzare il modello aggiornato di generatore di ricette per creare una ricetta utilizzando lo schema di vendita al dettaglio e i set di dati. |
 | 31 gennaio 2021 | [Carica dati nei notebook JupyterLab](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html) | Video | Scopri JupyterLab in Data Science Workspace. |
 | 12 gennaio 2021 | [Crea criteri di unione](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) | Video | Scopri come creare criteri di unione in Adobe Experience Platform. |
@@ -171,7 +171,7 @@ Nuovi corsi, esercitazioni e articoli in [!DNL Analytics] e [!UICONTROL Customer
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
 | 8 febbraio 2021 | [Aggiunta di linee di tendenza alle visualizzazioni linee](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/adding-trendlines-to-line-visualizations.html?lang=en) | Video | In Impostazioni visualizzazione, puoi scegliere di aggiungere una regressione o spostare una linea di tendenza media alla serie di linee. Questa funzione consente di rappresentare un pattern più chiaro nei dati. |
-| 8 febbraio 2021 | [Aggiunta di plug-in di implementazione nel Platform Launch](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | Video | I plug-in di implementazione sono parti di codice JavaScript che puoi aggiungere all’implementazione di Analytics per tenere traccia di dati aggiuntivi e personalizzati. Questo video illustra come e dove aggiungere il codice nell’Platform Launch. |
+| 8 febbraio 2021 | [Aggiunta di plug-in di implementazione nel Platform launch](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | Video | I plug-in di implementazione sono parti di codice JavaScript che puoi aggiungere all’implementazione di Analytics per tenere traccia di dati aggiuntivi e personalizzati. Questo video illustra come e dove aggiungere il codice nell’Platform launch. |
 | 6 gennaio 2021 | [Pannello Visualizzatori simultanei  Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace) | Video | Comprendere dove si è verificato il picco di concorrenza o dove si sono verificate perdite. Ottenete informazioni approfondite sulla qualità dei contenuti e sul livello di coinvolgimento dei visualizzatori e aiutate nella risoluzione dei problemi o nella pianificazione di volumi e dimensioni. |
 
 ### Risorse dell’Aiuto di Analytics
@@ -251,7 +251,7 @@ Nuove funzioni, correzioni e aggiornamenti di Experience Manager. Ai clienti con
 
          * Product Experience Management: Nuova scheda delle proprietà &quot;Commerce&quot; per risorse e frammenti esperienza. Questa scheda consente di collegare prodotti/categorie a risorse e frammenti esperienza. La scheda mostra anche i dati in tempo reale per prodotti/categorie collegati e un collegamento per visualizzare i dettagli nella console del prodotto.
          * Sito di riferimento CIF Venia rilasciato - 2021.02.02 che include l&#39;ultima versione CIF Core Components v1.7.0. Per ulteriori informazioni, fare riferimento a [CIF Venia Reference Site](https://github.com/adobe/aem-cif-guides-venia/releases/tag/venia-2021.02.02).
-         * Componenti CIF di base rilasciati v1.7.0. Per ulteriori informazioni, fare riferimento a [CIF Core Components](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.7.0).
+         * Componenti CIF di base rilasciati v1.7.0. Per ulteriori informazioni, consultare [CIF Core Components](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.7.0).
       * **SDK Build Analytics**
 
          L’Experience Manager  come Cloud Service plug-in SDK Build Analyzer Maven rileva i problemi in un progetto maven, comprese le dipendenze mancanti. Questo offre agli sviluppatori l&#39;opportunità di individuare i problemi durante lo sviluppo locale, ben prima di distribuirli in ambienti Cloud con Cloud Manager.
@@ -318,7 +318,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | 4 febbraio 2021 | [Struttura del progetto](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/project-structure.html) | Video | Esplorate le best practice per strutturare un progetto  Experience Manager Maven per AEM come Cloud Service. |
 | 4 febbraio 2021 | [Migrazione delle configurazioni del dispatcher](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/dispatcher-configuration.html) | Video | Panoramica delle differenze nelle configurazioni del dispatcher, nonché suggerimenti e trucchi per la migrazione del dispatcher da Adobe Managed Services (AMS) a  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Introduzione a AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/aem-sdk.html) | Video | Utilizzo e configurazione dell’SDK per  Experience Manager come Cloud Service. |
-| 2 febbraio 2021 | [Che cos&#39;è AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html) | Video | Esplorate  Experience Manager come Cloud Service e come è diverso dall&#39;altra versione di Adobe Experience Manager. |
+| 2 febbraio 2021 | [Che cos&#39;è AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html) | Video | Esplorate  Experience Manager come Cloud Service e come si differenzia dall&#39;altra versione di Adobe Experience Manager. |
 | 2 febbraio 2021 | [Ruolo di Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/cloud-manager.html) | Video | Scopri lo scopo di [!UICONTROL Cloud Manager] e come funziona con  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Evoluzione del AEM come Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/evolution.html) | Video | Esplora la cronologia di  Experience Manager e le differenze tra il Experience Manager  locale, il AEM dei servizi gestiti Adobe e  Experience Manager come Cloud Service. |
 | 2 febbraio 2021 | [Architettura di AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/architecture.html) | Video | Esplorate l&#39;architettura sottostante e importanti pezzi di  Experience Manager come un Cloud Service. Approfondisci Cloud Manager e le API. |
@@ -409,15 +409,20 @@ Ultimo aggiornamento: **28 ottobre 2020**
 
 ### Nuove funzioni in [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Ultimo aggiornamento: **22 gennaio 2021, per rilascio del 23 gennaio**
+Ultimo aggiornamento: **23 febbraio 2021, per la release del 20 febbraio**
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| [!UICONTROL Ricerca campagne]<br> Rapporti | Advertising Cloud Search non segnala più nuovi dati di posizione media per le campagne Microsoft Advertising. La colonna Posizione media mostra valori pari a zero (0) per le date a partire dal 23 gennaio. Questo è in vista del fatto che i dati di posizione media verranno resi obsoleti da parte di Microsoft nel gennaio 2021.<br>I dati sulla posizione media raccolti fino al 22 gennaio sono ancora disponibili nei rapporti. |
+| Tutto | Strumenti > &quot;Tag di conversione Adwords&quot; ora è &quot;Tag di conversione Google Ads.&quot; |
+| Tutto | In aprile, le seguenti funzioni e visualizzazioni saranno obsolete:<br><ul><li>Ottimizzazione > Schede Portfoli</li><li>Ottimizzazione > Regole offerte</li><li>Insights &amp; Reports > Dashboard</li><li>Campagne:  Supporto in sospeso e pianificato per le modifiche in blocco</li></ul> |
 
-### Tutorial e corsi di Ad Cloud
+### Tutorial e corsi su Advertising Cloud
 
-Aggiornato il **2 dicembre 2020**
+Aggiornato: **23 febbraio 2021**
+
+| Esercitazione | Descrizione |
+| -----------| ---------- |
+| [Introduzione a Workspace e reporting](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html) | Scopri come utilizzare i dati Advertising Cloud  per creare rapporti visivi in  Adobe Analytics  Analysis Workspace. |
 
 ## ![Icona](/assets/magento.png) [!DNL Magento] {#magento}
 
