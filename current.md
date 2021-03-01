@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c7220fd5298c74ac555ba9d1799194d794b81271
+source-git-commit: d22f8bc718976f3aad6673473c4df66246f58022
 workflow-type: tm+mt
 source-wordcount: '6403'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -154,7 +154,7 @@ AN-224987; AN-229009; AN-239750; AN-239765; AN-241620; AN-242996; AN-243577; AN-
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
 | Opzioni della pagina di destinazione di Reports &amp; Analytics | 19 febbraio 2021 | Il 25 marzo 2021 verranno rimosse le opzioni per impostare nuovi dashboard di Reports &amp; Analytics o altro contenuto come pagina di destinazione personale di Adobe Analytics. Se in precedenza avevi impostato una pagina Reports &amp; Analytics come pagina di destinazione personalizzata, questa rimane funzionante fino a quando la pagina di destinazione non viene modificata in [!UICONTROL Preferenze utente]. A partire dal 25 marzo 2021, non sarà più possibile definire nuove pagine di destinazione personalizzate di Reports &amp; Analytics. |
-| Fine del ciclo di vita di Ad Hoc Analysis | Gennaio 2021 | Il 1° marzo 2021 inizia la fine del ciclo di vita di [!UICONTROL Ad Hoc Analysis]. Per ulteriori informazioni, visita [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Fine del ciclo di vita di Ad Hoc Analysis | Gennaio 2021 | [!UICONTROL Ad Hoc ] Analytics ha raggiunto la data di fine del ciclo di vita il 1° marzo 2021. Per ulteriori informazioni, visita [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Fine del ciclo di vita per tre servizi API di Analytics | 6 gennaio 2021 | Il 30 aprile 2021, i seguenti servizi API legacy di Analytics sono destinati a raggiungere la data di fine del ciclo di vita e verranno chiusi. In tale data tutte le integrazioni correnti create utilizzando questi servizi cesseranno di funzionare.<ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione delle [Domande frequenti sulla fine del ciclo di vita delle API legacy](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
 | Fine del ciclo di vita di Adobe Data Connectors | 13 luglio 2020 | Adobe [!UICONTROL Data Connectors] si basano su una tecnologia legacy, che non è più disponibile o supportata. Un nuovo standard è disponibile in [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud). Puoi utilizzare questo standard per continuare a offrire e supportare qualsiasi integrazione. La data ufficiale di fine del ciclo di vita è il 1° agosto 2021. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/import/dataconnectors/data-connectors-eol.html) |
 | Aggiunta dell’intestazione HSTS a tutte le richieste HTTPS in arrivo | 29 settembre 2020 | Il 29 settembre 2020 Adobe ha iniziato ad aggiungere l’intestazione HSTS a tutte le richieste in entrata che utilizzano HTTPS. Tale intestazione indica al browser o al client di effettuare tutte le richieste future in HTTPS, come da best practice per la sicurezza. Al momento, Adobe non applica questa regola alle richieste in entrata che utilizzano HTTP. |
