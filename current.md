@@ -1,13 +1,13 @@
 ---
 title: Note sulla versione più recente
-description: '"Scopri le ultime note sulla versione, le nuove funzioni e la nuova documentazione per i prodotti e i servizi Experience Cloud. Trova nuove guide ed esercitazioni su Experience Cloud, Creative Cloud for Enterprise e Document Cloud."'
+description: '"Scopri le ultime note sulla versione, le nuove funzioni e la nuova documentazione per i prodotti e i servizi di Experience Cloud. Trova nuove guide ed esercitazioni su Experience Cloud, Creative Cloud per Enterprise e Document Cloud."'
 doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2f83677d5507bd917603ec8cfcbd08559a510a0f
+source-git-commit: fad566f4a78d7963f450b9998c009a50d081a212
 workflow-type: tm+mt
-source-wordcount: '6425'
+source-wordcount: '6479'
 ht-degree: 98%
 
 ---
@@ -29,7 +29,7 @@ Ultimo aggiornamento: **21 febbraio 2021**
 * [Servizi e amministrazione di Experience Cloud](#ecloud)
 * [Experience ](#platform) **Platform, aggiornato il 21 febbraio 2021**
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) **Aggiornato il 19 febbraio 2021**
+* [](#analytics) **Analytics: aggiornato il 10 marzo 2021**
 * [Customer Journey Analytics](#cust-journey)`
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -110,7 +110,7 @@ Data di rilascio: **18 febbraio 2021**
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) **Aggiornato il 19 febbraio 2021**
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices)  **Aggiornato il 10 marzo 2021**
 * [Corsi ed esercitazioni di Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -150,6 +150,7 @@ AN-224987; AN-229009; AN-239750; AN-239765; AN-241620; AN-242996; AN-243577; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
+| Fine del ciclo vita delle origini dati a elaborazione completa | 10 marzo 2021 | Adobe prevede di rendere obsolete le origini dati a elaborazione completa in futuro. A partire dal 25 marzo 2021 non sarà più possibile creare nuove importazioni di questo tipo. Utilizza [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) per importare questo tipo di dati. |
 | Opzioni della pagina di destinazione di Reports &amp; Analytics | 19 febbraio 2021 | Il 25 marzo 2021 verranno rimosse le opzioni per impostare nuovi dashboard di Reports &amp; Analytics o altro contenuto come pagina di destinazione personale di Adobe Analytics. Se in precedenza avevi impostato una pagina Reports &amp; Analytics come pagina di destinazione personalizzata, questa rimane funzionante fino a quando la pagina di destinazione non viene modificata in [!UICONTROL Preferenze utente]. A partire dal 25 marzo 2021, non sarà più possibile definire nuove pagine di destinazione personalizzate di Reports &amp; Analytics. |
 | Fine del ciclo di vita di Ad Hoc Analysis | Gennaio 2021 | Il 1° marzo 2021 inizia la fine del ciclo di vita di [!UICONTROL Ad Hoc Analysis]. Per ulteriori informazioni, visita [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Fine del ciclo di vita per tre servizi API di Analytics | 6 gennaio 2021 | Il 30 aprile 2021, i seguenti servizi API legacy di Analytics sono destinati a raggiungere la data di fine del ciclo di vita e verranno chiusi. In tale data tutte le integrazioni correnti create utilizzando questi servizi cesseranno di funzionare.<ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione delle [Domande frequenti sulla fine del ciclo di vita delle API legacy](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
@@ -238,7 +239,7 @@ Nuove funzioni, correzioni e aggiornamenti di Experience Manager. Ai clienti con
       * **App web progressive (PWA)**
 
          * È ora possibile abilitare a livello di progetto tramite una semplice configurazione la [versione per app web progressiva (PWA) di un sito](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=it).
-   * **Experience Manager Assets as a Cloud Service**
+   * **Experience Manager di risorse come Cloud Service**
 
       * Experience Manager as a Cloud Service estende la funzionalità Smart Tags per supportare l’identificazione di parole chiave ed entità in risorse basate su testo. Il testo viene identificato, indicizzato e reso disponibile come metadati per migliorare l’esperienza di ricerca senza bisogno di alcuna configurazione. Vedi [Smart Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/smart-tags.html?lang=it).
       * È ora supportato il formato di file MXF. Vedi [Formati dei file supportati](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/file-format-support.html?lang=it#video-formats).
