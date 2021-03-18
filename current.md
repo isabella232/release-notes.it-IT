@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 768fd5ede81679b7a084911f58ab9814b202fcd3
 workflow-type: tm+mt
 source-wordcount: '6479'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Ultimo aggiornamento: **10 marzo 2021**
 * [Servizi e amministrazione di Experience Cloud](#ecloud)
 * [Experience Platform](#platform) **Aggiornato il 21 febbraio 2021**
 * [Journey Orchestration](#journey-orch)
-* [](#analytics) **Analytics: aggiornato il 10 marzo 2021**
+* [Analytics](#analytics) **Aggiornato il 10 marzo 2021**
 * [Customer Journey Analytics](#cust-journey)`
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -110,7 +110,7 @@ Data di rilascio: **18 febbraio 2021**
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices)  **Aggiornato il 10 marzo 2021**
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) **Aggiornato il 10 marzo 2021**
 * [Corsi ed esercitazioni di Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -150,7 +150,7 @@ AN-224987; AN-229009; AN-239750; AN-239765; AN-241620; AN-242996; AN-243577; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
-| Fine del ciclo vita delle origini dati a elaborazione completa | 10 marzo 2021 | Adobe prevede di rendere obsolete le origini dati a elaborazione completa in futuro. A partire dal 25 marzo 2021 non sarà più possibile creare nuove importazioni di questo tipo. Utilizza [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) per importare questo tipo di dati. |
+| Fine del ciclo vita delle origini dati a elaborazione completa | 10 marzo 2021 | Adobe prevede di rendere obsolete in futuro le origini dati a elaborazione completa. A partire dal 25 marzo 2021 non sarà più possibile creare nuove importazioni di questo tipo. Per importare questo tipo di dati, utilizza l’[API per l’inserimento di dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). |
 | Opzioni della pagina di destinazione di Reports &amp; Analytics | 19 febbraio 2021 | Il 25 marzo 2021 verranno rimosse le opzioni per impostare nuovi dashboard di Reports &amp; Analytics o altro contenuto come pagina di destinazione personale di Adobe Analytics. Se in precedenza avevi impostato una pagina Reports &amp; Analytics come pagina di destinazione personalizzata, questa rimane funzionante fino a quando la pagina di destinazione non viene modificata in [!UICONTROL Preferenze utente]. A partire dal 25 marzo 2021, non sarà più possibile definire nuove pagine di destinazione personalizzate di Reports &amp; Analytics. |
 | Fine del ciclo di vita di Ad Hoc Analysis | Gennaio 2021 | Il 1° marzo 2021 inizia la fine del ciclo di vita di [!UICONTROL Ad Hoc Analysis]. Per ulteriori informazioni, visita [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Fine del ciclo di vita per tre servizi API di Analytics | 6 gennaio 2021 | Il 30 aprile 2021, i seguenti servizi API legacy di Analytics sono destinati a raggiungere la data di fine del ciclo di vita e verranno chiusi. In tale data tutte le integrazioni correnti create utilizzando questi servizi cesseranno di funzionare.<ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione delle [Domande frequenti sulla fine del ciclo di vita delle API legacy](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
