@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 35b3735f74ec51bcdb850bbb5b03df823c9e0f38
+source-git-commit: cbad4628dc16c773db0d9985b9ab5b5ac2cdd360
 workflow-type: tm+mt
-source-wordcount: '5843'
+source-wordcount: '5857'
 ht-degree: 37%
 
 ---
@@ -224,7 +224,7 @@ AEM 6.4, Service Pack 8, Cumulative Fix Pack 4 (6.4.8.4 rilasciato il 25 febbrai
       * [Modifica di un SPA esterno in Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/editing-external-spa.html?lang=en): È stata aggiunta la possibilità di caricare un’applicazione a pagina singola indipendente in un’istanza di Experience Manager, aggiungere sezioni di contenuto modificabili e abilitare l’authoring.
    * **Experience Manager Assets as a Cloud Service**
 
-      * Experience Manager Assets as a Cloud Service dispone di un’istanza preconfigurata di Brand Portal. L’utente di Cloud Manager può attivare Brand Portal come Cloud Service su Experience Manager Assets.
+      * Experience Manager Assets as a Cloud Service dispone di un’istanza preconfigurata di Brand Portal. L’utente di Cloud Manager può attivare Brand Portal come Cloud Service su Experience Manager Assets. Consulta [Attivare Brand Portal utilizzando Brand Portal](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
       * Ora le aziende possono reperire risorse tramite Brand Portal. La funzione Asset sourcing utilizza Brand Portal per aiutare i clienti a interagire con gli utenti dell’agenzia per la creazione di risorse per nuove campagne di marketing, fotografie e progetti. Consulta [Panoramica su Asset Sourcing](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en) nella Guida di Brand Portal.
       * Il rapporto sull’utilizzo di Brand Portal ora visualizza solo gli utenti attivi. Gli utenti inattivi non vengono visualizzati ora. Gli utenti attivi sono quelli il cui account è assegnato a un profilo di prodotto nell’Admin Console. Consulta [Utilizzare i rapporti](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/admin-tools/brand-portal-reports.html?lang=en) nella Guida al Brand Portal.
       * In Brand Portal viene introdotta una nuova impostazione di download che consente di creare cartelle separate per ogni risorsa durante il download di cartelle, raccolte e così via. Consulta [Download delle risorse](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en) in **Scaricare risorse da Brand Portal** nella guida di Brand Portal.
