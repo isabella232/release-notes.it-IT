@@ -1,14 +1,14 @@
 ---
 title: Note sulla versione più recente
-description: Scopri le ultime note sulla versione, le nuove funzioni e la nuova documentazione per i prodotti e i servizi di Experience Cloud. Trova nuove guide ed esercitazioni su Experience Cloud, Creative Cloud per Enterprise e Document Cloud.
+description: Scopri le note sulla versione più recente, le nuove funzioni e la nuova documentazione dei prodotti e servizi Experience Cloud. Trova nuove guide e tutorial su Experience Cloud, Creative Cloud for Enterprise e Document Cloud.
 doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bce06efc7248df1f1929838681e3fcf5adb8ebbd
+source-git-commit: 66a8238a7fc0a9b397bfab74b1b36d90be7ad842
 workflow-type: tm+mt
-source-wordcount: '6109'
-ht-degree: 35%
+source-wordcount: '6141'
+ht-degree: 36%
 
 ---
 
@@ -55,7 +55,7 @@ Gli aggiornamenti più recenti sullo stato del sistema di Adobe si trovano in [S
 
 ## ![](/assets/ec_appicon_24.png) IconaComponenti, servizi e amministrazione dell’interfaccia utente di Experience Cloud  {#ecloud}
 
-Non aggiornato.
+**Ricerca unificata:** la ricerca unificata, attualmente disponibile ad Experience Platform, supporta ora la ricerca sulle origini e sulle destinazioni per gli utenti di Experience Platform. Questa funzione consente di cercare segmenti, set di dati, schemi, origini e destinazioni.
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
