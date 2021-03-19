@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 66a8238a7fc0a9b397bfab74b1b36d90be7ad842
+source-git-commit: da0cc40fb828e5f64d832c2e4e5dba931d2f2e99
 workflow-type: tm+mt
-source-wordcount: '6141'
+source-wordcount: '6120'
 ht-degree: 36%
 
 ---
@@ -231,11 +231,12 @@ AEM 6.4, Service Pack 8, Cumulative Fix Pack 4 (6.4.8.4 rilasciato il 25 febbrai
       * In Brand Portal viene introdotta una nuova impostazione di download che consente di creare cartelle separate per ogni risorsa durante il download di cartelle, raccolte e così via. Consulta [Download delle risorse](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en) in **Scaricare risorse da Brand Portal** nella guida di Brand Portal.
    * **Experience Manager Forms as a Cloud Service**
 
-      AEM Forms ha aiutato diverse organizzazioni a fornire esperienze eccezionali di onboarding e registrazione nel corso degli anni. Queste esperienze hanno aiutato le organizzazioni a convertire i lead in vendite effettive, a elaborare i dati dei clienti acquisiti, a fornire esperienze reattive in base al profilo di pubblico e molto altro. Ora AEM Forms è disponibile come servizio cloud.
+      AEM Forms ha aiutato molte organizzazioni a fornire esperienze di onboarding e registrazione straordinarie nel corso degli anni. Queste esperienze hanno aiutato le organizzazioni a convertire i lead in vendite, a elaborare i dati dei clienti acquisiti, a fornire esperienze reattive in base al profilo di pubblico e molto altro. Ora AEM Forms è disponibile come servizio cloud.
 
-      È possibile utilizzare AEM Forms come Cloud Service per creare moduli digitali, collegare moduli a origini dati esistenti, integrare moduli con Adobe Sign per aggiungere firme elettroniche ai moduli e generare documenti di record (DoR) per archiviare i moduli compilati come file PDF. È inoltre possibile utilizzare il servizio per convertire i PDF forms esistenti in moduli digitali. Oltre alle funzioni standard di AEM Forms, il servizio offre diverse funzionalità native per il cloud, come il ridimensionamento automatico in base al carico, tempi di inattività zero per gli aggiornamenti e ambiente di sviluppo nativo per il cloud. Per ulteriori informazioni su funzionalità e funzionalità del servizio, leggi [questo post sul blog](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html) .
+      È possibile utilizzare AEM Forms come Cloud Service per creare moduli digitali, collegare moduli a origini dati esistenti, integrare moduli con Adobe Sign per aggiungere firme elettroniche ai moduli, generare documenti di record (DoR) per archiviare i moduli inviati come file PDF. Il servizio può anche convertire i PDF forms esistenti in moduli digitali. Oltre alle funzioni standard di AEM Forms, il servizio offre diverse funzionalità native per il cloud, come il ridimensionamento automatico, tempi di inattività zero per gli aggiornamenti e ambiente di sviluppo nativo per il cloud. Leggi [questo post di blog](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html) per scoprire le funzionalità e le funzionalità di AEM Forms as a Cloud Service.
 
-      La data di disponibilità generale (GA) di AEM Forms as a Cloud Service è il 25 marzo. Puoi rivolgerti al tuo rappresentante Adobe per una demo o per iscriverti al servizio.
+      Puoi rivolgerti al tuo rappresentante Adobe per una demo o per iscriverti al servizio.
+
 
    * **Experience Manager Commerce as a Cloud Service**
 
