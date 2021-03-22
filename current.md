@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1cde3fd4f91f53c6f2281b95397257bbcf1f5672
+source-git-commit: ebeebdb7c1a534934a0e70c6ab2588a96442192f
 workflow-type: tm+mt
-source-wordcount: '6130'
-ht-degree: 36%
+source-wordcount: '6141'
+ht-degree: 35%
 
 ---
 
@@ -17,17 +17,13 @@ ht-degree: 36%
 
 ![Banner](/assets/experience-cloud-banner-3.png)
 
-Le soluzioni e i servizi di Experience Cloud vengono aggiornati mensilmente. Su questa pagina puoi trovare gli aggiornamenti, la documentazione e i tutorial per la versione più recente di [!DNL Experience Cloud] ed Experience Platform. Ci trovi inoltre possibile la nuova documentazione di [!DNL Creative Cloud for Enterprise] e [!DNL Document Cloud].
-
->[!IMPORTANT]
->
->Questa pagina contiene contenuti in anteprima ed è soggetta a modifiche fino alle date di rilascio.
+Le soluzioni e i servizi di Experience Cloud vengono aggiornati mensilmente. Questa pagina è la tua posizione centrale per trovare gli aggiornamenti sulla versione, la documentazione e le esercitazioni per i prodotti e i servizi [!DNL Experience Cloud] più recenti. Ci trovi inoltre possibile la nuova documentazione di [!DNL Creative Cloud for Enterprise] e [!DNL Document Cloud].
 
 >[!NOTE]
 >
->Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. Questa pagina viene aggiornata nell’arco di tutto il mese, quindi controlla regolarmente se ci sono aggiornamenti sui prodotti enterprise di Adobe e sulla documentazione Experience League.
+>Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. Questa pagina viene mantenuta per tutto il mese e potrebbe contenere contenuti soggetti a modifiche prima di una data di rilascio. Controlla regolarmente la disponibilità di aggiornamenti al prodotto aziendale Adobe e alla documentazione di Experience League.
 
-Ultimo aggiornamento: **19 marzo 2021**
+Ultimo aggiornamento: **22 marzo 2021**
 
 * [Stato del sistema Adobe](#status) (non aggiornato)
 * [Componenti, servizi e amministrazione dell’interfaccia utente di Experience Cloud](#ecloud)
@@ -51,7 +47,7 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 
 [!UICONTROL Stato del sistema di Adobe] fornisce informazioni dettagliate, aggiornamenti sullo stato e notifiche e-mail relative agli eventi di sospensione, interruzione e manutenzione di prodotti e servizi cloud di Adobe. Consulta [status.adobe.com](https://status.adobe.com/).
 
-Gli aggiornamenti più recenti sullo stato del sistema di Adobe si trovano in [Stato del sistema di Adobe - 21 maggio 2020](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/previous/2020/05212020.html#status) per informazioni sulla versione più recente.
+Gli aggiornamenti più recenti sullo stato del sistema di Adobe si trovano in [Stato del sistema di Adobe - 21 maggio 2020](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/previous/2020/05212020.html#status).
 
 ## ![](/assets/ec_appicon_24.png) IconaComponenti, servizi e amministrazione dell’interfaccia utente di Experience Cloud  {#ecloud}
 
@@ -335,7 +331,11 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 Scopri di più sulle funzionalità, i miglioramenti e le correzioni più recenti rilasciati:
 
 * [Note sulla versione di Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html)
-* [Note sulla versione di Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html)
+* [Note sulla versione di Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html).
+
+>[!IMPORTANT]
+>
+>Scopri [gli aggiornamenti di configurazione richiesti](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/acc-config-updates.html?lang=en) per Adobe Campaign Classic.
 
 ### Nuovi corsi e tutorial su Campaign
 
