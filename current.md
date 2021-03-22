@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ebeebdb7c1a534934a0e70c6ab2588a96442192f
+source-git-commit: ffd0377c6309d206bbb98ddc9c7e74f938ad4081
 workflow-type: tm+mt
-source-wordcount: '6141'
-ht-degree: 35%
+source-wordcount: '6263'
+ht-degree: 34%
 
 ---
 
@@ -57,8 +57,8 @@ Gli aggiornamenti più recenti sullo stato del sistema di Adobe si trovano in [S
 
 Include informazioni sull’aggiornamento di Experience Platform e Experience Platform Launch.
 
-* [Note sulla versione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html). (24 febbraio 2021)
-* [Note sulla versione di Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=it). (13 gennaio 2021)
+* [Note sulla versione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html). (Aggiornato il 24 febbraio 2021)
+* [Note sulla versione di Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=it). (Aggiornato il 18 febbraio 2021)
 
 ### Tutorial e corsi su Experience Platform
 
@@ -115,6 +115,7 @@ Data di rilascio: **25 marzo 2021**
 | Analysis Workspace: [!UICONTROL Componenti] > [!UICONTROL Preferenze utente] | 25 marzo 2021 | La pagina [!UICONTROL Componenti] > [!UICONTROL Preferenze utente] consente di gestire le impostazioni [!UICONTROL Analysis Workspace] e i relativi componenti per l’utente. [!UICONTROL Le ] preferenze utente sono applicabili a tutti i nuovi progetti e pannelli. **Nota:** le seguenti impostazioni sono state spostate nella pagina  [!UICONTROL Preferenze ] utente:<ul><li>Impostazioni dei rapporti: Separatore delle migliaia (ora denominato &quot;formato numero&quot;)</li><li>Impostazioni dei rapporti: Separatore CSV</li><li>Progetti Workspace: Aiuto > Abilita suggerimenti</li><li>Progetti Workspace: Opzione &quot;Avvia nuovi progetti con questo pannello&quot; del pannello vuoto</li></ul> |
 | Analysis Workspace: [!UICONTROL Previsione intervalli avanzati] | 25 marzo 2021 |  IstogrammaLa previsione intervalli avanzati aiuta con gli istogrammi di metriche ad alta cardinalità identificando automaticamente la larghezza e il numero giusti di bucket per la distribuzione dei dati. Per le metriche a bassa cardinalità, la visualizzazione si comporta come in precedenza. |
 | [!UICONTROL API ] registro utilizzo | 25 marzo 2021 | Si tratta di una nuova API di Analytics v2.0 che consente l&#39;accesso programmatico agli stessi dati del registro di utilizzo disponibili in [!UICONTROL Amministratore] > [!UICONTROL Registro] > [!UICONTROL Registro di utilizzo e accesso]. Ulteriori dettagli sull&#39;autenticazione, lo schema e la risposta di esempio sono disponibili [qui](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md). |
+| Supporto delle dashboard di Analytics per intervalli di date personalizzati | 25 marzo 2021 | I creatori di scorecard possono creare e applicare intervalli di date personalizzati ai progetti di scorecard per dispositivi mobili. I creatori possono scegliere tra predefiniti per l’area di lavoro familiare e l’intervallo di date per dispositivi mobili oppure creare un intervallo di date personalizzato. Questa funzione inizierà a essere implementata il 25 marzo. |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
@@ -123,6 +124,7 @@ Data di rilascio: **25 marzo 2021**
 | Supporto per [!UICONTROL dashboard di Adobe Analytics] | 25 marzo 2021 | [!UICONTROL Customer Journey Analytics]  (CJA) ora supporta  [!UICONTROL Adobe Analytics dashboards Scorecard ] Builder e l’app mobile. Questo consente ai dirigenti e agli utenti aziendali di visualizzare i KPI (Key Performance Indicator) tra canali in base ai dati CJA, utilizzando la stessa app che potrebbero già utilizzare per Adobe Analytics. |
 | Analysis Workspace: [!UICONTROL Componenti] > [!UICONTROL Preferenze utente] | 25 marzo 2021 | La pagina [!UICONTROL Componenti] > [!UICONTROL Preferenze utente] consente di gestire le impostazioni [!UICONTROL Analysis Workspace] e i relativi componenti per l’utente. [!UICONTROL Le ] preferenze utente sono applicabili a tutti i nuovi progetti e pannelli. **Nota:** le seguenti impostazioni sono state spostate nella pagina  [!UICONTROL Preferenze ] utente:<ul><li>Progetti Workspace: Aiuto > Abilita suggerimenti</li><li>Progetti Workspace: Opzione &quot;Avvia nuovi progetti con questo pannello&quot; del pannello vuoto</li></ul> |
 | Analysis Workspace: [!UICONTROL Previsione intervalli avanzati] | 25 marzo 2021 |  IstogrammaLa previsione intervalli avanzati aiuta con gli istogrammi di metriche ad alta cardinalità identificando automaticamente la larghezza e il numero giusti di bucket per la distribuzione dei dati. Per le metriche a bassa cardinalità, la visualizzazione si comporta come in precedenza. |
+| Supporto delle dashboard di Analytics per il Customer Journey Analytics | 25 marzo 2021 | L’app delle dashboard di Analytics ora supporta Customer Journey Analytics. Gli utenti con Customer Journey Analytics possono ottenere KPI da qualsiasi dato acquisito in Adobe Experience Platform nell’app delle dashboard di Analytics. Il Customer Journey Analytics consente di combinare più origini dati per una visualizzazione fedele e multicanale dell’esperienza del cliente. Ora, con l’app delle dashboard di Analytics, puoi ottenere una visualizzazione aggiornata e olistica della tua attività, in qualsiasi momento e ovunque. |
 
 ### Problemi risolti in Adobe Analytics {#aa-fixes}
 
