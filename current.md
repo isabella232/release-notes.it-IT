@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99f32ddc69aa869be32186b9b0746aae27a79113
+source-git-commit: 153ab33f4f0e709d606efd5121b7e65bb1b9caf2
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7773'
 ht-degree: 30%
 
 ---
@@ -429,15 +429,21 @@ Ultimo aggiornamento: **28 ottobre 2020**
 
 ### Nuove funzioni in [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Ultimo aggiornamento: **22 gennaio 2021, per rilascio del 23 gennaio**
+Ultimo aggiornamento: **29 marzo 2022, per la versione del 27 marzo**
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| [!UICONTROL Ricerca campagne]<br> Rapporti | Advertising Cloud Search non segnala più i nuovi dati di posizione media per le campagne Microsoft® Advertising. La colonna Posizione media mostra valori pari a zero (0) per le date a partire dal 23 gennaio. Questo è in vista del fatto che i dati di posizione media verranno resi obsoleti da parte di Microsoft nel gennaio 2021.<br>I dati sulla posizione media raccolti fino al 22 gennaio sono ancora disponibili nei rapporti. |
+| [!UICONTROL Ricerca campagne]<br> Rapporti | (Campagne di Microsoft Ads) Il supporto per le offerte è ora disponibile per la strategia di offerta avanzata di Microsoft cost-per-click (eCPC), che è la strategia di offerta predefinita per le campagne pubblicitarie Microsoft. È ora possibile specificare un livello di campagna [!UICONTROL Strategia di offerta] per le campagne. Le opzioni includono [!UICONTROL CPC manuale] e [!UICONTROL CPC avanzato]. Puoi utilizzare [!UICONTROL CPC avanzato] con campagne di ricerca, annunci di ricerca dinamici esistenti e campagne di acquisto.<br>Quando aggiungi una campagna con eCPC a un portfolio Advertising Cloud ottimizzato, Advertising Cloud ottimizza le offerte di base e, quando l’opzione &quot;Regola automaticamente i limiti di budget delle campagne&quot; è abilitata, il budget della campagna. Microsoft applica tutte le regolazioni delle offerte e può modificare le offerte generate da Advertising Cloud al momento della query utente in base a dati e informazioni proprietari.<br>La colonna personalizzata  [!UICONTROL Impostazione offerta ] è disponibile nella vista   Campagne e nei rapporti. |
+| [!UICONTROL Ricerca campagne]<br> [!UICONTROL Bulksheet] | (Campagne pubblicitarie Microsoft) Per gli annunci di testo espansi, è ora disponibile il supporto per un terzo titolo facoltativo ([!UICONTROL Titolo annuncio 3]) e una seconda descrizione facoltativa ([!UICONTROL Descrizione 2]). Il supporto è disponibile nella visualizzazione [!UICONTROL Annunci] e in [!UICONTROL Bulksheet]. |
+| [!UICONTROL Approfondimenti sulla pubblicità] | Sono disponibili due nuovi [!UICONTROL Approfondimenti sulla pubblicità]:<ul><li>[!UICONTROL Ricavi] ritardati: Misura il ritardo di conversione (il tempo trascorso tra un clic SEM e una successiva conversione) di un portafoglio e mostra eventuali differenze nei ricavi ponderati, nel ROI e nella precisione del modello a causa del ritardo.</li><li>[!UICONTROL Corrispondenza tra query]: Trova istanze di query di ricerca che corrispondono a più di una parola chiave e fornisce suggerimenti su dove indirizzare il traffico.</li></ul> |
 
-### Tutorial e corsi di Ad Cloud
+### Tutorial e corsi su Advertising Cloud
 
-Aggiornato il **2 dicembre 2020**
+Aggiornato il **23 febbraio 2021**
+
+| Tutorial | Descrizione |
+| -----------| ---------- |
+| [Introduzione a Workspace e Generazione rapporti](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=it) | Scopri come utilizzare i dati Advertising Cloud per creare rapporti visivi in Adobe Analytics Analysis Workspace. |
 
 ## ![Icona](/assets/magento.png) [!DNL Magento] {#magento}
 
