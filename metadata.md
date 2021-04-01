@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution-title: Informazioni e supporto
 description: Note sulla versione delle soluzioni Experience Cloud
 solution-hub-url: https://helpx.adobe.com/it/support/experience-cloud.html
@@ -11,9 +11,9 @@ tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 mini-toc-levels: 3
 git-repo: https://git.corp.adobe.com/AdobeDocs/release-notes.it-IT
 index: true
-translation-type: ht
-source-git-commit: 644ea51d605f87693109d6b0e96afbdf365aaa2b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b742d2cf0f14d2b25ed540245c0f1f571fd2319b
+workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
 
