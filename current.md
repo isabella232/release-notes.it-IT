@@ -4,14 +4,14 @@ description: Scopri le note sulla versione più recente, le nuove funzioni e la 
 doc-type: release notes
 last-update: March 2021
 author: mfrei
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 153ab33f4f0e709d606efd5121b7e65bb1b9caf2
+source-git-commit: 6146981c558499f22dbdc56bc12e2ebce2d00439
 workflow-type: tm+mt
-source-wordcount: '7773'
-ht-degree: 30%
+source-wordcount: '7872'
+ht-degree: 29%
 
 ---
-
 
 # Note sulla versione di Adobe Experience Cloud - marzo 2021
 
@@ -23,7 +23,7 @@ Le soluzioni e i servizi di Experience Cloud vengono aggiornati mensilmente. Que
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. Questa pagina viene mantenuta per tutto il mese e potrebbe contenere contenuti soggetti a modifiche prima di una data di rilascio. Controlla regolarmente la disponibilità di aggiornamenti al prodotto aziendale Adobe e alla documentazione di Experience League.
 
-Ultimo aggiornamento: **24 marzo 2021**
+Ultimo aggiornamento: **6 aprile 2021**
 
 * [Blueprint di esperienza digitale](#blueprints)  (nuova documentazione di implementazione)
 * [Stato del sistema di Adobe](#status)
@@ -31,7 +31,7 @@ Ultimo aggiornamento: **24 marzo 2021**
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) **(aggiornato il 6 aprile 2021)** e il  [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -140,7 +140,7 @@ Data di rilascio: **25 marzo 2021**
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices)  **(aggiornato il 6 aprile 2021)**
 * [AppMeasurement](#appm)
 
 ### Nuove funzioni di Adobe Analytics {#aa-features}
@@ -181,6 +181,7 @@ AN-206099; AN-237460; AN-241803; AN-243735; AN-244081; AN-244615; AN-244687; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
+| Feed di dati e Data Warehouse modifiche all’indirizzo IP | 6 aprile 2021 | A partire dal 17 giugno, il sistema di consegna dei feed di dati e della Data Warehouse verrà spostato all’interno dei nostri data center, e potrebbe quindi causare un cambiamento degli indirizzi IP esterni visibili all’utente.  È necessario confermare che tutti i blocchi CIDR IP per il centro dati in cui vengono originati i rapporti e i feed sono presenti in tutti i firewall, per tutti i sistemi di destinazione controllati. [Elenco completo degli intervalli di indirizzi IP da inserire negli elenchi consentiti](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks) del firewall. |
 | Avviso delle prossime modifiche al menu di Analytics | 24 marzo 2021 | Il 22 aprile 2021 verranno aggiornati i menu a discesa **[!UICONTROL Componenti]**, **[!UICONTROL Strumenti]** e **[!UICONTROL Amministratore]** per ottenere alcuni miglioramenti delle prestazioni. Tutte queste pagine saranno ancora disponibili nei collegamenti **[!UICONTROL Tutti i componenti]**, **[!UICONTROL Tutti gli strumenti]** e **[!UICONTROL Tutti gli amministratori]** : verranno semplicemente rimosse dal menu a discesa. Di seguito sono elencate le voci di menu che verranno rimosse dal menu a discesa e posizionate sulla rispettiva pagina di collegamento:<br><br> [!UICONTROL Componenti]<ul><li>[!UICONTROL Segnalibri]</li><li>[!UICONTROL Dashboard]</li><li>[!UICONTROL Target]</li><li>[!UICONTROL Eventi calendario]</li><li>[!UICONTROL Rapporti pianificati]</li><li>[!UICONTROL Impostazioni dei rapporti]</li></ul>Strumenti di <ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search&amp;Promote]</li></ul>[!UICONTROL Amministrazione]<ul><li>[!UICONTROL Gestione utente]</li><li>[!UICONTROL Importatore di classificazione]</li><li>[!UICONTROL Generatore regole di classificazione]</li><li>[!UICONTROL Origini dati ]</li><li>[!UICONTROL Connettori dati]</li><li>[!UICONTROL Impostazioni aziendali]</li><li>[!UICONTROL Registri]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL Gestore codici]</li><li>[!UICONTROL Escludi per IP]</li><li>[!UICONTROL Gestione traffico]</li></ul> |
 | [!UICONTROL Elaborazione VISTA Same-as-SiteCatalyst]  = ON | 17 marzo 2021 | Il 17 giugno 2021 tutte le suite di rapporti verranno aggiornate in modo che [!UICONTROL Elaborazione VISTA Same-as-SiteCatalyst] sia impostata su ON. Questa modifica influisce sui rapporti di [!UICONTROL Data Warehouse] elaborando i dati in modo che corrispondano alle regole di elaborazione. Per domande o chiarimenti, contatta l’Assistenza clienti Adobe. |
 | Fine del ciclo vita di [!UICONTROL Elaborazione completa] [!UICONTROL Origini dati] | 10 marzo 2021 | Adobe prevede di rendere obsoleta in futuro [!UICONTROL la funzione di elaborazione completa] [!UICONTROL Origini dati]. A partire dal 25 marzo 2021 non sarà più possibile creare nuove importazioni di questo tipo. Utilizza [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) per importare questo tipo di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
