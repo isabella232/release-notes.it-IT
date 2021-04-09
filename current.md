@@ -6,10 +6,10 @@ last-update: March 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 6146981c558499f22dbdc56bc12e2ebce2d00439
+source-git-commit: 437662b982b90a8c48094846f2f07cc4f3ddd3b2
 workflow-type: tm+mt
-source-wordcount: '7872'
-ht-degree: 88%
+source-wordcount: '7946'
+ht-degree: 87%
 
 ---
 
@@ -181,6 +181,7 @@ AN-206099; AN-237460; AN-241803; AN-243735; AN-244081; AN-244615; AN-244687; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
+| Aggiornamento dell&#39;accesso a [!UICONTROL Report Builder] | 9 aprile 2021 | A partire dal 14 gennaio 2021: I miglioramenti al processo di accesso [!UICONTROL Report Builder] rimuovono le dipendenze dalle tecnologie legacy e allineano il processo di accesso con Adobe Experience Cloud. Experience Cloud utilizza l’Enterprise ID (e-mail e password). <br>Per garantire l’accesso ininterrotto al  [!UICONTROL Report Builder], aggiorna il componente aggiuntivo  [!UICONTROL Report ] Builder alla versione 5.6.47 o successiva entro il 22 luglio 2021. La versione 5.6.47 e successive di Report Builder supporterà solo l’accesso Experience Cloud e non il single sign-on. |
 | Feed di dati e Data Warehouse modifiche all’indirizzo IP | 6 aprile 2021 | A partire dal 17 giugno, il sistema di consegna dei feed di dati e della Data Warehouse verrà spostato all’interno dei nostri data center, e potrebbe quindi causare un cambiamento degli indirizzi IP esterni visibili all’utente.  È necessario confermare che tutti i blocchi CIDR IP per il centro dati in cui vengono originati i rapporti e i feed sono presenti in tutti i firewall, per tutti i sistemi di destinazione controllati. [Elenco completo degli intervalli di indirizzi IP da inserire negli elenchi consentiti](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks) del firewall. |
 | Avviso delle prossime modifiche al menu di Analytics | 24 marzo 2021 | Il 22 aprile 2021 verranno aggiornati i menu a discesa **[!UICONTROL Componenti]**, **[!UICONTROL Strumenti]** e **[!UICONTROL Amministratore]** per ottenere alcuni miglioramenti delle prestazioni. Tutte queste pagine saranno ancora disponibili nei collegamenti **[!UICONTROL Tutti i componenti]**, **[!UICONTROL Tutti gli strumenti]** e **[!UICONTROL Tutti gli amministratori]** : verranno semplicemente rimosse dal menu a discesa. Di seguito sono elencate le voci di menu che verranno rimosse dal menu a discesa e posizionate sulla rispettiva pagina di collegamento:<br><br> [!UICONTROL Componenti]<ul><li>[!UICONTROL Segnalibri]</li><li>[!UICONTROL Dashboard]</li><li>[!UICONTROL Target]</li><li>[!UICONTROL Eventi calendario]</li><li>[!UICONTROL Rapporti pianificati]</li><li>[!UICONTROL Impostazioni dei rapporti]</li></ul>Strumenti di <ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search&amp;Promote]</li></ul>[!UICONTROL Amministrazione]<ul><li>[!UICONTROL Gestione utente]</li><li>[!UICONTROL Importatore di classificazione]</li><li>[!UICONTROL Generatore regole di classificazione]</li><li>[!UICONTROL Origini dati ]</li><li>[!UICONTROL Connettori dati]</li><li>[!UICONTROL Impostazioni aziendali]</li><li>[!UICONTROL Registri]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL Gestore codici]</li><li>[!UICONTROL Escludi per IP]</li><li>[!UICONTROL Gestione traffico]</li></ul> |
 | [!UICONTROL Elaborazione VISTA Same-as-SiteCatalyst] = ON | 17 marzo 2021 | Il 17 giugno 2021 tutte le suite di rapporti verranno aggiornate in modo che l’impostazione [!UICONTROL Elaborazione VISTA Same-as-SiteCatalyst] sia impostata su ON. Questa modifica influisce sui rapporti di [!UICONTROL Data Warehouse] elaborando i dati in modo che corrispondano alle regole di elaborazione. Per domande o chiarimenti, contatta l’Assistenza clienti Adobe. |
