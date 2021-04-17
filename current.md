@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: April 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e5c34b37703cc4aaf0c6711dc5da7857321375ae
+source-git-commit: 21fdbc0a354a87723097e294db15d88e9877061c
 workflow-type: tm+mt
-source-wordcount: '5431'
+source-wordcount: '5430'
 ht-degree: 42%
 
 ---
@@ -343,7 +343,7 @@ Ultimo aggiornamento: **28 ottobre 2020**
 | -----------| ---------- |
 | Nuova guida | (Data di rilascio: 28 ottobre) La guida precedente è stata sostituita da pagine aggiornate, disponibili dal collegamento Aiuto nel menu principale di DSP e sono sempre accessibili all’indirizzo [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=it](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=it) |
 | Campagne | (Data di rilascio: 28 ottobre) Le precedenti viste Campagne (beta) ora sono diventate le viste Campagne predefinite che forniscono dati più rapidamente, flussi di lavoro semplificati e viste personalizzate. |
-| Inventario privato | (Data di rilascio: 15 ottobre) Ora tutti gli utenti possono impostare e modificare i dettagli dell’ID offerta utilizzando un nuovo modulo ID offerta, una versione semplificata del modulo legacy [!UICONTROL Smart Ad Serving]. Per impostare i dettagli del nuovo ID offerta, vai su **[!UICONTROL Inventario]** > **!UICONTROL Offerte]**, fai clic su **[!UICONTROL Crea]**, quindi fai clic su **[!UICONTROL ID offerta Beta]**. |
+| Inventario privato | (Data di rilascio: 15 ottobre) Ora tutti gli utenti possono impostare e modificare i dettagli dell’ID offerta utilizzando un nuovo modulo ID offerta, una versione semplificata del modulo legacy Smart Ad Serving. Per impostare i dettagli del nuovo ID offerta, vai su **[!UICONTROL Inventario]** > **[!UICONTROL Offerte]** > **[!UICONTROL Crea]**, quindi fai clic su **[!UICONTROL ID offerta Beta]**. |
 | Previsione del posizionamento | (Data di rilascio: 15 ottobre) Per i posizionamenti con velocità a livello di posizionamento, la sezione [!UICONTROL Previsione] delle impostazioni di posizionamento include la nuova sezione [!UICONTROL Massimi stimati], che indica la capacità disponibile con la configurazione di targeting corrente. |
 
 ### Nuove funzioni in [!DNL Advertising Cloud Search] {#adcloud-search}
