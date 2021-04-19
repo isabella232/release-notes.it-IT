@@ -6,9 +6,9 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 75fc19a753d94ad35337ad43f98aaa0aff52bdc1
+source-git-commit: 7b542cb233b84542e0058ac2f4c39b0349e3fb73
 workflow-type: tm+mt
-source-wordcount: '5384'
+source-wordcount: '5381'
 ht-degree: 42%
 
 ---
@@ -402,7 +402,7 @@ Nuovi video, tutorial o corsi pubblicati per Adobe Document Cloud.
 | -----------| ---------- | ---------- | ---------- |
 | Aprile 2021 | [[Adobe Sign] Inviare promemoria tramite Adobe Sign per Salesforce e Marketo - Video sulle funzioni](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | Video | Questa esercitazione video illustra come inviare un promemoria e-mail da Marketo quando un accordo rimane senza firma dopo un periodo di tempo. Questa integrazione utilizza Adobe Sign per la sincronizzazione di Salesforce, Marketo e Marketo e Salesforce. |
 
-### Nuovi corsi ed esercitazioni di Document Cloud
+### Esercitazioni sul Document Cloud
 
 | Data di pubblicazione | Nome | Soluzione | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
