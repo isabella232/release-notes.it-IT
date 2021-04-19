@@ -4,14 +4,14 @@ description: Scopri le note sulla versione più recente, le nuove funzioni e la 
 doc-type: release notes
 last-update: April 2021
 author: mfrei
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: a030b00ce834306ccf5da00e0c8757e3a2b4fa02
+source-git-commit: 75fc19a753d94ad35337ad43f98aaa0aff52bdc1
 workflow-type: tm+mt
-source-wordcount: '5426'
+source-wordcount: '5384'
 ht-degree: 42%
 
 ---
-
 
 # Note sulla versione di Adobe Experience Cloud - aprile 2021
 
@@ -186,13 +186,12 @@ Nuovi video, esercitazioni o corsi pubblicati per Audience Manager.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| Aprile 2021 | [Introduzione al corso - Informazioni su Real-time CDP per gli utenti di Audience Manager](https://video.tv.adobe.com/v/332230) | Video | Il passaggio dall&#39;Audience Manager a [!UICONTROL Real-time Customer Data Platform] (Real-time CDP) comporta un cambiamento nel paradigma in alcune aree. Questo video introduce il corso che ti aiuta a fare questa mossa. |
+| Aprile 2021 | [Informazioni su Real-time CDP per gli utenti di Audience Manager](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1.rtcdp) | Corso | I clienti di Audience Manager stanno riimmaginando la gestione dei contenuti passando alla Real-time Customer Data Platform (Real-time CDP) di Adobe. Questo corso adotta un approccio concettuale per concetto, aiutando gli utenti di Audience Manager a comprendere come questi concetti vengono gestiti in Real-time CDP. |
 | Aprile 2021 | [Informazioni sulle destinazioni in Real-time CDP per gli utenti di Audience Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-destinations-for-aam-users.html?lang=en) | Video | Mentre passi da Audience Manager a [!UICONTROL Real-time Customer Data Platform] (Real-time CDP), è fondamentale conoscere le destinazioni in modo da sapere come attivare i segmenti di pubblico dai partner di destinazione. Questo video illustra i diversi tipi di destinazione e dove si trovano in Real-time CDP. |
 | Aprile 2021 | [Governance dei dati in Real-time CDP per gli utenti di Audience Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-data-gov-for-aam-users.html?lang=en#other-integrations) | Video | Questo video illustra agli utenti di Audience Manager la funzionalità di governance dei dati in [!UICONTROL Real-time Customer Data Platform], confrontandola con ciò che era disponibile nell&#39;Audience Manager. Descrive il framework [!UICONTROL Data Usage and Labeling Enforcement] (DULE) e dove in Platform può essere applicato. |
 | Aprile 2021 | [Un racconto di due percezioni - Marchi contro consumatori - Evento](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html?lang=en#industry) | Articolo | Oggi, gli esperti di marketing sono sepolti nella confusione delle informazioni dedicate alle pratiche di identità. Solo il 37% dei professionisti del marketing si è detto pronto per un futuro senza cucina, secondo le recenti ricerche di Adobe e Advanis. In questo webinar, Adobe svela il livello di preparazione degli inserzionisti e degli editori a un futuro senza cookie, l’impatto sui loro casi d’uso e la percezione dell’ecosistema in generale. |
 | Aprile 2021 | [10 considerazioni sulla gestione responsabile dei dati dei clienti - Evento](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/ten-considerations-for-responsible-customer-data-management.html?lang=en#industry) | Articolo | Le forze di mercato volatili e i diversi requisiti in materia di privacy dei consumatori possono presentare scenari scoraggianti per l&#39;addetto al marketing digitale. Per mantenere le campagne nella giusta direzione dei regolamenti, i team di marketing devono disporre di un processo semplificato per garantire il corretto svolgimento del processo di governance dei dati. Questo include uno che consente idealmente a tutti di rispettare e applicare le regole sull&#39;uso responsabile dei dati dei consumatori. Ascolta gli Adobi e [!DNL Scotiabank] [!DNL Digital] su considerazioni chiave per una gestione responsabile dei dati. |
 | Aprile 2021 | [Il futuro della gestione dei dati e l&#39;ambiente in evoluzione - Evento](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/the-future-of-data-management-and-the-changing-environment.html?lang=en#industry) | Articolo | Dal momento che le forze di mercato apportano cambiamenti al nostro panorama digitale, le aziende devono adattarsi a una nuova realtà in materia di governance dei dati, risoluzione delle identità e come coinvolgere i potenziali visitatori e i visitatori pseudonimi con contenuti significativi. |
-| Aprile 2021 | [Informazioni su Real-time CDP per gli utenti di Audience Manager](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1.rtcdp) | Corso | I clienti di Audience Manager stanno riimmaginando la gestione dei contenuti passando alla Real-time Customer Data Platform (Real-time CDP) di Adobe. Questo corso adotta un approccio concettuale per concetto, aiutando gli utenti di Audience Manager a comprendere come questi concetti vengono gestiti in Real-time CDP. |
 
 ## ![Icona](/assets/aem.png) Adobe Experience Manager {#aem}
 
