@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: d5ac0d91d5d4aa4a7661c529b5a7d85e0cb65d14
+source-git-commit: 1f88b532306f86768a9981d6bba06a21050affe7
 workflow-type: tm+mt
-source-wordcount: '5370'
-ht-degree: 41%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 
 [!UICONTROL Stato del sistema di Adobe] fornisce informazioni dettagliate, aggiornamenti sullo stato e notifiche e-mail relative agli eventi di sospensione, interruzione e manutenzione di prodotti e servizi cloud di Adobe. Consulta [status.adobe.com](https://status.adobe.com/).
 
-Gli aggiornamenti più recenti sullo stato del sistema di Adobe si trovano in [Stato del sistema di Adobe - 21 maggio 2020](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/previous/2020/05212020.html#status) per informazioni sulla versione più recente.
+Gli aggiornamenti più recenti sullo stato del sistema di Adobe si trovano in [Stato del sistema di Adobe - 21 maggio 2020](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=en) per informazioni sulla versione più recente.
 
 ## ![Icona](/assets/ec_appicon_24.png) Componenti dell’interfaccia utente, servizi e amministrazione di Experience Cloud {#ecloud}
 
@@ -59,8 +59,8 @@ Gli aggiornamenti più recenti sullo stato del sistema di Adobe si trovano in [S
 
 Include informazioni sull’aggiornamento di Experience Platform e Experience Platform Launch.
 
-* [Note sulla versione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it). (Rilasciato: **21 aprile 2021**)
-* [Note sulla versione di Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=it). (Rilasciato: (18 febbraio 2021)
+* [Experience Platform di note sulla versione](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it)  (Rilasciato:  **(21 aprile 2021**)
+* [Note sulla versione del Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=it)  (Rilasciato: (18 febbraio 2021)
 
 ### Tutorial e corsi su Experience Platform
 
@@ -77,11 +77,11 @@ Utilizza Adobe Experience Platform per orchestrare il percorso di un cliente in 
 
 ### Ultime versioni dei prodotti
 
-Scopri di più sulle funzionalità, i miglioramenti e le correzioni più recenti nelle [Note sulla versione di Journey Orchestration](https://docs.adobe.com/content/help/it-IT/journeys/using/release-notes/release-notes.html).
+Scopri di più sulle funzionalità, i miglioramenti e le correzioni più recenti nelle [Note sulla versione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en).
 
 ### Risorse aggiuntive per Journey Orchestration
 
-[Documentazione](https://docs.adobe.com/content/help/it-IT/journeys/using/journey-orchestration-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/it-IT/platform-learn/tutorials/journey-orchestration/introduction.html)
+[Documentazione](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=en) - [Note sulla versione](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [Video tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=en)
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
 
@@ -108,14 +108,14 @@ Data di rilascio: **22 aprile 2021**
 
 ### Nuove funzioni di Adobe Analytics {#aa-features}
 
-| Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) - data di Target | Descrizione |
+| Funzione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - data di Target | Descrizione |
 | ----------- | ---------- | ------- |
 | Dashboard di Analytics: Intervalli di date personalizzati | 22 aprile 2021 | Consente agli utenti dell’app mobile di Analytics di applicare intervalli di date personalizzati alle proprie scorecard, oltre agli intervalli di date predefiniti attualmente disponibili. |
 | Area di lavoro: Versioni precedenti del progetto | 13 maggio 2021 | Consente di caricare le versioni precedenti di un progetto Workspace per annullare le modifiche indesiderate o semplicemente per ripristinare una versione precedente preferita. |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
-| Funzione | [Disponibilità generale](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - data di Target | Descrizione |
+| Funzione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - data di Target | Descrizione |
 | ----------- | ---------- | ----- |
 | Visualizzazioni dati CJA migliorate | 22 aprile 2021 | Le visualizzazioni dati migliorate aumentano notevolmente la flessibilità necessaria per creare metriche e dimensioni dai campi dello schema XDM. Puoi utilizzare un campo stringa come metrica. Puoi utilizzare un campo numerico come dimensione, creare più metriche dallo stesso campo con diversi modelli di attribuzione e intervalli di lookback. Puoi inoltre rendere le metriche e le dimensioni compatibili tra le visualizzazioni dati, nascondere un componente dal reporting e includere/escludere valori, utilizzare il bucket e molto altro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html) |
 | Area di lavoro: Supporto per report pianificati | 7 aprile 2021 | I rapporti pianificati sono ora supportati in CJA. |
@@ -145,11 +145,11 @@ AN-248451; AN-250461; AN-251157;  AN-251481; AN-251756; AN-252604; AN-252822; AN
 | Elaborazione VISTA Same-as-SiteCatalyst ON | 17 marzo 2021 | Il 17 giugno 2021 tutte le suite di rapporti verranno aggiornate in modo che l’impostazione [!UICONTROL Elaborazione VISTA Same-as-SiteCatalyst] sia impostata su ON. Questa modifica influisce sui rapporti di Data Warehouse elaborando i dati in modo che corrispondano alle regole di elaborazione. Per domande o chiarimenti, contatta l’Assistenza clienti  |
 | Opzioni della pagina di destinazione di Reports &amp; Analytics | 19 febbraio 2021 | Il 25 marzo 2021 sono state rimosse le opzioni per impostare nuove dashboard di Reports &amp; Analytics o altro contenuto dalla pagina di destinazione di Adobe Analytics. Se in precedenza hai impostato una pagina Reports &amp; Analytics come pagina di destinazione personalizzata, continua a funzionare finché la pagina di destinazione non viene modificata in [!UICONTROL Preferenze utente]. |
 | Fine del ciclo di vita per tre servizi API di Analytics | 6 gennaio 2021 | Il 30 aprile 2021, i seguenti servizi API legacy di Analytics sono destinati a raggiungere la data di fine del ciclo di vita e verranno chiusi. Tutte le integrazioni correnti create utilizzando questi servizi smettono di funzionare in quel giorno.<ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Abbiamo messo a disposizione delle [Domande frequenti sulla fine del ciclo di vita delle API legacy](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere alle domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Gli account OAuth legacy possono migrare a un account di integrazione di Analytics [Adobe I/O](https://console.adobe.io/home?mv=email#), che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
-| Fine del ciclo di vita di Adobe Data Connectors | 13 luglio 2020 | Adobe [!UICONTROL Data Connectors] si basano su una tecnologia legacy, che non è più disponibile o supportata. Un nuovo standard è disponibile in [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud). Puoi utilizzare questo standard per continuare a offrire e supportare qualsiasi integrazione. La data ufficiale di fine del ciclo di vita è il 1° agosto 2021. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/import/dataconnectors/data-connectors-eol.html) |
+| Fine del ciclo di vita di Adobe Data Connectors | 13 luglio 2020 | Adobe [!UICONTROL Data Connectors] si basano su una tecnologia legacy, che non è più disponibile o supportata. Un nuovo standard è disponibile in [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud). Puoi utilizzare questo standard per continuare a offrire e supportare qualsiasi integrazione. La data ufficiale di fine del ciclo di vita è il 1° agosto 2021. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=en) |
 
 ### AppMeasurement {#appm}
 
-Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, fare riferimento alle [note sulla versione di AppMeasurement per JavaScript](https://docs.adobe.com/content/help/it-IT/analytics/implementation/appmeasurement-updates.html).
+Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, fare riferimento alle [note sulla versione di AppMeasurement per JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en).
 
 ### Corsi ed esercitazioni di Analytics {#tutorials-analytics}
 
@@ -265,8 +265,8 @@ Nelle pagine seguenti trovi tutte le note sulla versione di Experience Manager:
 * [Note sulla versione di Experience Manager Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=it)
 * [Note sulla versione dell’app desktop Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=en)
 * [Note sulla versione di Experience Manager Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=en)
-* [Note sulla versione di Adobe Primetime](https://docs.adobe.com/content/help/it-IT/primetime/release-notes/home.html)
-* [Note sulla versione di Livefyre](https://docs.adobe.com/content/help/it-IT/livefyre/using/release-notes/c-rn.html)
+* [Note sulla versione di Adobe Primetime](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html?lang=en)
+* [Note sulla versione di Livefyre](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html?lang=en)
 
 ### Nuovi corsi ed esercitazioni di Experience Manager
 
@@ -302,8 +302,8 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 Scopri le funzionalità, i miglioramenti e le correzioni più recenti:
 
-* [Note sulla versione di Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html)
-* [Note sulla versione di Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html)
+* [Note sulla versione di Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en)
+* [Note sulla versione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en)
 
 ### Nuovi corsi e tutorial su Campaign
 
@@ -314,14 +314,14 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | 12 aprile 2021 | [Monitora il successo delle consegne in Analytics](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/track-the-success-of-your-deliveries-in-analytics.html?lang=en#integrations) | Campaign Standard | Scopri come configurare l’integrazione di Campaign Standard e Analytics. Scopri come creare un rapporto in Analytics utilizzando i dati ricevuti da Campaign Standard e quali KPI sono disponibili. |
 | 12 aprile 2021 | [Configurare i messaggi transazionali utilizzando i dati evento in tempo reale](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/configure-transactional-messages-using-realtime-event-data.html) | Campaign Standard | Scopri come configurare i messaggi transazionali utilizzando i dati evento in tempo reale provenienti dagli attivatori. |
 | 12 aprile 2021 | [Creare un evento trigger in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/create-a-trigger-event.html) | Campaign Standard | Scopri come creare un evento trigger in Campaign Standard, collegato a un trigger Experience Cloud esistente. |
-| 12 aprile 2021 | [Creare un trigger in Experience Cloud](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/create-a-trigger-in-experience-cloud.html) | Campaign Standard | Scopri come configurare i trigger in Experience Cloud. |
+| 12 aprile 2021 | [Creare un trigger in Experience Cloud](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/create-a-trigger-in-experience-cloud.html) | Campaign Standard | Scopri come configurare i trigger nell’Experience Cloud. |
 | 12 aprile 2021 | [Utilizzo dei trigger per i messaggi transazionali](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/using-triggers-for-transactional-messaging-overview.html#integrations) | Campaign Standard | Scopri come utilizzare i trigger per i messaggi transazionali. |
 
 ### Risorse di supporto
 
-* Adobe Campaign Standard: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/campaign-standard-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [Video dimostrativi](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/overview.html) - [Piano delle versioni future](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-planning.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic: [Centro assistenza](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/campaign-classic-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) - [Video dimostrativi](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/overview.html) - [Ultimi aggiornamenti della documentazione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/documentation-updates.html)
-* Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) - Video introduttivi per [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Adobe Campaign Standard: [Centro assistenza](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=en) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=en) - [Piano delle versioni future](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=en) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=en)
+* Adobe Campaign Classic: [Centro assistenza](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=en) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-learn/campaign-classic-tutorials/overview.html?lang=en) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=en)
+* Pannello di controllo di Adobe Campaign: [Documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en) - Video introduttivi per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html?lang=en) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html?lang=en)
 
 ## ![Icona](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -336,7 +336,7 @@ Ultimo aggiornamento: **28 ottobre 2020**
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Nuova guida | (Data di rilascio: 28 ottobre) La guida precedente è stata sostituita da pagine aggiornate, disponibili dal collegamento Aiuto nel menu principale di DSP e sono sempre accessibili all’indirizzo [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=it](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=it) |
+| Nuova guida | La guida legacy è stata sostituita da pagine aggiornate (rilascio del 28 ottobre). La Guida è disponibile dal collegamento Aiuto nel menu principale DSP è sempre disponibile all&#39;indirizzo [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=it) |
 | Campagne | (Data di rilascio: 28 ottobre) Le precedenti viste Campagne (beta) ora sono diventate le viste Campagne predefinite che forniscono dati più rapidamente, flussi di lavoro semplificati e viste personalizzate. |
 | Inventario privato | (Data di rilascio: 15 ottobre) Ora tutti gli utenti possono impostare e modificare i dettagli dell’ID offerta utilizzando un nuovo modulo ID offerta, una versione semplificata del modulo legacy Smart Ad Serving. Per impostare i dettagli del nuovo ID offerta, vai su **[!UICONTROL Inventario]** > **[!UICONTROL Offerte]** > **[!UICONTROL Crea]**, quindi fai clic su **[!UICONTROL ID offerta Beta]**. |
 | Previsione del posizionamento | (Data di rilascio: 15 ottobre) Per i posizionamenti con velocità a livello di posizionamento, la sezione [!UICONTROL Previsione] delle impostazioni di posizionamento include la nuova sezione [!UICONTROL Massimi stimati], che indica la capacità disponibile con la configurazione di targeting corrente. |
@@ -364,7 +364,7 @@ Per informazioni sull’ultima versione, consulta le [note sulla versione](https
 
 ## ![Icona](/assets/target.png)[!DNL Target] {#target}
 
-Per informazioni sempre aggiornate, consulta le [[!DNL Target] note sulla versione](https://docs.adobe.com/content/help/it-IT/target/using/release-notes/target-release-notes.html).
+Per informazioni sempre aggiornate, consulta le [[!DNL Target] note sulla versione](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=en).
 
 ## ![Icona](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
@@ -396,27 +396,27 @@ Nuovi video, tutorial o corsi pubblicati per Adobe Document Cloud.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| Aprile 2021 | [[Adobe Sign] Invio di promemoria tramite Adobe Sign per Salesforce e Marketo - Video sulle funzioni](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | Video | Questa esercitazione video illustra come inviare un promemoria e-mail da Marketo quando un contratto rimane senza firma dopo un periodo di tempo. Questa integrazione utilizza Adobe Sign per la sincronizzazione di Salesforce, Marketo e Marketo e Salesforce. |
+| Aprile 2021 | [[Adobe Sign] Invio di promemoria tramite Adobe Sign per Salesforce e Marketo - Video sulle funzioni](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | Video | Scopri come inviare un promemoria e-mail da Marketo quando un contratto rimane senza firma dopo un periodo di tempo. Questa integrazione utilizza Adobe Sign per la sincronizzazione di Salesforce, Marketo e Marketo e Salesforce. |
 
 ### Esercitazioni sul Document Cloud
 
 | Data di pubblicazione | Nome | Soluzione | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
 | Aprile 2021 | [Controlla l’esperienza online dei tuoi PDF e raccogli analisi](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html) | Articolo | La tua organizzazione pubblica i PDF sul tuo sito web? Scopri come utilizzare l’API di incorporamento di Adobe PDF per controllare l’aspetto, abilitare la collaborazione e raccogliere informazioni analitiche sull’interazione dell’utente con i PDF, compreso il tempo trascorso su una pagina e le ricerche. |
-| Aprile 2021 | [Gestione dei flussi di lavoro dei documenti finanziari con le API di Adobe Document Services in Java](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | Articolo | Scopri come utilizzare le API di Adobe Document Services per le applicazioni Java Spring Boot e creare un&#39;app Model-view-Controller (MVC) che estrae contenuti dai documenti PDF, li converte in altri formati di dati come Excel, combina più PDF e protegge le risorse tramite password. |
+| Aprile 2021 | [Gestione dei flussi di lavoro dei documenti finanziari con le API di Adobe Document Services in Java™](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | Articolo | Scopri come utilizzare le API di Adobe Document Services per le applicazioni Java™ Spring Boot. Crea un&#39;app MVC (Model-view-Controller) che estrae contenuti dai documenti PDF, li converte in altri formati di dati come Excel, combina più PDF e protegge le risorse tramite password. |
 | Aprile 2021 | [Workflow dei documenti HR con le API di Adobe Document Services in Java™](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/HRAgreementWorkflowsJava.html) | Tutorial | Molte aziende richiedono la documentazione relativa a un nuovo noleggio, come gli accordi sul posto di lavoro per i dipendenti che lavorano da casa. Tradizionalmente, le aziende gestivano questi documenti fisicamente in moduli difficili da gestire e archiviare. Quando si passa a documenti elettronici, i file PDF sono la scelta ideale perché sono più sicuri e meno modificabili rispetto ad altri tipi di file. Inoltre, supportano anche le firme digitali. |
 | Aprile 2021 | [Flussi di lavoro del contratto con le API di Adobe Document Services in Node.js](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/AgreementWorkflowsNodejs.html) | Tutorial | Molte applicazioni e processi aziendali richiedono documentazione come proposte e accordi. I documenti PDF assicurano che i file siano più sicuri e meno modificabili. Inoltre, forniscono supporto per la firma digitale che consente ai clienti di completare i documenti in modo rapido e semplice. Le API di Adobe Document Services consentono di incorporare facilmente le funzionalità PDF nell’applicazione web. |
-| Aprile 2021 | [Impostazione del contenuto condizionale](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggerconditional.html) | Video | In questo video, scopri come impostare facilmente le sezioni nei modelli di Microsoft Word utilizzando Adobe Document Generation Tagger per includere o escludere in modo dinamico sezioni di un documento basate sui dati utilizzando Adobe Document Generation API. |
-| Aprile 2021 | [[Servizi Doc] Impostazione dei tag di calcolo numerico - Video sulle funzioni](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggercalculations.html) | Video | In questo video verrà illustrato come impostare facilmente i tag di calcolo numerici nei modelli di Microsoft Word utilizzando Adobe Document Generation Tagger per calcolare le aggregazioni o l’aritmetica dei valori di dati utilizzando Adobe Document Generation API. |
-| Aprile 2021 | [Aggiunta di tabelle e tag elenco](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggertables.html) | Video | In questo video verrà illustrato come aggiungere facilmente tabelle ed elenchi di tag ai modelli di Microsoft Word utilizzando Adobe Document Generation Tagger per aggiungere in modo dinamico righe di tabella o di elenco basate sui dati utilizzando Adobe Document Generation API. |
-| Aprile 2021 | [Aggiunta di tag immagine](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddimagetags.html) | Video | In questo video verrà illustrato come aggiungere facilmente tag immagine ai modelli di Microsoft Word utilizzando Adobe Document Generation Tagger per spingere dinamicamente le immagini nei documenti utilizzando Adobe Document Generation API. |
-| Aprile 2021 | [Aggiunta di tag di testo](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddtexttags.html) | Video | In questo video verrà illustrato come aggiungere facilmente tag ai modelli di Microsoft Word utilizzando Adobe Document Generation Tagger per l&#39;utilizzo con Adobe Document Generation API. |
-| Aprile 2021 | [Panoramica del tag di generazione dei documenti di Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeroverview.html) | Video | In questo video verrà illustrato brevemente come assegnare tag ai modelli di Word utilizzando Adobe Document Generation Tagger per l’utilizzo con Adobe Document Generation API. |
+| Aprile 2021 | [Impostazione del contenuto condizionale](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggerconditional.html) | Video | In questo video, scopri come impostare facilmente le sezioni nei modelli di Microsoft® Word utilizzando Adobe Document Generation Tagger per includere o escludere in modo dinamico sezioni di un documento basate sui dati utilizzando Adobe Document Generation API. |
+| Aprile 2021 | [[Servizi Doc] Impostazione dei tag di calcolo numerico - Video sulle funzioni](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggercalculations.html) | Video | Scopri come impostare facilmente i tag di calcolo numerici nei modelli di Microsoft® Word utilizzando il Campione di generazione documenti di Adobe per calcolare aggregazioni o aritmetici di valori di dati utilizzando l’API di generazione documenti di Adobe. |
+| Aprile 2021 | [Aggiunta di tabelle e tag elenco](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggertables.html) | Video | Scopri come aggiungere facilmente tabelle ed elenchi ai modelli di Microsoft® Word utilizzando Adobe Document Generation Tagger per aggiungere in modo dinamico righe di tabella o di elenco basate sui dati utilizzando Adobe Document Generation API. |
+| Aprile 2021 | [Aggiunta di tag immagine](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddimagetags.html) | Video | Scopri come aggiungere facilmente tag immagine ai modelli di Microsoft® Word utilizzando Adobe Document Generation Tagger per spingere dinamicamente le immagini nei documenti utilizzando Adobe Document Generation API. |
+| Aprile 2021 | [Aggiunta di tag di testo](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddtexttags.html) | Video | Scopri come aggiungere facilmente tag ai modelli Microsoft® Word utilizzando Adobe Document Generation Tagger per l’utilizzo con Adobe Document Generation API. |
+| Aprile 2021 | [Panoramica del tag di generazione dei documenti di Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeroverview.html) | Video | Scopri come assegnare tag ai modelli [!DNL Word] utilizzando Adobe Document Generation Tagger per l’utilizzo con Adobe Document Generation API. |
 
 Per Document Cloud, vedi:
 
-* [Centro per l’apprendimento di Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=it)
-* [Centro per l’apprendimento di Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=it)
+* [Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=it)
+* [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=it)
 * [Formazione e supporto per Document Cloud](https://helpx.adobe.com/it/support/document-cloud.html)
 
 <!-- ## ![Icon](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
