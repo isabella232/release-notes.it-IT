@@ -6,7 +6,7 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 88813a1c8a3510b84057dff39603fb30e252c64b
+source-git-commit: c4023721667178357047047573997bbdd67944ab
 workflow-type: tm+mt
 source-wordcount: '5690'
 ht-degree: 35%
@@ -23,7 +23,7 @@ Le soluzioni e i servizi di Experience Cloud vengono aggiornati mensilmente. Su 
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. Questa pagina viene aggiornata nell’arco di tutto il mese, quindi controlla regolarmente se ci sono aggiornamenti sui prodotti enterprise di Adobe e sulla documentazione Experience League.
 
-Ultimo aggiornamento: **22 aprile 2021**
+Ultimo aggiornamento: **29 aprile 2021**
 
 * [Stato del sistema di Adobe](#status)
 * [Componenti dell’interfaccia utente, servizi e amministrazione di Experience Cloud](#ecloud)
