@@ -6,9 +6,9 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 2659558cae189222d57865d7027115f024dac44d
+source-git-commit: 7ba8d1728f066499f8b0cdb8fb5fad1abe83ec53
 workflow-type: tm+mt
-source-wordcount: '5689'
+source-wordcount: '5695'
 ht-degree: 99%
 
 ---
@@ -23,14 +23,14 @@ Le soluzioni e i servizi di Experience Cloud vengono aggiornati mensilmente. Su 
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. Questa pagina viene aggiornata nell’arco di tutto il mese, quindi controlla regolarmente se ci sono aggiornamenti sui prodotti enterprise di Adobe e sulla documentazione Experience League.
 
-Ultimo aggiornamento: **29 aprile 2021**
+Ultimo aggiornamento: **11 maggio 2021**
 
 * [Stato del sistema di Adobe](#status)
 * [Componenti dell’interfaccia utente, servizi e amministrazione di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)
+* [](#analytics) Analisi e  [Customer Journey Analytics](#cust-journey)  (aggiornato l’11 maggio 2021)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -99,8 +99,8 @@ Versione di febbraio 2021 - Scopri le funzionalità più recenti nelle [Note sul
 
 Data di rilascio: **22 aprile 2021**
 
-* [Nuove funzioni di Adobe Analytics](#aa-features)
-* [Nuove funzioni in Customer Journey Analytics](#cust-journey)
+* [Nuove funzioni di Adobe Analytics](#aa-features)  (aggiornato l’11 maggio 2021)
+* [Nuove funzioni in Customer Journey Analytics](#cust-journey)  (aggiornato l’11 maggio 2021)
 * [Problemi risolti in Adobe Analytics](#aa-fixes)
 * [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
 * [Corsi ed esercitazioni di Analytics](#tutorials-analytics)
@@ -111,7 +111,7 @@ Data di rilascio: **22 aprile 2021**
 | Funzione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=it) - data di Target | Descrizione |
 | ----------- | ---------- | ------- |
 | Dashboard di Analytics: intervalli di date personalizzati | 22 aprile 2021 | Consente agli utenti dell’app Analytics Mobile di applicare intervalli di date personalizzati alle proprie scorecard, oltre agli intervalli di date predefiniti attualmente disponibili. |
-| Workspace: versioni precedenti del progetto | 13 maggio 2021 | Consente di caricare le versioni precedenti di un progetto Workspace per annullare le modifiche indesiderate o per ripristinare una versione precedente. |
+| Workspace: versioni precedenti del progetto | 20 maggio 2021 | Consente di caricare le versioni precedenti di un progetto Workspace per annullare le modifiche indesiderate o per ripristinare una versione precedente. |
 
 ### Nuove funzioni in Customer Journey Analytics {#cust-journey}
 
@@ -120,7 +120,7 @@ Data di rilascio: **22 aprile 2021**
 | Visualizzazioni dati CJA migliorate | 22 aprile 2021 | Le viste dati ottimizzate offrono maggiore flessibilità nella creazione di metriche e dimensioni dai campi dello schema XDM. Puoi utilizzare un campo stringa come metrica. Puoi utilizzare un campo numerico come dimensione, creare più metriche dallo stesso campo con diversi modelli di attribuzione e intervalli di lookback. Inoltre, puoi rendere le metriche e le dimensioni compatibili tra le diverse viste di dati, omettere un componente dalla reportistica e includere/escludere valori, utilizzare contenitori e molto altro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=it) |
 | Workspace: supporto per rapporti pianificati | 7 aprile 2021 | I rapporti pianificati sono ora supportati in CJA. |
 | Dashboard di Analytics: intervalli di date personalizzati | 22 aprile 2021 | Consente agli utenti dell’app Analytics Mobile di applicare intervalli di date personalizzati alle proprie scorecard, oltre agli intervalli di date predefiniti attualmente disponibili. |
-| Workspace: versioni precedenti del progetto | 13 maggio 2021 | Consente di caricare le versioni precedenti di un progetto Workspace per annullare le modifiche indesiderate o per ripristinare una versione precedente. |
+| Workspace: versioni precedenti del progetto | 20 maggio 2021 | Consente di caricare le versioni precedenti di un progetto Workspace per annullare le modifiche indesiderate o per ripristinare una versione precedente. |
 
 ### Problemi risolti in Adobe Analytics {#aa-fixes}
 
