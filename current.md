@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: fe66c16cb5f021c1c3039c04a8498beef2eaeb9b
+source-git-commit: 4cad20ae0aa6d4a6e9776aa7861e2ba3b39f9e6b
 workflow-type: tm+mt
 source-wordcount: '5689'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ Nuovi corsi, esercitazioni e articoli in [!DNL Analytics] e [!UICONTROL Customer
 
 ### Risorse dell’Aiuto di Analytics
 
-* [Documentazione e tutorial del prodotto Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it)
+* [Documentazione e tutorial del prodotto Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## ![Icona](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
