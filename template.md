@@ -4,10 +4,9 @@ description: Note sulla versione di Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
-source-git-commit: 4cad20ae0aa6d4a6e9776aa7861e2ba3b39f9e6b
+source-git-commit: 48000898226fa1d926948dedc64610cee0bc7f65
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1344'
 ht-degree: 99%
 
 ---
@@ -30,14 +29,14 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 **Data di rilascio: 2020**
 
 * [Stato del sistema di Adobe](#status)
-* [Interfaccia di Experience Cloud](#ecloud)
+* [Interfaccia di Experience Cloud ](#ecloud)
 * [Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
 * [Target](https://docs.adobe.com/content/help/it-IT/target/using/release-notes/target-release-notes.html) (collegamenti alla guida della soluzione)
-* [Advertising Cloud](#adcloud)
+* [Pubblicità](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
 * [Primetime](https://helpx.adobe.com/it/primetime/user-guide.html) (collegamenti alle soluzioni)
@@ -270,7 +269,7 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 * Adobe Campaign Classic: [Documentazione](https://helpx.adobe.com/it/support/campaign/classic.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html) - [Video tutorial](https://docs.adobe.com/content/help/it-IT/campaign-learn/campaign-classic-tutorials/overview.html)
 * Pannello di controllo di Adobe Campaign: [Documentazione](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) - [Note sulla versione](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html)
 
-## Advertising Cloud {#adcloud}
+## Pubblicità {#adcloud}
 
 | Funzione | Descrizione |
 | ------- | ------- |
