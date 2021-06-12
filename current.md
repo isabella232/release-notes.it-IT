@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: June 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 22f12b5bc45f0ed2c191c395c55314e646a330f2
+source-git-commit: 8adc3fe8f3f4b174d1c41cc7c3162d38a984d661
 workflow-type: tm+mt
 source-wordcount: '5062'
 ht-degree: 50%
@@ -413,7 +413,7 @@ Per Document Cloud, consulta:
 ## ![Icona](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
-| -----------| ---------- | ---------- | ---------- |
+| ----------| --------- | --------- | --------- |
 | Giugno 2021 | [Prova la tua mano al Fresco sull&#39;iPad (e iPhone)](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | Video | Scopri un nuovo mondo di disegno e pittura digitale con Adobe Fresca in questo workshop pratico di 15 minuti. Imparare rapidamente a lavorare con livelli e maschere di ritaglio per adattare la vernice e le texture a una forma base. |
 | Giugno 2021 | [Decodificazione della zuppa di Alfabeti di Formati Grafici](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | Video | I file PG, PNG, SVG, GIF ed EPS sono tutti comunemente utilizzati nella progettazione, alcuni per pagine web, altri per presentazioni, pubblicazioni e progetti creativi. Ma... cosa vogliono dire, e quale dovreste scegliere? Scoprite in questo workshop pratico di 15 minuti. |
 
