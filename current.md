@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e198a57703d4be29e32e9b2919af157858651d74
+source-git-commit: c6aea555356863f7674dcda54fad19ea31394775
 workflow-type: tm+mt
-source-wordcount: '4926'
+source-wordcount: '4930'
 ht-degree: 52%
 
 ---
@@ -89,7 +89,7 @@ Nuovi video, esercitazioni o corsi pubblicati per Experience Platform e Services
 | Giugno 2021 | [Creazione di tipi di dati](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | Video | Scopri come creare tipi di dati personalizzati in Adobe Experience Platform da utilizzare negli schemi Experience Data Model (XDM). |
 | Giugno 2021 | [Convertire il modello dati in un modello dati esperienza](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/convert-your-data-model-to-xdm.html) | Video | Scopri come gli architetti di dati possono prendere il loro modello di dati transazionali esistente e convertirlo in un Experience Data Model. Questo video mostra la differenza negli approcci di modellazione che utilizzano diagrammi di entità-relazione. |
 | Giugno 2021 | [Pianificare il modello dati](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/plan-your-data-model.html) | Video | Scopri cosa fare prima di iniziare a creare i tuoi schemi in Adobe Experience Platform. Documentare i casi d’uso aziendali, comprendere la licenza Platform, conoscere le protezioni del prodotto e identificare i dati da acquisire prima di finalizzare il modello dati. |
-| Giugno 2021 | [Tableau](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | Video | Scopri come connettersi a [!UICONTROL Query Service] da varie applicazioni client desktop che supportano il protocollo `PostgreSQL` e come utilizzare gli strumenti e i driver `PostgreSQL` per connettersi e scrivere query. |
+| Giugno 2021 | [Connetti Tableau a Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | Video | Scopri come connettersi a [!UICONTROL Query Service] da varie applicazioni client desktop che supportano il protocollo `PostgreSQL` e come utilizzare gli strumenti e i driver `PostgreSQL` per connettersi e scrivere query. |
 | Giugno 2021 | [Funzioni definite dall&#39;Adobe](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | Video | Scopri come utilizzare le funzioni definite da Adobe in Adobe Experience Platform [!UICONTROL Query Service] per eseguire attività comuni relative all’attività aziendale sui dati di Experience Event. |
 | Giugno 2021 | [Esplorazione dei dati](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | Video | Scopri come convalidare i dati acquisiti, visualizzare in anteprima i dati ed esplorare le proprietà statistiche e analitiche dei dati utilizzando le funzioni SQL. |
 | Giugno 2021 | [Panoramica del servizio query](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html) | Video | Scopri Query Service in Adobe Experience Platform e come aiuta a comprendere il comportamento dei clienti e generare informazioni di impatto. |
@@ -257,7 +257,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Experience Manager (AEM). Ai
 
 * [Linee guida per la presentazione di una nuova idea Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/guidelines-for-submitting-a-new-experience-manager-aem-idea/td-p/382376)
 
-* [Summit Adobe 2021 Sneaks con Dan Levy](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-sneaks-with-dan-levy/td-p/405865): Una volta all&#39;anno, ogni dipendente Adobe, da ingegneri e scienziati dei dati a designer e product manager UX, ha la possibilità di condividere idee innovative per evolvere il modo in cui i marchi interagiscono con i loro clienti. Unisciti a noi per Adobe Sneaks, dove condividiamo i primi sette progetti, toccando le ultime tecnologie in aree come l’intelligenza artificiale e app a basso codice.
+* [Adobe Summit 2021 Sneaks con Dan Levy](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-sneaks-with-dan-levy/td-p/405865): Una volta all&#39;anno, ogni dipendente Adobe, da ingegneri e scienziati dei dati a designer e product manager UX, ha la possibilità di condividere idee innovative per evolvere il modo in cui i marchi interagiscono con i loro clienti. Unisciti a noi per Adobe Sneaks, dove condividiamo i primi sette progetti, toccando le ultime tecnologie in aree come l’intelligenza artificiale e app a basso codice.
 
 ### Informazioni sulla versione di Experience Manager
 
