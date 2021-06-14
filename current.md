@@ -6,10 +6,10 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 26fb9b46a6cf48db7cd98a75439f35a98e342898
+source-git-commit: 42bcb928d8eb34cc13017dab09f8490a673368a5
 workflow-type: tm+mt
-source-wordcount: '5042'
-ht-degree: 50%
+source-wordcount: '4910'
+ht-degree: 52%
 
 ---
 
@@ -235,15 +235,9 @@ Nuove funzioni, problemi risolti e aggiornamenti di Experience Manager (AEM). Ai
       * [Experience Manager di plug-in Maven di Cloud Service SDK Build Analyzer](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html?lang=en): Aggiorna i progetti Maven all&#39;ultima versione, che include un controllo Java™ API obsoleto e altri miglioramenti.
    * **Experience Manager Sites as a Cloud Service**
 
-      * **Endpoint GraphQL:** è ora possibile abilitare l’API GraphQL di Experience Manager per le configurazioni di Experience Manager Sites individuali e creare endpoint GraphQL personalizzati per tali configurazioni utilizzando una nuova interfaccia utente della console GraphQL. L’interfaccia utente consente inoltre di gestire gli endpoint GraphQL.
-      * **Modelli di contenuto, tipo di dati Data e ora avanzato:** è ora possibile configurare il tipo di data e ora per consentire l’authoring solo di informazioni su data, ora o data e ora.
-      * **Modelli di contenuto, tipo di dati di tag avanzati:** è ora possibile configurare il tipo di dati Tag per consentire la creazione di uno o più tag.
-      * **Modelli di contenuto, nuovo tipo di dati segnaposto tabulazione:**  il nuovo tipo di dati segnaposto per tabulazione consente di raggruppare i tipi di dati in sezioni sottoposte a rendering in schede nell’editor frammento di contenuto.
+      Ora puoi verificare il contenuto in un nuovo [livello anteprima](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en) per simulare l’aspetto e l’aspetto dell’esperienza finale come nel livello di pubblicazione. Questa nuova funzionalità è abilitata dalla procedura guidata Pubblicazione gestita in Experience Manager Sites , che consente di scegliere una destinazione di pubblicazione tra [!UICONTROL Pubblica] o [!UICONTROL Anteprima]. Le esperienze su [!UICONTROL Preview] possono quindi essere accessibili tramite un URL dedicato. Dopo la convalida su [!UICONTROL Anteprima], puoi pubblicare il contenuto da [!UICONTROL Autore] a [!UICONTROL Pubblica] come di consueto. L&#39;abilitazione del servizio [!UICONTROL Preview] negli ambienti Experience Manager as a Cloud Service sta gradualmente scomparendo nelle prossime settimane.
+
    * **Experience Manager Assets as a Cloud Service**
-
-      Ora puoi verificare il contenuto in un nuovo [livello anteprima](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en) per simulare l’aspetto e l’aspetto dell’esperienza finale come nel livello di pubblicazione. Questa nuova funzionalità è abilitata dalla procedura guidata Pubblicazione gestita in Experience Manager Sites , che consente di scegliere una destinazione di pubblicazione tra [!UICONTROL Pubblica] o [!UICONTROL Anteprima]. Le esperienze su [!UICONTROL Preview] sono quindi accessibili tramite un URL dedicato. Dopo la convalida su [!UICONTROL Anteprima], il contenuto può essere pubblicato come di consueto da [!UICONTROL Autore] a [!UICONTROL Pubblica]. L&#39;abilitazione del servizio [!UICONTROL Preview] in Experience Manager as a Cloud Service sta gradualmente scomparendo nelle prossime settimane.
-
-   * **Experience Manager di risorse come Cloud Service**
 
       Nuove funzioni nel canale prerelease:
 
@@ -254,7 +248,6 @@ Nuove funzioni, problemi risolti e aggiornamenti di Experience Manager (AEM). Ai
       Nuove funzioni in [!UICONTROL Dynamic Media]:
 
       * Le funzioni DPR (Smart Imaging Device Pixel Ratio) e di ottimizzazione della larghezza di banda della rete consentono di fornire immagini di alta qualità in modo efficiente su dispositivi con display ad alta risoluzione e larghezza di banda limitata della rete. Consulta [domande frequenti sull&#39;imaging intelligente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/imaging-faq.html?lang=en).
-
 
 
 
