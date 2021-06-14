@@ -6,10 +6,10 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 823476f3b4553a0bd9aae8670652bec1259cd84f
+source-git-commit: b0ad7a5c45760fba6a1a4e7e0f6dbbedbef93355
 workflow-type: tm+mt
-source-wordcount: '4914'
-ht-degree: 51%
+source-wordcount: '4913'
+ht-degree: 52%
 
 ---
 
@@ -23,7 +23,7 @@ Le applicazioni di Experience Cloud vengono aggiornate ogni mese. Su questa pagi
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. La pagina viene aggiornata nell’arco di tutto il mese, quindi controlla regolarmente se ci sono aggiornamenti sui prodotti aziendali di Adobe e sulla documentazione di Experience League.
 
-Ultimo aggiornamento: **11 giugno 2021**
+Ultimo aggiornamento: **14 giugno 2021**
 
 * [Componenti dell’interfaccia centrale di Experience Cloud](#ecloud)
 * [Stato di Adobe](#status)
@@ -311,11 +311,11 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 Scopri le funzionalità, i miglioramenti e le correzioni più recenti:
 
-* **Nuovo Adobe Campaign v8** con miglioramenti significativi a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. Utilizzando [!DNL Snowflake], una tecnologia di database cloud, Adobe Campaign ne migliora notevolmente la scala e la velocità, con la possibilità di gestire un numero più significativo di profili cliente, oltre a tassi di consegna e transazioni molto più elevati all’ora. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html).
+* **Il nuovo Adobe Campaign v8** offre miglioramenti significativi a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. Adobe Campaign v8 migliora notevolmente la sua scala e velocità, con la possibilità di gestire un numero più significativo di profili cliente, oltre a tassi di consegna e transazioni molto più elevati all’ora. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html).
 
-* **Adobe Campaign Classic v7 versione** 21.1.3: Ulteriori informazioni sono disponibili nelle note sulla versione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html).
+* **Versione Adobe Campaign Classic v7 21.1.3:** ulteriori informazioni nelle note sulla versione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it).
 
-* **Versione** di Adobe Campaign Standard 21.2: Ulteriori informazioni sono disponibili nelle note sulla versione di  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html).
+* **Versione Adobe Campaign Standard 21.2:** ulteriori informazioni nelle note sulla versione di  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=it).
 
 ### Nuovi corsi ed esercitazioni [!UICONTROL Campaign]{#tutorials-campaign}
 
