@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 6778e1f9e6d8059d0453eb0cc5e572d16a7a7e7c
+source-git-commit: 99885f10a13d7b51702ffac182362f1abd09f141
 workflow-type: tm+mt
-source-wordcount: '4958'
+source-wordcount: '4984'
 ht-degree: 94%
 
 ---
@@ -226,7 +226,11 @@ Nuove funzioni, problemi risolti e aggiornamenti di Experience Manager (AEM). Ai
 
 * **Experience Manager as a Cloud Service**
 
-   Nuove funzioni di Experience Manager as a Cloud Service:
+   Nuove funzioni di Experience Manager as a Cloud Service.
+
+   >[!NOTE]
+   >
+   >È ora disponibile la versione della funzione Experience Manager as a Cloud Service June . Per scoprire le nuove funzioni, accertati di aver attivato almeno Experience Manager 2021.6.5561.
 
    * **Fondamenti di Adobe Experience Manager as a Cloud Service**
 
