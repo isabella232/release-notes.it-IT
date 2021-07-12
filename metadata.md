@@ -1,19 +1,13 @@
 ---
 cloud: Experience Cloud
-solution-title: Informazioni e supporto
-description: Note sulla versione delle soluzioni Experience Cloud
-solution-hub-url: https://helpx.adobe.com/it/support/experience-cloud.html
-solution-icon: assets/assets/experience-cloud-logo-24.png
-getting-started-title: Introduzione
-getting-started-url: https://landing.adobe.com/experience-league/
-tutorials-title: Esercitazioni
-tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
+type: Documentation
+solution: Experience Cloud
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/release-notes.it-IT
 index: true
-source-git-commit: 3d7d30975cb241633f0d847a6b7689134bb56749
-workflow-type: ht
-source-wordcount: '175'
+source-git-commit: 759707638404f746de2e71ac27bd16926a8d1151
+workflow-type: tm+mt
+source-wordcount: '153'
 ht-degree: 100%
 
 ---
