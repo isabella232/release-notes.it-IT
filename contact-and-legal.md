@@ -1,18 +1,16 @@
 ---
 description: Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l'utilizzo di questo prodotto e di questa documentazione.
-keywords: dynamic tag management;release notes
+keywords: dynamic tag management;note sulla versione
 seo-description: Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l'utilizzo di questo prodotto e di questa documentazione.
 seo-title: Contatti e informazioni legali
-solution: Experience Cloud
 title: Contatti e informazioni legali
 uuid: be6810fd-8a50-4e88-af09-ab00187e4082
 internal: n
 translate: y
-translation-type: tm+mt
-source-git-commit: 00226294d475d0c8f323692272bedf0d2705fd20
+source-git-commit: 759707638404f746de2e71ac27bd16926a8d1151
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 95%
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +22,7 @@ Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti
 
 ## Aiuto e supporto tecnico {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
-Il team di assistenza clienti di Adobe Experience Cloud è a tua disposizione e può essere contattato in vari modi:
+Il team di assistenza clienti di Adobe Marketing Cloud è a tua disposizione e può essere contattato in vari modi:
 
 Consulta [Contattare il supporto di Adobe Enterprise](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
 
@@ -44,7 +42,7 @@ Adobe Systems welcome any suggestions or feedback regarding this solution. You c
  <li> Published by Adobe Systems Incorporated. </li> 
 </ul>
 
-[Condizioni d’uso](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Centro per la privacy](https://www.adobe.com/privacy/policy.html)
+[Condizioni d’uso](https://www.adobe.com/go/marketingcloud_terms_of_use_it) | [Centro per la privacy](https://www.adobe.com/it/privacy/policy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
