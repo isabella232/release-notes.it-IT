@@ -7,9 +7,9 @@ author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 99885f10a13d7b51702ffac182362f1abd09f141
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4984'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Utilizza Experience Platform per orchestrare il percorso di un cliente su grande
 
 **Risorse aggiuntive per Journey Orchestration**
 
-[Documentazione](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [Video tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=it)
+[Documentazione](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=it) - [Video tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=it)
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
 
@@ -116,7 +116,7 @@ Utilizza Experience Platform per orchestrare il percorso di un cliente su grande
 
 **Altre risorse per Offer Decisioning**
 
-[Documentazione](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=en#new) - [Video tutorial](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=it)
+[Documentazione](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=it#new) - [Video tutorial](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=it)
 
 ## ![Icona](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
@@ -139,7 +139,7 @@ Data di rilascio: **17 giugno 2021**
 
 ### Nuove funzioni di Customer Journey Analytics {#cust-journey}
 
-| Funzione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - data di Target | Descrizione |
+| Funzione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=it) - data di Target | Descrizione |
 | ----------- | ---------- | ----- |
 | N/D | N/D |
 
@@ -156,7 +156,7 @@ Data di rilascio: **17 giugno 2021**
 
 AN-246344; AN-250035; AN-250354; AN-252482; AN-254661; AN-254965; AN-255424; AN-256515; AN-257232; AN-257572; AN-257893; AN-258393; AN-259203; AN-259513; AN-259614; AN-259665; AN-259931; AN-260074; AN-260085; AN-260147; AN-260190; AN-260198; AN-260290; AN-260306 (CJA); AN-260508; AN-260625; AN-260793; AN-260861; AN-260938; AN-260945; AN-261149; AN-261317
 
-### Avvisi importanti per [!DNL Analytics] amministratori  {#aa-notices}
+### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
@@ -230,7 +230,7 @@ Nuove funzioni, problemi risolti e aggiornamenti di Experience Manager (AEM). Ai
 
    >[!NOTE]
    >
-   >È ora disponibile la versione della funzione Experience Manager as a Cloud Service June . Per scoprire le nuove funzioni, accertati di aver attivato almeno Experience Manager 2021.6.5561.
+   >È ora disponibile la versione con nuove funzionalità di giugno di Experience Manager as a Cloud Service. Per accedere alle nuove funzionalità, assicurati che usare almeno la versione 2021.6.5561 di Experience Manager.
 
    * **Fondamenti di Adobe Experience Manager as a Cloud Service**
 
@@ -268,10 +268,10 @@ Nuove funzioni, problemi risolti e aggiornamenti di Experience Manager (AEM). Ai
 Nelle pagine seguenti trovi tutte le note sulla versione di Experience Manager:
 
 * [Informazioni sulla versione di Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=it)
-* [Note sulla versione di Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
-* [Note sulla versione di Experience Manager Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
+* [Note sulla versione di Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=it)
+* [Note sulla versione di Experience Manager Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=it)
 * [Note sulla versione del Servizio di conversione automatica dei moduli](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=it)
-* [Note sulla versione di Experience Manager 6.5 Service Pack](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=en)
+* [Note sulla versione di Experience Manager 6.5 Service Pack](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=it)
 * [Note sulla versione di Experience Manager 6.4 Cumulative Fix Pack](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=it)
 * [Note sulla versione di Experience Manager Assets Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html?lang=it)
 * [Note sulla versione di Experience Manager Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=it)
@@ -303,7 +303,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 * [Formazione e supporto per Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=it)
 * [Formazione e supporto per Experience Manager 6.3](https://helpx.adobe.com/it/support/experience-manager/6-3.html)
 * [Formazione e supporto per Experience Manager 6.2](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=it#previous-updates)
-* [Documentazione delle versioni precedenti di Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
+* [Documentazione delle versioni precedenti di Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=it#previous-updates)
 * [Guida utente di Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=it)
 * [Pagina iniziale della guida di Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=it)
 * [Documentazione di Experience Manager: ultimi aggiornamenti](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/doc-updates/documentation-updates.html?lang=it#aem-as-a-cloud-service)
@@ -328,16 +328,16 @@ Scopri le funzionalità, i miglioramenti e le correzioni più recenti:
 | -----------| ---------- | ---------- | ---------- |
 | Giugno 2021 | [Integra Campaign Standard con Analytics per ottimizzare il tuo marketing via e-mail](https://experienceleague.adobe.com/?lang=it#dashboard/learning) | Campaign Standard | (Corso) Scopri come integrare Campaign Standard con Adobe Analytics e ottimizzare le strategie di marketing via e-mail utilizzando i dati in tempo reale. Questo corso illustra come creare un rapporto Campaign Standard in Adobe Analytics. Poi, scopri come utilizzare Experience Cloud Triggers e Platform Launch per configurare messaggi di marketing e messaggi transazionali in base all’attività del cliente. |
 | Giugno 2021 | [Tutorial su Adobe Campaign V8](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=it) | Campaign V8 | La presente guida utente contiene video e tutorial sulle numerose funzioni e caratteristiche di Adobe Campaign V8. |
-| Giugno 2021 | [Creare e progettare gli invii di e-mail](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/content-creation/email/create-and-design-email-deliveries.html?lang=it) | Campagna V8 | (Video) Comprendi il processo di creazione e consegna di e-mail e scopri come progettare e personalizzare il contenuto delle e-mail. |
-| Giugno 2021 | [Creare e-mail per il recapito](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/sending-messages/email/design-emails-for-deliverability.html?lang=it) | Campagna V8 | (Video) Scopri come applicare le best practice per la consegna delle e-mail. |
-| Giugno 2021 | [Gestire l’eccesso di comunicazioni utilizzando le regole di tipologia](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/sending-messages/fatigue-management/typology-rules-for-fatigue-management.html?lang=it) | Campagna V8 | (Video) Scopri come implementare regole di tipologia per gestire il rischio di eccesso di comunicazioni. |
+| Giugno 2021 | [Creare e progettare gli invii di e-mail](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/content-creation/email/create-and-design-email-deliveries.html?lang=it) | Campaign V8 | (Video) Comprendi il processo di creazione e consegna di e-mail e scopri come progettare e personalizzare il contenuto delle e-mail. |
+| Giugno 2021 | [Creare e-mail per il recapito](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/sending-messages/email/design-emails-for-deliverability.html?lang=it) | Campaign V8 | (Video) Scopri come applicare le best practice per la consegna delle e-mail. |
+| Giugno 2021 | [Gestire l’eccesso di comunicazioni utilizzando le regole di tipologia](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/sending-messages/fatigue-management/typology-rules-for-fatigue-management.html?lang=it) | Campaign V8 | (Video) Scopri come implementare regole di tipologia per gestire il rischio di eccesso di comunicazioni. |
 | Giugno 2021 | [Gestire l’eccesso di comunicazioni mediante i filtri](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/sending-messages/fatigue-management/fatigue-management-using-filters.html?lang=it) | Campaign Standard | (Video) Scopri come utilizzare i filtri per gestire il rischio di eccesso di comunicazioni in Adobe Campaign. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### Risorse per Campaign
 
-* Adobe Campaign Standard: [Centro assistenza](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it) - [Piano delle versioni future](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=it)
+* Adobe Campaign Standard: [Centro assistenza](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=it) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it) - [Piano delle versioni future](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=it)
 * Adobe Campaign Classic: [Centro assistenza](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=it)
 * Pannello di controllo di Adobe Campaign: [Documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it) - Video introduttivi per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=it) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=it)
 
