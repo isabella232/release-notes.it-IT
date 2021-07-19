@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: d33f6947012a86061ab4431f1b58c56dfa53910a
+source-git-commit: fbea6cb1eb34af8d7957451bb7c9117202e002d4
 workflow-type: tm+mt
-source-wordcount: '3936'
+source-wordcount: '3934'
 ht-degree: 55%
 
 ---
@@ -202,7 +202,7 @@ Correzioni e miglioramenti in Audience Manager.
 
 ## ![Icona](/assets/aem.png) Experience Manager {#aem}
 
-L&#39;Adobe consiglia di visitare la [pagina frequente relativa agli aggiornamenti e alle roadmap delle versioni di Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=it) per rimanere aggiornato sulle informazioni sulla versione.
+Adobe consiglia di visitare frequentemente [Experience Manager release Updates and Roadmap](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=it) per rimanere aggiornati sulle informazioni sulla versione.
 
 ### Informazioni sulla versione di Experience Manager {#aem-links}
 
