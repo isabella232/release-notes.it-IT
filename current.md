@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 3621c31c456cf7fc9de8ed65991aeab9fc8fedc8
+source-git-commit: a168806cc4b7e5ab5e9d1ab9c71583a4b89c020b
 workflow-type: tm+mt
-source-wordcount: '4909'
+source-wordcount: '4923'
 ht-degree: 46%
 
 ---
@@ -213,6 +213,9 @@ Adobe consiglia di visitare frequentemente [Experience Manager release Updates a
       * **Sistema**  di gestione dei contenuti dei componenti nativi per cloud: è disponibile la documentazione XML per Adobe Experience Manager come Cloud Service. Ottieni l’ambiente che ti consente di creare, gestire e distribuire documentazione e contenuti su larga scala.
       * **Documentazione basata sull’intelligenza artificiale** : funzionalità di assegnazione tag intelligente per identificare ed estrarre automaticamente le parole chiave dei metadati pertinenti dal testo per l’etichettatura dei metadati.
       * **Nuovo aspetto per l’editor**  web - Nuovo aspetto con le modifiche dell’interfaccia utente che lo rendono più intuitivo. L&#39;architettura sottostante è stata cambiata da corallo a spettro basato su reazioni.
+
+      Per ulteriori informazioni, visita la [documentazione XML per Adobe Experience Manager](https://www.adobe.com/products/xml-documentation-for-experience-manager.html) .
+
    * **Cloud Manager in AEM come Cloud Service**
 
       * [!UICONTROL Preview ] Service viene distribuito su base continua a tutti i programmi. I clienti ricevono una notifica interna al prodotto quando il programma è abilitato per [!UICONTROL Servizio anteprima]. Consultare [Accesso al servizio di anteprima](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#access-preview-service).
