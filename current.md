@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: fbea6cb1eb34af8d7957451bb7c9117202e002d4
+source-git-commit: 9a3217d27c176834935ae72ae375bda5cdf6c7f2
 workflow-type: tm+mt
-source-wordcount: '3934'
-ht-degree: 55%
+source-wordcount: '4899'
+ht-degree: 47%
 
 ---
 
@@ -203,6 +203,80 @@ Correzioni e miglioramenti in Audience Manager.
 ## ![Icona](/assets/aem.png) Experience Manager {#aem}
 
 Adobe consiglia di visitare frequentemente [Experience Manager release Updates and Roadmap](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=it) per rimanere aggiornati sulle informazioni sulla versione.
+
+* **Experience Manager as a Cloud Service**
+
+   Nuove funzioni di Experience Manager as a Cloud Service:
+
+   * **Documentazione XML per Adobe Experience Manager as a Cloud Service**
+
+      * **Sistema**  di gestione dei contenuti dei componenti nativi per cloud: è disponibile la documentazione XML per Adobe Experience Manager come Cloud Service. Ottieni l’ambiente che ti consente di creare, gestire e distribuire documentazione e contenuti su larga scala.
+      * **Documentazione basata sull’intelligenza artificiale** : funzionalità di assegnazione tag intelligente per identificare ed estrarre automaticamente le parole chiave dei metadati pertinenti dal testo per l’etichettatura dei metadati.
+      * **Nuovo aspetto per l’editor**  web - Nuovo aspetto con le modifiche dell’interfaccia utente che lo rendono più intuitivo. L&#39;architettura sottostante è stata cambiata da corallo a spettro basato su reazioni.
+   * **Cloud Manager in AEM come Cloud Service**
+
+      * [!UICONTROL Preview ] Service viene distribuito su base continua a tutti i programmi. I clienti ricevono una notifica interna al prodotto quando il programma è abilitato per [!UICONTROL Servizio anteprima]. Consultare [Accesso al servizio di anteprima](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#access-preview-service).
+      * Le dipendenze Maven scaricate durante il passaggio di compilazione ora vengono memorizzate nella cache tra le esecuzioni della pipeline. Questa funzione verrà abilitata per i clienti nelle prossime settimane.
+      * È ora possibile modificare il nome del programma tramite la finestra di dialogo [!UICONTROL Modifica programma].
+      * Il nome del ramo predefinito utilizzato sia durante la creazione del progetto che nel comando [!UICONTROL Push] predefinito tramite la gestione dei flussi di lavoro Git è stato modificato in `main`.
+      * L’esperienza di modifica del programma nell’interfaccia è stata aggiornata.
+      * La regola di qualità `ImmutableMutableMixCheck` è stata aggiornata per classificare i nodi `/oak:index` come immutabili.
+      * Le regole di qualità `CQBP-84andCQBP-84--dependencies` sono state consolidate in un&#39;unica regola. Come parte di questo consolidamento, la scansione delle dipendenze identifica più accuratamente i problemi nelle dipendenze di terze parti che vengono distribuiti nel runtime di Experience Manager.
+      * Per evitare confusione, le righe dei segmenti Pubblica Experience Manager e Pubblica dispatcher nella pagina Dettagli ambiente sono state consolidate.
+      * È stata aggiunta una nuova regola di qualità del codice per convalidare la struttura degli indici `damAssetLucene`. Consulta [Indici Oak Lucene delle risorse DAM personalizzate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/test-results/custom-code-quality-rules.html?lang=en#oakpal-damAssetLucene-sanity-check).
+      * Nella pagina dei dettagli dell’ambiente sono ora visualizzati più nomi di dominio per i servizi di pubblicazione e anteprima, a seconda delle necessità. Vedere [Dettagli ambiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#viewing-environment).
+   * **Experience Manager Assets as a Cloud Service**
+
+      Nuove funzioni in Assets:
+
+      * [!UICONTROL La funzionalità ] di automazione dei contenuti consente ad Experience Manager Assets di utilizzare le API Adobe Creative Cloud per automatizzare la produzione delle risorse su larga scala. Migliora la velocità dei contenuti riducendo notevolmente il tempo impiegato e le iterazioni necessarie per creare varianti della stessa risorsa. La funzionalità non richiede alcuna programmazione e funziona dall’interno di DAM. Consulta [Generare varianti di risorse utilizzando l’integrazione Adobe Creative Cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/cc-api-integration.html?lang=en).
+      * [È disponibile Adobe Asset Link 3.0](https://helpx.adobe.com/it/enterprise/using/adobe-asset-link.html) per Adobe Photoshop, Adobe Illustrator e Adobe InDesign e Adobe  [Adobe Asset Link 2.0](https://helpx.adobe.com/it/enterprise/using/adobe-asset-link-for-xd.html) per Adobe XD. Supporta Assets Essentials e la possibilità di connettersi automaticamente ad Experience Manager as a Cloud Service o Assets Essentials.
+      * Lo strumento [Asset bulk ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it#asset-bulk-ingestor) consente di aggiungere metadati durante un’acquisizione in blocco.
+
+      Nuove funzioni nel canale pre-rilascio delle risorse:
+
+      * Le impostazioni di visualizzazione vengono migliorate per consentire di scegliere una vista predefinita e un parametro di ordinamento predefinito.
+      * La funzionalità di download [!UICONTROL Condivisione collegamenti] utilizza download asincroni che aumentano la velocità di download. Consulta [Scaricare risorse condivise utilizzando la condivisione dei collegamenti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=en#link-share-download).
+      * Puoi cercare e filtrare le cartelle in base ai predicati delle proprietà.
+      * Experience Manager Assets incorpora il visualizzatore PDF per visualizzare in anteprima i formati di documento supportati. È alimentato da Adobe Document Cloud. Questa funzione consente di visualizzare in anteprima PDF e altri file multipagina senza alcuna elaborazione complessa. Migliora la parità delle funzioni con l’Experience Manager 6.5. I controlli disponibili nell’anteprima consistono nello zoom, nella navigazione alle pagine, nell’estrazione dei controlli e nella visualizzazione a schermo intero. Il visualizzatore PDF integrato supporta i formati di file AI, DOCX, INDD, PDF e PSD. È possibile commentare la risorsa stessa, ma i commenti e le annotazioni all’interno del file PDF non sono supportati.
+      * Grazie a un miglioramento dell’esperienza utente, viene visualizzato il numero di risorse presenti in una cartella. Per più di 1000 risorse in una cartella, Risorse visualizza più di 1000 risorse.
+      * Puoi applicare direttamente uno schema di metadati a una cartella nelle relative Proprietà.
+   * **Experience Manager Sites as a Cloud Service**
+
+      Nuove funzionalità:
+
+      * Pubblica nel livello anteprima ora viene visualizzato come stato della pagina nell’interfaccia utente di amministrazione di Sites.
+      * Pubblica nel livello anteprima ora l’URL di anteprima alla fine dell’azione e l’URL persistente nelle proprietà della pagina come riferimento successivo.
+   * **Experience Manager Forms as a Cloud Service**
+
+      Nuove funzionalità:
+
+      * Gli schemi di metadati possono essere applicati direttamente alle proprietà della cartella.
+      * Lo strumento Asset Bulk Ingestor consente di aggiungere metadati durante un’acquisizione in blocco.
+      * Grazie a un miglioramento dell’esperienza utente, viene visualizzato il numero di risorse presenti in una cartella. Se una cartella contiene più di 1000 risorse, Experience Manager Assets visualizza la dicitura “1000+”.
+
+      Funzione beta di Forms:
+
+      * **Experience Manager Forms as a Cloud Service - Comunicazioni**  - Le API di comunicazione consentono di combinare modelli XDP e dati XML per generare documenti di stampa in vari formati. Il servizio consente di generare documenti in modalità sincrona. Le API consentono di creare applicazioni che consentono di:
+         * Genera i documenti compilando i file modello con dati XML.
+         * Generare moduli di output in vari formati, compresi flussi di stampa PDF non interattivi.
+         * Genera PDF per la stampa da un modulo XFA PDF e Adobe Acrobat Form (AcroForm).
+
+      Puoi scrivere su [formscsbeta@adobe.com](mailto:formscsbeta@adobe.com) per iscriverti al programma beta.
+
+   * **Experienci Manager Screens come Cloud Service**
+
+      * Gestione della registrazione di massa dei dispositivi significa che il provisioning di grandi quantità di dispositivi di riproduzione è più veloce ed efficiente.
+      * Sono state migliorate le opzioni di ricerca e filtro per ciascuna delle visualizzazioni di inventario Dispositivo, Visualizzazione e Canale.
+      * Lo snapshot dell&#39;integrità del dispositivo consente di risparmiare tempo, fornendo uno stato critico come uno sguardo.
+      * La pagina dei dettagli dell’oggetto offre un riepilogo delle informazioni più rilevanti per ciascun oggetto del progetto.
+
+
+
+
+
+
+
 
 ### Informazioni sulla versione di Experience Manager {#aem-links}
 
