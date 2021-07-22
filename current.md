@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 272c8da44a241b5a8eb5930462cc53b3e6c43297
+source-git-commit: 563d306d19333cdfe78c7eb1077b9b8309fadd4e
 workflow-type: tm+mt
-source-wordcount: '5023'
+source-wordcount: '5036'
 ht-degree: 45%
 
 ---
@@ -23,8 +23,9 @@ Le applicazioni di Experience Cloud vengono aggiornate ogni mese. Su questa pagi
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. La pagina viene aggiornata nell’arco di tutto il mese, quindi controlla regolarmente se ci sono aggiornamenti sui prodotti aziendali di Adobe e sulla documentazione di Experience League.
 
-Ultimo aggiornamento: **20 luglio 2021**
+Ultimo aggiornamento: **22 luglio 2021**
 
+* [Avviso evento per Experience League Live](#events)  - 29  **luglio 2021**
 * [Componenti dell’interfaccia centrale di Experience Cloud](#ecloud)
 * [Stato di Adobe](#status)
 * [Experience Platform](#platform)
@@ -127,6 +128,7 @@ Per rimanere aggiornato, consulta le [note sulla versione di Offer Decisioning](
 
 Data di rilascio: **22 luglio 2021**
 
+* [Avviso evento per Experience League Live](#events)
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey) (aggiornato il 19 luglio 2021)
 * [Correzioni in Adobe Analytics](#aa-fixes)
@@ -134,7 +136,7 @@ Data di rilascio: **22 luglio 2021**
 * [Corsi ed esercitazioni su Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
-### Avviso evento per Experience League Live - Implementazione di Analytics
+## Avviso evento per Experience League Live - Implementazione di Analytics {#events}
 
 Unisciti a noi per ascoltare suggerimenti concreti che ogni team addetto all&#39;implementazione di Adobe Analytics dovrebbe conoscere, e per ricevere risposte dalle tue domande da Eric Matisoff nella chat pod. Questo è un evento live, quindi non è necessario registrarsi in anticipo, ma assicurati di inserirlo nel calendario in modo da non perdere!
 
