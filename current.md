@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 5de9bc92bc3752726b7af80dd0abf91e253a5c33
+source-git-commit: 272c8da44a241b5a8eb5930462cc53b3e6c43297
 workflow-type: tm+mt
-source-wordcount: '5139'
-ht-degree: 44%
+source-wordcount: '5023'
+ht-degree: 45%
 
 ---
 
@@ -22,14 +22,6 @@ Le applicazioni di Experience Cloud vengono aggiornate ogni mese. Su questa pagi
 >[!NOTE]
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. La pagina viene aggiornata nell’arco di tutto il mese, quindi controlla regolarmente se ci sono aggiornamenti sui prodotti aziendali di Adobe e sulla documentazione di Experience League.
-
-## Experience League Live
-
-[Implementazione di Adobe Analytics - Suggerimenti](https://www.youtube.com/watch?v=lxOvLCzEGBI)
-
-L&#39;hai visto sul palco al Summit. L&#39;hai sentito condividere consigli di esperti all&#39;Adobe Insider Tours. Potresti anche aver avuto il vantaggio di lavorare con lui sulla tua implementazione Adobe Analytics. Eric Matisoff sta portando i suoi tre consigli di implementazione preferiti di Adobe Analytics a questo esclusivo Experience League in diretta.
-
-Unisciti a noi per ricevere suggerimenti concreti che ogni team addetto all&#39;implementazione di Adobe Analytics dovrebbe conoscere e per ricevere risposte dalle tue domande, Eric nel chat pod. Questo è un evento live, quindi non è necessario registrarsi in anticipo, ma assicurati di inserirlo nel calendario in modo da non perdere!
 
 Ultimo aggiornamento: **20 luglio 2021**
 
@@ -146,7 +138,7 @@ Data di rilascio: **22 luglio 2021**
 
 Unisciti a noi per ascoltare suggerimenti concreti che ogni team addetto all&#39;implementazione di Adobe Analytics dovrebbe conoscere, e per ricevere risposte dalle tue domande da Eric Matisoff nella chat pod. Questo è un evento live, quindi non è necessario registrarsi in anticipo, ma assicurati di inserirlo nel calendario in modo da non perdere!
 
-[Implementazione di Adobe Analytics - Suggerimenti](https://www.youtube.com/watch?v=lxOvLCzEGBI)
+**Evento:** [Implementazione di Adobe Analytics - Suggerimenti](https://www.youtube.com/watch?v=lxOvLCzEGBI)
 
 **Quando:** 29 luglio 2021 alle 9:00 PDT
 
