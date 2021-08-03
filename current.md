@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 0a6bbad001bc4aeb0b8f6537d87d8d98131af5d5
 workflow-type: tm+mt
 source-wordcount: '5034'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,10 +70,10 @@ Per gli ultimi aggiornamenti sullo Stato di Adobe, visita la pagina [Stato di Ad
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-Include informazioni sull’aggiornamento della versione e nuova documentazione per Experience Platform e assegnazione tag alla piattaforma.
+Include informazioni sull’aggiornamento e nuova documentazione su Experience Platform e sui tag per Platform ed.
 
-* **30 giugno 2021:**[Note sulla versione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it)
-* **17 maggio 2021** [Note sulla versione dei tag di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html?lang=it)  (già Experience Platform Launch)
+* **30 giugno 2021:** [Note sulla versione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it)
+* **17 maggio 2021:** [Note sulla versione dei tag Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html?lang=it) (in precedenza Experience Platform Launch)
 
 ### Tutorial e corsi su Experience Platform {#tutorials-platform}
 
@@ -140,7 +140,7 @@ Data di rilascio: **22 luglio 2021**
 
 Unisciti a noi per ascoltare suggerimenti utili per ogni team addetto all’implementazione di Adobe Analytics. E Eric Matisoff risponderà alle tue domande nell’area chat. Questo è un evento live: non è necessario registrarsi in anticipo, ma assicurati di inserirlo nel calendario in modo da non perderlo!
 
-**Evento:**[Implementazione di Adobe Analytics - Suggerimenti](https://www.youtube.com/watch?v=lxOvLCzEGBI)
+**Evento:** [Implementazione di Adobe Analytics - Suggerimenti](https://www.youtube.com/watch?v=lxOvLCzEGBI)
 
 **Quando:** 29 luglio 2021 alle 9:00 PDT (18.00 CET)
 
@@ -154,7 +154,7 @@ Unisciti a noi per ascoltare suggerimenti utili per ogni team addetto all’impl
 
 | Funzione | Descrizione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=it) - data di Target |
 | ----------- | ---------- | ------- |
-| Nuova pagina di destinazione di Adobe Analytics (open beta) | Nella nuova pagina di destinazione di Adobe Analysis, Analysis Workspace e Reports &amp; Analytics sono riuniti in un’unica interfaccia e un unico punto di accesso sotto l’ombrello di Workspace. Sono disponibili una nuova pagina Home per project manager, un menu aggiornato per i rapporti, con rapporti aggiornati, nonché una nuova sezione di apprendimento per aiutarti a iniziare in modo più efficace. La nuova pagina facilita il reperimento di informazioni e guida gli utenti di Reports &amp; Analytics per una migliore esperienza di generazione rapporti in Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=it) | 26 luglio 2021 |
+| Nuova pagina di destinazione di Adobe Analytics (open beta) | Nella nuova pagina di destinazione di Adobe Analytics, Analysis Workspace e Reports &amp; Analytics sono riuniti in un’unica interfaccia e un unico punto di accesso sotto l’ombrello di Workspace. Sono disponibili una nuova pagina Home per project manager, un menu aggiornato per i rapporti, con rapporti aggiornati, nonché una nuova sezione di apprendimento per aiutarti a iniziare in modo più efficace. La nuova pagina facilita il reperimento di informazioni e guida gli utenti di Reports &amp; Analytics per una migliore esperienza di generazione rapporti in Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=it) | 26 luglio 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
