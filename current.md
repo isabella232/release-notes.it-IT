@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: a802b3ea8757944a04c24b3f7b8992e1ffe9bac8
+source-git-commit: 6c6ebfbf878dcdd9db406789f1350e04b42f3d85
 workflow-type: tm+mt
-source-wordcount: '5002'
+source-wordcount: '5004'
 ht-degree: 98%
 
 ---
@@ -23,7 +23,7 @@ Le applicazioni di Experience Cloud vengono aggiornate ogni mese. Su questa pagi
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. La pagina viene aggiornata nell’arco di tutto il mese, quindi controlla regolarmente se ci sono aggiornamenti sui prodotti aziendali di Adobe e sulla documentazione di Experience League.
 
-Ultimo aggiornamento: **3 agosto 2021**
+Ultimo aggiornamento: **11 agosto 2021**
 
 * [Avviso evento per Experience League Live](#events): **29 luglio 2021**
 * [Componenti dell’interfaccia centrale di Experience Cloud](#ecloud)
@@ -36,7 +36,7 @@ Ultimo aggiornamento: **3 agosto 2021**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
-* [[!DNL Advertising Cloud]](#adcloud)
+* [[!DNL Advertising Cloud]](#adcloud) (Aggiornato l’11  **agosto 2021**)
 * [[!DNL Target]](#target)
 * [[!DNL Commerce]](#magento) (Magento)
 * [[!DNL Marketo Engage]](#marketo)
