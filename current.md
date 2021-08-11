@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 78eda24b09b4fd09e6dbddde9ba32104cca40261
+source-git-commit: a93d9deb8ad36d396899d0b0505b1d6bf9441c3b
 workflow-type: tm+mt
-source-wordcount: '5036'
-ht-degree: 99%
+source-wordcount: '5002'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Ultimo aggiornamento: **3 agosto 2021**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
-* [[!DNL Advertising]](#adcloud)
+* [[!DNL Advertising Cloud]](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Commerce]](#magento) (Magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -366,30 +366,30 @@ Scopri le funzionalità, i miglioramenti e le correzioni più recenti:
 * Adobe Campaign Classic: [Centro assistenza](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=it)
 * Pannello di controllo di Adobe Campaign: [Documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it) - Video introduttivi per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=it) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=it)
 
-## ![Icona](/assets/advertising-cloud.png) Advertising {#adcloud}
+## ![Icona](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-Note sulla versione di [!DNL Adobe Advertising].
+Note sulla versione di [!DNL Adobe Advertising Cloud].
 
-* [Nuove funzioni di Advertising DSP](#adcloud-dsp)
-* [Nuove funzioni di Advertising Search](#adcloud-search)
+* [Nuove funzioni di Advertising Cloud DSP](#adcloud-dsp)
+* [Nuove funzioni di Advertising Cloud Search](#adcloud-search)
 
-### Nuove funzioni in [!DNL Advertising DSP] {#adcloud-dsp}
+### Nuove funzioni in [!DNL Advertising Cloud DSP] {#adcloud-dsp}
 
 Ultimo aggiornamento: **10 giugno 2021, per la versione del 16 giugno**
 
 | Funzione | Descrizione |
-| -----------| ---------- |
+| ------- | ----------- |
 | Gestione delle campagne | (Versione del 16 giugno) È stata introdotta una funzione di previsione per posizionamenti di visualizzazioni standard con budget e frequenza a livello di posizionamento. |
 
 {style=&quot;table-layout:auto&quot;}
 
-### Nuove funzioni in [!DNL Advertising Search] {#adcloud-search}
+### Nuove funzioni in [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Ultimo aggiornamento: **19 maggio 2021, per la versione del 18 maggio**
+Ultimo aggiornamento: **Per la versione del 24 luglio**
 
 | Funzione | Descrizione |
-| -----------| ---------- |
-| [!UICONTROL Centro notifiche Beta] | Il [!UICONTROL Centro notifiche Beta] è disponibile per tutti gli utenti. Utilizzalo per ricevere e-mail e notifiche Web sugli errori di autenticazione dell’account, avvisi personalizzati attivati e per conoscere quando gli [!UICONTROL Insight sulla pubblicità] che hai generato sono completi.<br>Puoi visualizzare le notifiche da:<ul><li>Il pannello [!UICONTROL Notifiche], che si apre dal collegamento Notifiche nell’angolo superiore destro di qualsiasi pagina.</li><li>Il [!UICONTROL Centro notifiche], che si trova sotto [!UICONTROL Insights e report > Centro notifiche Beta].</li></ul><br><b>Nota:</b> a causa dei miglioramenti alla modalità di memorizzazione delle notifiche, tutte le notifiche esistenti sono state cancellate. |
+| ------- | ----------- |
+| [!UICONTROL Strumenti] | Se l’account dell’inserzionista è configurato per utilizzare l’ottimizzazione ibrida, Advertising Cloud può facoltativamente caricare gli obiettivi dell’account su Google Ads e Microsoft Ads come conversioni, in modo da poterli utilizzare per l’ottimizzazione ibrida. Puoi abilitare la funzione da [!UICONTROL Ricerca] > [!UICONTROL Strumenti] > [!UICONTROL Configurazione del caricamento di conversione]. |
 
 {style=&quot;table-layout:auto&quot;}
 
