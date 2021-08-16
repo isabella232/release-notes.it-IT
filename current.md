@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 4bcabafad300591b5dd46afad7032ecb8c9f5bcf
+source-git-commit: cfeac2dbfaef453f24b54450c45d22e737510281
 workflow-type: tm+mt
 source-wordcount: '4362'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
@@ -65,13 +65,13 @@ Experience Cloud Central Interface Components include aggiornamenti a cui è pos
 
 [!UICONTROL Stato di Adobe] fornisce informazioni dettagliate, aggiornamenti sullo stato e notifiche e-mail relative agli eventi di sospensione, interruzione e manutenzione di prodotti e servizi cloud di Adobe. Consulta [status.adobe.com](https://status.adobe.com/).
 
-Per gli ultimi aggiornamenti sullo Stato di Adobe, visita la pagina [Stato di Adobe - 21 maggio 2020](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=it).
+Per informazioni aggiornate sullo stato del sistema di Adobe, consulta le note sulla versione [21 maggio 2020](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=it) .
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 Include informazioni sull’aggiornamento e nuova documentazione su Experience Platform e sui tag per Platform ed.
 
-* **Note sulla versione di Experience Platform del 28 luglio 2021** [](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it)
+* **28 luglio 2021** [Note sulla versione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it)  (prossima versione pianificata:  **(19** agosto)
 * **19 luglio 2021** [Note sulla versione dei tag di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html?lang=it)  (già Experience Platform Launch)
 
 ### Tutorial e corsi su Experience Platform {#tutorials-platform}
@@ -91,7 +91,7 @@ Con Adobe Journey Optimizer puoi gestire campagne omnicanale pianificate e momen
 
 ### Ultime versioni del prodotto Journey Optimizer
 
-Scopri di più sulle funzionalità, i miglioramenti e le correzioni più recenti nelle [Note sulla versione di Journey Orchestration](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=en).
+Ulteriori informazioni sulle funzionalità, i miglioramenti e le correzioni più recenti in [Note sulla versione di Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=en).
 
 **Altre risorse per Journey Optimizer**
 
