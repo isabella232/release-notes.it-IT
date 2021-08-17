@@ -8,7 +8,7 @@ mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4363'
 ht-degree: 51%
 
 ---
@@ -333,9 +333,9 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 Scopri le funzionalità, i miglioramenti e le correzioni più recenti:
 
-* Adobe Campaign Classic v8 versione 8.1.14: consulta le [note sulla versione di Campaign Classic v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html?lang=en)
+* [Campaign v8 8.1.14](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html?lang=en)
 * [Note sulla versione di Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en)
-* [Note sulla versione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it)
+* [Note sulla versione di Campaign Classic v7 21.1.3](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it)
 
 <!-- ### New [!UICONTROL Campaign] courses and tutorials {#tutorials-campaign}
 
