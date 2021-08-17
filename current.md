@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c0e65e13f424913c82f6608b24a8f797ee7a0341
+source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
 workflow-type: tm+mt
-source-wordcount: '4360'
+source-wordcount: '4374'
 ht-degree: 51%
 
 ---
@@ -23,7 +23,7 @@ Le applicazioni di Experience Cloud vengono aggiornate ogni mese. Su questa pagi
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. La pagina viene aggiornata nell’arco di tutto il mese, quindi controlla regolarmente se ci sono aggiornamenti sui prodotti aziendali di Adobe e sulla documentazione di Experience League.
 
-Ultimo aggiornamento: **13 agosto 2021**
+Ultimo aggiornamento: **17 agosto 2021**
 
 * [Componenti dell’interfaccia centrale di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
@@ -31,7 +31,7 @@ Ultimo aggiornamento: **13 agosto 2021**
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey)
+* [[!DNL Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey) Aggiornato il **17 agosto 2021**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -135,9 +135,9 @@ Per aggiornamenti costanti, consulta le [note sulla versione di Offer Decisionin
 Data di rilascio: **19 agosto 2021**
 
 * [Nuove funzioni di Adobe Analytics](#aa-features)
-* [Nuove funzioni in Customer Journey Analytics](#cust-journey)
+* [Nuove funzioni in Customer Journey Analytics](#cust-journey) (Aggiornato il **17 agosto 2021**)
 * [Correzioni in Adobe Analytics](#aa-fixes)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 3 agosto 2021)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
 * [Corsi ed esercitazioni su Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -154,7 +154,7 @@ Data di rilascio: **19 agosto 2021**
 | Funzione | Descrizione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - data di Target |
 | ----------- | ---------- | ----- |
 | Nuova esperienza di informazioni sulle connessioni | Questo miglioramento dell’interfaccia utente Connessioni consente di sapere se e quando i dati sono pronti per essere utilizzati nei rapporti. Permette inoltre di tenere traccia di eventuali problemi relativi all’elaborazione dei dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it) | 19 agosto 2021 |
-| Controllo della sensibilità alle maiuscole/minuscole nelle dimensioni Visualizzazione dati | Consente di controllare se il Customer Journey Analytics considera i valori delle dimensioni con distinzione tra maiuscole e minuscole. Ciò consente la deduplicazione di righe che hanno lo stesso valore, ma un caso diverso. | 19 agosto 2021 |
+| Controllo della sensibilità alle maiuscole/minuscole nelle dimensioni Visualizzazione dati | Consente di controllare se il Customer Journey Analytics considera i valori delle dimensioni con distinzione tra maiuscole e minuscole. Ciò consente la deduplicazione di righe che hanno lo stesso valore, ma un caso diverso. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings) | 19 agosto 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
