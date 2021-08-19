@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
 workflow-type: tm+mt
 source-wordcount: '4363'
-ht-degree: 51%
+ht-degree: 53%
 
 ---
 
@@ -31,7 +31,7 @@ Ultimo aggiornamento: **17 agosto 2021**
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey) Aggiornato il **17 agosto 2021**
+* [[!DNL Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey)  Aggiornato il **17 agosto 2021**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -109,9 +109,9 @@ Nuovi video, esercitazioni o corsi pubblicati per Adobe Campaign.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| Agosto 2021 | [Introduzione alla costruzione di un percorso](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | Video | Comprendere le basi della costruzione di un percorso nell&#39;area di lavoro del percorso. |
+| Agosto 2021 | [Introduzione alla costruzione di un percorso](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | Video | Scopri le basi della costruzione di un percorso nell’area di lavoro del percorso. |
 | Agosto 2021 | [Configurare i dati: panoramica](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/set-up-data-overview.html) | Video | Scopri i dati del profilo cliente in tempo reale e quali passaggi sono necessari per impostare i dati del profilo cliente per Journey Optimizer. |
-| Agosto 2021 | [Mappa le identità](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | Video | Scopri come e quando etichettare un campo di schema come identità, come creare uno spazio dei nomi, quando rendere principale un’identità e come acquisire e verificare i dati di identità. |
+| Agosto 2021 | [Mappare le identità](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | Video | Scopri come e quando etichettare un campo di schema come identità, come creare uno spazio dei nomi, quando rendere un’identità primaria e come acquisire e verificare i dati di identità. |
 | Agosto 2021 | [Caso d’uso: Messaggio Burst](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-read-burst-message.html) | Video | Comprendi i casi d’uso applicabili ai messaggi burst. Scopri come configurare un percorso per i messaggi burst e quali best practice applicare. |
 
 **Risorse aggiuntive per Journey Orchestration**
@@ -135,7 +135,7 @@ Per aggiornamenti costanti, consulta le [note sulla versione di Offer Decisionin
 Data di rilascio: **19 agosto 2021**
 
 * [Nuove funzioni di Adobe Analytics](#aa-features)
-* [Nuove funzioni in Customer Journey Analytics](#cust-journey) (Aggiornato il **17 agosto 2021**)
+* [Nuove funzioni in Customer Journey Analytics](#cust-journey)   (aggiornato il **17 agosto 2021**)
 * [Correzioni in Adobe Analytics](#aa-fixes)
 * [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
 * [Corsi ed esercitazioni su Analytics](#tutorials-analytics)
@@ -168,7 +168,7 @@ AN-211870; AN-255578; AN-258376; AN-260732; AN-260854; AN-261294; AN-263094; AN-
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
-| Avviso | Data di aggiunta o aggiornamento | Descrizione |
+| Avviso | Data di aggiunta  o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
 | Fine del ciclo di vita di Adobe Data Connectors | 3 agosto 2020 | Adobe [!UICONTROL Data Connectors] si basa su una tecnologia legacy, che non è più disponibile o supportata. Un nuovo standard è disponibile in [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud). Puoi utilizzare questo standard per continuare a offrire e supportare qualsiasi integrazione. La data ufficiale di fine del ciclo di vita è il **19° agosto 2021**. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=it) |
 | Fine del ciclo di vita per tre servizi API di Analytics | 15 luglio 2021 | Il **18 agosto 2021**, i seguenti servizi API legacy di Analytics raggiungeranno la data di fine del ciclo di vita e verranno chiusi. In tale data tutte le integrazioni correnti create utilizzando questi servizi cesseranno di funzionare.<ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Adobe ha pubblicato una sezione di [domande frequenti sulla fine del ciclo di vita delle API legacy](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere a tali domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
@@ -352,7 +352,7 @@ Scopri le funzionalità, i miglioramenti e le correzioni più recenti:
 * Adobe Campaign v8: [Centro assistenza](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=en) - [Guide all’implementazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
 * Adobe Campaign Standard: [Centro assistenza](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it) - [Piano delle versioni future](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=en)
 * Adobe Campaign Classic: [Centro assistenza](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=en)
-* Pannello di controllo di Adobe Campaign: [Documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en) - Video introduttivi per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=it) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=it)
+* Pannello di controllo di Adobe Campaign: [Documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en)  - Video introduttivi per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=it) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=it)
 
 ## ![Icona](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -381,7 +381,7 @@ Ultimo aggiornamento: **12 agosto 2021 per la versione del 21 agosto**
 
 {style=&quot;table-layout:auto&quot;}
 
-## ![Icona](/assets/magento.png) [!DNL Commerce] (Magento) {#magento}
+## ![Icona](/assets/magento.png) [!DNL Commerce]  (Magento) {#magento}
 
 Consulta i seguenti collegamenti per le note sulla versione di Adobe Commerce:
 
