@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c47b884401c2d9b4cce5d6b56252c58acccc598c
+source-git-commit: fd638c92e6804ccdec2adfc9aec1f571c610b798
 workflow-type: tm+mt
-source-wordcount: '4427'
+source-wordcount: '4430'
 ht-degree: 52%
 
 ---
@@ -388,7 +388,9 @@ Consulta i seguenti collegamenti per le note sulla versione di Adobe Commerce:
 * [Magento Commerce e open source](https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-3.html)
 * [Cloud Suite](https://devdocs.magento.com/cloud/release-notes/cloud-tools.html)
 
-## ![Icona](/assets/target.png) [!DNL Target] {#target}
+## ![Icona](/assets/target.png) [!DNL Target]  {#target}
+
+Ultimo aggiornamento: **3 agosto 2021**
 
 Per informazioni sempre aggiornate, consulta le [[!DNL Target] note sulla versione](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=it).
 
