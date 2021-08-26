@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 8b1a49bf761607dccb2793e0223c072cd6121be3
+source-git-commit: c402b360cc166a76c694b383806a21a34ccd2e60
 workflow-type: tm+mt
-source-wordcount: '4503'
+source-wordcount: '4508'
 ht-degree: 51%
 
 ---
@@ -46,13 +46,11 @@ Ultimo aggiornamento: **26 agosto 2021**
 
 Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.adobe.com/?lang=it#home) per trovare documentazione tecnica e sui prodotti, corsi curati da Adobe, esercitazioni video, risposte rapide, insight sulla community e corsi di formazione tenuti da istruttori.
 
-## Avviso dell&#39;evento, ad Experience League Live - Rendi il tuo prossimo segmento di pubblico più intelligente che mai {#events}
+## ![](/assets/experience-league.png) IconExperience League Live {#events}
 
-Scopri il Generatore di segmenti in Experience Platform LIVE con Aaron Shields, Yaya Wang e Andres Monroy!
+**26 agosto 2021**  |  [Rendi il tuo prossimo segmento di pubblico più intelligente che mai](https://www.youtube.com/watch?v=rogVKsTFbWk)  - Scopri il Generatore di segmenti in Experience Platform con Doug Moore, Aaron Shields, Yaya Wang e Andres Monroy!
 
-**Evento:** [rendere il segmento di pubblico successivo più intelligente che mai](https://www.youtube.com/watch?v=rogVKsTFbWk)
-
-**Quando:** 26 agosto 2021 alle 9:00 PST
+Per ulteriori video, visita [Adobe Experience League Channel](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) su YouTube.
 
 ## ![Icon](/assets/ec_appicon_24.png) Experience Cloud Central UI Components {#ecloud}
 
