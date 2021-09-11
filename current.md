@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 86c72625cfc50612c0a7cf0c9893b3d6dc4e90f4
+source-git-commit: 462d61e20e2a12671be96cf653d639c07fd6bf96
 workflow-type: tm+mt
-source-wordcount: '6299'
+source-wordcount: '6301'
 ht-degree: 34%
 
 ---
@@ -194,10 +194,12 @@ Nuovi video, esercitazioni o corsi pubblicati per Experience Platform e Services
 
 Funzioni, correzioni e nuovi contenuti della guida, ad Journey Orchestration.
 
+**Agosto 2021**
+
 * **Intestazioni dinamiche:** ora puoi trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate HTTP dell’azione percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 * **Percorsi URL dinamici:** ora puoi impostare percorsi URL dinamici per le azioni personalizzate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 
-* **Agosto 2021**  - Consulta le note sulla versione del  [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=it)
+Per ulteriori informazioni, consulta [Note sulla versione del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=it) .
 
 #### Nuovi corsi e tutorial su Journey Orchestration {#tutorials-ajo}
 
