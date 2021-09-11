@@ -4,10 +4,10 @@ description: Note sulla versione di Experience Cloud
 doc-type: release notes
 last-update: June 2021
 author: mfrei
-source-git-commit: 48c0f82523382da9a78a78d850432c0bafd7cee7
+source-git-commit: b83f085d9fca7c4ae2b3519d32033a03aec28026
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 93%
+source-wordcount: '725'
+ht-degree: 92%
 
 ---
 
@@ -26,20 +26,25 @@ Nuove funzioni e correzioni in Adobe Experience Cloud.
 >
 >Le nuove informazioni pubblicate dopo il rilascio saranno contrassegnate dalla data di pubblicazione.
 
-**Data di rilascio: 2021**
+Ultimo aggiornamento: **Settembre 2021**
 
-* [Stato di Adobe](#status)
-* [Interfaccia di Experience Cloud](#ecloud)
+* [Experience League eventi live](#events)
+* [Componenti dell’interfaccia centrale di Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [Analytics](#analytics)
-* [Audience Manager](#aam)
-* [Experience Manager](#aem)
-* [Campaign](#ac)
-* [Pubblicità](#adcloud)
-* [Magento](#magento)
-* [Marketo](#marketo)
-* [Primetime](https://experienceleague.adobe.com/docs/primetime.html) (collegamenti alle soluzioni)
-* [Nuovi documentazione e tutorial](#selfhelp)
+* [Experience Platform Application Services](#services)
+* [Stato di Adobe](#status)
+* [Journey Optimizer](#journey-opt)
+* [[!DNL Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey)
+* [[!DNL Audience Manager]](#aam)
+* [[!DNL Experience Manager]](#aem)
+* [[!DNL Campaign]](#ac)
+* [[!DNL Advertising Cloud]](#adcloud)
+* [[!DNL Target]](#target)
+* [[!DNL Commerce]](#magento) (Magento)
+* [[!DNL Marketo Engage]](#marketo)
+* [[!DNL Workfront]](#workfront)
+* [Document Cloud](#doc-cloud)
+* [Creative Cloud for enterprise](#creative-cloud)
 
 ## Stato di Adobe {#status}
 
@@ -47,12 +52,15 @@ Funzioni e problemi risolti.
 
 Vedi [Stato del sistema di Adobe](https://status.adobe.com/).
 
-## Interfaccia di Experience Cloud{#ecloud}
+## ![Icon](/assets/ec_appicon_24.png) Experience Cloud Central UI Components {#ecloud}
 
-Nuove funzioni e problemi risolti nell’interfaccia Experience Cloud, tra cui gestione e servizi principali (attributi del cliente, pubblico, trigger, cookie e così via).
+Experience Cloud Central Interface Components include aggiornamenti a cui è possibile accedere dall’intestazione del prodotto unificata, ad esempio Aiuto, Ricerca e preferenze dell’account utente. Qui trovi gli aggiornamenti ai servizi People, Places (Posizione) e alla gestione dei prodotti.
 
-* [[!UICONTROL Servizi di base]](#core-services)
-* [Amministrazione e sviluppatori](#admin)
+| Funzione | Data | Descrizione |
+| ------- | ------- | -------|
+| Funzione | Settembre 2021 | Descrizione |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### [!UICONTROL Servizi di base] {#core-services}
 
