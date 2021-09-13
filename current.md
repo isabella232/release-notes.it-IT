@@ -56,7 +56,7 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 
 {style=&quot;table-layout:auto&quot;}
 
-Per ulteriori video, visita il [canale di Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) su YouTube.
+Per ulteriori video, visita il [canale Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) su YouTube.
 
 ## ![Icona](/assets/ec_appicon_24.png) [!DNL Experience Cloud Central UI Components]  e amministrazione {#ecloud}
 
@@ -169,7 +169,7 @@ Non aggiornato.
 
 Include informazioni sull&#39;aggiornamento della versione e la nuova documentazione per Experience Platform e Platform Services ([!UICONTROL Journey Orchestration], [!UICONTROL Offer decisioning] e [!UICONTROL Mobile SDK]).
 
-Gli aggiornamenti del **25 agosto 2021** che interessano e funzioni esistenti in Experience Platform includono:
+Gli aggiornamenti del **25 agosto 2021** per le funzioni esistenti di Experience Platform includono:
 
 * **[!UICONTROL Destinazioni]:** miglioramenti a livello di usabilità per gli addetti al marketing   orientabili alle destinazioni, per attivare facilmente i segmenti nelle destinazioni esistenti.
 * **[!UICONTROL Observability Insights]:** ora puoi abbonarti a importanti avvisi relativi ai flussi di lavoro in esecuzione su Platform.
@@ -453,7 +453,7 @@ Ultimo aggiornamento: **20 agosto 2021 per la versione del 21 agosto**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
-| — | Il nuovo tag JavaScript beta di Advertising Cloud utilizza il servizio Adobe Experience Cloud ID (ECID) e i `ef_id` e `gsurferid` legacy per misurare le conversioni. Il nuovo tag crea [cookie s_ecid di prime parti di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=it) e fornisce un’integrazione più stretta con altri prodotti Experience Cloud.<br><br>Il tag JavaScript legacy di Advertising Cloud con mappatura ITP diventerà obsoleto a settembre 2021.<br><br>Il tuo Account Manager di Adobe provvederà a contattarti per fornirti maggiori informazioni e istruzioni sull’implementazione. |
+| — | Il nuovo tag JavaScript beta di Advertising Cloud utilizza il servizio Adobe Experience Cloud ID (ECID) e i `ef_id` e `gsurferid` legacy per misurare le conversioni. Il nuovo tag crea [cookie s_ecid di prime parti di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=it) e fornisce una migliore integrazione con altri prodotti Experience Cloud.<br><br>Il tag JavaScript legacy di Advertising Cloud con mappatura ITP diventerà obsoleto a settembre 2021.<br><br>Riceverai dal tuo Adobe Account Manager ulteriori informazioni e istruzioni per l’implementazione. |
 | [!UICONTROL Portfolio] | Per tutti gli utenti è disponibile la nuova funzione [!UICONTROL Obiettivi beta] con consigli automatizzati. La nuova interfaccia include ulteriori indicazioni sulla creazione di obiettivi e sull’impostazione del livello di importanza iniziale dell’obiettivo. I consigli sul livello di importanza sono disponibili solo per le metriche di assistenza. |
 
 {style=&quot;table-layout:auto&quot;}
