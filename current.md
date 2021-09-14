@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 8dbb4ef3665160ade3ec8ffa503c01bd5af64b0e
+source-git-commit: fcba6592d43896676fff4a62d15756823c8a1b20
 workflow-type: tm+mt
-source-wordcount: '6339'
+source-wordcount: '6343'
 ht-degree: 34%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 34%
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. La pagina viene aggiornata nell’arco di tutto il mese, quindi controlla regolarmente se ci sono aggiornamenti sui prodotti aziendali di Adobe e sulla documentazione di Experience League.
 
-Ultimo aggiornamento: **10 settembre 2021**
+Ultimo aggiornamento: **14 settembre 2021**
 
 * [[!DNL Experience League] Eventi live](#events)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Amministrazione](#ecloud)
 * [Adobe [!UICONTROL Stato del sistema]](#status)
 * [[!DNL Adobe Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey)
-* [[!DNL Adobe Audience Manager]](#aam)
+* [[!DNL Adobe Audience Manager]](#aam) (aggiornato il 14  **settembre 2021**)
 * [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
 * [[!DNL Adobe Experience Manager]](#aem)
@@ -163,7 +163,7 @@ Nuovi corsi, esercitazioni e articoli in [!DNL Analytics] e [!UICONTROL Customer
 
 ## ![Icona](/assets/audience-manager.png) Audience Manager {#aam}
 
-Nuove funzioni in Audience Manager.
+Nuove funzioni in Audience Manager - aggiornato il **14 settembre 2021**:
 
 | Funzione | Descrizione |
 | ------- | ------- |
