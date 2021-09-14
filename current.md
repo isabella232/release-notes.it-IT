@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: cc9f1d42093c54689b6d15c640879891e4d4ce24
+source-git-commit: 8dbb4ef3665160ade3ec8ffa503c01bd5af64b0e
 workflow-type: tm+mt
-source-wordcount: '6298'
+source-wordcount: '6339'
 ht-degree: 34%
 
 ---
@@ -163,7 +163,11 @@ Nuovi corsi, esercitazioni e articoli in [!DNL Analytics] e [!UICONTROL Customer
 
 ## ![Icona](/assets/audience-manager.png) Audience Manager {#aam}
 
-Non aggiornato.
+Nuove funzioni in Audience Manager.
+
+| Funzione | Descrizione |
+| ------- | ------- |
+| Consenso alla raccolta dati di Mobile ID | È stato aggiunto il supporto per il consenso alla raccolta dati di ID mobile. Per beneficiare di questo aggiornamento, i clienti devono effettuare l’aggiornamento a [AEP Mobile SDK iOS Core 2.8.0](https://aep-sdks.gitbook.io/docs/foundation-extensions/mobile-core/mobile-core-release-notes#november-4-2020) o successivo. |
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
