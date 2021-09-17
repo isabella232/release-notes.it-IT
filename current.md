@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0f0032bbcf0c0fa46caaf1604a0c5aceaffbbe8e
+source-git-commit: dfec28cdcc99e9f8840e0eb1dec5c721775d65b8
 workflow-type: tm+mt
-source-wordcount: '6485'
+source-wordcount: '6533'
 ht-degree: 98%
 
 ---
@@ -97,10 +97,10 @@ Data di rilascio: **15 settembre 2021**
 
 | Funzione | Descrizione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - data di Target |
 | ----------- | ---------- | ----- |
-| Deduplicazione delle metriche | Customer Journey Analytics (CJA) ora può deduplicare le istanze di una metrica. Se lo stesso valore viene visualizzato in una colonna (la stessa o un’altra colonna), puoi impedire l’aumento di una metrica. La deduplicazione evita il conteggio eccessivo delle metriche chiave e aumenta l’affidabilità dei tuoi dati. | 16 settembre 2021 |
-| Supporto per l’ora legale per la generazione rapporti | Tutti i dati in CJA vengono memorizzati in UTC (non con un fuso orario specifico). [!UICONTROL Visualizzazione dati] in CJA ora può spostare i dati per tenere conto dell’aumento o della diminuzione di 1 ora in base all’ora legale. | 16 settembre 2021 |
-| [!UICONTROL Calendari personalizzati] | Consente di selezionare un tipo di calendario diverso (ad esempio [!UICONTROL 4-4-5 per la vendita al dettaglio]) per una visualizzazione dati. È possibile creare più visualizzazioni dati basate sulla stessa connessione per visualizzare gli stessi dati in diversi formati di calendario. | 16 settembre 2021 |
-| Supporto di campi booleani | CJA ora supporta i campi booleani. | 16 settembre 2021 |
+| Deduplicazione delle metriche | Customer Journey Analytics (CJA) ora può deduplicare le istanze di una metrica. Se lo stesso valore viene visualizzato in una colonna (la stessa o un’altra colonna), puoi impedire l’aumento di una metrica. La deduplicazione evita il conteggio eccessivo delle metriche chiave e aumenta l’affidabilità dei tuoi dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication.html?lang=en) | 16 settembre 2021 |
+| Supporto per l’ora legale per la generazione rapporti | Tutti i dati in CJA vengono memorizzati in UTC (non con un fuso orario specifico). [!UICONTROL Visualizzazione dati] in CJA ora può spostare i dati per tenere conto dell’aumento o della diminuzione di 1 ora in base all’ora legale. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#calendar) | 16 settembre 2021 |
+| [!UICONTROL Calendari personalizzati] | Consente di selezionare un tipo di calendario diverso (ad esempio [!UICONTROL 4-4-5 per la vendita al dettaglio]) per una visualizzazione dati. È possibile creare più visualizzazioni dati basate sulla stessa connessione per visualizzare gli stessi dati in diversi formati di calendario. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#calendar) | 16 settembre 2021 |
+| Supporto di campi booleani | CJA ora supporta i campi booleani. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=en) | 16 settembre 2021 |
 | Nuova esperienza di informazioni su [!UICONTROL Connessioni] | Questo miglioramento dell’interfaccia utente [!UICONTROL Connessioni] consente di sapere se e quando i dati sono pronti per essere utilizzati nei rapporti. Permette inoltre di tenere traccia di eventuali problemi relativi all’elaborazione dei dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it) | 20 settembre 2021 |
 
 {style=&quot;table-layout:auto&quot;}
