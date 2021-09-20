@@ -229,7 +229,7 @@ Per i dettagli, consulta le [note sulla versione di Journey Orchestration](https
 
 #### Altre risorse per [!UICONTROL Offer Decisioning]
 
-[Centro assistenza](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html#new?lang=it) - [Video dimostrativi](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/documentation-updates.html?lang=it)
+[Centro assistenza](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=it#new) - [Video dimostrativi](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/documentation-updates.html?lang=it)
 
 ### SDK di Adobe Mobile
 
