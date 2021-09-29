@@ -6,10 +6,10 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: dfec28cdcc99e9f8840e0eb1dec5c721775d65b8
+source-git-commit: 9ab0cd435039085791c186a439f16954c317c2df
 workflow-type: tm+mt
 source-wordcount: '6533'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -206,15 +206,6 @@ Funzioni, correzioni e nuovi contenuti di supporto per Journey Orchestration.
 
 Per i dettagli, consulta le [note sulla versione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=it).
 
-#### Nuovi corsi e tutorial su Journey Orchestration {#tutorials-ajo}
-
-| Data di pubblicazione | Nome | Tipo | Descrizione |
-| -----------| ---------- | ---------- | ---------- |
-| Agosto 2021 | [Introduzione alla costruzione di un percorso](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=it) | Video | Scopri le basi della costruzione di un percorso nell’area di lavoro del percorso. |
-| Agosto 2021 | [Configurazione di dati del profilo cliente: panoramica](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/set-up-data-overview.html?lang=it) | Video | Scopri i dati del profilo cliente in tempo reale e i passaggi necessari per impostare i dati del profilo cliente per Journey Optimizer. |
-| Agosto 2021 | [Mappare le identità](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/map-identities.html?lang=it) | Video | Scopri come e quando etichettare un campo di schema come identità, come creare uno spazio dei nomi, quando rendere un’identità primaria e come acquisire e verificare i dati di identità. |
-| Agosto 2021 | [Caso di utilizzo: messaggio burst](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=it) | Video | Comprendi i casi d’uso applicabili ai messaggi burst. Scopri come configurare un percorso per i messaggi burst e quali best practice applicare. |
-
 {style=&quot;table-layout:auto&quot;}
 
 #### Risorse aggiuntive per Journey Orchestration
@@ -247,6 +238,15 @@ Consulta le [note sulla versione e registri di modifica](https://aep-sdks.gitboo
 | [!UICONTROL Elenco di eliminazione] | L’aggiunta di indirizzi e-mail e domini all’elenco di eliminazione è ora disponibile dall’interfaccia utente, uno alla volta o in modalità collettiva tramite un caricamento di file CSV. |
 
 Per i dettagli, consulta le [note sulla versione di Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=it).
+
+#### Nuovi corsi e esercitazioni di Journey Optimizer {#tutorials-ajo}
+
+| Data di pubblicazione | Nome | Tipo | Descrizione |
+| -----------| ---------- | ---------- | ---------- |
+| Agosto 2021 | [Introduzione alla costruzione di un percorso](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=it) | Video | Scopri le basi della costruzione di un percorso nell’area di lavoro del percorso. |
+| Agosto 2021 | [Configurazione di dati del profilo cliente: panoramica](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/set-up-data-overview.html?lang=it) | Video | Scopri i dati del profilo cliente in tempo reale e i passaggi necessari per impostare i dati del profilo cliente per Journey Optimizer. |
+| Agosto 2021 | [Mappare le identità](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/map-identities.html?lang=it) | Video | Scopri come e quando etichettare un campo di schema come identità, come creare uno spazio dei nomi, quando rendere un’identità primaria e come acquisire e verificare i dati di identità. |
+| Agosto 2021 | [Caso di utilizzo: messaggio burst](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=it) | Video | Comprendi i casi d’uso applicabili ai messaggi burst. Scopri come configurare un percorso per i messaggi burst e quali best practice applicare. |
 
 ### Altre risorse per Journey Optimizer
 
@@ -463,7 +463,7 @@ Ultimo aggiornamento: **20 agosto 2021 per la versione del 21 agosto**
 
 {style=&quot;table-layout:auto&quot;}
 
-## ![Icona](/assets/magento.png) [!DNL Commerce] (Magento) {#magento}
+## ![Icona](/assets/magento.png) [!DNL Commerce]  (Magento) {#magento}
 
 Consulta i seguenti collegamenti per le note sulla versione di Adobe Commerce:
 
