@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e3a7e1b80d25a3b9625ca0ee31a07bae674eda6f
+source-git-commit: bee65444e8ef1c12779c991fa9e199d93b8028f0
 workflow-type: tm+mt
-source-wordcount: '5278'
+source-wordcount: '5361'
 ht-degree: 39%
 
 ---
@@ -48,12 +48,12 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 
 [!DNL Experience League] Gli eventi live sono incontri con esperti Adobe e ospiti speciali, utili per portare la tecnologia Adobe al pubblico. Visualizza la programmazione seguente e unisciti a noi in diretta o guarda gli eventi registrati in precedenza.
 
-| Data evento | Nome evento | Tipo | Descrizione |
-| -----------| ---------- | ---------- | ---------- |
-| 21 ottobre 2021 | TBD | Evento video live | Dettagli in arrivo. |
-| 23 settembre 2021 | [Suggerimenti degli esperti per dare risalto alle campagne per le vacanze](https://www.youtube.com/watch?v=bsU1lAv0xes) | Evento video live | Proprio come non è mai troppo presto per iniziare a fare acquisti per le vacanze, non è mai troppo presto per iniziare a pianificare una campagna di marketing per vacanze di successo. Con Adobe Campaign puoi progettare, pianificare ed eseguire campagne che concretizzano tutti i desideri per le vacanze della tua azienda.<br>Ma conosci tutti i suggerimenti per l&#39;esecuzione di campagne che finiscono l&#39;anno con un colpo? Partecipa a Sandra per una discussione dal vivo con tre esperti Adobi che hanno eons di esperienza collettiva nel fare proprio questo. |
-| 26 agosto 2021 | [Rendi il tuo prossimo segmento di pubblico più in gamba che mai](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=it) | Registrazione di eventi | Il successo di ogni buona campagna di marketing dipende dal targeting preciso del pubblico. Con il nuovo [!UICONTROL generatore di segmenti] di Adobe Experience Platform, puoi creare il tuo prossimo segmento di pubblico utilizzando i dati di profilo e il comportamento degli utenti basato sul tempo tra i canali. Non c’è modo migliore di garantire che i tuoi messaggi raggiungano chi ha bisogno di ascoltarli di più. |
-| 29 luglio 2021 | [I miei tre suggerimenti preferiti per l’implementazione di Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=it) | Registrazione di eventi | L’hai visto sul palco al Summit. L’hai sentito condividere consigli di esperti all’Adobe Insider Tour. Potresti anche aver avuto l’opportunità di lavorare con lui sulla tua implementazione di Adobe Analytics. Adesso, Eric Matisoff porta i suoi tre suggerimenti preferiti per l’implementazione di Adobe Analytics in questo incontro esclusivo live di Experience League. |
+| Data evento | Tempo | Nome evento | Tipo | Descrizione |
+| -----------| ---------- | ---------- | ---------- |---------- |
+| 21 ottobre 2021 | 12 (EST) | [Chi l&#39;ha cliccato? Generazione di rapporti avanzati sui clic sui collegamenti con Adobe Analytics](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | Evento video live | Il reporting sull’interazione dell’utente con la proprietà web o mobile rappresenta un elemento fondamentale per comprendere il percorso del cliente. Con Adobe Analytics puoi capire chi, cosa, perché e dove di ogni clic nell’applicazione. Gli esperti di Adobe Analytics possono imparare a utilizzare le classificazioni Activity Map e l’attribuzione personalizzata per comprendere meglio il coinvolgimento degli utenti. |
+| 23 settembre 2021 | Su richiesta | [Suggerimenti degli esperti per dare risalto alle campagne per le vacanze](https://www.youtube.com/watch?v=bsU1lAv0xes) | Evento video live | Proprio come non è mai troppo presto per iniziare a fare acquisti per le vacanze, non è mai troppo presto per iniziare a pianificare una campagna di marketing per vacanze di successo. Con Adobe Campaign puoi progettare, pianificare ed eseguire campagne che concretizzano tutti i desideri per le vacanze della tua azienda.<br>Ma conosci tutti i suggerimenti per l&#39;esecuzione di campagne che finiscono l&#39;anno con un colpo? Partecipa a Sandra per una discussione dal vivo con tre esperti Adobi che hanno eons di esperienza collettiva nel fare proprio questo. |
+| 26 agosto 2021 | Su richiesta | [Rendi il tuo prossimo segmento di pubblico più in gamba che mai](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=it) | Registrazione di eventi | Il successo di ogni buona campagna di marketing dipende dal targeting preciso del pubblico. Con il nuovo [!UICONTROL generatore di segmenti] di Adobe Experience Platform, puoi creare il tuo prossimo segmento di pubblico utilizzando i dati di profilo e il comportamento degli utenti basato sul tempo tra i canali. Non c’è modo migliore di garantire che i tuoi messaggi raggiungano chi ha bisogno di ascoltarli di più. |
+| 29 luglio 2021 | Su richiesta | [I miei tre suggerimenti preferiti per l’implementazione di Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=it) | Registrazione di eventi | L’hai visto sul palco al Summit. L’hai sentito condividere consigli di esperti all’Adobe Insider Tour. Potresti anche aver avuto l’opportunità di lavorare con lui sulla tua implementazione di Adobe Analytics. Adesso, Eric Matisoff porta i suoi tre suggerimenti preferiti per l’implementazione di Adobe Analytics in questo incontro esclusivo live di Experience League. |
 
 {style=&quot;table-layout:auto&quot;}
 
