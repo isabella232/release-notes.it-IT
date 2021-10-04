@@ -5,9 +5,10 @@ doc-type: release notes
 last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
-source-git-commit: ff7a3736e7490af8b815eda72e4ba0b363aef472
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
+source-git-commit: 2ad6cb4ae1ae0c9a9414df7c1360a3d4d428f1e5
 workflow-type: tm+mt
-source-wordcount: '5136'
+source-wordcount: '5271'
 ht-degree: 40%
 
 ---
@@ -339,9 +340,13 @@ Scopri le funzionalità, i miglioramenti e le correzioni più recenti:
 
 Esercitazioni e corsi più recenti per Adobe Campaign.
 
-| Data di pubblicazione | Nome | Applicazione | Descrizione |
+| Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| Ottobre 2021 | [Creazione di campagne avanzate con Adobe Campaign V8 per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Campaign V8 | Scopri come configurare ed eseguire campagne di marketing avanzate utilizzando Adobe Campaign V8. Scopri i prerequisiti, crea e configura campagne avanzate, consegne e gestione di abbonamenti. |
+| Ottobre 2021 | [Creazione di campagne avanzate con Adobe Campaign V8 per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Corso | Scopri come configurare ed eseguire campagne di marketing avanzate utilizzando Adobe Campaign V8. Scopri i prerequisiti, crea e configura campagne avanzate, consegne e gestione di abbonamenti. |
+| Ottobre 2021 | [Utilizzare le API SOAP nei flussi di lavoro - Introduzione](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | Tutorial | Scopri come utilizzare le API Soap di Adobe Campaign e creare un flusso di lavoro di consegna avanzato basato sui dati ricevuti tramite l’API. |
+| Ottobre 2021 | [Creare eventi](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=en) | Tutorial | Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento. |
+| Ottobre 2021 | [Configurare origini dati](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | Tutorial | Scopri cos’è un’origine dati e come configurare origini dati Experienci Platform ed esterne. |
+| Ottobre 2021 | [Caso di utilizzo: messaggi burst](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=en) | Tutorial | Comprendi i casi d’uso applicabili ai messaggi burst. Scopri come configurare un percorso per i messaggi burst e quali best practice applicare. |
 
 {style=&quot;table-layout:auto&quot;}
 
