@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: f0bc233f66b61333fee0cf07f816918d61c0776e
+source-git-commit: 7cf9cf52da1afbbad7f5457077759b127a2e2312
 workflow-type: tm+mt
-source-wordcount: '5394'
+source-wordcount: '5405'
 ht-degree: 39%
 
 ---
@@ -78,7 +78,7 @@ Per ulteriori video, visita il [canale Adobe Experience League](https://www.yout
 
 ## ![Icona](/assets/adobe.png) [!DNL Adobe System Status] {#status}
 
-[!DNL Adobe System Status] fornisce informazioni dettagliate, aggiornamenti sullo stato e notifiche e-mail relative agli eventi di sospensione, interruzione e manutenzione di prodotti e servizi di Adobe. Consulta [status.adobe.com](https://status.adobe.com/).
+[!DNL Adobe System Status] fornisce informazioni dettagliate, aggiornamenti sullo stato e notifiche e-mail relative agli eventi di sospensione, interruzione e manutenzione di prodotti e servizi di Adobe. Consulta [status.adobe.com](https://status.adobe.com/it).
 
 (Per informazioni aggiornate sulla versione [!DNL Adobe System Status], consulta le note sulla versione del [21 maggio 2020](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=it).)
 
@@ -109,7 +109,7 @@ Data di rilascio: **7 ottobre 2021**
 
 | Funzione | Descrizione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - data di Target |
 | ----------- | ---------- | ----- |
-| Supporto Report Builder | Report Builder è un componente aggiuntivo Microsoft® [!DNL Excel] che consente di creare, modificare e aggiornare facilmente i rapporti personalizzati utilizzando i dati di Customer Journey Analytics. Con Report Builder ed Excel, puoi utilizzare l’interfaccia utente semplice ma flessibile con trascinamento della selezione per creare facilmente richieste di dati complesse. Con Report Builder per Customer Journey Analytics, puoi:<ul><li>Fai riferimento alle celle del foglio di lavoro esistenti per ottenere l&#39;ordine di riga, l&#39;intervallo di date o il filtro perfetti</li><li>Crea date personalizzate utilizzando calendario, riferimenti di cella o matematica della data</li><li>Progettazione di tabelle e visualizzazioni con strumenti di formattazione di Excel</li><li>Disponibile su macOS, Microsoft 365 per il web e Microsoft Windows</li></ul> | 7 ottobre 2021 |
+| Supporto Report Builder | Report Builder è un componente aggiuntivo Microsoft® [!DNL Excel] che consente di creare, modificare e aggiornare facilmente i rapporti personalizzati utilizzando i dati di Customer Journey Analytics. Con Report Builder ed Excel, puoi utilizzare l’interfaccia utente semplice ma flessibile con trascinamento della selezione per creare facilmente richieste di dati complesse. Con Report Builder per Customer Journey Analytics, puoi:<ul><li>Fai riferimento alle celle del foglio di lavoro esistenti per ottenere l&#39;ordine di riga, l&#39;intervallo di date o il filtro perfetti</li><li>Crea date personalizzate utilizzando calendario, riferimenti di cella o matematica della data</li><li>Progettazione di tabelle e visualizzazioni con strumenti di formattazione di Excel</li><li>Disponibile per Excel su macOS, Microsoft 365 per il Web e Microsoft Windows</li></ul>[Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html#) | 7 ottobre 2021 |
 | Visualizzazioni per le dashboard di Analytics | Analytics [!UICONTROL Dashboard] introduce tre nuove visualizzazioni per consentire a dirigenti e responsabili decisionali di comprendere meglio a colpo d&#39;occhio i propri dati. I nuovi grafici a barre ad anello, a linee e orizzontali semplificano la visualizzazione dei dati per i singoli elementi dimensionali, senza dover aprire una visualizzazione dei dettagli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en#apply-visualizations) | 7 ottobre 2021 |
 | API dei registri di controllo del Customer Journey Analytics | L&#39;endpoint API [Registro di controllo](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) consente di richiedere ad Adobe i dati del registro di controllo. È una parte importante della conformità in materia di sicurezza e per il controllo dei dati o delle azioni degli utenti. | 7 ottobre 2021 |
 | Generatore di filtri [!UICONTROL rapido] | Consente agli utenti aziendali di applicare rapidamente i segmenti di base in un flusso di lavoro di progetto semplificato e in linea. Non è necessario passare al [!UICONTROL Generatore di filtri]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=en) | 21 ottobre 2021 |
@@ -329,7 +329,7 @@ Le note sulla versione e altri collegamenti alle informazioni sulla versione di 
 
 Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singoli utenti tra canali di marketing online e offline. Ora è possibile prevedere cosa vogliono i clienti, mediante esperienze determinate dalle loro abitudini e preferenze.
 
-### Ultime versioni dei prodotti per le campagne
+### Ultime versioni di Campaign
 
 Scopri le funzionalità, i miglioramenti e le correzioni più recenti:
 
@@ -387,7 +387,7 @@ Ultimo aggiornamento: **28 settembre 2021**
 
 {style=&quot;table-layout:auto&quot;}
 
-## ![Icona](/assets/magento.png) [!DNL Commerce]  (Magento) {#magento}
+## ![Icona](/assets/magento.png) [!DNL Commerce] (Magento) {#magento}
 
 Consulta i seguenti collegamenti per le note sulla versione di Adobe Commerce:
 
