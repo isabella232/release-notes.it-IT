@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: d2d02b2130c11f1971220646ac19f4fa6f0ab5da
+source-git-commit: 506c543d97a19bf88e7ba767c82893b02704ea8b
 workflow-type: tm+mt
-source-wordcount: '5553'
+source-wordcount: '5631'
 ht-degree: 38%
 
 ---
@@ -348,8 +348,8 @@ Esercitazioni e corsi più recenti per Adobe Campaign.
 | -----------| ---------- | ---------- | ---------- |
 | Ottobre 2021 | [Creazione di campagne avanzate con Adobe Campaign V8 per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Corso | Scopri come configurare ed eseguire campagne di marketing avanzate utilizzando Adobe Campaign V8. Scopri i prerequisiti, crea e configura campagne avanzate, consegne e gestione di abbonamenti. |
 | Ottobre 2021 | [Utilizzare le API SOAP nei flussi di lavoro - Introduzione](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | Tutorial | Scopri come utilizzare le API Soap di Adobe Campaign e creare un flusso di lavoro di consegna avanzato basato sui dati ricevuti tramite l’API. |
-| Ottobre 2021 | [Creare eventi](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=en) | Tutorial | Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento. |
-| Ottobre 2021 | [Configurare origini dati](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | Tutorial | Scopri cos’è un’origine dati e come configurare origini dati Experienci Platform ed esterne. |
+| Ottobre 2021 | [Creare gli eventi](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=en) | Tutorial | Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento. |
+| Ottobre 2021 | [Configurare origini dati](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | Tutorial | Scopri cos’è un’origine dati e come configurare le origini dati esterne e di Experience Platform. |
 | Ottobre 2021 | [Caso di utilizzo: messaggi burst](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=en) | Tutorial | Comprendi i casi d’uso applicabili ai messaggi burst. Scopri come configurare un percorso per i messaggi burst e quali best practice applicare. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -370,22 +370,21 @@ Note sulla versione di [!DNL Adobe Advertising Cloud].
 
 ### Nuove funzioni in [!DNL Advertising Cloud DSP] {#adcloud-dsp}
 
-Ultimo aggiornamento: **28 settembre 2021**
+Ultimo aggiornamento: **7 ottobre 2021**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
-| Visualizzazioni di gestione delle campagne | Una colonna &quot;[!UICONTROL Data di creazione]&quot; è ora disponibile nei set di colonne personalizzati per le viste [!UICONTROL Campagne], [!UICONTROL Pacchetti], [!UICONTROL Posizionamenti] e [!UICONTROL Annunci]. Puoi anche filtrare le visualizzazioni [!UICONTROL Posizionamenti] e [!UICONTROL Annunci] per [!UICONTROL Data di creazione]. |
-| Offerte garantite programmatiche | È ora possibile modificare l’ [!UICONTROL Offerta massima] per il posizionamento predefinito di un’offerta programmatica garantita (PG). Tuttavia, poiché le offerte PG hanno sempre un CPM fisso, solo i clienti internazionali devono modificare la [!UICONTROL Offerta massima] per tenere conto delle commissioni di cambio. |
-|  | Gli utenti con l’autorizzazione &quot;[!DNL FreeWheel Programmatic Guaranteed]&quot; possono ora inviare un annuncio alla visualizzazione [!DNL FreeWheel Programmatic Creative API] dalla visualizzazione [!UICONTROL Ads] o alla visualizzazione [!UICONTROL Placements] . Puoi comunque inviare un annuncio dalla vista [!UICONTROL Offerte] . |
+| Documentazione | Tutta la [DSP e altra documentazione Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud.html) su [!DNL Experience League] ora è tradotta automaticamente in tutte le lingue disponibili. Per modificare la lingua visualizzata, utilizzare il menu &quot;Cambia lingua&quot; in basso a sinistra di qualsiasi pagina. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### Nuove funzioni in [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Ultimo aggiornamento: **28 settembre 2021**
+Ultimo aggiornamento: **7 ottobre 2021**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
+| [!UICONTROL Report], Centro  [!UICONTROL notifiche] | Tutte le notifiche e-mail per i rapporti, inviate da Advertising Cloud Search quando un rapporto personalizzato o pianificato è stato completato o non è riuscito, ora vengono gestite da [!UICONTROL Centro notifiche]. Le notifiche e-mail e le notifiche web sono abilitate per impostazione predefinita per i rapporti, ma è possibile modificare facoltativamente le impostazioni di notifica. Con questa modifica:<ul><li>I destinatari delle e-mail sono limitati agli utenti registrati e autenticati di Advertising Cloud Search e hanno accesso all’account dell’inserzionista. In questo modo, nessun dato confidenziale viene inviato ad utenti non autorizzati.</li><li>Il formato e il contenuto dell&#39;e-mail utilizza il modello [!UICONTROL Centro notifiche] , che include ulteriori dettagli sul rapporto e collegamenti per il download diretto per tutti i formati di rapporto.</li><li>Le notifiche dei rapporti sono un nuovo tipo di notifica, con le proprie preferenze di notifica, in [!UICONTROL Centro notifiche].</li></ul>Se utilizzi un’automazione per richiamare rapporti da notifiche e-mail, potrebbe essere necessario aggiornare la logica di filtro per garantire la continuità del processo. |
 | Approfondimenti sulla pubblicità | Ulteriori informazioni sono disponibili in modalità beta. |
 
 {style=&quot;table-layout:auto&quot;}
