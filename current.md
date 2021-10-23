@@ -2,18 +2,18 @@
 title: Note sulla versione più recente
 description: Scopri le note sulla versione più recente, le nuove funzioni e la nuova documentazione dei [!DNL Experience Cloud] prodotti e servizi. Trova nuove guide e tutorial su [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise], and [!DNL Document Cloud].
 doc-type: release notes
-last-update: October 2021
+last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
-exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: ccdd4f3514cc11f9e0f373de29d0b21464bee923
+exl-id: null
+source-git-commit: c22db21d36f9ff7309f1ca835ff3241f87b86286
 workflow-type: tm+mt
-source-wordcount: '5702'
-ht-degree: 95%
+source-wordcount: '4190'
+ht-degree: 59%
 
 ---
 
-# Note sulla versione di Adobe Experience Cloud - Ottobre 2021
+# Note sulla versione di Adobe Experience Cloud - novembre 2021
 
 ![Banner](assets/experience-cloud-banner-3.png)
 
@@ -23,18 +23,20 @@ Le applicazioni di [!DNL Experience Cloud] vengono aggiornate ogni mese. Su ques
 >
 >Iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere notifiche mensili via e-mail sugli aggiornamenti a questa pagina. La pagina viene aggiornata nell’arco di tutto il mese, quindi controlla regolarmente se ci sono aggiornamenti sui prodotti aziendali di Adobe e sulla documentazione di Experience League.
 
-Ultimo aggiornamento: **13 ottobre 2021**
+Mese di rilascio: **Novembre 2021**
+
+Ultimo aggiornamento: **22 ottobre 2021**
 
 * [[!DNL Experience League] Eventi live](#events)
 * [[!DNL Experience Cloud Central Interface Components] e amministrazione](#ecloud)
 * [[!UICONTROL Stato dei sistemi] Adobe](#status)
-* [[!DNL Adobe Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey) **Aggiornato il 7 ottobre 2021**
+* [[!DNL Adobe Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
-* [[!DNL Adobe Experience Manager]](#aem) (aggiornato) **13 ottobre 2021**)
+* [[!DNL Adobe Experience Manager]](#aem)
 * [[!DNL Adobe Campaign]](#ac)
-* [[!DNL Adobe Advertising Cloud]](#adcloud) (aggiornato) **7 ottobre 2021**)
+* [[!DNL Adobe Advertising Cloud]](#adcloud)
 * [[!DNL Adobe Target]](#target)
 * [[!DNL Adobe Commerce]](#magento)
 * [[!DNL Adobe Marketo Engage]](#marketo)
@@ -46,15 +48,12 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 
 ## ![Icona](/assets/experience-league.png) [!DNL Experience League] Eventi live {#events}
 
-[!DNL Experience League] Gli eventi live sono incontri con esperti Adobe e ospiti speciali, utili per portare la tecnologia Adobe al pubblico. Visualizza la programmazione seguente e unisciti a noi in diretta o guarda gli eventi registrati in precedenza.
+[Experience League eventi live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) Sono discussioni con esperti di Adobe e ospiti speciali che sono utili per portare la tecnologia Adobe a voi. Visualizza la programmazione seguente e unisciti a noi in diretta o guarda gli eventi registrati in precedenza.
 
 | Data evento | Ora | Nome evento | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 4 ottobre 2021 | On-demand | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | Video | I team di prodotti di Adobe di Adobe Experience Cloud, Document Cloud e Creative Cloud hanno presentato i più recenti progressi tecnologici e gli strumenti per sviluppatori che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei diversi settori. Visualizza l’indirizzo della nota chiave, scopri le API di Analytics, il livello dati client, i progetti open source di Adobe I/O e molto altro. |
-| 21 ottobre 2021 | 12:00 (EST) | [Chi l’ha cliccato? Generazione di rapporti avanzati sui clic dei collegamenti con Adobe Analytics](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | Evento video live | La generazione di rapporti sull’interazione dell’utente con la proprietà web o mobile rappresenta un elemento fondamentale per comprendere il percorso del cliente. Con Adobe Analytics puoi capire il chi, cosa, perché e dove di ogni clic nell’applicazione. Gli esperti di Adobe Analytics possono insegnarti a utilizzare le classificazioni Activity Map e l’attribuzione personalizzata per comprendere meglio il coinvolgimento dell’utente. |
-| 23 settembre 2021 | On-demand | [Suggerimenti degli esperti per dare risalto alle campagne per le vacanze](https://www.youtube.com/watch?v=bsU1lAv0xes) | Evento video live | Proprio come non è mai troppo presto per iniziare a fare acquisti per le vacanze, non è mai troppo presto per iniziare a pianificare una campagna di marketing per vacanze di successo. Con Adobe Campaign puoi progettare, pianificare ed eseguire campagne che concretizzano tutti i desideri per le vacanze della tua azienda.<br>Ma conosci già tutti i suggerimenti per l’esecuzione di campagne per concludere l’anno col botto? Unisciti a Sandra per un incontro live con tre esperti Adobe con una vastissima esperienza collettiva proprio in questo ambito. |
-| 26 agosto 2021 | On-demand | [Rendi il tuo prossimo segmento di pubblico più in gamba che mai](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=it) | Registrazione di eventi | Il successo di ogni buona campagna di marketing dipende dal targeting preciso del pubblico. Con il nuovo [!UICONTROL generatore di segmenti] di Adobe Experience Platform, puoi creare il tuo prossimo segmento di pubblico utilizzando i dati di profilo e il comportamento degli utenti basato sul tempo tra i canali. Non c’è modo migliore di garantire che i tuoi messaggi raggiungano chi ha bisogno di ascoltarli di più. |
-| 29 luglio 2021 | On-demand | [I miei tre suggerimenti preferiti per l’implementazione di Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=it) | Registrazione di eventi | L’hai visto sul palco al Summit. L’hai sentito condividere consigli di esperti all’Adobe Insider Tour. Potresti anche aver avuto l’opportunità di lavorare con lui sulla tua implementazione di Adobe Analytics. Adesso, Eric Matisoff porta i suoi tre suggerimenti preferiti per l’implementazione di Adobe Analytics in questo incontro esclusivo live di Experience League. |
+| 21 ottobre 2021 | On-demand | [Chi l’ha cliccato? Generazione di rapporti avanzati sui clic dei collegamenti con Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | Evento video live | La generazione di rapporti sull’interazione dell’utente con la proprietà web o mobile rappresenta un elemento fondamentale per comprendere il percorso del cliente. Con Adobe Analytics puoi capire il chi, cosa, perché e dove di ogni clic nell’applicazione. Gli esperti di Adobe Analytics possono insegnarti a utilizzare le classificazioni Activity Map e l’attribuzione personalizzata per comprendere meglio il coinvolgimento dell’utente. |
+| 4 ottobre 2021 | On-demand | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | Video | L&#39;evento è stato perso o è in cerca di una riproduzione di una sessione specifica? Trovateli sull&#39;Experience League. Developers Live presenta i più recenti progressi tecnologici e strumenti per sviluppatori che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei vari settori. Visualizza l’indirizzo della nota chiave, scopri le API di Analytics, il livello dati client, i progetti open-source di Adobe I/O e molto altro. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -64,10 +63,9 @@ Per ulteriori video, visita il [canale Adobe Experience League](https://www.yout
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Ricerca unificata | La ricerca unificata continua ad aggiungere tipi di oggetti all’indice di ricerca. In questo aggiornamento, la ricerca globale ora cerca tra il contenuto di Experience League e i seguenti tipi di oggetti Journey Optimizer: <ul><li>Set di dati</li><li>Destinazioni</li><li>Query</li><li>Schemi</li><li>Segmenti</li><li>Origini</li><li>Offerte</li><li>Componenti</li><li>Messaggi</li><li>Percorsi</li></ul> |
-| Consenso dei dati di utilizzo del prodotto | Dopo l’accesso iniziale, ti viene chiesto di inviare preferenze su come Adobe può fornire contenuti utili e personalizzati, come tutorial, guide, suggerimenti rapidi, raccomandazioni, video di apprendimento e altro ancora, in base ai dati di utilizzo del prodotto di Experience Cloud. Questa richiesta include anche un aggiornamento delle tue preferenze per la raccolta e l’utilizzo di questi dati in <https://experience.adobe.com/preferences>. |
-| Navigazione di Experience Cloud [!UICONTROL Triggers] | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=it) è disponibile per la navigazione diretta dallo switcher dell’applicazione nell’intestazione per gli utenti con provisioning. |
-| **Avviso:** aggiornamento programmato della navigazione nell’interfaccia | A novembre 2021, la funzione di navigazione _[!UICONTROL Vai al Launch/Raccolta dati]_ verrà rimossa da <https://experience.adobe.com/implement>. |
+| Home page | Experience Cloud: le informazioni relative al piè di pagina nella home page sono state spostate nella scheda del profilo utente, incluse le note legali e la selezione della lingua in Preferenze. |
+| Dashboard AEP | [!DNL Helios Lite] fornisce consigli sui grafici all’interno del flusso di lavoro di creazione dei widget di Experience Platform. Data la selezione dei dati (attualmente selezione di dati con una singola variabile), Helios consiglia una visualizzazione appropriata per accompagnare la selezione dei dati. |
+| Dashboard AEP | [!DNL Instory] fornisce narrazioni scritte basate su ML e didascalie per i grafici. Decora grafici nella pagina AEP Dashboards con punti elenco pertinenti che richiamano importanti modifiche e incidenti nei dati grafici. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -85,10 +83,10 @@ Per ulteriori video, visita il [canale Adobe Experience League](https://www.yout
 
 ## ![Icona](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-Data di rilascio: **7 ottobre 2021**
+Data di rilascio: **28 ottobre 2021**
 
 * [Nuove funzioni di Adobe Analytics](#aa-features)
-* [Nuove funzioni in Customer Journey Analytics](#cust-journey) **Aggiornato il 7 ottobre 2021**
+* [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Correzioni in Adobe Analytics](#aa-fixes)
 * [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
 * [Corsi ed esercitazioni su Analytics](#tutorials-analytics)
@@ -98,42 +96,52 @@ Data di rilascio: **7 ottobre 2021**
 
 | Funzione | Descrizione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=it) - data di Target |
 | ----------- | ---------- | ------- |
-| Visualizzazioni per le dashboard di Analytics | Le [!UICONTROL dashboard] di Analytics introducono tre nuove visualizzazioni per consentire ai dirigenti e ai responsabili decisionali di comprendere meglio a colpo d’occhio i propri dati. I nuovi grafici a barre [!UICONTROL Ciambella], [!UICONTROL Linee] e [!UICONTROL Orizzontale] semplificano la visualizzazione dei dati per singoli elementi dimensionali, senza dover aprire una visualizzazione dei dettagli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#applicare-visualizzazioni) | 7 ottobre 2021 |
-| [!UICONTROL Tempo di riproduzione dei contenuti multimediali trascorso] | Il [!UICONTROL Tempo di riproduzione] dei contenuti multimediali trascorso per lo streaming di Adobe fornisce insight utili sul coinvolgimento dei visualizzatori e consente alle organizzazioni di media di ottenere informazioni più approfondite e dettagliate con un coinvolgimento degli utenti minuto per minuto attraverso un’analisi avanzata del tempo trascorso con funzionalità di ripartizione giornaliera. È possibile osservare il tempo impiegato per visualizzare i flussi multimediali in un determinato momento. È possibile suddividere la durata della riproduzione in base a granularità diverse, tra cui nuove granularità di 5, 15 e 30 minuti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=it) | 18 ottobre 2021 |
+| Intervalli di date a livello di minuto in Analysis Workspace | Puoi applicare un intervallo di date a livello di minuto nelle impostazioni avanzate del calendario del pannello o durante la creazione di un intervallo di date personalizzato. Se esegui rapporti su un intervallo di date che dura molti giorni, l’ora di inizio si applica al primo giorno e l’ora di fine si applica all’ultimo giorno dell’intervallo. | 18 ottobre 2021 |
+| [!UICONTROL Tempo di riproduzione dei contenuti multimediali trascorso] | Il [!UICONTROL Tempo di riproduzione] dei contenuti multimediali trascorso per lo streaming di Adobe fornisce insight utili sul coinvolgimento dei visualizzatori e consente alle organizzazioni di media di ottenere informazioni più approfondite e dettagliate con un coinvolgimento degli utenti minuto per minuto attraverso un’analisi avanzata del tempo trascorso con funzionalità di ripartizione giornaliera. È possibile osservare il tempo impiegato per visualizzare i flussi multimediali in un determinato momento. È possibile suddividere la durata della riproduzione in base a granularità diverse, tra cui nuove granularità di 5 minuti, 15 minuti e 30 minuti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=it) | 18 ottobre 2021 |
 | [!UICONTROL Generatore di segmenti] rapidi | Consente agli utenti aziendali di applicare rapidamente i segmenti di base in un flusso di lavoro di progetto semplificato e in linea. Non è necessario passare al [!UICONTROL Generatore di segmenti]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=it) | 21 ottobre 2021 |
-| Miglioramenti alla ricerca nella barra a sinistra in Analysis Workspace | La ricerca nella barra a sinistra 1) assegnerà la priorità alle corrispondenze esatte al di sopra delle corrispondenze generiche, oltre a continuare a tenere conto dell’attualità dei componenti e della loro rilevanza. 2) Evidenzia i caratteri corrispondenti per rendere i risultati della ricerca più comprensibili. 3) È più facile trovare le classificazioni relative a una dimensione. 4) Infine, supporta la ricerca di caratteri jolly (`*`) per trovare più facilmente i componenti specifici necessari. Nota: la ricerca con caratteri jolly non funziona ancora a livello di elemento dimensionale. | 21 ottobre 2021 |
+| Miglioramenti alla ricerca nella barra a sinistra in Analysis Workspace | Ricerca barra a sinistra 1) dà priorità alle corrispondenze esatte al di sopra delle grandi corrispondenze, oltre a continuare a tenere conto della recency dei componenti e della loro rilevanza. 2) Evidenzia i caratteri corrispondenti per rendere i risultati della ricerca più comprensibili. 3) È più facile trovare le classificazioni relative a una dimensione. 4) Infine, supporta la ricerca di caratteri jolly (`*`) per trovare più facilmente i componenti specifici necessari. Nota: la ricerca con caratteri jolly non funziona ancora a livello di elemento dimensionale. | 21 ottobre 2021 |
 | Tema scuro Analysis Workspace | Il tema scuro è disponibile come opzione di visualizzazione. | 21 ottobre 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### Nuove funzioni di Customer Journey Analytics {#cust-journey}
 
-| Funzione | Descrizione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - data di Target |
+| Funzione | Descrizione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html) - data di Target |
 | ----------- | ---------- | ----- |
-| Finestra continua per la conservazione dei dati [!UICONTROL Connection] | **Nota: contatta l’Assistenza clienti o il tuo responsabile commerciale Adobe per far sì che questa impostazione sia implementata. Non è ancora disponibile tramite l’interfaccia utente di CJA.**<p>Consente di definire un’impostazione di conservazione dei dati CJA come finestra continua in mesi (3 mesi, 6 mesi, ecc.), a un livello [!UICONTROL connessione] (non a un livello [!UICONTROL set di dati]). La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di conservazione dei dati per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti. | 7 ottobre 2021 |
-| Supporto Report Builder | Report Builder è un componente aggiuntivo Microsoft® [!DNL Excel] che consente di creare, modificare e aggiornare facilmente i rapporti personalizzati utilizzando i dati di Customer Journey Analytics. Con Report Builder ed Excel, puoi utilizzare l’interfaccia utente drag-and-drop semplice ma flessibile per creare facilmente richieste di dati complesse. Con Report Builder per Customer Journey Analytics, puoi:<ul><li>Fare riferimento alle celle del foglio di lavoro esistenti per ottenere l’ordine di riga, l’intervallo di date o il filtro perfetti</li><li>Creare date personalizzate utilizzando calendario, riferimenti di cella o dati matematici della data</li><li>Progettare tabelle e visualizzazioni con i familiari strumenti di formattazione di Excel</li><li>Disponibile per Excel su macOS, Microsoft 365 per il web e Microsoft Windows</li></ul>[Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html?lang=it#) | 7 ottobre 2021 |
-| Visualizzazioni per le dashboard di Analytics | Le [!UICONTROL dashboard] di Analytics introducono tre nuove visualizzazioni per consentire ai dirigenti e ai responsabili decisionali di comprendere ancora meglio a colpo d’occhio i propri dati. I nuovi grafici a barre a ciambella, a linee e orizzontali semplificano la visualizzazione dei dati per i singoli elementi dimensionali, senza dover aprire una visualizzazione dei dettagli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=it#applicare-visualizzazioni) | 7 ottobre 2021 |
-| API dei registri di controllo del Customer Journey Analytics | L’endpoint API [Registro di controllo](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) consente di richiedere ad Adobe i dati del registro di controllo. È una parte importante della conformità in materia di sicurezza e per il controllo dei dati o delle azioni degli utenti. | 7 ottobre 2021 |
-| [!UICONTROL Generatore di filtri] rapido | Consente agli utenti aziendali di applicare rapidamente i segmenti di base in un flusso di lavoro di progetto semplificato e in linea. Non è necessario passare al [!UICONTROL Generatore di filtri]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=it) | 21 ottobre 2021 |
-| Miglioramenti alla ricerca nella barra a sinistra in Analysis Workspace | La ricerca nella barra a sinistra 1) assegnerà la priorità alle corrispondenze esatte al di sopra delle corrispondenze generiche, oltre a continuare a tenere conto dell’attualità dei componenti e della loro rilevanza. 2) Evidenzia i caratteri corrispondenti per rendere i risultati della ricerca più comprensibili. 3) È più facile trovare le classificazioni relative a una dimensione. 4) Infine, supporta la ricerca di caratteri jolly (`*`) per trovare più facilmente i componenti specifici necessari. Nota: la ricerca con caratteri jolly non funziona ancora a livello di elemento dimensionale. | 21 ottobre 2021 |
+| Intervalli di date a livello di minuto in Analysis Workspace | Puoi applicare un intervallo di date a livello di minuto nelle impostazioni avanzate del calendario del pannello o durante la creazione di un intervallo di date personalizzato. Se esegui rapporti su un intervallo di date che dura molti giorni, l’ora di inizio si applica al primo giorno e l’ora di fine si applica all’ultimo giorno dell’intervallo. | 18 ottobre 2021 |
+| [!UICONTROL Generatore di filtri] rapido | Consente agli utenti aziendali di applicare rapidamente i segmenti di base in un flusso di lavoro di progetto semplificato e in linea. Non è necessario passare al [!UICONTROL Generatore di filtri]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 21 ottobre 2021 |
+| Miglioramenti alla ricerca nella barra a sinistra in Analysis Workspace | Ricerca barra a sinistra 1) dà priorità alle corrispondenze esatte al di sopra delle grandi corrispondenze, oltre a continuare a tenere conto della recency dei componenti e della loro rilevanza. 2) Evidenzia i caratteri corrispondenti per rendere i risultati della ricerca più comprensibili. 3) È più facile trovare le classificazioni relative a una dimensione. 4) Infine, supporta la ricerca di caratteri jolly (`*`) per trovare più facilmente i componenti specifici necessari. Nota: la ricerca con caratteri jolly non funziona ancora a livello di elemento dimensionale. | 21 ottobre 2021 |
 | Tema scuro Analysis Workspace | Il tema scuro è disponibile come opzione di visualizzazione. | 21 ottobre 2021 |
+| Intervallo di lookback per l’allocazione delle dimensioni | All’impostazione di allocazione delle dimensioni in Persistence (Persistenza) nella configurazione Data Views (Visualizzazioni dati) viene aggiunto un intervallo di look-back fino a 90 giorni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 28 ottobre 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
-### Correzioni in Adobe Analytics e CJA {#aa-fixes}
+### Correzioni in Adobe Analytics {#aa-fixes}
 
-* È stato corretto un errore del rapporto pianificato in Customer Journey Analytics. (AN-271721)
-* Sono stati risolti dei problemi relativi a [!UICONTROL Componenti di ricerca] in [!UICONTROL Area di lavoro] che non determinavano corrispondenze esatte. (AN-253937; AN-271707)
+* È stato risolto un problema che impediva l’eliminazione degli avvisi in Gestione avvisi. (AN-270656)
+* È stato risolto un problema a causa del quale le richieste di Data Warehouse non riuscivano a intermittenza. (AN-273713, AN-272790)
+* Sono stati risolti dei problemi di mancato aggiornamento delle classificazioni . (AN-272211)
+
+### Correzioni nel Customer Journey Analytics {#cja-fixes}
+
+* Sono stati risolti i problemi di prestazioni di CJA (messaggi di errore durante il caricamento dei progetti). (AN-269451, AN-270649)
+* È stato risolto un problema in CJA a causa del quale gli avvii della sessione non corrispondevano alle voci di flusso per i nomi delle pagine. (AN-273501)
+* È stato risolto un problema che impediva il corretto funzionamento del rapporto Abbandono in CJA. (AN-269761)
 
 #### Ulteriori correzioni in Adobe Analytics
 
-AN-256136; AN-265420; AN-268455; AN-269768; AN-270276; AN-270287; AN-271601; AN-271969; AN-272056; AN-272111; AN-272457
+AN-263327; AN-267807; AN-269757; AN-272789; AN-272888; AN-273155; AN-273320; AN-273369; AN-273405; AN-273469; AN-273581; AN-273642; AN-273688; AN-273988; AN-274007; AN-274030; AN-274156; AN-274188; AN-274226
+
+#### Ulteriori correzioni in CJA
+
+AN-270649
 
 ### Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
 | Fine del ciclo di vita per tre servizi API di Analytics | 16 settembre 2021 | Il **20 ottobre 2021**, i seguenti servizi API legacy di Analytics raggiungeranno la data di fine del ciclo di vita e verranno terminati. In tale data tutte le integrazioni correnti create utilizzando questi servizi cesseranno di funzionare.<ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Adobe ha pubblicato una sezione di [domande frequenti sulla fine del ciclo di vita delle API legacy](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere a tali domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe I/O](https://developer.adobe.com/console) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
+| Fine del ciclo vita per la completa elaborazione nelle origini dati | 18 ottobre 2021 | On **31 gennaio 2022**, Adobe terminerà l’elaborazione completa, che consente agli utenti di inserire dati hit offline in Analytics. Questa funzionalità è disponibile tramite [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=it?lang=it) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -147,7 +155,11 @@ Nuovi corsi, tutorial e articoli in [!DNL Analytics] e [!UICONTROL Customer Jour
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| Ottobre 2021 | [Utilizzo delle visualizzazioni per raccontare le tue storie di dati](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2021.1.visualizations) | Corso | Chi vuole setacciare tabella dopo tabella solo per cercare di estrarre informazioni dai dati? Non tu! In questo corso, scopri le nozioni di base sulle visualizzazioni, tra cui come aggiungerle a un progetto, inserirvi i dati e cosa ciascuna visualizzazione può mostrarti. Scopri come configurare le impostazioni per ottenere i dati esatti necessari. Inoltre, scopri alcuni suggerimenti e casi d’uso per aiutarti a rendere le visualizzazioni utili per la tua analisi regolare. |
+| Novembre 2021 | [Contenitori di segmenti in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=en) | Video (aggiornato) | In questo video, scopri come utilizzare i contenitori e ascolta alcuni esempi di ciascun tipo di contenitore. |
+| Novembre 2021 | [Segmentazione sequenziale in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation.html?lang=en#) | Video (aggiornato) | Scopri come creare un segmento in Analysis Workspace dalle sequenze di comportamenti sul sito o nell’applicazione. |
+| Novembre 2021 | [Sequenze prima/dopo nella segmentazione sequenziale](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/before-after-sequences-in-sequential-segmentation.html?lang=en) | Video (aggiornato) | Scopri come segmentare in Adobe Analytics in modo da ottenere solo i dati dal prima o dopo un percorso utente specifico. |
+| Novembre 2021 | [Report Builder per Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | Video | Con l&#39;interfaccia utente di trascinamento semplice e flessibile del Report Builder, puoi creare query di dati complesse e rapporti personalizzati dai dati di Customer Journey Analytics, il tutto all&#39;interno di Excel. |
+| Ottobre 2021 | [Utilizzo delle visualizzazioni per raccontare le tue storie di dati](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2021.1.visualizations) | Corso | Scopri le nozioni di base sulle visualizzazioni, tra cui come aggiungerle a un progetto, inserire i dati in esso e cosa ciascuna visualizzazione può mostrarti. Scopri come configurare le impostazioni per ottenere i dati esatti necessari. Inoltre, scopri alcuni suggerimenti e casi d’uso per aiutarti a rendere le visualizzazioni utili per la tua analisi regolare. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -157,24 +169,18 @@ Nuovi corsi, tutorial e articoli in [!DNL Analytics] e [!UICONTROL Customer Jour
 
 ## ![Icona](/assets/audience-manager.png) Audience Manager {#aam}
 
-Nuove funzioni di Audience Manager (aggiornato il **14 settembre 2021**):
+Correzioni e miglioramenti in Audience Manager.
 
-| Funzione | Descrizione |
-| ------- | ------- |
-| Consenso alla raccolta dati per ID da dispositivi mobili | È stato aggiunto il supporto per il consenso alla raccolta dati per ID da dispositivi mobili. Per beneficiare di questo aggiornamento, i clienti devono effettuare l’aggiornamento a [AEP Mobile SDK iOS Core 2.8.0](https://aep-sdks.gitbook.io/docs/foundation-extensions/mobile-core/mobile-core-release-notes#november-4-2020) o successivo. |
+* È stato risolto un problema che causava la restituzione di un `Undocumented` errore durante l&#39;esecuzione tramite l&#39;interfaccia Swagger. (AAM-59190)
+* È stato risolto un problema che in alcune situazioni causava l’assegnazione di ruoli utente errati ai partner. (AAM-59451)
+* È stato risolto un problema che causava la richiesta da parte dell’API di intestazioni di autenticazione con distinzione tra maiuscole e minuscole. (AAM-58528)
+
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 Include informazioni sull’aggiornamento della versione e la nuova documentazione per Experience Platform e [!UICONTROL Mobile SDK].
 
 **29 settembre 2021**
-
-| Funzione | Descrizione |
-| ------- | ------- |
-| [[!UICONTROL Data Landing Zone]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone.html?lang=it) | [!UICONTROL Data Landing Zone] è una [!DNL Platform] con provisioning di [!UICONTROL Azure Blob Store] che consente a un unico archivio protetto e temporaneo per sandbox di portare i file in Experience Platform. |
-| Supporto delle origini di streaming per la [preparazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/monitor-streaming.html?lang=it) | Le origini di streaming ora supportano la preparazione dei dati, che consente di fornire uno schema di origine JSON per mappare dati di origine non compatibili con XDM su uno schema XDM di destinazione. |
-| [Credenziali non in scadenza](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=it) | Le credenziali non in scadenza per gli utenti [!UICONTROL Query Service] consentono connessioni più permanenti ai client esterni invece di rinnovare le credenziali ogni 24 ore. |
-| [[!UICONTROL SDK di destinazione]](https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-sdk/overview.html?lang=it) | Utilizza [!UICONTROL SDK di destinazione] per eseguire l’integrazione con [!DNL Platform] e contribuire al catalogo delle destinazioni in continua crescita. L’accesso a questa funzione è disponibile solo per i clienti di Experience Platform Activation. |
 
 Per i dettagli, consulta le [note sulla versione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it).
 
@@ -184,6 +190,7 @@ Ultimi video, tutorial o corsi pubblicati per Experience Platform e Services.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
+| Novembre 2021 | [ Collaborazione dei dati nel contesto dei dati di prime parti ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/industry/data-collaboration-in-the-first-party-data-context.html?lang=en#) | Video | Mantenere la promessa dell’esperienza, con accesso a meno dati. Che tu sia un inserzionista, un editore o un’agenzia, questo webinar aiuta a sbloccare le opportunità di collaborazione sui dati in un futuro senza cookie di terze parti. |
 | Ottobre 2021 | [[!DNL Platform] Amministrazione](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-A-1-2021.1.admin) | Corso | Scopri le attività di amministrazione per Experience Platform, tra cui la gestione di autorizzazioni e sandbox. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -194,6 +201,10 @@ Consulta le [note sulla versione e registri di modifica](https://aep-sdks.gitboo
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Journey Optimizer {#journey-opt}
 
+Con Adobe Journey Optimizer puoi gestire campagne omnicanale pianificate e momenti “uno a uno” per milioni di clienti da una singola applicazione, ottimizzando l’intero percorso con decisioni intelligenti e informazioni approfondite.
+
+### Ultime versioni del prodotto Journey Optimizer
+
 Scopri di più sulle funzionalità, i miglioramenti e le correzioni più recenti nelle [Note sulla versione di Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=it).
 
 ### Corsi e tutorial su Journey Optimizer {#tutorials-ajo}
@@ -203,14 +214,14 @@ Ultimi tutorial su Journey Optimizer:
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
 | Ottobre 2021 | [Configurare e gestire i dati in [!DNL Journey Optimizer] per data engineer](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.2) | Corso | Scopri come configurare e gestire i dati necessari per la gestione dei percorsi in Journey Optimizer. |
-| Ottobre 2021 | [Guida introduttiva con [!DNL Journey Optimizer] per amministratori di percorso e manager](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.1) | Corso | Scopri tutto quello che devi sapere per creare il tuo primo percorso. |
+| Ottobre 2021 | [Guida introduttiva con [!DNL Journey Optimizer] per amministratori di percorso e manager](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.1) | Corso | Impara tutto quello che devi sapere per creare il tuo primo percorso. |
 | Ottobre 2021 | [Configurazione [!DNL Journey Optimizer] per gli amministratori di percorso](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-A-1-2021.1) | Corso | Scopri [!DNL Journey Optimizer] l’architettura e i punti di integrazione. Scopri come configurare [!DNL Journey Optimizer]. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### Altre risorse per [!DNL Journey Optimizer]
 
-[Centro assistenza](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it)
+[Documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [Video tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it)
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) [!DNL Journey Orchestration] {#journey-orch}
 
@@ -220,21 +231,21 @@ Utilizza Experience Platform per orchestrare il percorso di un cliente su grande
 
 Scopri di più sulle funzionalità, i miglioramenti e le correzioni più recenti nelle Note sulla versione di [[!DNL Journey Orchestration] ](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=it).
 
-#### Altre risorse per [!DNL Journey Orchestration]
+### Altre risorse per [!DNL Journey Orchestration]
 
-[Centro assistenza](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=it)
+[Documentazione](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=it)
 
-## ![Icona](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
+## ![Icona](/assets/experience_platform_appicon_24.png) Gestione delle decisioni {#offer-decisioning}
 
-[!UICONTROL Offer Decisioning] è un servizio integrato con Adobe Experience Platform. Utilizza [!UICONTROL Offer Decisioning] per offrire ai clienti l’offerta e l’esperienza migliore al momento giusto, in tutti i punti di contatto.
+[!UICONTROL offer decisioning] è un servizio integrato con Adobe Experience Platform. Utilizza [!UICONTROL Offer Decisioning] per offrire ai clienti l’offerta e l’esperienza migliore al momento giusto, in tutti i punti di contatto.
 
-### Versioni più recenti dei prodotti Offer Decisioning
+### Versioni più recenti del prodotto Gestione delle decisioni
 
-Scopri di più sulle funzionalità, i miglioramenti e le correzioni più recenti nelle [Note sulla versione di Offer Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html).
+Ulteriori informazioni sulle funzionalità, i miglioramenti e le correzioni più recenti nel [Note sulla versione di Gestione delle decisioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html).
 
-#### Altre risorse per [!UICONTROL Offer Decisioning]
+### Altre risorse [!UICONTROL Gestione delle decisioni]
 
-[Centro assistenza](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html?lang=it)
+[Documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html?lang=it)
 
 ## ![Icona](/assets/aem.png) Experience Manager {#aem}
 
@@ -248,55 +259,26 @@ Per gli ultimi aggiornamenti sulle varie versioni, visita regolarmente la pagina
 
    Adobe Developers Live riunisce sviluppatori di Adobe e creatori di esperienze con background diversi e un unico scopo: creare esperienze end-to-end incredibili. Questa conferenza di due giorni presenta importanti aggiornamenti per gli sviluppatori, sessioni tecniche e opportunità di networking per la community.
 
-   I team dei prodotti Adobe di Adobe Experience Cloud, Document Cloud e Creative Cloud illustrano i progressi tecnologici e gli strumenti per sviluppatori più recenti che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei diversi settori.
+   I team di prodotti di Adobe di Experience Cloud, Document Cloud e Creative Cloud presentano i più recenti progressi tecnologici e gli strumenti per sviluppatori che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei diversi settori.
 
    Adobe prevede 20 sessioni Experience Manager. Diffondi la parola!
 
    * [Elenco completo delle sessioni](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-developers-live-october-2021-complete-session-list/m-p/423041#M120517)
    * [Registrazione gratuita - Accesso a RSVP](https://developerevents.adobe.com/events/details/adobe-developer-events-developer-experience-presents-adobe-developers-live/?cid=Kautuk)
-   * [Community live per sviluppatori di Adobe](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/registration-for-adobe-developers-live-is-now-open-october-4-5/td-p/422127)
+   * [Community live per sviluppatori di Adobe](https://experienceleaguecommunities.adobe.com:443/t5/adobe-experience-manager/registration-for-adobe-developers-live-is-now-open-4th-amp-5th/td-p/422127)
 
 ### Nuovi corsi ed esercitazioni su Experience Manager {#tutorials-aem}
 
 Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 
-| Data di pubblicazione | Nome | Tipo | Descrizione |
-| -----------| ---------- | ---------- | ---------- |
-| Ottobre 2021 | [Guida introduttiva alla documentazione XML](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2021.xmldocs) | Corso | Scopri come creare, organizzare, scrivere e pubblicare contenuti con la documentazione XML per Adobe Experience Manager. |
-| Ottobre 2021 | [Gestione dei flussi di lavoro creativi tramite [!DNL Workfront] e Assets Essentials](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2021.2.assets.essentials) | Corso | Scopri come Adobe [!DNL Workfront] ed Experience Manager. |
-| Ottobre 2021 | [Guida introduttiva ad AEM Assets Essentials](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2021.assets.essentials) | Corso | Scopri come AEM Assets Essentials può semplificare la gestione delle risorse per la tua organizzazione. |
-| Ottobre 2021 | [[!UICONTROL Strumento Content Transfer]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/content-transfer-tool.html?lang=it) | Video | Scopri come lo [!UICONTROL strumento Content Transfer] consente di migrare i contenuti a AEM as a Cloud Service da AEM 6.3+. |
-| Ottobre 2021 | [[!UICONTROL Servizio di importazione in blocco]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/bulk-import-service.html?lang=it) | Video | Scopri come usare il [!UICONTROL Servizio di importazione in blocco] di AEM as a Cloud Service per importare risorse da origini non AEM. |
-| Ottobre 2021 | [Comunicazioni (servizio di uscita)](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/aem-forms/communications.html?lang=it) | Video | Scopri in che modo AEM Forms as a Cloud Service supporta il caso di utilizzo delle comunicazioni. |
-| Ottobre 2021 | [Iscrizione digitale](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/aem-forms/digital-enrollment.html?lang=it) | Video | Scopri in che modo AEM Forms as a Cloud Service supporta il caso di utilizzo dell’iscrizione digitale. |
-| Ottobre 2021 | [Utilizzo degli strumenti [!UICONTROL Cloud Acceleration Manager]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/cloud-acceleration-manager/using.html?lang=it) | Video | Una descrizione dettagliata dell’utilizzo degli strumenti [!UICONTROL Cloud Acceleration Manager]. |
-| Ottobre 2021 | [Navigazione in [!UICONTROL Cloud Acceleration Manager]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/cloud-acceleration-manager/navigating.html?lang=it) | Video | Esplora l’esperienza di navigazione di [!UICONTROL Cloud Acceleration Manager] per Experience Manager as a Cloud Service. |
-| Ottobre 2021 | Strumento [[!UICONTROL Asset Workflow Migration] (Migrazione flussi di lavoro per risorse) ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/cloud-acceleration-manager/asset-workflow-migration-tool.html?lang=it) | Video | Scopri in che modo lo strumento [!UICONTROL Asset Workflow Migration] consente di migrare i flussi di lavoro per AEM Asset esistenti a AEM as a Cloud Service. |
-| Ottobre 2021 | [[!UICONTROL Convertitore indice]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/cloud-acceleration-manager/index-converter.html?lang=it) | Video | Scopri in che modo il [!UICONTROL Convertitore indice] converte automaticamente le definizioni di indice AEM esistenti affinché siano compatibili con AEM as a Cloud Service. |
-| Ottobre 2021 | [[!UICONTROL Dispatcher Converter]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/cloud-acceleration-manager/dispatcher-converter.html?lang=it) | Video | Scopri in che modo [!UICONTROL Dispatcher Converter] aggiorna automaticamente le configurazioni di Dispatcher AEM esistenti affinché siano compatibili con AEM as a Cloud Service. |
-| Ottobre 2021 | [[!UICONTROL Code Repository Modernizer]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/cloud-acceleration-manager/code-repository-modernizer.html?lang=it) | Video | Scopri in che modo [!UICONTROL Core Repository Modernizer] aggiorna automaticamente i progetti AEM Maven esistenti affinché siano compatibili con AEM as a Cloud Service. |
-| Ottobre 2021 | [[!UICONTROL Strumenti di refactoring del codice]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/cloud-acceleration-manager/code-refactoring-tools.html?lang=it) | Video | Scopri in che modo gli [!UICONTROL Strumenti di refactoring del codice] AEM consentono di automatizzare la conversione dei progetti AEM esistenti affinché siano compatibili con AEM as a Cloud Service. |
-| Ottobre 2021 | [[!UICONTROL Strumento Content Transfer]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/cloud-acceleration-manager/content-transfer-tool.html?lang=it) | Video | Scopri come lo [!UICONTROL strumento Content Transfer] consente di spostare in modo efficiente il contenuto da AEM 6.5 a AEM as a Cloud Service. |
-| Ottobre 2021 | [Le fasi di implementazione di [!UICONTROL Cloud Acceleration Manager]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/cloud-acceleration-manager/implementation-phase.html?lang=it) | Video | Rivedi e comprendi le principali fasi di implementazione o passa a AEM as a Cloud Service utilizzando [!UICONTROL Cloud Acceleration Manager]. |
-| Ottobre 2021 | [Preparazione e [!UICONTROL Best Practice Analyzer]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/cloud-acceleration-manager/readiness-and-best-practice-analyzer.html?lang=it) | Video | Scopri in che modo [!UICONTROL Best Practice Analyzer] può aiutarti a prepararti a passare da AEM on-premise o Adobe Managed Services ad Experience Manager as a Cloud Service. |
-| Ottobre 2021 | [Introduzione a Cloud Acceleration Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/cloud-acceleration-manager/introduction.html?lang=it) | Video | Scopri in che modo [!UICONTROL Cloud Acceleration Manager] può aiutarti a passare rapidamente e facilmente a Experience Manager as a Cloud Service. |
-| Ottobre 2021 | [AEM Forms as a Cloud Service - Passaggio a AEM CS](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/aem-forms/introduction.html?lang=it) | Video | Scopri i casi d’uso e le funzioni supportate da AEM Forms as a Cloud Service. |
-| Ottobre 2021 | [Risoluzione dei problemi in AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/troubleshooting.html?lang=it) | Video | Scopri come risolvere i problemi ed eseguire il debug dell’SDK AEM, AEM as a Cloud Service e il processo di compilazione e distribuzione. |
-| Ottobre 2021 | [AEM [!UICONTROL Assets Microservices] - Passaggio a AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/asset-compute-microservices.html?lang=it) | Video | Scopri in che modo i microservizi di asset compute di AEM Assets as a Cloud Service ti consentono di generare automaticamente ed efficacemente rendering per le risorse, sostituendo questo ruolo del flusso di lavoro AEM tradizionale. |
-| Ottobre 2021 | [Ricerca e indicizzazione](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/search-and-indexing.html?lang=it) | Video | Scopri gli indici di ricerca di AEM as a Cloud Service, come convertire le definizioni degli indici AEM 6 affinché siano compatibili con AEM as a Cloud Service e come distribuire gli indici in AEM as a Cloud Service. |
-| Ottobre 2021 | [[!UICONTROL Dispatcher]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/dispatcher.html?lang=it) | Video | Scopri AEM [!UICONTROL Dispatcher] per AEM as a Cloud Service, concentrandoti sulle modifiche di rilievo apportate da [!UICONTROL Dispatcher] per AEM 6, sullo strumento di conversione [!UICONTROL Dispatcher] e su come utilizzare l’SDK degli strumenti di Dispatcher. |
-| Ottobre 2021 | [[!UICONTROL Cloud Manager]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/cloud-manager.html?lang=it) | Video | Scopri Cloud Manager per AEM as a Cloud Service e le sue differenze con Cloud Manager per AEM in Adobe Manage Services (AMS). |
-| Ottobre 2021 | [Onboarding in AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/onboarding.html?lang=it) | Video | Scopri come effettuare l’onboarding per AEM as a Cloud Service a partire dalla fase del contratto fino alla configurazione degli ambienti utilizzando [!UICONTROL Cloud Manager]. |
-| Ottobre 2021 | [Modernizzazione archivio](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/repository-modernization.html?lang=it) | Video | Scopri la modernizzazione dell’archivio, il contenuto mutabile e immutabile, la struttura del pacchetto e lo strumento CLI del modernizzatore dell’archivio. |
-| Ottobre 2021 | [[!UICONTROL Strumenti di modernizzazione] AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/aem-modernization-tools.html?lang=it) | Video | Scopri come gli [!UICONTROL Strumenti di modernizzazione] di AEM vengono utilizzati per aggiornare un progetto AEM esistente e il contenuto affinché siano compatibili con AEM as a Cloud Service. |
-| Ottobre 2021 | [Strumenti di modernizzazione AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/introduction.html?lang=it) | Video | Scopri come pensare diversamente alle implementazioni AEM as a Cloud Service. |
-| Ottobre 2021 | [Best Practice Analyzer e Cloud Acceleration Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/bpa-and-cam.html?lang=it) | Video | Scopri come Best Practice Analyzer (BPA) e Cloud Acceleration Manager (CAM) forniscono una guida personalizzata per la migrazione a AEM as a Cloud Service. |
-| Ottobre 2021 | [Manutenzione della cronologia delle versioni](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/versions.html?lang=it) | Video | Scopri in che modo Adobe Workfront ed Experience Manager [!UICONTROL Assets Essentials] consentono di gestire le versioni dei documenti [!DNL Workfront] e delle risorse Assets Essentials. |
-| Ottobre 2021 | [Invio di documenti e collegamento di risorse](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/link-send.html?lang=it) | Video | Scopri come inviare documenti Workfront ad Assets Essentials e collegare risorse Assets Essentials a Workfront. |
-| Ottobre 2021 | [Configurazione dell’integrazione](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html?lang=it) | Video | Scopri come configurare l’integrazione di Adobe Workfront e Assets Essentials. |
-| Ottobre 2021 | [Cos’è una firma digitale](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/getting-started/getting-started-signing/sign-with-a-digital-signature.html?lang=it) | Video | Scopri le firme digitali basate su certificati, conformi alle più severe normative vigenti in tutto il mondo e che offrono il massimo livello di garanzia per l’identità del firmatario. |
-| Ottobre 2021 | [Generatore di segmenti di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-builder-overview.html?lang=it#) | Video | Affianca i tuoi dati con la segmentazione in Adobe Analytics. Questo video illustra il [!UICONTROL Generatore di segmenti] e offre una panoramica di base. |
-| Ottobre 2021 | [Mappatura dei metadati](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/map-metadata.html?lang=it) | Video | Scopri come configurare la mappatura dei metadati tra campi Workfront e proprietà Assets Essentials e come configurare Assets Essentials in modo da visualizzare i valori mappati. |
+| Data di pubblicazione | Nome | Descrizione | Tipo | Versione |
+| -----------| ---------- | ---------- |---------- | ---------- |
+| Novembre 2021 | [Nozioni di base su Adobe Experience Manager Sites](https://experienceleague.adobe.com/docs/experience-manager-skill-builder/skill-builder/2021/authoring-fundamentals.html?lang=en) | Serie video | Scopri come creare esperienze cliente avanzate e coinvolgenti in Adobe Experience Manager in questa serie di webinar in cinque parti. Inizia con gli elementi di base dell’authoring dei contenuti imparando i concetti e le operazioni fondamentali. Scopri le funzioni di amministrazione dei siti e le nozioni di base sulla gestione delle risorse digitali in AEM. In seguito, scopri le funzioni che possono aiutarti a risparmiare tempo ed essere più efficiente riutilizzando i contenuti e distribuendoli tra i canali. | AEM Sites |
+| Novembre 2021 | [Pianificazione del passaggio a AEM as a Cloud Service](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2021.1.migration) | Corso | Scopri le considerazioni sul passaggio a AEM strumenti as a Cloud Service e disponibili che semplificano il processo. | AEM CS |
+| Novembre 2021 | [Passare ad AEM as a Cloud Service](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2021.1.migration) | Corso | Scopri come passare con successo da AEM 6 ad Experience Manager as a Cloud Service. | AEM CS |
+| Novembre 2021 | [Scarica il file interattivo DoR](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-interactive-dor.html?lang=en#create-custom-servlet) | Video | Scopri come scaricare un DoR interattivo con i dati del modulo adattivo. | AEM Forms |
+| Novembre 2021 | [Serie di esperti Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=en) | Serie video | Scopri Adobe Experience Manager (AEM) as a Cloud Service dagli ingegneri esperti di Adobe che lo hanno creato e dal team Professional Services che lo ha fornito. Unisciti agli esperti di Adobe per scoprire cosa AEM as a Cloud Service, come si confronta con AEM 6 e come passare da AEM 6 a AEM as a Cloud Service. | AEM CS |
+| Novembre 2021 | [Utenti del servizio](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/advanced/service-users.html?lang=en) | Video | Scopri come creare e utilizzare gli utenti del servizio nel codice AEM per fornire un accesso controllato e programmatico all’archivio AEM. | AEM CS |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -345,19 +327,18 @@ Scopri le funzionalità, i miglioramenti e le correzioni più recenti:
 
 Tutorial e corsi più recenti per Adobe Campaign.
 
-| Data di pubblicazione | Nome | Tipo | Descrizione |
-| -----------| ---------- | ---------- | ---------- |
-| Ottobre 2021 | [Creazione di campagne avanzate con Adobe Campaign V8 per gli utenti aziendali](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Corso | Scopri come configurare ed eseguire campagne di marketing avanzate utilizzando Adobe Campaign V8. Scopri i prerequisiti, crea e configura campagne avanzate e consegne e gestisci gli abbonamenti. |
-| Ottobre 2021 | [Utilizzare le API SOAP nei flussi di lavoro - Introduzione](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=it) | Tutorial | Scopri come utilizzare le API Soap di Adobe Campaign e creare un flusso di lavoro di consegna avanzato basato sui dati ricevuti tramite l’API. |
-| Ottobre 2021 | [Creare eventi](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=it) | Tutorial | Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento. |
-| Ottobre 2021 | [Configurare origini dati](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=it) | Tutorial | Scopri cos’è un’origine dati e come configurare le origini dati esterne e di Experience Platform. |
-| Ottobre 2021 | [Caso di utilizzo: messaggi burst](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=it) | Tutorial | Comprendi i casi d’uso applicabili ai messaggi burst. Scopri come configurare un percorso per i messaggi burst e quali best practice applicare. |
+| Data di pubblicazione | Nome | Descrizione | Tipo | Versione |
+| -----------| ---------- | ---------- |---------- | ---------- |
+| Novembre 2021 | [Collegare Campaign ad Experience Platform come destinazione](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/connect-campaign-to-experience-platform-as-destination.html?lang=en) | Video | Scopri come attivare un segmento Adobe Experience Platform in una destinazione utilizzando il tipo di connessione Amazon S3. | AEP e Campaign V8 |
+| Novembre 2021 | [Integrare con Experience Platform - Panoramica](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/overview.html?lang=en) | Video | Scopri come condividere i dati tra Campaign ed Experience Cloud. | AEP e Campaign V8 |
+| Novembre 2021 | [Importare i dati dei destinatari da Experience Platform e inviare un messaggio e-mail](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/import-recipient-data-from-platform.html?lang=en) | Video | Scopri come configurare un account esterno in Adobe Campaign per importare i dati dei destinatari da Adobe Experience Platform a Campaign. Scopri come creare un flusso di lavoro per caricare ed eseguire il targeting dei destinatari ricevuti da Experience Platform. | AEP e Campaign V8 |
+| Novembre 2021 | [Utilizzare le API SOAP nei flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | Tutorial video | Scopri come utilizzare le API Soap di Adobe Campaign e creare un flusso di lavoro di consegna avanzato basato sui dati ricevuti tramite l’API. | Campaign V8 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### Risorse per Campaign
 
-* Adobe Campaign v8: [Centro assistenza](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=it) - [Guide all’implementazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=it)
+* Adobe Campaign v8: [Documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=it) - [Guide all’implementazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=it)
 * Adobe Campaign Standard: [Documentazione Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it) - [Piano delle versioni future](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=it)
 * Adobe Campaign Classic: [Documentazione Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=it)
 * Pannello di controllo di Adobe Campaign: [Documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it) - Video introduttivi per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=it) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=it)
@@ -385,7 +366,7 @@ Ultimo aggiornamento: **7 ottobre 2021**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
-| [!UICONTROL Rapporti], [!UICONTROL Centro notifiche] | Tutte le notifiche e-mail per i rapporti, inviate da Advertising Cloud Search al completamento o al fallimento di un rapporto personalizzato o pianificato, ora vengono gestite da [!UICONTROL Centro notifiche]. Le notifiche e-mail e le notifiche web sono abilitate per impostazione predefinita per i rapporti, ma è possibile modificare facoltativamente le impostazioni di notifica. Con questa modifica:<ul><li>I destinatari delle e-mail sono limitati agli utenti registrati e autenticati di Advertising Cloud Search e hanno accesso all’account dell’inserzionista. In questo modo, nessun dato confidenziale viene inviato ad utenti non autorizzati.</li><li>Il formato e il contenuto dell’e-mail utilizzano il [!UICONTROL Centro notifiche] , che include ulteriori dettagli sul rapporto e collegamenti per il download diretto per tutti i formati di rapporto.</li><li>Le notifiche di report sono un nuovo tipo di notifica, con le proprie preferenze di notifica, in [!UICONTROL Centro notifiche].</li></ul>Se utilizzi un’automazione per richiamare rapporti da notifiche e-mail, potrebbe essere necessario aggiornare la logica di filtro per garantire la continuità del processo. |
+| [!UICONTROL Rapporti], [!UICONTROL Centro notifiche] | Tutte le notifiche e-mail per i rapporti, inviate da Advertising Cloud Search al completamento o al fallimento di un rapporto personalizzato o pianificato, ora vengono gestite da [!UICONTROL Centro notifiche]. Le notifiche e-mail e le notifiche web sono abilitate per impostazione predefinita per i rapporti, ma è possibile modificare facoltativamente le impostazioni di notifica. Con questa modifica:<ul><li>I destinatari delle e-mail sono limitati agli utenti registrati e autenticati di Advertising Cloud Search e hanno accesso all’account dell’inserzionista. Questa funzione assicura che non vengano inviati dati riservati ad utenti non autorizzati.</li><li>Il formato e il contenuto dell’e-mail utilizzano il [!UICONTROL Centro notifiche] , che include ulteriori dettagli sul rapporto e collegamenti per il download diretto per tutti i formati di rapporto.</li><li>Le notifiche di report sono un nuovo tipo di notifica, con le proprie preferenze di notifica, in [!UICONTROL Centro notifiche].</li></ul>Se utilizzi un’automazione per richiamare rapporti da notifiche e-mail, potrebbe essere necessario aggiornare la logica di filtro per garantire la continuità del processo. |
 | Approfondimenti sulla pubblicità | Ulteriori informazioni sono disponibili in modalità beta. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -397,9 +378,15 @@ Consulta i seguenti collegamenti per le note sulla versione di Adobe Commerce:
 * [Adobe Commerce e Magento Open Source](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html)
 * [Suite cloud per Adobe Commerce](https://devdocs.magento.com/cloud/release-notes/cloud-tools.html)
 
+### Nuove esercitazioni di Adobe Commerce {#commerce-tutorials}
+
+| Data di pubblicazione | Nome | Tipo | Descrizione |
+| -----------| ---------- | ---------- | ---------- |
+| Novembre 2021 | [Video e Tutorials di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=en) | Pagina principale delle esercitazioni | Queste risorse includono serie video che forniscono una visualizzazione di alto livello degli argomenti e singoli video che eseguono attività e processi specifici. La raccolta è progettata per fornire contenuti utili per sviluppatori backend, sviluppatori front-end, amministratori di sistema, merchants e altri ruoli all’interno della tua organizzazione. |
+
 ## ![Icona](/assets/target.png) [!DNL Target] {#target}
 
-Ultimo aggiornamento: **3 agosto 2021**
+Ultimo aggiornamento: **20 ottobre 2021**
 
 Per informazioni sempre aggiornate, consulta le [[!DNL Target] note sulla versione](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=it).
 
@@ -425,17 +412,11 @@ Nuovi video, tutorial o corsi pubblicati per Adobe Document Cloud.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| Ottobre 2021 | [Che cos’è una firma digitale?](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/getting-started/getting-started-signing/sign-with-a-digital-signature.html?lang=en) | Video | Scopri come utilizzare gli ID digitali da tutto il mondo con Adobe Sign. |
-| Ottobre 2021 | [Guida introduttiva di Adobe Sign per i nuovi mittenti](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/getting-started/getting-started-sending/new-sender.html?lang=it) | Video | Se non usi ancora Adobe Sign, questo tutorial è un ottimo punto di partenza. Questo tutorial completo si concentra su tutte le nozioni di base per aiutarti a iniziare rapidamente a usare Adobe Sign. |
-| Ottobre 2021 | [Caricare commenti di PDF in InDesign](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/60-second/indesign.html?lang=it) | Video | In questo tutorial video di 60 secondi, scopri come caricare nuovamente i commenti di PDF in InDesign dopo una revisione condivisa su Acrobat. Questo flusso di lavoro digitale consente di completare le revisioni in fase di registrazione. |
-| Ottobre 2021 | [Ottieni un ID digitale da [!DNL Intesi Group] (Qualificato)](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/digital-id/intesi/intesi-qualified.html?lang=it) | Video | Scopri come ottenere un certificato di firma digitale qualificato dal gruppo [!DNL Intesi]. Dopo la registrazione e la verifica dell’identità, il gruppo [!DNL Intesi] ti rilascia un ID digitale utilizzato per applicare una firma cloud Adobe Sign. |
-| Ottobre 2021 | [Firma con [!DNL Intesi Group]](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/digital-id/intesi/intesi-sign.html?lang=it) | Video | Scopri come utilizzare il tuo ID digitale Intesi Group per autenticare la tua identità e autorizzare una firma digitale remota (firma cloud) su un documento. |
-| Ottobre 2021 | [Ottieni un ID digitale da [!DNL Intesi Group] (Avanzato)](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/digital-id/intesi/intesi-advanced.html?lang=it) | Video | Scopri come ottenere un certificato di firma digitale avanzato da Intesi Group. Dopo la registrazione e la verifica dell’identità, Intesi Group ti rilascia un ID digitale utilizzato per applicare una firma cloud Adobe Sign. |
-| Ottobre 2021 | [Firma con [!DNL Digidentity]](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/digital-id/digidentity/digidentity-sign.html?lang=it) | Video | Scopri come utilizzare il tuo ID digitale [!DNL Digidentity] per autenticare la tua identità e autorizzare una firma digitale remota (firma cloud) su un documento. |
-| Ottobre 2021 | [Ottieni un ID digitale da [!DNL Digidentity]](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/digital-id/digidentity/digidentity-reg.html?lang=it) | Video | Scopri come ottenere un certificato di firma digitale da [!DNL Digidentity]. Dopo la registrazione e la verifica dell’identità, [!DNL Digidentity] ti rilascia un ID digitale utilizzato per applicare una firma cloud Adobe Sign. |
-| Ottobre 2021 | [Rilevare differenze tra due PDF](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/advanced-tasks/compare.html?lang=it) | Video | Non commettere mai l’errore di lavorare con la versione errata di un file. Rileva in modo rapido e preciso le differenze tra due file PDF per migliorare i flussi di lavoro di revisione dei documenti. |
-| Ottobre 2021 | [Creare contenuti PDF durante la navigazione con Microsoft® Edge](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/integrations/edge.html?lang=it) | Video | Scopri come archiviare al volo le pagine web in PDF con l’estensione Adobe Acrobat per Microsoft® Edge. Questo strumento riservato a Windows è prezioso per progetti di ricerca e per la visualizzazione offline di informazioni basate sul web. |
-| Ottobre 2021 | [Conversione di messaggi e-mail e allegati in PDF in Outlook](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/integrations/outlook.html?lang=it) | Video | Scopri come archiviare i messaggi e-mail e gli allegati su PDF in Outlook per i tuoi progetti. Scopri come distribuire le informazioni in modo più professionale e sicuro convertendo automaticamente gli allegati in PDF. Questo strumento è disponibile solo per Windows. |
+| Novembre 2021 | [Nozioni di base su Workspace](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/getting-started/get-to-know-the-acrobat-dc-interface.html) | Video (aggiornato) | Scopri in che modo l’interfaccia di Acrobat DC facilita l’accesso a file e strumenti tra desktop, web e dispositivi mobili tramite un’esperienza Workspace coerente. |
+| Novembre 2021 | [Lavora ovunque con il web Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/getting-started/acrobatweb.html) | Video | Scopri come gestire le richieste di documenti aziendali da qualsiasi luogo utilizzando gli strumenti web Acrobat nel browser. |
+| Novembre 2021 | [Creazione di PDF in Office per il Web ](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/integrations/createofficeweb.html) | Video | Scopri come creare file PDF senza mai lasciare Microsoft® Office per le app web. Questo componente aggiuntivo richiede un abbonamento ad Acrobat DC for teams o Acrobat DC for enterprise subscription. |
+| Novembre 2021 | [Collaborazione in tempo reale](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/getting-started/collaborate.html) | Video | Sposta i tuoi progetti in avanti raccogliendo commenti, collaborando alle risposte e tenendo traccia dei progressi compiuti sui documenti in tempo reale, da qualsiasi luogo. |
+| Novembre 2021 | [ Produttività in movimento](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/getting-started/productivity.html) | Video | Fai di più direttamente dal tuo tablet o cellulare con l&#39;app mobile Acrobat Reader. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -447,4 +428,4 @@ Per Document Cloud, consulta:
 
 ## ![Icona](/assets/creative-cloud-24.png) Creative Cloud for Enterprise {#creative-cloud}
 
-Per i tutorial più recenti, consulta i [tutorial Creative Cloud for Enterprise](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/overview.html?lang=it).
+Per i tutorial più recenti, consulta i [tutorial Creative Cloud for Enterprise](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/overview.html?lang=en).
