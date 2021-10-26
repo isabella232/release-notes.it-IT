@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: f348d6153d81dae8ef84cd1aeb797e707104f392
+source-git-commit: 99bb9c88f2aa8b9f62cf2f088671fe60c1e684ab
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4131'
 ht-degree: 60%
 
 ---
@@ -203,7 +203,10 @@ Correzioni e miglioramenti in Audience Manager.
 
 Per gli ultimi aggiornamenti sulle varie versioni, visita regolarmente la pagina [Aggiornamenti e roadmap delle versioni di Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=it).
 
-**Aggiornamento 13/10/2021:** Consulta la sezione [Panoramica sulla versione di settembre 2021](https://video.tv.adobe.com/v/337381) per una panoramica delle nuove funzioni.
+### Video introduttivi sulla versione
+
+* [Panoramica sulla versione di ottobre 2021](https://video.tv.adobe.com/v/338253) video delle nuove funzioni.
+* [Panoramica sulla versione di settembre 2021](https://video.tv.adobe.com/v/337381) video delle nuove funzioni.
 
 ### Community
 
