@@ -9,7 +9,7 @@ exl-id: null
 source-git-commit: 99bb9c88f2aa8b9f62cf2f088671fe60c1e684ab
 workflow-type: tm+mt
 source-wordcount: '4131'
-ht-degree: 60%
+ht-degree: 64%
 
 ---
 
@@ -54,7 +54,7 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 | Data evento | Ora | Nome evento | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |---------- |
 | 21 ottobre 2021 | On-demand | [Chi l’ha cliccato? Generazione di rapporti avanzati sui clic dei collegamenti con Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | Evento video live | La generazione di rapporti sull’interazione dell’utente con la proprietà web o mobile rappresenta un elemento fondamentale per comprendere il percorso del cliente. Con Adobe Analytics puoi capire il chi, cosa, perché e dove di ogni clic nell’applicazione. Gli esperti di Adobe Analytics possono insegnarti a utilizzare le classificazioni Activity Map e l’attribuzione personalizzata per comprendere meglio il coinvolgimento dell’utente. |
-| 4 ottobre 2021 | On-demand | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | Video | L&#39;evento è stato perso o è in cerca di una riproduzione di una sessione specifica? Trovateli sull&#39;Experience League. Developers Live presenta i più recenti progressi tecnologici e strumenti per sviluppatori che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei vari settori. Visualizza l’indirizzo della nota chiave, scopri le API di Analytics, il livello dati client, i progetti open-source di Adobe I/O e molto altro. |
+| 4 ottobre 2021 | On-demand | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=it) | Video | L&#39;evento è stato perso o è in cerca di una riproduzione di una sessione specifica? Trovateli sull&#39;Experience League. Developers Live presenta i più recenti progressi tecnologici e strumenti per sviluppatori che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei vari settori. Visualizza l’indirizzo della nota chiave, scopri le API di Analytics, il livello dati client, i progetti open-source di Adobe I/O e molto altro. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -220,7 +220,7 @@ Per gli ultimi aggiornamenti sulle varie versioni, visita regolarmente la pagina
 
    * [Elenco completo delle sessioni](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-developers-live-october-2021-complete-session-list/m-p/423041#M120517)
    * [Registrazione gratuita - Accesso a RSVP](https://developerevents.adobe.com/events/details/adobe-developer-events-developer-experience-presents-adobe-developers-live/?cid=Kautuk)
-   * [Community live per sviluppatori di Adobe](https://experienceleaguecommunities.adobe.com:443/t5/adobe-experience-manager/registration-for-adobe-developers-live-is-now-open-4th-amp-5th/td-p/422127)
+   * [Community Adobe Developers Live](https://experienceleaguecommunities.adobe.com:443/t5/adobe-experience-manager/registration-for-adobe-developers-live-is-now-open-4th-amp-5th/td-p/422127)
 
 ### Nuovi corsi ed esercitazioni su Experience Manager {#tutorials-aem}
 
@@ -381,7 +381,7 @@ Ultimo aggiornamento: **7 ottobre 2021**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
-| Documentazione | Tutto [DSP e altra documentazione Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud.html) su [!DNL Experience League] ora è tradotto automaticamente in tutte le lingue disponibili. Per modificare la lingua visualizzata, utilizzare il menu &quot;Cambia lingua&quot; in basso a sinistra di qualsiasi pagina. |
+| Documentazione | Tutto [DSP e altra documentazione Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud.html?lang=it) su [!DNL Experience League] ora è tradotto automaticamente in tutte le lingue disponibili. Per modificare la lingua visualizzata, utilizza il menu “Cambia lingua” in basso a sinistra di qualsiasi pagina. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -391,7 +391,7 @@ Ultimo aggiornamento: **7 ottobre 2021**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
-| [!UICONTROL Rapporti], [!UICONTROL Centro notifiche] | Tutte le notifiche e-mail per i rapporti, inviate da Advertising Cloud Search al completamento o al fallimento di un rapporto personalizzato o pianificato, ora vengono gestite da [!UICONTROL Centro notifiche]. Le notifiche e-mail e le notifiche web sono abilitate per impostazione predefinita per i rapporti, ma è possibile modificare facoltativamente le impostazioni di notifica. Con questa modifica:<ul><li>I destinatari delle e-mail sono limitati agli utenti registrati e autenticati di Advertising Cloud Search e hanno accesso all’account dell’inserzionista. Questa funzione assicura che non vengano inviati dati riservati ad utenti non autorizzati.</li><li>Il formato e il contenuto dell’e-mail utilizzano il [!UICONTROL Centro notifiche] , che include ulteriori dettagli sul rapporto e collegamenti per il download diretto per tutti i formati di rapporto.</li><li>Le notifiche di report sono un nuovo tipo di notifica, con le proprie preferenze di notifica, in [!UICONTROL Centro notifiche].</li></ul>Se utilizzi un’automazione per richiamare rapporti da notifiche e-mail, potrebbe essere necessario aggiornare la logica di filtro per garantire la continuità del processo. |
+| [!UICONTROL Rapporti], [!UICONTROL Centro notifiche] | (versione del 9 ottobre) Tutte le notifiche e-mail per i rapporti, inviate da Advertising Cloud Search al completamento o al fallimento di un rapporto personalizzato o pianificato, vengono ora gestite dal [!UICONTROL Centro notifiche]. Le notifiche e-mail e le notifiche web per i rapporti sono abilitate per impostazione predefinita, ma è possibile modificare tale impostazione. Con questa modifica:<ul><li>I destinatari delle e-mail sono limitati agli utenti registrati e autenticati di Advertising Cloud Search e hanno accesso all’account dell’inserzionista. Questa funzione assicura che non vengano inviati dati riservati ad utenti non autorizzati.</li><li>Il formato e il contenuto dell’e-mail utilizzano il modello del [!UICONTROL Centro notifiche], che include ulteriori dettagli sul rapporto e collegamenti diretti per il download di tutti i formati di rapporto.</li><li>Le notifiche dei rapporti sono un nuovo tipo di notifica che dispongono di preferenze proprie e si trovano all’interno del [!UICONTROL Centro notifiche].</li></ul>Se utilizzi un’automazione per richiamare i rapporti da notifiche e-mail, potrebbe essere necessario aggiornare la logica di filtro per garantire la continuità del processo. |
 | Approfondimenti sulla pubblicità | Ulteriori informazioni sono disponibili in modalità beta. |
 
 {style=&quot;table-layout:auto&quot;}
