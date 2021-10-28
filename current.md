@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 99bb9c88f2aa8b9f62cf2f088671fe60c1e684ab
+source-git-commit: ed5f9c6b35b65bab0c26887788e2232a0e9a6ab5
 workflow-type: tm+mt
-source-wordcount: '4131'
-ht-degree: 64%
+source-wordcount: '4147'
+ht-degree: 63%
 
 ---
 
@@ -124,7 +124,7 @@ Data di rilascio: **28 ottobre 2021**
 | [!UICONTROL Tempo di riproduzione dei contenuti multimediali trascorso] | Il [!UICONTROL Tempo di riproduzione] dei contenuti multimediali trascorso per lo streaming di Adobe fornisce insight utili sul coinvolgimento dei visualizzatori e consente alle organizzazioni di media di ottenere informazioni più approfondite e dettagliate con un coinvolgimento degli utenti minuto per minuto attraverso un’analisi avanzata del tempo trascorso con funzionalità di ripartizione giornaliera. È possibile osservare il tempo impiegato per visualizzare i flussi multimediali in un determinato momento. È possibile suddividere la durata della riproduzione in base a granularità diverse, tra cui nuove granularità di 5 minuti, 15 minuti e 30 minuti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=it) | 18 ottobre 2021 |
 | [!UICONTROL Generatore di segmenti] rapidi | Consente agli utenti aziendali di applicare rapidamente i segmenti di base in un flusso di lavoro di progetto semplificato e in linea. Non è necessario passare al [!UICONTROL Generatore di segmenti]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=it) | 21 ottobre 2021 |
 | Miglioramenti alla ricerca nella barra a sinistra in Analysis Workspace | Ricerca barra a sinistra 1) dà priorità alle corrispondenze esatte al di sopra delle grandi corrispondenze, oltre a continuare a tenere conto della recency dei componenti e della loro rilevanza. 2) Evidenzia i caratteri corrispondenti per rendere i risultati della ricerca più comprensibili. 3) È più facile trovare le classificazioni relative a una dimensione. 4) Infine, supporta la ricerca di caratteri jolly (`*`) per trovare più facilmente i componenti specifici necessari. Nota: la ricerca con caratteri jolly non funziona ancora a livello di elemento dimensionale. | 21 ottobre 2021 |
-| Tema scuro Analysis Workspace | Il tema scuro è disponibile come opzione di visualizzazione. | 21 ottobre 2021 |
+| Tema scuro | [Il tema scuro è disponibile come opzione di visualizzazione.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme) | 21 ottobre 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -135,7 +135,7 @@ Data di rilascio: **28 ottobre 2021**
 | Intervalli di date a livello di minuto in Analysis Workspace | Puoi applicare un intervallo di date a livello di minuto nelle impostazioni avanzate del calendario del pannello o durante la creazione di un intervallo di date personalizzato. Se esegui rapporti su un intervallo di date che dura molti giorni, l’ora di inizio si applica al primo giorno e l’ora di fine si applica all’ultimo giorno dell’intervallo. | 18 ottobre 2021 |
 | [!UICONTROL Generatore di filtri] rapido | Consente agli utenti aziendali di applicare rapidamente i segmenti di base in un flusso di lavoro di progetto semplificato e in linea. Non è necessario passare al [!UICONTROL Generatore di filtri]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 21 ottobre 2021 |
 | Miglioramenti alla ricerca nella barra a sinistra in Analysis Workspace | Ricerca barra a sinistra 1) dà priorità alle corrispondenze esatte al di sopra delle grandi corrispondenze, oltre a continuare a tenere conto della recency dei componenti e della loro rilevanza. 2) Evidenzia i caratteri corrispondenti per rendere i risultati della ricerca più comprensibili. 3) È più facile trovare le classificazioni relative a una dimensione. 4) Infine, supporta la ricerca di caratteri jolly (`*`) per trovare più facilmente i componenti specifici necessari. Nota: la ricerca con caratteri jolly non funziona ancora a livello di elemento dimensionale. | 21 ottobre 2021 |
-| Tema scuro Analysis Workspace | Il tema scuro è disponibile come opzione di visualizzazione. | 21 ottobre 2021 |
+| Tema scuro | [Il tema scuro è disponibile come opzione di visualizzazione.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme) | 21 ottobre 2021 |
 | Intervallo di lookback per l’allocazione delle dimensioni | All’impostazione di allocazione delle dimensioni in Persistence (Persistenza) nella configurazione Data Views (Visualizzazioni dati) viene aggiunto un intervallo di look-back fino a 90 giorni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 28 ottobre 2021 |
 
 {style=&quot;table-layout:auto&quot;}
