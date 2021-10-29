@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 4dfe2c2ab39fe82b40fc87e289d2c55c6ccc6735
+source-git-commit: 88923d059ec73215facae2efc1888b07b2e60fc7
 workflow-type: tm+mt
-source-wordcount: '4456'
-ht-degree: 59%
+source-wordcount: '4513'
+ht-degree: 58%
 
 ---
 
@@ -53,8 +53,9 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 
 | Data evento | Ora | Nome evento | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |---------- |
+| 18 novembre 2021 | TBA | Creazione rapida dei siti in Experience Manager più rapida che mai | Evento video live | Experience Manager Sites include diverse funzionalità per accelerare la distribuzione di un’esperienza web coinvolgente. Scopri come utilizzare un approccio con codice basso per creare un sito in Adobe Experience Manager utilizzando un modello di sito predefinito. Maggiori dettagli in arrivo! |
 | 21 ottobre 2021 | On-demand | [Chi l’ha cliccato? Generazione di rapporti avanzati sui clic dei collegamenti con Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | Evento video live | La generazione di rapporti sull’interazione dell’utente con la proprietà web o mobile rappresenta un elemento fondamentale per comprendere il percorso del cliente. Con Adobe Analytics puoi capire il chi, cosa, perché e dove di ogni clic nell’applicazione. Gli esperti di Adobe Analytics possono insegnarti a utilizzare le classificazioni Activity Map e l’attribuzione personalizzata per comprendere meglio il coinvolgimento dell’utente. |
-| 4 ottobre 2021 | On-demand | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=it) | Video | L&#39;evento è stato perso o è in cerca di una riproduzione di una sessione specifica? Trovateli sull&#39;Experience League. Developers Live presenta i più recenti progressi tecnologici e strumenti per sviluppatori che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei vari settori. Visualizza l’indirizzo della nota chiave, scopri le API di Analytics, il livello dati client, i progetti open-source di Adobe I/O e molto altro. |
+| 4 ottobre 2021 | On-demand | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=it) | Video | L&#39;evento è stato perso o è in cerca di una riproduzione di una sessione specifica? Find them on Experience League. Developers Live presenta i più recenti progressi tecnologici e strumenti per sviluppatori che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei vari settori. Visualizza l’indirizzo della nota chiave, scopri le API di Analytics, il livello dati client, i progetti open-source di Adobe I/O e molto altro. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -120,8 +121,8 @@ Data di rilascio: **28 ottobre 2021**
 
 | Funzione | Descrizione | [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=it) - data di Target |
 | ----------- | ---------- | ------- |
-| Intervalli di date a livello di minuto in Analysis Workspace | Puoi applicare un intervallo di date a livello di minuto nelle impostazioni avanzate del calendario del pannello o durante la creazione di un intervallo di date personalizzato. Se esegui rapporti su un intervallo di date che dura molti giorni, l’ora di inizio si applica al primo giorno e l’ora di fine si applica all’ultimo giorno dell’intervallo. | 18 ottobre 2021 |
-| [!UICONTROL Tempo di riproduzione dei contenuti multimediali trascorso] | Il [!UICONTROL Tempo di riproduzione] dei contenuti multimediali trascorso per lo streaming di Adobe fornisce insight utili sul coinvolgimento dei visualizzatori e consente alle organizzazioni di media di ottenere informazioni più approfondite e dettagliate con un coinvolgimento degli utenti minuto per minuto attraverso un’analisi avanzata del tempo trascorso con funzionalità di ripartizione giornaliera. È possibile osservare il tempo impiegato per visualizzare i flussi multimediali in un determinato momento. È possibile suddividere la durata della riproduzione in base a granularità diverse, tra cui nuove granularità di 5 minuti, 15 minuti e 30 minuti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=it) | 18 ottobre 2021 |
+| Intervalli di date a livello di minuto in Analysis Workspace | You can apply a minute-level date range under the advanced settings of your panel calendar or when building a custom date range. Se esegui rapporti su un intervallo di date che dura molti giorni, l’ora di inizio si applica al primo giorno e l’ora di fine si applica all’ultimo giorno dell’intervallo. | 18 ottobre 2021 |
+| [!UICONTROL Tempo di riproduzione dei contenuti multimediali trascorso] | Il [!UICONTROL Tempo di riproduzione] dei contenuti multimediali trascorso per lo streaming di Adobe fornisce insight utili sul coinvolgimento dei visualizzatori e consente alle organizzazioni di media di ottenere informazioni più approfondite e dettagliate con un coinvolgimento degli utenti minuto per minuto attraverso un’analisi avanzata del tempo trascorso con funzionalità di ripartizione giornaliera. È possibile osservare il tempo impiegato per visualizzare i flussi multimediali in un determinato momento. You can split the playback duration by different granularities, including new 5 minute, 15 minute, and 30-minute granularities. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=it) | 18 ottobre 2021 |
 | [!UICONTROL Generatore di segmenti] rapidi | Consente agli utenti aziendali di applicare rapidamente i segmenti di base in un flusso di lavoro di progetto semplificato e in linea. Non è necessario passare al [!UICONTROL Generatore di segmenti]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=it) | 21 ottobre 2021 |
 | Miglioramenti alla ricerca nella barra a sinistra in Analysis Workspace | Ricerca barra a sinistra 1) dà priorità alle corrispondenze esatte al di sopra delle grandi corrispondenze, oltre a continuare a tenere conto della recency dei componenti e della loro rilevanza. 2) Evidenzia i caratteri corrispondenti per rendere i risultati della ricerca più comprensibili. 3) È più facile trovare le classificazioni relative a una dimensione. 4) Infine, supporta la ricerca di caratteri jolly (`*`) per trovare più facilmente i componenti specifici necessari. Nota: la ricerca con caratteri jolly non funziona ancora a livello di elemento dimensionale. | 21 ottobre 2021 |
 | Tema scuro | [Il tema scuro è disponibile come opzione di visualizzazione.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme) | 21 ottobre 2021 |
@@ -228,10 +229,10 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 
 | Data di pubblicazione | Nome | Descrizione | Tipo | Versione |
 | -----------| ---------- | ---------- |---------- | ---------- |
-| Novembre 2021 | [Nozioni di base su Adobe Experience Manager Sites](https://experienceleague.adobe.com/docs/experience-manager-skill-builder/skill-builder/2021/authoring-fundamentals.html?lang=en) | Serie video | Scopri come creare esperienze cliente avanzate e coinvolgenti in Adobe Experience Manager in questa serie di webinar in cinque parti. Inizia con gli elementi di base dell’authoring dei contenuti imparando i concetti e le operazioni fondamentali. Scopri le funzioni di amministrazione dei siti e le nozioni di base sulla gestione delle risorse digitali in AEM. In seguito, scopri le funzioni che possono aiutarti a risparmiare tempo ed essere più efficiente riutilizzando i contenuti e distribuendoli tra i canali. | AEM Sites |
-| Novembre 2021 | [Pianificazione del passaggio a AEM as a Cloud Service](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2021.1.migration) | Corso | Scopri le considerazioni sul passaggio a AEM strumenti as a Cloud Service e disponibili che semplificano il processo. | AEM CS |
+| Novembre 2021 | [Nozioni di base su Adobe Experience Manager Sites](https://experienceleague.adobe.com/docs/experience-manager-skill-builder/skill-builder/2021/authoring-fundamentals.html?lang=en) | Serie video | Scopri come creare esperienze cliente avanzate e coinvolgenti in Adobe Experience Manager in questa serie di webinar in cinque parti. Inizia con gli elementi di base dell’authoring dei contenuti imparando i concetti e le operazioni fondamentali. Learn about sites admin features and basics of handling digital assets within AEM. In seguito, scopri le funzioni che possono aiutarti a risparmiare tempo ed essere più efficiente riutilizzando i contenuti e distribuendoli tra i canali. | AEM Sites |
+| Novembre 2021 | [Planning your Move to AEM as a Cloud Service](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2021.1.migration) | Corso | Learn about the considerations of moving to AEM as a Cloud Service and the available tools that simplify the process. | AEM CS |
 | Novembre 2021 | [Passare ad AEM as a Cloud Service](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2021.1.migration) | Corso | Scopri come passare con successo da AEM 6 ad Experience Manager as a Cloud Service. | AEM CS |
-| Novembre 2021 | [Scarica il file interattivo DoR](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-interactive-dor.html?lang=en#create-custom-servlet) | Video | Scopri come scaricare un DoR interattivo con i dati del modulo adattivo. | AEM Forms |
+| Novembre 2021 | [Download Interactive DoR](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-interactive-dor.html?lang=en#create-custom-servlet) | Video | Scopri come scaricare un DoR interattivo con i dati del modulo adattivo. | AEM Forms |
 | Novembre 2021 | [Serie di esperti Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=en) | Serie video | Scopri Adobe Experience Manager (AEM) as a Cloud Service dagli ingegneri esperti di Adobe che lo hanno creato e dal team Professional Services che lo fornisce. Unisciti agli esperti di Adobe per scoprire cosa AEM as a Cloud Service, come si confronta con AEM 6 e come passare da AEM 6 a AEM as a Cloud Service. | AEM CS |
 | Novembre 2021 | [Utenti del servizio](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/advanced/service-users.html?lang=en) | Video | Scopri come creare e utilizzare gli utenti del servizio nel codice AEM per fornire un accesso controllato e programmatico all’archivio AEM. | AEM CS |
 
@@ -277,11 +278,11 @@ Consulta i seguenti collegamenti per le note sulla versione di Adobe Commerce:
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| Novembre 2021 | [Video e Tutorials di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=en) | Pagina principale delle esercitazioni | Queste risorse includono serie video che forniscono una visualizzazione di alto livello degli argomenti e singoli video che eseguono attività e processi specifici. La raccolta è progettata per fornire contenuti utili per sviluppatori backend, sviluppatori front-end, amministratori di sistema, merchants e altri ruoli all’interno della tua organizzazione. |
+| Novembre 2021 | [Video e Tutorials di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=en) | Pagina principale delle esercitazioni | Queste risorse includono serie video che forniscono una visualizzazione di alto livello degli argomenti e singoli video che eseguono attività e processi specifici. The collection is designed to provide helpful content for backend developers, frontend developers, system administrators, merchants, and other roles within your organization. |
 
 ## ![Icona](/assets/target.png) [!DNL Target] {#target}
 
-Ultimo aggiornamento: **20 ottobre 2021**
+Last Updated: **October 20, 2021**
 
 Per informazioni sempre aggiornate, consulta le [[!DNL Target] note sulla versione](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=it).
 
@@ -372,7 +373,7 @@ Per una raccolta delle informazioni più recenti per tutti i prodotti, consulta 
 
 Note sulla versione di [!DNL Adobe Advertising Cloud].
 
-* [Nuove funzioni in [!DNL Advertising Cloud]](#adcloud-all)
+* [New features across [!DNL Advertising Cloud]](#adcloud-all)
 * [Nuove funzioni in  [!DNL Advertising Cloud DSP]](#adcloud-dsp)
 * [Nuove funzioni in  [!DNL Advertising Cloud Search]](#adcloud-search)
 
@@ -420,7 +421,7 @@ Nuovi video, tutorial o corsi pubblicati per Adobe Document Cloud.
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| Novembre 2021 | [Nozioni di base su Workspace](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/getting-started/get-to-know-the-acrobat-dc-interface.html) | Video (aggiornato) | Scopri in che modo l’interfaccia di Acrobat DC facilita l’accesso a file e strumenti tra desktop, web e dispositivi mobili tramite un’esperienza Workspace coerente. |
+| Novembre 2021 | [Workspace basics](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/getting-started/get-to-know-the-acrobat-dc-interface.html) | Video (aggiornato) | Scopri in che modo l’interfaccia di Acrobat DC facilita l’accesso a file e strumenti tra desktop, web e dispositivi mobili tramite un’esperienza Workspace coerente. |
 | Novembre 2021 | [Lavora ovunque con il web Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/getting-started/acrobatweb.html) | Video | Scopri come gestire le richieste di documenti aziendali da qualsiasi luogo utilizzando gli strumenti web Acrobat nel browser. |
 | Novembre 2021 | [Creazione di PDF in Office per il Web ](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/integrations/createofficeweb.html) | Video | Scopri come creare file PDF senza mai lasciare Microsoft® Office per le app web. Questo componente aggiuntivo richiede un abbonamento ad Acrobat DC for teams o Acrobat DC for enterprise subscription. |
 | Novembre 2021 | [Collaborazione in tempo reale](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/getting-started/collaborate.html) | Video | Sposta i tuoi progetti in avanti raccogliendo commenti, collaborando alle risposte e tenendo traccia dei progressi compiuti sui documenti in tempo reale, da qualsiasi luogo. |
