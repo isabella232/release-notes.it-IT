@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 88923d059ec73215facae2efc1888b07b2e60fc7
+source-git-commit: f5fa780e217bd43eb835442326692e3a056f16c3
 workflow-type: tm+mt
-source-wordcount: '4513'
-ht-degree: 100%
+source-wordcount: '5070'
+ht-degree: 94%
 
 ---
 
@@ -47,17 +47,43 @@ Ultimo aggiornamento: **28 ottobre 2021**
 
 Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.adobe.com/?lang=it#home) per trovare documentazione tecnica e sui prodotti, corsi curati da Adobe, esercitazioni video, risposte rapide, insight sulla community e corsi di formazione tenuti da istruttori.
 
-## ![Icona](/assets/experience-league.png) [!DNL Experience League] Eventi live {#events}
+## ![Icona](/assets/experience-league.png) [!DNL Experience League] Eventi {#events}
 
-[Gli eventi dal vivo Experience League](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=it) sono incontri con esperti Adobe e ospiti speciali, utili per portare la tecnologia Adobe al pubblico. Visualizza la programmazione seguente e unisciti a noi in diretta o guarda gli eventi registrati in precedenza.
+Gli eventi di Experience League sono un ottimo luogo per ottenere le risposte degli esperti di prodotto di Adobe. Consulta il nostro _Interruzioni di caffè e caffè della community_, eventi video Experience League Live (disponibili anche su richiesta) e Live Adobe Developer’s. Le pianificazioni e gli eventi sono i seguenti:
+
+### Experience League Live{#exl-live}
+
+[Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=it) è un live streaming prodotto dal team di Experience League. È un’opportunità per entrare in contatto con gli esperti di prodotti Adobe e imparare suggerimenti utili, trucchi e strategie applicabili alle applicazioni Adobe Experience Cloud.
 
 | Data evento | Ora | Nome evento | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 18 novembre 2021 | TBA | Vai subito in produzione con la creazione rapida dei siti in Experience Manager | Evento video live | Experience Manager Sites include diverse funzionalità per accelerare la distribuzione di un’esperienza web coinvolgente. Scopri come utilizzare un approccio low-code per creare un sito in Adobe Experience Manager utilizzando un modello di sito predefinito. Maggiori dettagli in arrivo. |
-| 21 ottobre 2021 | On-demand | [Chi l’ha cliccato? Generazione di rapporti avanzati sui clic dei collegamenti con Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | Evento video live | La generazione di rapporti sull’interazione dell’utente con la proprietà web o mobile rappresenta un elemento fondamentale per comprendere il percorso del cliente. Con Adobe Analytics puoi capire il chi, cosa, perché e dove di ogni clic nell’applicazione. Gli esperti di Adobe Analytics possono insegnarti a utilizzare le classificazioni Activity Map e l’attribuzione personalizzata per comprendere meglio il coinvolgimento dell’utente. |
-| 4 ottobre 2021 | On-demand | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=it) | Video | Ti sei perso evento o stai cercando la replica di una sessione specifica? Puoi trovarli su Experience League. Developers Live presenta i più recenti progressi tecnologici e strumenti per sviluppatori che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei vari settori. Visualizza l’indirizzo della nota chiave, scopri le API di Analytics, il livello dati client, i progetti open source di Adobe I/O e molto altro. |
+| 18 novembre 2021 | 12:00 (EST) | [Creazione rapida di siti in Adobe Experience Manager più rapida che mai](https://www.youtube.com/watch?v=7-Lcw5PejhI) | Evento video live | Distribuisci in pochi giorni esperienze web personalizzate e ricche di funzioni, senza dover ricorrere a operazioni di sviluppo back-end. Scopri come utilizzare un approccio low-code per creare un sito in Adobe Experience Manager utilizzando un modello di sito predefinito. Unisciti a noi per una presentazione dal vivo e una demo con Adobe Product Manager Shankari Panchapakesan e Gabriel Walt. Puoi anche vedere un po&#39; di codice dal vivo! |
+| 21 ottobre 2021 | 12:00 (EST) | [Chi l’ha cliccato? Generazione di rapporti avanzati sui clic dei collegamenti con Adobe Analytics](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | On-demand | La generazione di rapporti sull’interazione dell’utente con la proprietà web o mobile rappresenta un elemento fondamentale per comprendere il percorso del cliente. Con Adobe Analytics puoi capire il chi, cosa, perché e dove di ogni clic nell’applicazione. Gli esperti di Adobe Analytics possono insegnarti a utilizzare le classificazioni Activity Map e l’attribuzione personalizzata per comprendere meglio il coinvolgimento dell’utente. |
+| 23 settembre 2021 | On-demand | [Suggerimenti degli esperti per dare risalto alle campagne per le vacanze](https://www.youtube.com/watch?v=bsU1lAv0xes) | Evento video live | Proprio come non è mai troppo presto per iniziare a fare acquisti per le vacanze, non è mai troppo presto per iniziare a pianificare una campagna di marketing per vacanze di successo. Con Adobe Campaign puoi progettare, pianificare ed eseguire campagne che concretizzano tutti i desideri per le vacanze della tua azienda.<br>Ma conosci già tutti i suggerimenti per l’esecuzione di campagne per concludere l’anno col botto? Unisciti a Sandra per un incontro live con tre esperti Adobe con una vastissima esperienza collettiva proprio in questo ambito. |
+| 26 agosto 2021 | On-demand | [Rendi il tuo prossimo segmento di pubblico più in gamba che mai](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=it) | Registrazione di eventi | Il successo di ogni buona campagna di marketing dipende dal targeting preciso del pubblico. Con il nuovo [!UICONTROL generatore di segmenti] di Adobe Experience Platform, puoi creare il tuo prossimo segmento di pubblico utilizzando i dati di profilo e il comportamento degli utenti basato sul tempo tra i canali. Non c’è modo migliore di garantire che i tuoi messaggi raggiungano chi ha bisogno di ascoltarli di più. |
+| 29 luglio 2021 | On-demand | [I miei tre suggerimenti preferiti per l’implementazione di Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=it) | Registrazione di eventi | L’hai visto sul palco al Summit. L’hai sentito condividere consigli di esperti all’Adobe Insider Tour. Potresti anche aver avuto l’opportunità di lavorare con lui sulla tua implementazione di Adobe Analytics. Adesso, Eric Matisoff porta i suoi tre suggerimenti preferiti per l’implementazione di Adobe Analytics in questo incontro esclusivo live di Experience League. |
 
 {style=&quot;table-layout:auto&quot;}
+
+### Interruzioni di caffè e caffè della community{#coffee}
+
+discussioni con esperti di Adobe e ospiti speciali che sono utili per portare la tecnologia Adobe a voi. Interruzioni di caffè Q&amp;A nella community Visualizza il seguente programma e unisciti a noi in diretta o guarda eventi registrati in precedenza.
+
+Trascorri un&#39;ora con un ospite speciale e invia le tue domande in Experience League Communities, dove puoi ricevere risposte dalle domande degli esperti di prodotto all&#39;Adobe.
+
+| Nome evento | Data e ora | Argomento | Tipo | Descrizione |
+| -----------| ---------- | ---------- | ---------- |---------- |
+| Interruzioni di caffè e caffè della community | 10 novembre (Wed.) @ 8am PT | Adobe Target | Domande e risposte sul forum | Passate un&#39;ora con Cristinel Anastasoaie, Product Manager. Ricevi risposte alle tue domande sull’interfaccia di Adobe Target, sulle integrazioni, sulle autorizzazioni aziendali e sulle aree di lavoro. <br>[Dettagli](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696) |
+|  | 11 novembre (giovedì) @ 8 PT | Adobe Target | Domande e risposte sul forum | Passate un&#39;ora con Cristinel Anastasoaie, Product Manager. Ricevi risposte alle tue domande sull’interfaccia di Adobe Target, sulle integrazioni, sulle autorizzazioni aziendali e sulle aree di lavoro. <br>[Dettagli](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696) |
+| 18 novembre 2021 | TBA | Vai subito in produzione con la creazione rapida dei siti in Experience Manager | Evento video live | Experience Manager Sites include diverse funzionalità per accelerare la distribuzione di un’esperienza web coinvolgente. Scopri come utilizzare un approccio low-code per creare un sito in Adobe Experience Manager utilizzando un modello di sito predefinito. Maggiori dettagli in arrivo. |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Adobe Developer&#39;s Live{#dev-live}
+
+| Nome evento | Data e ora | Argomento | Tipo | Descrizione |
+| -----------| ---------- | ---------- | ---------- |---------- |
+| 4 ottobre 2021 | On-demand | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=it) | Video | Ti sei perso evento o stai cercando la replica di una sessione specifica? Puoi trovarli su Experience League. Developers Live presenta i più recenti progressi tecnologici e strumenti per sviluppatori che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei vari settori. Visualizza l’indirizzo della nota chiave, scopri le API di Analytics, il livello dati client, i progetti open source di Adobe I/O e molto altro. |
 
 Per ulteriori video, visita il [canale Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) su YouTube.
 
