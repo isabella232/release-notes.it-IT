@@ -1,6 +1,6 @@
 ---
 title: Note sulla versione più recente
-description: Scopri le note sulla versione più recente, le nuove funzioni e la nuova documentazione dei  [!DNL Experience Cloud]  prodotti e servizi. Trova nuove guide e tutorial su [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise], and [!DNL Document Cloud].
+description: Scopri le note sulla versione più recente, le nuove funzioni e la nuova documentazione dei [!DNL Experience Cloud] prodotti e servizi. Trova nuove guide e tutorial su [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise], and [!DNL Document Cloud].
 doc-type: release notes
 last-update: November 2021
 author: mfrei
@@ -9,7 +9,7 @@ exl-id: null
 source-git-commit: 88923d059ec73215facae2efc1888b07b2e60fc7
 workflow-type: tm+mt
 source-wordcount: '4513'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -53,9 +53,9 @@ Hai bisogno di aiuto? Visita [Adobe Experience League](https://experienceleague.
 
 | Data evento | Ora | Nome evento | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 18 novembre 2021 | TBA | Creazione rapida dei siti in Experience Manager più rapida che mai | Evento video live | Experience Manager Sites include diverse funzionalità per accelerare la distribuzione di un’esperienza web coinvolgente. Scopri come utilizzare un approccio con codice basso per creare un sito in Adobe Experience Manager utilizzando un modello di sito predefinito. Maggiori dettagli in arrivo! |
+| 18 novembre 2021 | TBA | Vai subito in produzione con la creazione rapida dei siti in Experience Manager | Evento video live | Experience Manager Sites include diverse funzionalità per accelerare la distribuzione di un’esperienza web coinvolgente. Scopri come utilizzare un approccio low-code per creare un sito in Adobe Experience Manager utilizzando un modello di sito predefinito. Maggiori dettagli in arrivo. |
 | 21 ottobre 2021 | On-demand | [Chi l’ha cliccato? Generazione di rapporti avanzati sui clic dei collegamenti con Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | Evento video live | La generazione di rapporti sull’interazione dell’utente con la proprietà web o mobile rappresenta un elemento fondamentale per comprendere il percorso del cliente. Con Adobe Analytics puoi capire il chi, cosa, perché e dove di ogni clic nell’applicazione. Gli esperti di Adobe Analytics possono insegnarti a utilizzare le classificazioni Activity Map e l’attribuzione personalizzata per comprendere meglio il coinvolgimento dell’utente. |
-| 4 ottobre 2021 | On-demand | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=it) | Video | Ti sei perso ‘’evento o stai cercando la replica di una sessione specifica? Puoi trovarli su Experience League. Developers Live presenta i più recenti progressi tecnologici e strumenti per sviluppatori che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei vari settori. Visualizza l’indirizzo della nota chiave, scopri le API di Analytics, il livello dati client, i progetti open source di Adobe I/O e molto altro. |
+| 4 ottobre 2021 | On-demand | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=it) | Video | Ti sei perso evento o stai cercando la replica di una sessione specifica? Puoi trovarli su Experience League. Developers Live presenta i più recenti progressi tecnologici e strumenti per sviluppatori che supportano la progettazione, i flussi di lavoro per la creazione di contenuti, i servizi di documentazione e la gestione dell’esperienza dei clienti nei vari settori. Visualizza l’indirizzo della nota chiave, scopri le API di Analytics, il livello dati client, i progetti open source di Adobe I/O e molto altro. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -125,7 +125,7 @@ Data di rilascio: **28 ottobre 2021**
 | [!UICONTROL Tempo di riproduzione dei contenuti multimediali trascorso] | Il [!UICONTROL Tempo di riproduzione] dei contenuti multimediali trascorso per lo streaming di Adobe fornisce insight utili sul coinvolgimento dei visualizzatori e consente alle organizzazioni di media di ottenere informazioni più approfondite e dettagliate con un coinvolgimento degli utenti minuto per minuto attraverso un’analisi avanzata del tempo trascorso con funzionalità di ripartizione giornaliera. È possibile osservare il tempo impiegato per visualizzare i flussi multimediali in un determinato momento. Puoi suddividere la durata della riproduzione in base a diverse granularità, tra cui nuove granularità di 5, 15 e 30 minuti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=it) | 18 ottobre 2021 |
 | [!UICONTROL Generatore di segmenti] rapidi | Consente agli utenti aziendali di applicare rapidamente i segmenti di base in un flusso di lavoro di progetto semplificato e in linea. Non è necessario passare al [!UICONTROL Generatore di segmenti]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=it) | 21 ottobre 2021 |
 | Miglioramenti alla ricerca nella barra a sinistra in Analysis Workspace | La ricerca nella barra a sinistra 1) assegnerà la priorità alle corrispondenze esatte al di sopra delle corrispondenze generiche, oltre a continuare a tenere conto dell’attualità dei componenti e della loro rilevanza. 2) Evidenzia i caratteri corrispondenti per rendere i risultati della ricerca più comprensibili. 3) È più facile trovare le classificazioni relative a una dimensione. 4) Infine, supporta la ricerca di caratteri jolly (`*`) per trovare più facilmente i componenti specifici necessari. Nota: la ricerca con caratteri jolly non funziona ancora a livello di elemento dimensionale. | 21 ottobre 2021 |
-| Tema scuro | [Il tema scuro è disponibile come opzione di visualizzazione.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme) | 21 ottobre 2021 |
+| Tema scuro | Il [tema scuro](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=it#dark-theme) è disponibile come opzione di visualizzazione. | 21 ottobre 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -136,7 +136,7 @@ Data di rilascio: **28 ottobre 2021**
 | Intervalli di date a livello di minuto in Analysis Workspace | Puoi applicare un intervallo di date a livello di minuto nelle impostazioni avanzate del calendario del pannello o durante la creazione di un intervallo di date personalizzato. Se esegui rapporti su un intervallo di date che dura molti giorni, l’ora di inizio si applica al primo giorno e l’ora di fine si applica all’ultimo giorno dell’intervallo. | 18 ottobre 2021 |
 | [!UICONTROL Generatore di filtri] rapido | Consente agli utenti aziendali di applicare rapidamente i segmenti di base in un flusso di lavoro di progetto semplificato e in linea. Non è necessario passare al [!UICONTROL Generatore di filtri]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=it) | 21 ottobre 2021 |
 | Miglioramenti alla ricerca nella barra a sinistra in Analysis Workspace | La ricerca nella barra a sinistra 1) assegnerà la priorità alle corrispondenze esatte al di sopra delle corrispondenze generiche, oltre a continuare a tenere conto dell’attualità dei componenti e della loro rilevanza. 2) Evidenzia i caratteri corrispondenti per rendere i risultati della ricerca più comprensibili. 3) È più facile trovare le classificazioni relative a una dimensione. 4) Infine, supporta la ricerca di caratteri jolly (`*`) per trovare più facilmente i componenti specifici necessari. Nota: la ricerca con caratteri jolly non funziona ancora a livello di elemento dimensionale. | 21 ottobre 2021 |
-| Tema scuro | [Il tema scuro è disponibile come opzione di visualizzazione.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme) | 21 ottobre 2021 |
+| Tema scuro | Il [tema scuro](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=it#dark-theme) è disponibile come opzione di visualizzazione. | 21 ottobre 2021 |
 | Intervallo di lookback per l’allocazione delle dimensioni | All’impostazione di allocazione delle dimensioni in Persistenza nella configurazione delle visualizzazioni dati viene aggiunto un intervallo di look-back fino a 90 giorni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it) | 28 ottobre 2021 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -332,9 +332,9 @@ Ultimi tutorial su Journey Optimizer:
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| Ottobre 2021 | [Configurare e gestire i dati in  [!DNL Journey Optimizer]  per data engineer](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.2&amp;lang=it) | Corso | Scopri come configurare e gestire i dati necessari per la gestione dei percorsi in Journey Optimizer. |
-| Ottobre 2021 | [Guida introduttiva con  [!DNL Journey Optimizer]  per amministratori di percorso e manager](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.1&amp;lang=it) | Corso | Scopri tutto quello che devi sapere per creare il tuo primo percorso. |
-| Ottobre 2021 | [Configurazione  [!DNL Journey Optimizer]  per gli amministratori di percorso](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-A-1-2021.1&amp;lang=it) | Corso | Scopri [!DNL Journey Optimizer] l’architettura e i punti di integrazione. Scopri come configurare [!DNL Journey Optimizer]. |
+| Ottobre 2021 | [Configurare e gestire i dati in [!DNL Journey Optimizer] per data engineer](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.2&amp;lang=it) | Corso | Scopri come configurare e gestire i dati necessari per la gestione dei percorsi in Journey Optimizer. |
+| Ottobre 2021 | [Guida introduttiva con [!DNL Journey Optimizer] per amministratori di percorso e manager](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.1&amp;lang=it) | Corso | Scopri tutto quello che devi sapere per creare il tuo primo percorso. |
+| Ottobre 2021 | [Configurazione [!DNL Journey Optimizer] per gli amministratori di percorso](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-A-1-2021.1&amp;lang=it) | Corso | Scopri [!DNL Journey Optimizer] l’architettura e i punti di integrazione. Scopri come configurare [!DNL Journey Optimizer]. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -377,13 +377,13 @@ Note sulla versione di [!DNL Adobe Advertising Cloud].
 * [Nuove funzioni in  [!DNL Advertising Cloud DSP]](#adcloud-dsp)
 * [Nuove funzioni in  [!DNL Advertising Cloud Search]](#adcloud-search)
 
-### Nuove funzioni in [!DNL Advertising Cloud] {#adcloud-all}
+### Nuove funzioni in[!DNL Advertising Cloud] {#adcloud-all}
 
 Ultimo aggiornamento: **27 ottobre 2021**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
-| Analytics per Advertising Cloud | Se la tua organizzazione desidera disattivare l’utilizzo di Adobe Analytics legacy `visitorAPI.js` alla libreria Adobe Experience Platform (`alloy.js`) per la raccolta dei dati, dovrai apportare alcune modifiche per abilitare la combinazione degli ID. Vedere &quot;[Utilizzo della [!DNL Last Event Service] Libreria JavaScript con Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html).&quot; |
+| Analytics per Advertising Cloud | Se la tua organizzazione desidera passare dall’utilizzo della libreria `visitorAPI.js` precedente di Adobe Analytics alla libreria Adobe Experience Platform (`alloy.js`) per la raccolta dei dati, dovrai apportare alcune modifiche per abilitare la combinazione degli ID. Consulta “[Utilizzo della [!DNL Last Event Service] Libreria JavaScript con Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html?lang=it).” |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -393,12 +393,12 @@ Ultimo aggiornamento: **27 ottobre 2021**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
-| Report personalizzati | Ora puoi creare e gestire [!DNL Amazon S3] e diversi tipi di posizioni di consegna FTP, denominate *[!DNL report destinations]*, per i rapporti personalizzati. Dopo aver configurato le destinazioni dei rapporti, puoi impostare ciascuno dei nuovi rapporti personalizzati da consegnare a una o più posizioni di un singolo tipo di destinazione o a destinatari e-mail. Aggiornamenti al tuo [!DNL Amazon S3] le credenziali FTP e non interrompono la consegna del rapporto.<br><br>I rapporti esistenti vengono comunque inviati ai destinatari e-mail specificati. Per configurare la consegna a una destinazione di report diversa, crea un nuovo report con la nuova destinazione. |
-| [!UICONTROL Pacchetti], [!UICONTROL Posizionamenti]e [!UICONTROL Annunci] visualizzazioni | Quando visualizzi i dati per un singolo giorno, i grafici di tendenza ora includono dati orari. Per visualizzare i dati relativi a quell’ora, tenere il cursore su un punto qualsiasi. |
-| [!UICONTROL Posizionamenti] | Il posizionamento [!UICONTROL Ispettore] ora include un [!UICONTROL Inventario] , che mostra tutte le offerte e le relative metriche associate per il posizionamento. Utilizza le informazioni per apportare regolazioni rapide o per risolvere eventuali problemi senza generare un rapporto personalizzato. |
-| [!UICONTROL Annunci] | (Utenti autorizzati a includere i numeri Clearcastclock nei loro annunci) DSP non mostra più un errore se utilizzi un numero di orologio allegato a un altro annuncio. **Nota:**  La best practice prevede l’utilizzo di un numero di orologio univoco per ogni annuncio video. In caso contrario, l&#39;editore non approverà tutti gli annunci. |
-| [!UICONTROL ID offerta] | La [!UICONTROL ID offerta] le impostazioni e altre posizioni nell’interfaccia utente riflettono il nuovo branding per [!DNL Magnite] SSP:<br><ul><li>La SSP &quot;[!DNL Tremor]&quot;[!DNL Telaria]) è ora &quot;[!DNL Magnite CTV].&quot;</li><li>Nelle prossime settimane, [!DNL Rubicon]&quot; cambierà in &quot;[!DNL Magnite DV+],&quot; dove [!DNL DV+] sta per display, video e altri formati come l&#39;audio.</li></ul> |
-| [!DNL Freewheel] offerte programmatiche garantite | Ora puoi trovare lo stato degli annunci per [!DNL Freewheel] offerte programmatiche garantite dal [!UICONTROL Annunci] visualizza. In precedenza, era possibile controllare lo stato solo dalla [!UICONTROL Offerte] visualizza. |
+| Rapporti personalizzati | Ora puoi creare e gestire [!DNL Amazon S3] e diversi tipi di posizioni di consegna FTP, denominate *[!DNL report destinations]*, per i rapporti personalizzati. Dopo aver configurato le destinazioni dei rapporti, puoi impostare ciascuno dei nuovi rapporti personalizzati da consegnare a una o più posizioni di un singolo tipo di destinazione o a destinatari e-mail. Gli aggiornamenti alle credenziali [!DNL Amazon S3] e FTP e non interrompono la consegna del rapporto.<br><br>I rapporti esistenti vengono comunque inviati ai destinatari e-mail specificati. Per configurare la consegna a una diversa destinazione di rapporto, crea un nuovo rapporto con la nuova destinazione. |
+| Visualizzazioni [!UICONTROL Pacchetti], [!UICONTROL Posizionamenti] e [!UICONTROL Annunci] | i grafici di tendenza nella visualizzazione per un singolo giorno, ora includono dati orari. Tenere il cursore su un punto qualsiasi per visualizzare i dati relativi a quell’ora. |
+| [!UICONTROL Posizionamenti] | Il posizionamento [!UICONTROL Ispettore] ora include una scheda [!UICONTROL Inventario], che mostra tutte le offerte e le relative metriche associate. Utilizza le informazioni per apportare regolazioni rapide o per risolvere eventuali problemi senza generare un rapporto personalizzato. |
+| [!UICONTROL Annunci] | (Utenti autorizzati a includere i numeri Clearcastclock nei loro annunci) DSP non mostra più un errore se utilizzi un numero di orologio allegato a un altro annuncio. **Nota:** la best practice prevede l’utilizzo di un numero di orologio univoco per ogni annuncio video. In caso contrario, l’editore non approverà tutti gli annunci. |
+| [!UICONTROL ID offerta] | Le impostazioni [!UICONTROL ID offerta] e altre posizioni nell’interfaccia utente riflettono il nuovo branding per [!DNL Magnite] SSP:<br><ul><li>La SSP “[!DNL Tremor]” ([!DNL Telaria]) è ora “[!DNL Magnite CTV].”</li><li>Nelle prossime settimane, “[!DNL Rubicon]” cambierà in “[!DNL Magnite DV+]”, dove [!DNL DV+] sta per display, video e altri formati come l’audio.</li></ul> |
+| Offerte garantite programmatiche di [!DNL Freewheel] | Ora puoi trovare lo stato degli annunci per offerte programmatiche garantite di [!DNL Freewheel] dalla visualizzazione [!UICONTROL Annunci]. In precedenza, era possibile controllare lo stato solo dalla visualizzazione [!UICONTROL Offerte]. |
 
 {style=&quot;table-layout:auto&quot;}
 
