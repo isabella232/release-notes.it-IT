@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 2877f5206f1baeb4d9ea33529e476bbfe220ac7a
+source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
 workflow-type: tm+mt
-source-wordcount: '4804'
+source-wordcount: '4724'
 ht-degree: 92%
 
 ---
@@ -61,10 +61,11 @@ Le pianificazioni e gli eventi sono i seguenti:
 
 [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=it) è un live streaming prodotto dal team di Experience League. È un’opportunità per entrare in contatto con gli esperti di prodotti Adobe e imparare suggerimenti utili, trucchi e strategie applicabili alle applicazioni Adobe Experience Cloud.
 
+Prossimi eventi:
+
 | Data evento | Ora | Nome evento | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |---------- |
 | 18 novembre 2021 | 12:00 (EST) | [Creazione rapida di siti in Adobe Experience Manager più rapida che mai](https://www.youtube.com/watch?v=7-Lcw5PejhI) | Evento video live | Distribuisci in pochi giorni esperienze web personalizzate e ricche di funzioni, senza dover ricorrere a operazioni di sviluppo back-end. Scopri come utilizzare un approccio in codice basso per creare un sito in Adobe Experience Manager utilizzando un predefinito [!UICONTROL Modello del sito]. Unisciti a noi per una presentazione dal vivo e una demo con gli Adobi Product Manager Shankari Panchapakesan, Gabriel Walt e Danny Gordon. Puoi anche vedere un po&#39; di codice dal vivo! |
-| 21 ottobre 2021 | 12:00 (EST) | [Chi l’ha cliccato? Generazione di rapporti avanzati sui clic dei collegamenti con Adobe Analytics](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | On-demand | La generazione di rapporti sull’interazione dell’utente con la proprietà web o mobile rappresenta un elemento fondamentale per comprendere il percorso del cliente. Con Adobe Analytics puoi capire il chi, cosa, perché e dove di ogni clic nell’applicazione. Gli esperti di Adobe Analytics possono insegnarti a utilizzare le classificazioni Activity Map e l’attribuzione personalizzata per comprendere meglio il coinvolgimento dell’utente. |
 
 {style=&quot;table-layout:auto&quot;}
 
