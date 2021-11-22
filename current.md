@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
+source-git-commit: 89342047732a95ba2669eb58397d6a1dc936a8a3
 workflow-type: tm+mt
-source-wordcount: '4724'
-ht-degree: 95%
+source-wordcount: '4803'
+ht-degree: 94%
 
 ---
 
@@ -25,13 +25,14 @@ Le applicazioni di [!DNL Experience Cloud] vengono aggiornate ogni mese. Su ques
 
 Mese di rilascio: **novembre 2021**
 
-Ultimo aggiornamento: **15 novembre 2021**
+Ultimo aggiornamento: **22 novembre 2021**
 
 * [[!DNL Experience League] Eventi](#events) (aggiornato il 15 novembre 2021)
 * [[!DNL Experience Cloud Central Interface Components] e amministrazione](#ecloud)
 * [[!UICONTROL Stato dei sistemi] Adobe](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
-* [[!DNL Adobe Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey)
+* [[!DNL Adobe Analytics]](#analytics) (Aggiornato il 22 novembre 2021)
+* [Customer Journey Analytics](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Manager]](#aem)
 * [[!DNL Adobe Commerce]](#magento)
@@ -144,7 +145,7 @@ Data di rilascio: **28 ottobre 2021**
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Correzioni in Adobe Analytics](#aa-fixes)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 22 novembre 2021)
 * [Corsi ed esercitazioni su Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -196,6 +197,7 @@ AN-270649
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
+| Tipo RDC &quot;Global + China&quot; | 22 novembre 2021 | &quot;Global + China&quot; è un nuovo tipo di raccolta dati regionali (Regional Data Collection, RDC) che semplifica il routing del traffico per i clienti globali che utilizzano [!UICONTROL Pacchetto aggiuntivo di ottimizzazione delle prestazioni della Cina]. In passato, era necessario determinare se i dati dovevano essere instradati all’endpoint di raccolta Cina o a uno degli endpoint di raccolta globale. Ora puoi scegliere questa RDC **type** per consentire ad Adobe di determinare l’endpoint di raccolta ottimale in base alla geolocalizzazione dell’utente. |
 | Fine del ciclo di vita per tre servizi API di Analytics | 16 settembre 2021 | Il **20 ottobre 2021**, i seguenti servizi API legacy di Analytics raggiungeranno la data di fine del ciclo di vita e verranno terminati. In tale data tutte le integrazioni correnti create utilizzando questi servizi cesseranno di funzionare.<ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Adobe ha pubblicato una sezione di [domande frequenti sulla fine del ciclo di vita delle API legacy](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere a tali domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe I/O](https://developer.adobe.com/console) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
 | Fine del ciclo vita per la completa elaborazione nelle origini dati | 18 ottobre 2021 | Il **31 gennaio 2022**, Adobe terminerà l’Elaborazione completa, che consente agli utenti di inserire dati hit offline in Analytics. Questa funzionalità è disponibile tramite [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=it ) |
 
