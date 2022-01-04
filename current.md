@@ -1,14 +1,15 @@
 ---
 title: Note sulla versione più recente
-description: Scopri le note sulla versione più recente, le nuove funzioni e la nuova documentazione dei  [!DNL Experience Cloud]  prodotti e servizi. Trova nuove guide e tutorial su [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise], and [!DNL Document Cloud].
+description: Scopri le note sulla versione più recente, le nuove funzioni e la nuova documentazione dei  [!DNL Experience Cloud]  prodotti e servizi. Trova nuove guide ed esercitazioni su [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise]e [!DNL Document Cloud].
 doc-type: release notes
 last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
-source-git-commit: eafacc2267c031d2f30ef2817069f85e8385a077
-workflow-type: ht
-source-wordcount: '4803'
-ht-degree: 100%
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
+source-git-commit: b9ede188c852a99934bc91cf428cdf924ed26322
+workflow-type: tm+mt
+source-wordcount: '4903'
+ht-degree: 97%
 
 ---
 
@@ -24,13 +25,13 @@ Le applicazioni di [!DNL Experience Cloud] vengono aggiornate ogni mese. Su ques
 
 Mese di rilascio: **novembre 2021**
 
-Ultimo aggiornamento: **22 novembre 2021**
+Ultimo aggiornamento: **4 gennaio 2022**
 
 * [[!DNL Experience League] Eventi](#events) (aggiornato il 15 novembre 2021)
 * [[!DNL Experience Cloud Central Interface Components] e amministrazione](#ecloud)
 * [[!UICONTROL Stato dei sistemi] Adobe](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
-* [[!DNL Adobe Analytics]](#analytics) (Aggiornato il 22 novembre 2021)
+* [[!DNL Adobe Analytics]](#analytics) (**Aggiornato il 4 gennaio 2022**)
 * [Customer Journey Analytics](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Manager]](#aem)
@@ -69,7 +70,7 @@ Prossimi eventi:
 
 {style=&quot;table-layout:auto&quot;}
 
-Per gli episodi passati, consulta [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=it).
+Per gli episodi passati, consulta [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
 
 ### Coffee Break domande e risposte della community {#coffee}
 
@@ -144,7 +145,7 @@ Data di rilascio: **28 ottobre 2021**
 * [Nuove funzioni di Adobe Analytics](#aa-features)
 * [Nuove funzioni in Customer Journey Analytics](#cust-journey)
 * [Correzioni in Adobe Analytics](#aa-fixes)
-* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 22 novembre 2021)
+* [Avvisi importanti per gli amministratori di Analytics](#aa-notices) (aggiornato il 4 gennaio 2022)
 * [Corsi ed esercitazioni su Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -196,6 +197,7 @@ AN-270649
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
+| Fine del ciclo di vita di Reports &amp; Analytics | 4 gennaio 2022 | A partire dal 31 dicembre 2023, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le funzionalità di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. [Questo avviso](https://spark.adobe.com/page/6WnF8JK6IRDhf) spiega il processo di fine del ciclo di vita. |
 | Tipo RDC “Global + China” | 22 novembre 2021 | “Global + China” è un nuovo tipo di raccolta dati regionali (Regional Data Collection, RDC) che semplifica il routing del traffico per i clienti globali che utilizzano il [!UICONTROL Pacchetto aggiuntivo di ottimizzazione delle prestazioni della Cina]. In passato, era necessario determinare se i dati dovevano essere instradati all’endpoint di raccolta della Cina o a uno degli endpoint di raccolta globale. Ora puoi scegliere questo **tipo** di RDC per consentire ad Adobe di determinare l’endpoint di raccolta ottimale in base alla geolocalizzazione dell’utente. |
 | Fine del ciclo di vita per tre servizi API di Analytics | 16 settembre 2021 | Il **20 ottobre 2021**, i seguenti servizi API legacy di Analytics raggiungeranno la data di fine del ciclo di vita e verranno terminati. In tale data tutte le integrazioni correnti create utilizzando questi servizi cesseranno di funzionare.<ul><li>API di Analytics 1.3</li><li>API di Analytics SOAP 1.4</li><li>Autenticazione per la versione precedente di OAuth (OAuth e JWT)</li></ul>Adobe ha pubblicato una sezione di [domande frequenti sulla fine del ciclo di vita delle API legacy](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) per rispondere a tali domande e fornire indicazioni su come procedere. Le integrazioni API che utilizzano questi servizi possono eseguire la migrazione alle [API REST di Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) o alle [API di Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). I precedenti account OAuth possono migrare a un account di integrazione [Adobe I/O](https://developer.adobe.com/console) Analytics, che può essere utilizzato per accedere sia alle API di Analytics 1.4 che alle API di Analytics 2.0. |
 | Fine del ciclo vita per la completa elaborazione nelle origini dati | 18 ottobre 2021 | Il **31 gennaio 2022**, Adobe terminerà l’Elaborazione completa, che consente agli utenti di inserire dati hit offline in Analytics. Questa funzionalità è disponibile tramite [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=it ) |
@@ -238,6 +240,7 @@ Per gli ultimi aggiornamenti sulle varie versioni, visita regolarmente la pagina
 
 ### Video introduttivi sulla versione
 
+* [Panoramica sulla versione di dicembre 2021](https://video.tv.adobe.com/v/339278) video delle nuove funzioni.
 * [Panoramica sulla versione di ottobre 2021](https://video.tv.adobe.com/v/338253) video sulle nuove funzioni.
 * [Panoramica sulla versione di settembre 2021](https://video.tv.adobe.com/v/337381) video sulle nuove funzioni.
 
@@ -294,7 +297,7 @@ Le note sulla versione e altri collegamenti alle informazioni sulla versione di 
 * [Formazione e supporto per Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=it)
 * [Formazione e supporto per Experience Manager 6.3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=it)
 * [Formazione e supporto per Experience Manager 6.2](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=it#previous-updates)
-* [Documentazione delle versioni precedenti di Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=it#previous-updates)
+* [Documentazione delle versioni precedenti di Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
 * [[!DNL Cloud Manager] Guida utente](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=it)
 * [[!DNL Dynamic Media Classic] Home di Aiuto](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=it)
 * [Documentazione di Experience Manager: ultimi aggiornamenti](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/doc-updates/documentation-updates.html?lang=it#aem-as-a-cloud-service)
@@ -346,8 +349,8 @@ Tutorial e corsi più recenti per Adobe Campaign.
 ### Risorse per Campaign
 
 * Adobe Campaign v8: [Documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=it) - [Guide all’implementazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=it)
-* Adobe Campaign Standard: [Documentazione Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=it) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it) - [Piano delle versioni future](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=it)
-* Adobe Campaign Classic: [Documentazione Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=it)
+* Adobe Campaign Standard: [Documentazione Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it) - [Piano delle versioni future](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=it)
+* Adobe Campaign Classic: [Documentazione Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=it)
 * Pannello di controllo di Adobe Campaign: [Documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it) - Video introduttivi per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=it) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=it)
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) Journey Optimizer {#journey-opt}
@@ -372,8 +375,8 @@ Ultimi tutorial su Journey Optimizer:
 
 ### Altre risorse per [!DNL Journey Optimizer]
 
-* [Documentazione di Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=it) - [Video dimostrativi](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it)
-* [Documentazione di Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=it) - [Video dimostrativi](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html?lang=it)
+* [Documentazione di Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it)
+* [Documentazione di Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html?lang=it)
 
 ## ![Icona](/assets/experience_platform_appicon_24.png) [!DNL Journey Orchestration] {#journey-orch}
 
@@ -385,7 +388,7 @@ Scopri di più sulle funzionalità, i miglioramenti e le correzioni più recenti
 
 #### Altre risorse per [!DNL Journey Orchestration]
 
-* [Documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=it) - [Video dimostrativi](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=it)
+* [Documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=it) - [Note sulla versione](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [Video dimostrativi](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=it) - [Ultimi aggiornamenti della documentazione](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=it)
 
 ## ![Icona](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
