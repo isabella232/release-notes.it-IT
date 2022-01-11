@@ -1,6 +1,6 @@
 ---
 title: Note sulla versione più recente
-description: Scopri le note sulla versione più recente, le nuove funzioni e la nuova documentazione dei  [!DNL Experience Cloud]  prodotti e servizi. Trova nuove guide ed esercitazioni su [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise]e [!DNL Document Cloud].
+description: Scopri le note sulla versione più recente, le nuove funzioni e la nuova documentazione dei [!DNL Experience Cloud] prodotti e servizi. Trova nuove guide e tutorial su [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise] e [!DNL Document Cloud].
 doc-type: release notes
 last-update: November 2021
 author: mfrei
@@ -58,7 +58,7 @@ Gli eventi di Experience League offrono l’occasione di ricevere risposte dagli
 
 Programma ed eventi:
 
-### Experience League Live {#exl-live}
+### Experience League Live{#exl-live}
 
 [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=it) è un evento in diretta in streaming prodotto dal team Experience League. Offre l’opportunità di entrare in contatto con gli esperti dei prodotti Adobe e imparare suggerimenti, trucchi e strategie da mettere in pratica nelle applicazioni Adobe Experience Cloud.
 
@@ -72,18 +72,18 @@ Prossimi eventi:
 
 Per gli episodi passati, consulta [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
 
-### Coffee Break domande e risposte della community {#coffee}
+### Coffee Break domande e risposte della community{#coffee}
 
 Trascorri un’ora con un ospite speciale e invia le tue domande in Experience League Communities: ti risponderanno gli esperti di prodotto Adobe.
 
 | Nome evento | Data e ora | Applicazione | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| Adobe Target - Interfaccia utente di configurazione e amministrazione, integrazione A4T, integrazione AEM, Interfaccia generale | Mercoledì 8 dicembre alle 8 PT | Adobe Target | Forum con domande e risposte | Robert Calangiu, alias @Robert_Calangiu, Senior Product Manager per Adobe Target, sarà presente nella community di Adobe Target per rispondere direttamente alle domande su Adobe Target relative alle sue aree di competenza. <br>[Dettagli](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
+| Adobe Target - Interfaccia utente di configurazione e amministrazione, integrazione A4T, integrazione AEM, Interfaccia generale | Mercoledì 8 dicembre alle 8 PT | Adobe Target | Forum domande e risposte | Robert Calangiu, alias @Robert_Calangiu, Senior Product Manager per Adobe Target, sarà presente nella community di Adobe Target per rispondere direttamente alle domande su Adobe Target relative alle sue aree di competenza. <br>[Dettagli](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
 | Adobe Campaign - Importazione di dati tramite altre applicazioni | Giovedì 2 dicembre 2021 alle 8 (ora legale del Pacifico) | Adobe Campaign | Forum domande e risposte | Importazione di dati tramite altre applicazioni : best practice per importare dati tramite SFTP/API utilizzando flussi di lavoro tecnici con Zariely Garcia, Consulente Tecnico Senior. <br>[Dettagli](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
 
 {style=&quot;table-layout:auto&quot;}
 
-### Adobe Developer’s Live {#dev-live}
+### Adobe Developer’s Live{#dev-live}
 
 | Nome evento | Data e ora | Argomento | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |---------- |
@@ -240,7 +240,7 @@ Per gli ultimi aggiornamenti sulle varie versioni, visita regolarmente la pagina
 
 ### Video introduttivi sulla versione
 
-* [Panoramica sulla versione di dicembre 2021](https://video.tv.adobe.com/v/339278) video delle nuove funzioni.
+* [Panoramica sulla versione di dicembre 2021](https://video.tv.adobe.com/v/339278) video sulle nuove funzioni.
 * [Panoramica sulla versione di ottobre 2021](https://video.tv.adobe.com/v/338253) video sulle nuove funzioni.
 * [Panoramica sulla versione di settembre 2021](https://video.tv.adobe.com/v/337381) video sulle nuove funzioni.
 
@@ -367,9 +367,9 @@ Ultimi tutorial su Journey Optimizer:
 
 | Data di pubblicazione | Nome | Tipo | Descrizione |
 | -----------| ---------- | ---------- | ---------- |
-| Ottobre 2021 | [Configurare e gestire i dati in  [!DNL Journey Optimizer]  per data engineer](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.2&amp;lang=it) | Corso | Scopri come configurare e gestire i dati necessari per la gestione dei percorsi in Journey Optimizer. |
-| Ottobre 2021 | [Guida introduttiva con  [!DNL Journey Optimizer]  per amministratori di percorso e manager](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.1&amp;lang=it) | Corso | Scopri tutto quello che devi sapere per creare il tuo primo percorso. |
-| Ottobre 2021 | [Configurazione  [!DNL Journey Optimizer]  per gli amministratori di percorso](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-A-1-2021.1&amp;lang=it) | Corso | Scopri [!DNL Journey Optimizer] l’architettura e i punti di integrazione. Scopri come configurare [!DNL Journey Optimizer]. |
+| Ottobre 2021 | [Configurare e gestire i dati in [!DNL Journey Optimizer] per data engineer](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.2&amp;lang=it) | Corso | Scopri come configurare e gestire i dati necessari per la gestione dei percorsi in Journey Optimizer. |
+| Ottobre 2021 | [Guida introduttiva con [!DNL Journey Optimizer] per amministratori di percorso e manager](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.1&amp;lang=it) | Corso | Scopri tutto quello che devi sapere per creare il tuo primo percorso. |
+| Ottobre 2021 | [Configurazione [!DNL Journey Optimizer] per gli amministratori di percorso](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-A-1-2021.1&amp;lang=it) | Corso | Scopri [!DNL Journey Optimizer] l’architettura e i punti di integrazione. Scopri come configurare [!DNL Journey Optimizer]. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -418,7 +418,7 @@ Ultimo aggiornamento: **27 ottobre 2021**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
-| Analytics per Advertising Cloud | Se la tua organizzazione desidera passare dall’utilizzo della libreria `visitorAPI.js` precedente di Adobe Analytics alla libreria Adobe Experience Platform (`alloy.js`) per la raccolta dei dati, dovrai apportare alcune modifiche per abilitare la combinazione degli ID. Consulta “[Utilizzo della  [!DNL Last Event Service]  Libreria JavaScript con Adobe Experience Platform  [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html?lang=it).” |
+| Analytics per Advertising Cloud | Se la tua organizzazione desidera passare dall’utilizzo della libreria `visitorAPI.js` precedente di Adobe Analytics alla libreria Adobe Experience Platform (`alloy.js`) per la raccolta dei dati, dovrai apportare alcune modifiche per abilitare la combinazione degli ID. Consulta “[Utilizzo della [!DNL Last Event Service] Libreria JavaScript con Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html?lang=it).” |
 
 {style=&quot;table-layout:auto&quot;}
 
