@@ -6,7 +6,7 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 26f5bbbc8e6a35b8f8246c9a96b7a3dabc361f85
+source-git-commit: e8e9579245a74552a4dc9ee88eb45375162de6e1
 workflow-type: tm+mt
 source-wordcount: '6416'
 ht-degree: 40%
@@ -72,7 +72,7 @@ Programma ed eventi:
 
 Gli episodi passati sono disponibili all&#39;indirizzo [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
 
-### Coffee Break domande e risposte della community{#coffee}
+### Coffee Break domande e risposte della community {#coffee}
 
 Trascorri un&#39;ora con un ospite speciale e invia le tue domande in Experience League Communities. Ricevi le risposte degli esperti di prodotto all&#39;Adobe!
 
@@ -83,7 +83,7 @@ Trascorri un&#39;ora con un ospite speciale e invia le tue domande in Experience
 
 {style=&quot;table-layout:auto&quot;}
 
-### Adobe Developer’s Live{#dev-live}
+### Adobe Developer’s Live {#dev-live}
 
 | Evento | Data e ora | Tipo | Descrizione |
 | -----------| ---------- | ---------- |---------- |
