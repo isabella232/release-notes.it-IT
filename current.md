@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: a5fd2d7d8668a3b75718d24a8af14498e2192a1a
+source-git-commit: 3ecd5dfeeee5692b7fb5c5fa4dcac497b3c49ce0
 workflow-type: tm+mt
-source-wordcount: '6575'
-ht-degree: 39%
+source-wordcount: '6573'
+ht-degree: 41%
 
 ---
 
@@ -25,12 +25,12 @@ Scopri gli ultimi aggiornamenti sulle versioni di [Prodotti Adobe Experience Clo
 
 **Gennaio 2022**
 
-Ultimo aggiornamento: **14 gennaio 2022**
+Ultimo aggiornamento: **26 gennaio 2022**
 
 * [[!DNL Experience League] Eventi](#events)
 * [[!DNL Experience Cloud Central Interface Components] e amministrazione](#ecloud)
 * [[!UICONTROL Stato dei sistemi] Adobe](#status)
-* [[!DNL Adobe Experience Platform]](#platform)
+* [[!DNL Adobe Experience Platform]](#platform) (Aggiornato il **26 gennaio 2022**)
 * [[!DNL Adobe Analytics]](#analytics)
 * [[!DNL Customer Journey Analytics]](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
@@ -111,10 +111,9 @@ Leggi la sezione [note sulla versione più recente](https://experienceleague.ado
 
 Informazioni sull’aggiornamento della versione e nuova documentazione per Experience Platform e [!UICONTROL SDK per dispositivi mobili]:
 
-* Versione pianificata successiva: **26 gennaio 2022**
-* Ultima versione: **17 novembre 2021**
+* Versione: **26 gennaio 2022**
 
-Vedi [Note sulla versione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it) per restare corrente.
+Vedi [Note sulla versione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it) per leggere l&#39;ultima.
 
 ### Nuovi corsi ed esercitazioni di Experience Platform {#tutorials-platform}
 
@@ -250,7 +249,7 @@ Per gli ultimi aggiornamenti sulle varie versioni, visita regolarmente la pagina
       _Nuove funzioni nel canale prerelease di Experience Manager Assets_
 
       * Dynamic Media: puoi ora utilizzare l’interfaccia Experience Manager Dynamic Media per configurare [!UICONTROL Impostazioni generali] e [!UICONTROL Pubblica installazione] invece di dover passare attraverso l&#39;applicazione desktop Dynamic Media Classic.
-      * Dynamic Media supporta ora l’acquisizione, l’anteprima, la riproduzione e la pubblicazione per i video MXF. L&#39;annotazione e il video acquistabili per i video MXF non sono ancora supportati.
+      * Dynamic Media supporta ora l’acquisizione, l’anteprima, la riproduzione e la pubblicazione per i video MXF. L&#39;annotazione e il video acquistabile per i video MXF non sono ancora supportati.
       * Dopo aver configurato una connessione tra le implementazioni remote di DAM e Sites, le risorse in DAM remoto sono rese disponibili nell’implementazione di Sites. È ora possibile eseguire le [operazioni di aggiornamento, eliminazione, ridenominazione e spostamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/use-assets-across-connected-assets-instances.html?lang=en) su risorse o cartelle DAM remote. Gli aggiornamenti, con un certo ritardo, sono disponibili automaticamente nell’implementazione di Sites.
    * **Experience Manager Forms as a Cloud Service**
 
@@ -261,15 +260,15 @@ Per gli ultimi aggiornamenti sulle varie versioni, visita regolarmente la pagina
       _Nuove funzioni nel canale prerelease di Experience Manager Forms_
 
       * **AEM Forms as a Cloud Service - Comunicazioni**: [API di comunicazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/using-communications/aem-forms-cloud-service-communications.html?lang=en) consente di combinare un modello e dati XML per generare documenti di stampa in vari formati. Con il servizio è possibile generare documenti in modalità sincrona e batch. Le API ti consentono di creare applicazioni per eseguire le seguenti operazioni:
-         * Genera i documenti compilando i file modello (PDF e XDP) con i dati XML.
+         * Generare i documenti compilando i file modello (PDF e XDP) con i dati XML.
          * Generare moduli di output in vari formati, compresi flussi di stampa PDF non interattivi.
-      * **Font personalizzati per documenti Record e PDF creati con API di comunicazione**: È ora possibile utilizzare font approvati dal marchio nei documenti PDF generati utilizzando le API di comunicazione per allinearli ai requisiti organizzativi.
+      * **Font personalizzati per documenti Record e PDF creati con API di comunicazione**: è ora possibile utilizzare font approvati dal marchio nei documenti PDF generati utilizzando le API di comunicazione per allinearli ai requisiti organizzativi.
       * **Portale Forms**: È possibile utilizzare [Portale Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-forms-portal.html?lang=en) per elencare i moduli adattivi pubblicati in una pagina Experience Manager Sites. Aiuta un visitatore del sito a scoprire tutti i moduli disponibili. Inoltre, il visitatore può utilizzare [!UICONTROL Portale Forms] per salvare e accedere alla bozza di un modulo adattivo e controllare la versione PDF di un modulo adattivo inviato.
    * **Cloud Manager**
 
       _Nuove funzionalità_
 
-      * Gli utenti possono ora utilizzare le nuove pipeline Front End per distribuire esclusivamente il codice front-end in modo accelerato. Vedi [Pipe front-end di Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines.html?lang=en#front-end) per saperne di più.
+      * Gli utenti possono ora utilizzare le nuove pipeline Front End per distribuire esclusivamente il codice front-end in modo accelerato. Consulta [Pipeline front-end di Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines.html?lang=en#front-end) per ulteriori informazioni.
 
          >[!IMPORTANT]
          >
@@ -278,8 +277,8 @@ Per gli ultimi aggiornamenti sulle varie versioni, visita regolarmente la pagina
       * La durata della pipeline di qualità del codice viene ridotta eseguendo l’analisi del codice in modo più efficiente, senza la necessità di creare un’immagine Experience Manager intera. Questa modifica verrà implementata progressivamente nelle prossime settimane dopo il rilascio.
       * L’ID del commit Git viene ora visualizzato nei dettagli di esecuzione della pipeline, facilitando il tracciamento del codice generato.
       * [!UICONTROL Creazione di programmi] è ora disponibile tramite l’API pubblicamente esposta.
-      * [!UICONTROL Creazione di ambienti] è ora disponibile tramite API pubblicamente esposte.
-      * La `x-request-id` l&#39;intestazione di risposta è ora visibile in API Playground on [www.adobe.io](https://www.adobe.io/). Questa intestazione è utile quando si inviano problemi di assistenza clienti per la risoluzione dei problemi.
+      * [!UICONTROL La creazione di ambiente è ora disponibile tramite API pubblicamente esposte.]
+      * L’`x-request-id` intestazione di risposta è ora visibile in API Playground su [www.adobe.io](https://www.adobe.io/). Questa intestazione è utile quando si inviano problemi di assistenza clienti per la risoluzione dei problemi.
       * Nuovo [!UICONTROL Attività] è disponibile una pagina in cui è possibile visualizzare le attività come pipeline e esecuzioni di codice insieme ai relativi dettagli associati. Nel tempo, le attività elencate in questa pagina si espandono nell’ambito insieme ai dettagli forniti.
       * Nuovo [!UICONTROL Tubi] è ora disponibile una pagina con un percorso di stato per una facile visualizzazione del riepilogo dei dettagli. È possibile visualizzare [!UICONTROL Pipeline] esegue insieme ai relativi dettagli associati.
       * La [!UICONTROL Modifica pipeline] L’API ora supporta la modifica dell’ambiente utilizzato nelle fasi di distribuzione.
@@ -320,7 +319,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | -----------| ---------- | ---------- | ---------- | ----- |
 | Gennaio 2022 | [Estensione di Adobe Experience Manager as a Cloud Service tramite Adobe Developer App Builder](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/configuring-and-extending/app-builder/extending-aem-with-app-builder.html?lang=en) | Video (multiplo) | Il nuovo Adobe Developer App Builder fornisce un framework di estensibilità per uno sviluppatore per estendere facilmente AEM funzionalità as a Cloud Service. | AEM as a Cloud Service |
 | Gennaio 2022 | [Configurazione rapida AEM Headless per AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/quick-setup/cloud-service.html) | Video | Dai un&#39;occhiata alla configurazione rapida AEM Headless. Ti consente di utilizzare AEM Headless utilizzando il contenuto del progetto di esempio del sito WKND, e un esempio di app React (a SPA) che consuma il contenuto rispetto AEM API GraphQL headless. | AEM as a Cloud Service |
-| Gennaio 2022 | [Rete avanzata](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/networking/advanced-networking.html?lang=en) | Video (multiplo) | Scopri come AEM as a Cloud Service offre tre opzioni per la gestione della connettività con i servizi esterni: Uscita porta flessibile, indirizzo IP in uscita dedicato e rete privata virtuale. Un programma Cloud Manager e gli ambienti in AEM as a Cloud Service possono utilizzare un solo tipo di configurazione di rete avanzata alla volta. | AEM as a Cloud Service |
+| Gennaio 2022 | [Rete avanzata](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/networking/advanced-networking.html?lang=it) | Video (multiplo) | Scopri come AEM as a Cloud Service offre tre opzioni per la gestione della connettività con i servizi esterni: Uscita porta flessibile, indirizzo IP in uscita dedicato e rete privata virtuale. Un programma Cloud Manager e gli ambienti in AEM as a Cloud Service possono utilizzare un solo tipo di configurazione di rete avanzata alla volta. | AEM as a Cloud Service |
 | Gennaio 2022 | [Arricchire i dati di prodotto con i contenuti AEM associati](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/authoring/enrich-product-associated-content.html?lang=en) | Video | Scopri come gli esperti di marketing possono arricchire i dati dei prodotti con i contenuti associati provenienti da Adobe Experience Manager. Contenuto, come risorse, [!UICONTROL Frammenti esperienza]e [!UICONTROL Frammenti di contenuto] in AEM può essere associato ai prodotti commerce. | AEM as a Cloud Service |
 | Gennaio 2022 | [Servizio e-mail](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/networking/examples/email-service.html?lang=en) | Video | Invia e-mail da AEM as a Cloud Service configurando AEM `DefaultMailService` per utilizzare porte di uscita di rete avanzate. | AEM as a Cloud Service |
 | Gennaio 2022 | [Nozioni di base sui connettori migliorati di Workfront](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html?lang=en) | Video | Scopri le nozioni di base del connettore avanzato Adobe Workfront e Experience Manager Assets. Inoltre, scopri [Cartelle di progetto](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/project-folders.html?lang=en). | Servizio AEM Assets e Workfront |
@@ -359,7 +358,7 @@ Nelle pagine seguenti trovi tutte le note sulla versione di Experience Manager:
 * [Formazione e supporto per Experience Manager 6.3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=it)
 * [Formazione e supporto per Experience Manager 6.2](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=it#previous-updates)
 * [Documentazione delle versioni precedenti di Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
-* [Pagina iniziale della guida di Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=en)
+* [Pagina iniziale della guida di Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=it)
 * [Documentazione di Experience Manager: ultimi aggiornamenti](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/doc-updates/documentation-updates.html?lang=it#aem-as-a-cloud-service)
 
 ## Documentazione XML per Adobe Experience Manager {#xml-doc}
