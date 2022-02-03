@@ -6,9 +6,9 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e50b1d99621d2a32597e7a28c1602decef814ead
+source-git-commit: c73e91e379acb34734b4ed3a1d267688ea3f1222
 workflow-type: tm+mt
-source-wordcount: '6590'
+source-wordcount: '6611'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,7 @@ Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cl
 
 **Gennaio 2022**
 
-Ultimo aggiornamento: **26 gennaio 2022**
+Ultimo aggiornamento: **3 febbraio 2022**
 
 * [Eventi [!DNL Experience League]](#events)
 * [[!DNL Experience Cloud Central Interface Components] e amministrazione](#ecloud)
@@ -37,7 +37,7 @@ Ultimo aggiornamento: **26 gennaio 2022**
 * [[!DNL Adobe Experience Manager]](#aem)
 * [[!DNL XML Documentation for Adobe Experience Manager]](#xml-doc)
 * [[!DNL Adobe Commerce]](#magento)
-* [[!DNL Adobe Target]](#target)
+* [[!DNL Adobe Target]](#target) (Aggiornato il **3 febbraio 2022**)
 * [[!DNL Adobe Campaign]](#ac)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
 * [[!DNL Journey Orchestration]](#journey-orch)
@@ -415,9 +415,10 @@ Consulta i seguenti collegamenti per le note sulla versione di Adobe Commerce:
 
 ## ![Icona](/assets/target.png) [!DNL Adobe Target] {#target}
 
-Ultimo aggiornamento: **10 gennaio 2022**
+Ultimo aggiornamento: **1 febbraio 2022**
 
-Per informazioni sempre aggiornate, consulta le [note sulla versione di Target](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=it).
+* Per informazioni sulla versione prerelease di Adobe Target, consulta [Adobe Target prerelease](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=it) note sulla versione.
+* Per informazioni sulla versione corrente, consulta [Note sulla versione di Target](https://experienceleague.adobe.com/docs/target/using/release-notes/release-notes.html?lang=en).
 
 ## ![Icona](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
 
