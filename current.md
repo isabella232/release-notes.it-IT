@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c73e91e379acb34734b4ed3a1d267688ea3f1222
+source-git-commit: 9e16facc25424bb8ce23e35230b7503195cf1a3d
 workflow-type: tm+mt
-source-wordcount: '6611'
-ht-degree: 99%
+source-wordcount: '6534'
+ht-degree: 98%
 
 ---
 
@@ -527,12 +527,11 @@ Ultimo aggiornamento: **27 ottobre 2021**
 
 ### Nuove funzioni in [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Ultimo aggiornamento: **7 ottobre 2021**
+Ultimo aggiornamento: **4 febbraio 2022**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
-| [!UICONTROL Rapporti], [!UICONTROL Centro notifiche] | (versione del 9 ottobre) Tutte le notifiche e-mail per i rapporti, inviate da Advertising Cloud Search al completamento o al fallimento di un rapporto personalizzato o pianificato, vengono ora gestite dal [!UICONTROL Centro notifiche]. Le notifiche e-mail e le notifiche web per i rapporti sono abilitate per impostazione predefinita, ma è possibile modificare tale impostazione. Con questa modifica:<ul><li>I destinatari delle e-mail sono limitati agli utenti registrati e autenticati di Advertising Cloud Search e che hanno accesso all’account dell’inserzionista. In questo modo, nessun dato confidenziale viene inviato a utenti non autorizzati.</li><li>Il formato e il contenuto dell’e-mail utilizzano il modello del [!UICONTROL Centro notifiche], che include ulteriori dettagli sul rapporto e collegamenti diretti per il download di tutti i formati di rapporto.</li><li>Le notifiche dei rapporti sono un nuovo tipo di notifica che dispongono di preferenze proprie e si trovano all’interno del [!UICONTROL Centro notifiche].</li></ul>Se utilizzi un’automazione per richiamare i rapporti da notifiche e-mail, potrebbe essere necessario aggiornare la logica di filtro per garantire la continuità del processo. |
-| Approfondimenti sulla pubblicità | Ulteriori informazioni sono disponibili in modalità beta. |
+| [!UICONTROL Bulksheet], [!UICONTROL Centro notifiche] | (Data di rilascio: 22 gennaio) Tutte le notifiche e-mail per i bulksheet, inviate da Advertising Cloud Search al completamento o al fallimento di un’operazione del bulksheet, vengono ora gestite da [!UICONTROL Centro notifiche].<br><br>[!UICONTROL Bulksheet] è un nuovo tipo di notifica, con le proprie preferenze di notifica, in [!UICONTROL Centro notifiche]. Le notifiche e-mail e le notifiche web sono abilitate per impostazione predefinita, ma è possibile modificare facoltativamente le impostazioni di notifica.<br><br>Il formato e il contenuto delle notifiche e-mail utilizzano il [!UICONTROL Centro notifiche] e include un collegamento di download diretto per il file bulksheet o il file di errore associato. |
 
 {style=&quot;table-layout:auto&quot;}
 
