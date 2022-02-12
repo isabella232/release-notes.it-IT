@@ -4,9 +4,9 @@ description: Note sulla versione di Experience Cloud
 doc-type: release notes
 last-update: June 2021
 author: mfrei
-source-git-commit: b83f085d9fca7c4ae2b3519d32033a03aec28026
+source-git-commit: e415b562703712157d907d3e3995ff5adad4db1e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '716'
 ht-degree: 92%
 
 ---
@@ -30,9 +30,9 @@ Ultimo aggiornamento: **Settembre 2021**
 
 * [Experience League eventi live](#events)
 * [Componenti dell’interfaccia centrale di Experience Cloud](#ecloud)
+* [Stato di Adobe](#status)
 * [Experience Platform](#platform)
 * [Experience Platform Application Services](#services)
-* [Stato di Adobe](#status)
 * [Journey Optimizer](#journey-opt)
 * [[!DNL Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey)
 * [[!DNL Audience Manager]](#aam)
@@ -46,21 +46,15 @@ Ultimo aggiornamento: **Settembre 2021**
 * [Document Cloud](#doc-cloud)
 * [Creative Cloud for enterprise](#creative-cloud)
 
-## Stato di Adobe {#status}
+## Stato del sistema di Adobe {#status}
 
 Funzioni e problemi risolti.
 
-Vedi [Stato del sistema di Adobe](https://status.adobe.com/).
+Vedi [Stato del sistema di Adobe](https://status.adobe.com/it).
 
-## ![Icon](/assets/ec_appicon_24.png) Experience Cloud Central UI Components {#ecloud}
+## ![Icona](/assets/ec_appicon_24.png) Componenti dell’interfaccia centrale di Experience Cloud {#ecloud}
 
 Experience Cloud Central Interface Components include aggiornamenti a cui è possibile accedere dall’intestazione del prodotto unificata, ad esempio Aiuto, Ricerca e preferenze dell’account utente. Qui trovi gli aggiornamenti ai servizi People, Places (Posizione) e alla gestione dei prodotti.
-
-| Funzione | Data | Descrizione |
-| ------- | ------- | -------|
-| Funzione | Settembre 2021 | Descrizione |
-
-{style=&quot;table-layout:auto&quot;}
 
 ### [!UICONTROL Servizi di base] {#core-services}
 
@@ -236,7 +230,7 @@ Adobe Campaign offre un modo intuitivo e automatico di inviare messaggi a singol
 
 Testo
 
-## Pubblicità {#adcloud}
+## Advertising {#adcloud}
 
 | Funzione | Descrizione |
 | ------- | ------- |
@@ -263,7 +257,7 @@ Marketo Engage è una soluzione completa per chi lavora nell’ambito della gest
 
 Data di rilascio: 21 febbraio 2020
 
-* **Azione di flusso Microsoft® Dynamics  _Change Owner in Microsoft®_ :** cambia il proprietario di lead o contatti direttamente dal Marketo Engage.
+* **Microsoft® Dynamics _Cambia proprietario in Microsoft®_ Azione flusso:** Cambia il proprietario di lead o contatti direttamente dal Marketo Engage.
 * **Miglioramenti alle chiamate API:**
    * API per gestione utenti
    * API per schemi di oggetti personalizzati
