@@ -6,7 +6,7 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e9a119ac8351d6431039b1e0387db1d4875a91bb
+source-git-commit: 85a73da3f5957c5d073d9b0018d1758f14432252
 workflow-type: tm+mt
 source-wordcount: '4933'
 ht-degree: 49%
@@ -96,7 +96,7 @@ Data di rilascio: **16 novembre 2021**
 
 **Novità**
 
-* Lo stato Adobe ora segnala gli incidenti a livello di prodotto. Le pagine di stato Cloud e prodotto hanno un nuovo aspetto e filtri migliorati in base alla segnalazione a livello di prodotto degli incidenti. In questo modo è più facile comprendere in che modo il prodotto è influenzato [status.adobe.com](https://status.adobe.com/) e nelle notifiche e-mail. Se non sei iscritto, utilizza questo collegamento per impostare le preferenze di abbonamento personalizzate [https://status.adobe.com/proactive-notifications/manage](https://status.adobe.com/proactive-notifications/manage)
+* Lo stato Adobe ora segnala gli incidenti a livello di prodotto. Le pagine di stato Cloud e prodotto hanno un nuovo aspetto e filtri migliorati in base alla segnalazione a livello di prodotto degli incidenti. In questo modo è più facile comprendere in che modo il prodotto è influenzato [status.adobe.com](https://status.adobe.com/) e nelle notifiche e-mail. Se non sei iscritto, utilizza questo collegamento per impostare le preferenze di abbonamento personalizzate [https://status.adobe.com/proactive-notifications/manage](https://status.adobe.com/proactive-notifications/manage).
 
 * La home page dello stato ora è personalizzata con eventi filtrati in base alle adesioni e agli abbonamenti ai prodotti. Per favore, controlla all&#39;indirizzo **status.adobe.com** > **[!UICONTROL Eventi personali]** scheda .
 
