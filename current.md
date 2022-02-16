@@ -6,10 +6,10 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 10b5876c8ea0e21f0e10ea36165c0e3f1dab9665
+source-git-commit: f4b652db4759a65f38afe0fbd6dca07301875277
 workflow-type: tm+mt
-source-wordcount: '4940'
-ht-degree: 49%
+source-wordcount: '4963'
+ht-degree: 51%
 
 ---
 
@@ -223,7 +223,7 @@ Per gli ultimi aggiornamenti sulle varie versioni, visita regolarmente la pagina
          * Configura il rilevamento delle risorse duplicate in un archivio.
          * Configura l’aggiunta di watermark digitali alle immagini.
       * Gli amministratori possono ora configurare il servizio e-mail per i download di grandi dimensioni. Consente agli utenti di [abilitare le notifiche e-mail per i download di grandi dimensioni](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/download-assets-from-aem.html?lang=en#enable-email-notifications-for-large-downloads) dall’interfaccia di Experience Manager Assets. Al termine del processo di download, l’utente riceve una notifica e-mail contenente il collegamento di download della cartella zip archiviata.
-      * La [Gestisci pubblicazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en) viene migliorata con un’interfaccia utente migliorata. Gli utenti possono pubblicare o annullare la pubblicazione dei contenuti da e verso la destinazione selezionata, e [Aggiungi contenuto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#add-content) all’elenco di pubblicazione dall’archivio DAM. Possono inoltre [Includi impostazioni cartella](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#include-folder-settings) per pubblicare il contenuto delle cartelle selezionate e applicare i filtri, e [pianificazione della pubblicazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#publish-assets-later) a una data o un&#39;ora successiva.
+      * La funzione [Gestisci pubblicazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en) viene migliorata con un’interfaccia utente migliorata. Gli utenti possono pubblicare o annullare la pubblicazione dei contenuti da e verso la destinazione selezionata, e [Aggiungi contenuto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#add-content) all’elenco di pubblicazione dall’archivio DAM. Possono inoltre [Includi impostazioni cartella](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#include-folder-settings) per pubblicare il contenuto delle cartelle selezionate e applicare i filtri, e [pianificazione della pubblicazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#publish-assets-later) a una data o un&#39;ora successiva.
 
       _Correzione bug_
 
@@ -237,7 +237,7 @@ Per gli ultimi aggiornamenti sulle varie versioni, visita regolarmente la pagina
          * Generare i documenti compilando i file modello con dati XML.
          * Generare moduli di in vari formati, compresi flussi di stampa PDF non interattivi.
          * Genera PDF di stampa da PDF modulo XFA.
-         * Generare in blocco documenti PDF, PostScript, PCL e ZPL unendo più set di dati con modelli di origine.
+         * Genera in blocco documenti PDF, PostScript, PCL e ZPL unendo più set di dati con modelli di origine.
       * **Font personalizzati per documenti Record e PDF creati con API di comunicazione** — È ora possibile utilizzare font approvati dal marchio nei documenti PDF generati utilizzando le API di comunicazione per allinearli ai requisiti organizzativi.
 
       _Novità del canale prerelease di Forms_
@@ -290,7 +290,7 @@ Nuovi video, esercitazioni e corsi pubblicati nell’ultimo mese.
 | Febbraio 2022 | [Migrazione dal vecchio archetipo AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/developing-for-cloud-service/updating-project-archetype.html?lang=en) | Video | Desc. | Forms CS |
 | Febbraio 2022 | [Esternalizzare lo storage dei dati del flusso di lavoro in AEM Forms CS](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/create-aem-workflow/externalize-workflow.html?lang=en) | Video | Scopri come memorizzare i dati del flusso di lavoro nell’archiviazione di Azure. AEM Forms CS dispone di una nuova funzionalità per memorizzare i dati del flusso di lavoro, ad esempio variabili, allegati e così via, in un account di archiviazione esterno. | AEM Forms CS |
 | Febbraio 2022 | [Integrare Adobe Analytics con Experience Cloud Setup Automation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/adobe-analytics-exc-setup-automation.html) | Video | Scopri come Experience Cloud Setup Automation fornisce un modo semplice e automatizzato per integrare e dotare Experience Manager Sites di strumenti con Experience Platform Launch e Adobe Analytics. | AEM Sites |
-| Febbraio 2022 | [Recommendations di prodotto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/authoring/product-recommendations.html) | Video | Scopri come inserire dinamicamente questi consigli di prodotto in una vetrina Adobe Experience Manager (AEM). Adobe Commerce dispone di un motore di raccomandazione basato su Adobe Sensei. | AEM e Adobe Commerce |
+| Febbraio 2022 | [Consigli per prodotti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/authoring/product-recommendations.html) | Video | Scopri come inserire dinamicamente questi consigli di prodotto in una vetrina Adobe Experience Manager (AEM). Adobe Commerce dispone di un motore di raccomandazione basato su Adobe Sensei. | AEM e Adobe Commerce |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -357,7 +357,7 @@ Consulta i seguenti collegamenti per le note sulla versione di Adobe Commerce:
 | -----------| ---------- | ---------- | ---------- |
 | Febbraio 2022 | [Aggiorna Adobe Commerce/Magento Open Source](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) | Guida utente | Ottieni tutto l&#39;aiuto necessario per procedere attraverso il processo di aggiornamento. |
 | Febbraio 2022 | [Workshop sull&#39;aggiornamento ad Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/upgrade-workshop.html?lang=en) | Video | Scopri i passaggi e le best practice da seguire per preparare il tuo prossimo aggiornamento alla versione 2.4.4 o successiva. |
-| Febbraio 2022 | [Utilizzo dello strumento di compatibilità per l’aggiornamento su PhpStorm](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/uct-phpstorm.html?lang=en) | Video | Scopri come utilizzare il `PhpStorm` plugin |
+| Febbraio 2022 | [Utilizzo di Upgrade Compatibility Tool su PhpStorm](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/uct-phpstorm.html?lang=en) | Video | Scopri come utilizzare il `PhpStorm` plugin |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -473,10 +473,11 @@ Ultimo aggiornamento: **27 ottobre 2021**
 
 ### Nuove funzioni in [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Ultimo aggiornamento: **4 febbraio 2022**
+Ultimo aggiornamento: **16 febbraio 2022**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
+| [!UICONTROL Campagne], [!UICONTROL Bulksheet] | (Data di rilascio: 22 gennaio) ([!DNL Microsoft Advertising accounts]a) Ora puoi creare e gestire gli annunci adattabili alla ricerca (RSA, Responsive Search Ads) dalla sezione [!UICONTROL Campagne] > [!UICONTROL Annunci] visualizza e da [!UICONTROL Campagne] > [!UICONTROL Bulksheet]. |
 | [!UICONTROL Bulksheet], [!UICONTROL Centro notifiche] | (Data di rilascio: 22 gennaio) Tutte le notifiche e-mail per i bulksheet, inviate da Advertising Cloud Search al completamento o al fallimento di un’operazione del bulksheet, vengono ora gestite da [!UICONTROL Centro notifiche].<br><br>[!UICONTROL Bulksheet] è un nuovo tipo di notifica, con le proprie preferenze di notifica, in [!UICONTROL Centro notifiche]. Le notifiche e-mail e le notifiche web sono abilitate per impostazione predefinita, ma è possibile modificare facoltativamente le impostazioni di notifica.<br><br>Il formato e il contenuto delle notifiche e-mail utilizzano il [!UICONTROL Centro notifiche] e include un collegamento di download diretto per il file bulksheet o il file di errore associato. |
 
 {style=&quot;table-layout:auto&quot;}
